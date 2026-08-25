@@ -1,0 +1,918 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "rules": "Réglementation",
+    "contribution": "Éco-contribution",
+    "companies": "Entreprises",
+    "associations": "Partenaires",
+    "campaign": "Campagne",
+    "membership": "Adhésion",
+    "contacts": "Contact",
+    "faq": "FAQ"
+  },
+  "common": {
+    "brandName": "EL MAIN LIL SINAA",
+    "brandSub": "Environnement · Algérie",
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "mainNav": "Navigation principale",
+    "languageLabel": "Changer de langue",
+    "breadcrumb": "Fil d'Ariane",
+    "chooseLanguage": "Choisissez votre langue",
+    "footerAbout": "EL MAIN LIL SINAA (المعين للصناعة) collecte, trace et valorise les huiles usagées et les déchets spéciaux des entreprises algériennes, dans le respect de la loi 01-19 modifiée par la loi 25-02.",
+    "footerConsortium": "L'entreprise",
+    "footerServices": "Services",
+    "rights": "Tous droits réservés",
+    "vat": "Identifiants",
+    "disclaimer": "Contenu de démonstration — références légales à vérifier au JORADP avant publication."
+  },
+  "pages": {
+    "home": {
+      "metaTitle": "EL MAIN LIL SINAA — Collecte et valorisation des huiles usagées en Algérie",
+      "metaDescription": "Collecte, traçabilité et valorisation des huiles usagées et des déchets spéciaux pour les entreprises algériennes. Conformité loi 01-19 / 25-02, service dans les 58 wilayas.",
+      "eyebrow": "Algérie · Économie circulaire",
+      "title": "Vos huiles usagées ne sont pas un déchet. C'est une ressource.",
+      "intro": "Nous collectons, traçons et valorisons les **huiles lubrifiantes et alimentaires usagées** des entreprises algériennes — avec les documents qui prouvent votre conformité réglementaire.",
+      "actions": [
+        {
+          "label": "Demander un enlèvement",
+          "href": "/fr/contacts/"
+        },
+        {
+          "label": "Devenir adhérent",
+          "href": "/fr/membership/"
+        }
+      ],
+      "sections": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "≈ 110 000 t",
+              "label": "d'huiles usagées générées chaque année en Algérie"
+            },
+            {
+              "value": "20–25 %",
+              "label": "seulement sont collectées de manière formelle"
+            },
+            {
+              "value": "450 519 m³",
+              "label": "d'huiles alimentaires usagées par an (estimation AND)"
+            },
+            {
+              "value": "58",
+              "label": "wilayas visées par notre réseau de collecte"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "eyebrow": "Nos services",
+          "title": "Une chaîne complète, de la cuve au justificatif",
+          "lead": "Un interlocuteur unique pour la collecte, le transport, la traçabilité et la valorisation de vos flux.",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "drop",
+              "title": "Huiles lubrifiantes usagées",
+              "text": "Vidanges, huiles moteur, hydrauliques et de coupe : bacs étanches, enlèvement programmé, bordereau de suivi."
+            },
+            {
+              "icon": "collect",
+              "title": "Huiles alimentaires usagées",
+              "text": "Restaurants, hôtels, cantines et agroalimentaire : bidons fournis, rotation régulière, zéro rejet à l'égout."
+            },
+            {
+              "icon": "doc",
+              "title": "Traçabilité & conformité",
+              "text": "Chaque enlèvement génère un dossier documenté, réutilisable lors d'un contrôle ou d'un audit."
+            },
+            {
+              "icon": "recycle",
+              "title": "Valorisation",
+              "text": "Orientation des flux vers la régénération, la valorisation énergétique ou la production de biodiesel."
+            },
+            {
+              "icon": "shield",
+              "title": "Déchets spéciaux associés",
+              "text": "Filtres, chiffons souillés, emballages d'huile : traités avec la même rigueur documentaire."
+            },
+            {
+              "icon": "chart",
+              "title": "Reporting annuel",
+              "text": "Volumes, destinations et indicateurs environnementaux, prêts pour vos rapports RSE."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "alt": true,
+          "eyebrow": "Pourquoi maintenant",
+          "title": "La réglementation algérienne a changé de cap",
+          "body": [
+            "La loi n° 25-02 de février 2025, qui modifie et complète la loi n° 01-19 relative à la gestion, au contrôle et à l'élimination des déchets, inscrit l'**économie circulaire** dans le droit algérien : responsabilité élargie du producteur (REP), éco-conception, système numérique de gestion des déchets et sanctions renforcées.",
+            "Pour une entreprise, cela veut dire une chose simple : ce que vous produisez comme déchet vous suit désormais jusqu'à sa destination finale. La question n'est plus « qui l'emporte », mais « pouvez-vous prouver où il est allé »."
+          ],
+          "panel": {
+            "title": "Ce qui vous engage",
+            "items": [
+              "Loi n° 01-19 modifiée par la loi n° 25-02 — gestion et élimination des déchets",
+              "Loi n° 03-10 — protection de l'environnement et développement durable",
+              "Décret exécutif n° 13-176 — lubrifiants et régénération des huiles usagées",
+              "Taxes écologiques annuelles fixées par la loi de finances",
+              "SNGID 2035 — objectif de 47 % de valorisation des déchets ménagers"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Un flux d'huile à évacuer cette semaine ?",
+          "text": "Dites-nous votre wilaya et vos volumes : nous revenons vers vous avec un calendrier d'enlèvement et un devis.",
+          "actions": [
+            {
+              "label": "Nous contacter",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Voir nos services",
+              "href": "/fr/companies/"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "metaTitle": "Qui sommes-nous — EL MAIN LIL SINAA",
+      "metaDescription": "EL MAIN LIL SINAA, opérateur algérien de la collecte et de la valorisation des huiles usagées : mission, méthode et couverture territoriale.",
+      "title": "Qui sommes-nous",
+      "intro": "EL MAIN LIL SINAA — **المعين للصناعة** — accompagne les entreprises algériennes sur un point précis : sortir leurs huiles usagées du circuit informel et les remettre dans un cycle propre, documenté et légal.",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Notre raison d'être",
+          "body": [
+            "L'Algérie consomme environ 180 000 tonnes de lubrifiants par an et génère jusqu'à 110 000 tonnes d'huiles usagées. Une part importante n'est ni collectée ni tracée : elle finit brûlée, déversée dans le sol ou dans les réseaux d'assainissement. Un seul litre d'huile suffit à contaminer un volume d'eau considérable.",
+            "Notre métier consiste à rendre le geste correct plus simple que le geste facile : un contenant adapté, un enlèvement à date, un document en règle."
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Nos principes",
+          "title": "Quatre engagements, tenus à chaque enlèvement",
+          "columns": 4,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Conformité d'abord",
+              "text": "Autorisations, transport et destination : tout est vérifiable, rien ne repose sur la parole."
+            },
+            {
+              "icon": "map",
+              "title": "Couverture réelle",
+              "text": "Un maillage construit wilaya par wilaya, avec des partenaires locaux formés."
+            },
+            {
+              "icon": "doc",
+              "title": "Traçabilité écrite",
+              "text": "Pas d'enlèvement sans document ; pas de document sans destination identifiée."
+            },
+            {
+              "icon": "recycle",
+              "title": "Valorisation utile",
+              "text": "Priorité à la régénération et au biodiesel plutôt qu'à la simple élimination."
+            }
+          ]
+        },
+        {
+          "type": "regions",
+          "eyebrow": "Territoire",
+          "title": "Une organisation par grandes régions",
+          "lead": "Le service est déployé par pôles régionaux, chacun rattaché à un dépôt et à une équipe d'enlèvement.",
+          "items": [
+            {
+              "title": "Centre",
+              "sub": "Alger, Blida, Boumerdès, Tizi Ouzou"
+            },
+            {
+              "title": "Ouest",
+              "sub": "Oran, Mostaganem, Sidi Bel Abbès, Tlemcen"
+            },
+            {
+              "title": "Est",
+              "sub": "Constantine, Annaba, Sétif, Skikda"
+            },
+            {
+              "title": "Hauts-Plateaux",
+              "sub": "Djelfa, Batna, Tiaret, M'Sila"
+            },
+            {
+              "title": "Sud-Est",
+              "sub": "Ouargla, Hassi Messaoud, Touggourt, Biskra"
+            },
+            {
+              "title": "Sud-Ouest",
+              "sub": "Béchar, Adrar, Tindouf, Timimoun"
+            }
+          ],
+          "note": "Les localités citées sont des exemples de déploiement : remplacez-les par votre implantation réelle avant la mise en ligne."
+        },
+        {
+          "type": "cta",
+          "title": "Travaillons ensemble",
+          "text": "Industriels, restaurateurs, collectivités : la première étape est toujours une visite et un état des lieux gratuit.",
+          "actions": [
+            {
+              "label": "Prendre rendez-vous",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Nos partenaires",
+              "href": "/fr/partners/"
+            }
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "metaTitle": "Réglementation environnementale algérienne — EL MAIN LIL SINAA",
+      "metaDescription": "Panorama des textes algériens : loi 01-19, loi 25-02, loi 03-10, décret exécutif 13-176, taxes écologiques et stratégie SNGID 2035.",
+      "title": "Réglementation : l'environnement de A à Z en Algérie",
+      "intro": "Les textes qui encadrent les déchets, les huiles usagées et la fiscalité écologique en Algérie, résumés en langage clair. **Vérifiez toujours la dernière version au Journal officiel (JORADP)** avant toute décision.",
+      "sections": [
+        {
+          "type": "norms",
+          "eyebrow": "Textes de référence",
+          "title": "Le socle légal",
+          "items": [
+            {
+              "tag": "2001",
+              "title": "Loi n° 01-19 du 12 décembre 2001",
+              "text": "Gestion, contrôle et élimination des déchets : obligation de tri, de valorisation et d'élimination dans des conditions respectueuses de l'environnement."
+            },
+            {
+              "tag": "2025",
+              "title": "Loi n° 25-02 (JO n° 12, février 2025)",
+              "text": "Modifie et complète la loi 01-19 : responsabilité élargie du producteur, éco-conception, système numérique de gestion, remplacement progressif du plastique à usage unique, sanctions révisées."
+            },
+            {
+              "tag": "2003",
+              "title": "Loi n° 03-10 du 19 juillet 2003",
+              "text": "Protection de l'environnement dans le cadre du développement durable : cadre général, principes de prévention et de pollueur-payeur."
+            },
+            {
+              "tag": "2013",
+              "title": "Décret exécutif n° 13-176 du 30 avril 2013",
+              "text": "Conditions de fabrication, de stockage et de distribution en gros des lubrifiants, ainsi que de régénération des huiles usagées (JO n° 25 du 12 mai 2013)."
+            },
+            {
+              "tag": "2002",
+              "title": "Décret exécutif n° 02-175 du 20 mai 2002",
+              "text": "Création, organisation et fonctionnement de l'Agence nationale des déchets (AND), sous tutelle du ministère chargé de l'environnement."
+            },
+            {
+              "tag": "Fiscalité",
+              "title": "Taxes écologiques (lois de finances)",
+              "text": "Taxe sur les activités polluantes ou dangereuses, taxe sur les huiles, lubrifiants et préparations lubrifiantes, taxe d'incitation au déstockage des déchets industriels spéciaux, taxe sur les sacs en plastique, taxes complémentaires sur la pollution atmosphérique et les eaux usées."
+            },
+            {
+              "tag": "2035",
+              "title": "Stratégie nationale de gestion intégrée des déchets (SNGID)",
+              "text": "Horizon 2035 : valoriser 47 % des déchets ménagers et assimilés, réduire la production sous 1,1 kg/habitant/jour, éradiquer les décharges sauvages et créer 30 000 emplois directs."
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Qui fait quoi",
+          "title": "Les institutions à connaître",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Ministère de l'Environnement",
+              "text": "Définit la politique nationale et exerce la tutelle sur les organismes du secteur."
+            },
+            {
+              "icon": "recycle",
+              "title": "AND",
+              "text": "Agence nationale des déchets : connaissance des flux, appui technique et promotion du recyclage."
+            },
+            {
+              "icon": "factory",
+              "title": "CNTPP",
+              "text": "Centre national des technologies de production plus propre : accompagne l'industrie vers des procédés moins polluants."
+            },
+            {
+              "icon": "chart",
+              "title": "ONEDD",
+              "text": "Observatoire national de l'environnement et du développement durable : mesure et publie l'état de l'environnement."
+            },
+            {
+              "icon": "users",
+              "title": "CNFE",
+              "text": "Conservatoire national des formations à l'environnement : formation et sensibilisation des acteurs."
+            },
+            {
+              "icon": "map",
+              "title": "Wilayas & APC",
+              "text": "Autorisations locales, plans communaux de gestion des déchets et contrôle de proximité."
+            }
+          ]
+        },
+        {
+          "type": "sources",
+          "title": "Sources publiques",
+          "lead": "Les données de cette page proviennent des références suivantes.",
+          "items": [
+            {
+              "title": "Cadre institutionnel et réglementaire",
+              "publisher": "Agence nationale des déchets (and.dz)",
+              "href": "https://and.dz/presentation/cadre-institutionnel-et-reglementaire/"
+            },
+            {
+              "title": "Loi 25-02 relative à la gestion des déchets (texte)",
+              "publisher": "JORADP n° 12 / 2025",
+              "href": "https://bet-khatraoui-abdessamie.com/wp-content/uploads/2025/02/Loi-25-02-modifiant-et-completant-la-loi-01-19-relative-a-la-gestion-des-dechets.pdf"
+            },
+            {
+              "title": "Décret exécutif n° 13-176",
+              "publisher": "CNTPP (cntpp.dz)",
+              "href": "https://cntpp.dz/wp-content/uploads/2023/11/Decret-executif-n-%C2%B013-176.pdf"
+            },
+            {
+              "title": "Déchets et recyclage",
+              "publisher": "Ministère de l'Environnement (me.gov.dz)",
+              "href": "https://www.me.gov.dz/fr/dechets-et-recyclage/"
+            },
+            {
+              "title": "Taxes écologiques",
+              "publisher": "ONEDD (onedd.org)",
+              "href": "https://onedd.org/taxes-ecologiques/"
+            }
+          ],
+          "note": "Ce panorama est un résumé pédagogique, non un avis juridique. Faites valider votre situation par un conseil habilité."
+        }
+      ]
+    },
+    "contribution": {
+      "metaTitle": "Éco-contribution et fiscalité environnementale — EL MAIN LIL SINAA",
+      "metaDescription": "Comprendre les taxes écologiques algériennes applicables aux huiles, lubrifiants et déchets industriels spéciaux, et les obligations qui en découlent.",
+      "title": "Éco-contribution & fiscalité environnementale",
+      "intro": "En Algérie, le principe **pollueur-payeur** se traduit par une série de taxes écologiques votées chaque année en loi de finances. En voici la lecture pratique pour une entreprise.",
+      "sections": [
+        {
+          "type": "norms",
+          "eyebrow": "Ce que vous payez",
+          "title": "Les principales taxes écologiques",
+          "items": [
+            {
+              "tag": "Huiles",
+              "title": "Taxe sur les huiles, lubrifiants et préparations lubrifiantes",
+              "text": "Frappe les produits dont l'usage génère des huiles usagées. La loi de finances 2026 en prévoit un rendement de 7,5 milliards DA, réparti à 66 % pour l'État et 34 % pour les communes."
+            },
+            {
+              "tag": "Industrie",
+              "title": "Taxe sur les activités polluantes ou dangereuses pour l'environnement",
+              "text": "Due par les installations classées, selon leur nature et leur capacité."
+            },
+            {
+              "tag": "Stocks",
+              "title": "Taxe d'incitation au déstockage des déchets industriels spéciaux",
+              "text": "Pénalise le stockage prolongé des déchets spéciaux sur site. Prévision 2026 : 550 millions DA, dont 84 % pour l'État et 16 % pour les communes."
+            },
+            {
+              "tag": "Plastique",
+              "title": "Taxe spécifique sur les sacs en plastique",
+              "text": "Applicable aux sacs importés ou produits localement."
+            },
+            {
+              "tag": "Air & eau",
+              "title": "Taxes complémentaires : pollution atmosphérique et eaux usées",
+              "text": "Assises sur les rejets industriels dépassant les valeurs limites réglementaires."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "alt": true,
+          "eyebrow": "Méthode",
+          "title": "Comment nous réduisons votre exposition",
+          "items": [
+            {
+              "title": "État des lieux",
+              "text": "Inventaire de vos flux : natures, volumes, points de production, stockage actuel."
+            },
+            {
+              "title": "Plan d'évacuation",
+              "text": "Fréquence d'enlèvement calibrée pour éviter le stockage prolongé — et la taxe qui va avec."
+            },
+            {
+              "title": "Documentation",
+              "text": "Constitution du dossier de traçabilité, enlèvement par enlèvement."
+            },
+            {
+              "title": "Bilan annuel",
+              "text": "Récapitulatif des volumes et des destinations, utilisable en déclaration comme en contrôle."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Estimer votre situation",
+          "text": "Envoyez-nous vos volumes annuels : nous vous répondons avec un plan d'enlèvement et une estimation de coût.",
+          "actions": [
+            {
+              "label": "Demander une estimation",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Lire la réglementation",
+              "href": "/fr/rules/"
+            }
+          ]
+        }
+      ]
+    },
+    "companies": {
+      "metaTitle": "Services aux entreprises — EL MAIN LIL SINAA",
+      "metaDescription": "Collecte d'huiles usagées pour garages, industries, hôtels, restaurants, agroalimentaire et flottes de transport en Algérie.",
+      "title": "Entreprises",
+      "intro": "Un service pensé pour ceux qui produisent de l'huile usagée sans en faire leur métier : **vous produisez, nous évacuons, vous gardez la preuve.**",
+      "sections": [
+        {
+          "type": "cards",
+          "eyebrow": "Secteurs",
+          "title": "Qui nous appelle",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "collect",
+              "title": "Garages & stations-service",
+              "text": "Huiles de vidange, filtres, emballages souillés : enlèvement régulier et bacs adaptés."
+            },
+            {
+              "icon": "factory",
+              "title": "Industrie & manufacture",
+              "text": "Huiles hydrauliques, de coupe et de trempe, avec suivi des volumes par atelier."
+            },
+            {
+              "icon": "drop",
+              "title": "Hôtellerie & restauration",
+              "text": "Huiles de friture usagées : bidons fournis, rotation calée sur votre activité."
+            },
+            {
+              "icon": "recycle",
+              "title": "Agroalimentaire",
+              "text": "Flux importants et réguliers, avec contraintes d'hygiène et de séparation des matières."
+            },
+            {
+              "icon": "map",
+              "title": "Transport & flottes",
+              "text": "Ateliers de maintenance, dépôts et bases-vie, y compris sur sites isolés du Sud."
+            },
+            {
+              "icon": "users",
+              "title": "Collectivités & institutions",
+              "text": "Communes, hôpitaux, écoles et universités : marchés publics et conventions."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "alt": true,
+          "eyebrow": "Déroulé",
+          "title": "Comment se passe un contrat",
+          "items": [
+            {
+              "title": "Visite et diagnostic",
+              "text": "Nous mesurons vos volumes réels et repérons les points de collecte sur site."
+            },
+            {
+              "title": "Proposition écrite",
+              "text": "Fréquence, contenants, tarif et engagements de délai, sans clause cachée."
+            },
+            {
+              "title": "Mise en place",
+              "text": "Livraison des bacs et bidons étanches, marquage et formation rapide de vos équipes."
+            },
+            {
+              "title": "Enlèvements programmés",
+              "text": "Passage à date fixe ou sur appel, avec pesée et bordereau à chaque intervention."
+            },
+            {
+              "title": "Dossier de conformité",
+              "text": "Vos documents sont archivés et remis en synthèse annuelle."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "title": "Vos obligations, en clair",
+          "body": [
+            "Le producteur d'un déchet en reste responsable jusqu'à son élimination ou sa valorisation finale. En pratique : vous devez savoir ce que vous produisez, le stocker correctement, le confier à un opérateur autorisé et pouvoir le démontrer.",
+            "C'est exactement ce que nous documentons pour vous, intervention après intervention."
+          ],
+          "panel": {
+            "title": "Checklist du producteur",
+            "items": [
+              "Identifier et classer vos déchets",
+              "Stocker sur rétention, à l'abri et sans mélange",
+              "Ne jamais mélanger huiles minérales et alimentaires",
+              "Contractualiser avec un collecteur autorisé",
+              "Conserver les bordereaux d'enlèvement",
+              "Tenir un registre à jour des sorties"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Demander une visite",
+          "text": "Gratuite et sans engagement, partout où notre réseau est déployé.",
+          "actions": [
+            {
+              "label": "Nous écrire",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Adhérer",
+              "href": "/fr/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    "associations": {
+      "metaTitle": "Partenaires et institutions — EL MAIN LIL SINAA",
+      "metaDescription": "Nos interlocuteurs institutionnels et professionnels en Algérie : ministère, AND, CNTPP, ONEDD, wilayas, chambres de commerce et associations.",
+      "title": "Partenaires & institutions",
+      "intro": "Une filière ne se construit pas seule. Nous travaillons avec les autorités, les organismes techniques et les organisations professionnelles qui structurent le secteur en Algérie.",
+      "sections": [
+        {
+          "type": "cards",
+          "eyebrow": "Écosystème",
+          "title": "Avec qui nous dialoguons",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Autorités environnementales",
+              "text": "Ministère chargé de l'environnement et directions de l'environnement de wilaya : autorisations et contrôle."
+            },
+            {
+              "icon": "recycle",
+              "title": "Agence nationale des déchets",
+              "text": "Données de flux, bonnes pratiques et appui à la structuration des filières."
+            },
+            {
+              "icon": "factory",
+              "title": "CNTPP",
+              "text": "Accompagnement des industriels vers des procédés plus propres et moins générateurs de déchets."
+            },
+            {
+              "icon": "users",
+              "title": "Associations professionnelles",
+              "text": "Restaurateurs, hôteliers, garagistes et transporteurs : relais indispensables sur le terrain."
+            },
+            {
+              "icon": "map",
+              "title": "Communes & APC",
+              "text": "Points d'apport, campagnes de quartier et opérations de nettoyage."
+            },
+            {
+              "icon": "chart",
+              "title": "Recherche & startups",
+              "text": "Laboratoires et jeunes entreprises travaillant sur le biodiesel et la régénération des huiles."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "alt": true,
+          "title": "Ce que nous apportons à un partenariat",
+          "body": [
+            "Un opérateur de terrain, des données de collecte fiables et une capacité à mobiliser des entreprises sur un territoire donné.",
+            "Nous participons volontiers aux opérations de sensibilisation, aux journées de l'environnement et aux programmes scolaires : c'est là que se gagne la collecte de demain."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Proposer un partenariat",
+          "text": "Institution, association ou entreprise : écrivez-nous en décrivant votre projet.",
+          "actions": [
+            {
+              "label": "Nous contacter",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Voir la campagne",
+              "href": "/fr/campaign/"
+            }
+          ]
+        }
+      ]
+    },
+    "campaign": {
+      "metaTitle": "Campagne de sensibilisation environnementale — EL MAIN LIL SINAA",
+      "metaDescription": "Slogans et plan de communication environnementale destinés au grand public algérien, en arabe classique et en darija.",
+      "title": "Campagne & slogans",
+      "intro": "Parler d'environnement au public algérien demande des mots simples, dans **la langue de tous les jours**. Voici notre kit de messages, en arabe littéraire et en darija, prêt pour la radio, l'affichage et les réseaux sociaux.",
+      "sections": [
+        {
+          "type": "slogans",
+          "eyebrow": "Messages",
+          "title": "Nos slogans",
+          "lead": "Chaque slogan est pensé pour un support précis et une audience précise.",
+          "items": [
+            {
+              "ar": "زيتك المستعمل ثروة… لا ترميه",
+              "local": "Ton huile usagée est une richesse — ne la jette pas.",
+              "note": "Message principal · affichage et radio"
+            },
+            {
+              "ar": "لتر واحد من الزيت يلوّث ملايين اللترات من الماء",
+              "local": "Un litre d'huile pollue des millions de litres d'eau.",
+              "note": "Message pédagogique · écoles et réseaux sociaux"
+            },
+            {
+              "ar": "ما ترميش… سلّمهالنا",
+              "local": "Ne la jette pas — remets-la nous.",
+              "note": "Darija · stations-service et garages"
+            },
+            {
+              "ar": "من المطبخ إلى الطاقة",
+              "local": "De la cuisine à l'énergie.",
+              "note": "Huiles alimentaires · restaurants et hôtels"
+            },
+            {
+              "ar": "الجزائر نظيفة… مسؤولية الجميع",
+              "local": "Une Algérie propre : l'affaire de tous.",
+              "note": "Message civique · campagnes communales"
+            },
+            {
+              "ar": "نجمعو، نرسكلو، نحافظو",
+              "local": "On collecte, on recycle, on préserve.",
+              "note": "Darija · spots radio et vidéos courtes"
+            },
+            {
+              "ar": "بيئة نظيفة، صناعة مسؤولة",
+              "local": "Environnement propre, industrie responsable.",
+              "note": "Message B2B · salons et presse spécialisée"
+            },
+            {
+              "ar": "كل قطرة تُجمع… مستقبل يُصان",
+              "local": "Chaque goutte collectée protège un avenir.",
+              "note": "Clôture de campagne · affichage grand format"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Diffusion",
+          "title": "Où nous portons ces messages",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "users",
+              "title": "Radios locales",
+              "text": "Spots de 20 secondes en arabe et en darija, sur les stations de wilaya."
+            },
+            {
+              "icon": "map",
+              "title": "Affichage urbain",
+              "text": "Panneaux aux entrées de ville, marchés, stations-service et zones d'activité."
+            },
+            {
+              "icon": "chart",
+              "title": "Réseaux sociaux",
+              "text": "Vidéos verticales courtes, format démonstration : le bon geste en dix secondes."
+            },
+            {
+              "icon": "doc",
+              "title": "Écoles & universités",
+              "text": "Ateliers et affiches, avec un volet pratique sur l'huile de friture domestique."
+            },
+            {
+              "icon": "collect",
+              "title": "Points de collecte",
+              "text": "Signalétique commune sur les bacs, pour que le geste soit identifiable partout."
+            },
+            {
+              "icon": "shield",
+              "title": "Partenariats communaux",
+              "text": "Journées propreté avec les APC et les associations de quartier."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "eyebrow": "Plan",
+          "title": "La campagne en quatre phases",
+          "items": [
+            {
+              "title": "Comprendre",
+              "text": "Le problème en un chiffre : l'huile jetée contamine l'eau et bouche les réseaux."
+            },
+            {
+              "title": "Montrer",
+              "text": "Le bon geste, filmé dans une cuisine et dans un garage — pas en studio."
+            },
+            {
+              "title": "Faciliter",
+              "text": "Indiquer le point de collecte le plus proche, wilaya par wilaya."
+            },
+            {
+              "title": "Rendre compte",
+              "text": "Publier les volumes collectés : la preuve que le geste sert à quelque chose."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Reprendre la campagne chez vous",
+          "text": "Communes, écoles, entreprises : nous fournissons les visuels et les messages, adaptés à votre territoire.",
+          "actions": [
+            {
+              "label": "Demander le kit",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Devenir partenaire",
+              "href": "/fr/partners/"
+            }
+          ]
+        }
+      ]
+    },
+    "membership": {
+      "metaTitle": "Adhésion — EL MAIN LIL SINAA",
+      "metaDescription": "Rejoindre le réseau EL MAIN LIL SINAA : conditions, étapes et documents nécessaires pour les entreprises algériennes.",
+      "title": "Adhésion",
+      "intro": "Adhérer, c'est confier vos flux d'huiles usagées à un opérateur unique et recevoir, en retour, la documentation qui prouve votre conformité.",
+      "sections": [
+        {
+          "type": "steps",
+          "eyebrow": "Procédure",
+          "title": "Quatre étapes",
+          "items": [
+            {
+              "title": "Demande",
+              "text": "Formulaire en ligne ou appel : activité, wilaya, volumes estimés."
+            },
+            {
+              "title": "Diagnostic",
+              "text": "Visite sur site sous quelques jours ouvrables, puis proposition écrite."
+            },
+            {
+              "title": "Contrat",
+              "text": "Signature, remise des contenants et calendrier d'enlèvement."
+            },
+            {
+              "title": "Suivi",
+              "text": "Bordereaux à chaque passage et bilan annuel des volumes valorisés."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "alt": true,
+          "title": "Ce que l'adhésion comprend",
+          "body": [
+            "Un service complet, sans frais cachés : les contenants restent notre propriété et leur entretien est à notre charge.",
+            "Pour les gros producteurs, le contrat peut prévoir une reprise valorisée des huiles, selon les volumes et la qualité du flux."
+          ],
+          "panel": {
+            "title": "Documents à préparer",
+            "items": [
+              "Registre de commerce",
+              "Identifiant fiscal (NIF)",
+              "Coordonnées du responsable HSE ou du gérant",
+              "Estimation des volumes mensuels",
+              "Adresse précise des points de collecte"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Commencer l'adhésion",
+          "text": "Remplissez le formulaire de contact : nous revenons vers vous sous 48 heures ouvrables.",
+          "actions": [
+            {
+              "label": "Formulaire de contact",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Questions fréquentes",
+              "href": "/fr/faq/"
+            }
+          ]
+        }
+      ]
+    },
+    "contacts": {
+      "metaTitle": "Contact — EL MAIN LIL SINAA",
+      "metaDescription": "Contacter EL MAIN LIL SINAA : adresse, téléphone, e-mail et formulaire de demande d'enlèvement pour toute l'Algérie.",
+      "title": "Contact",
+      "intro": "Une question, un devis, un enlèvement à programmer : écrivez-nous en précisant votre **wilaya** et vos **volumes estimés**, la réponse sera plus rapide.",
+      "sections": [
+        {
+          "type": "contacts",
+          "labels": {
+            "office": "Siège",
+            "phone": "Téléphone",
+            "email": "E-mail",
+            "hours": "Horaires",
+            "pec": "Service commercial"
+          }
+        },
+        {
+          "type": "form",
+          "alt": true,
+          "title": "Formulaire de demande",
+          "fields": {
+            "name": "Entreprise ou nom",
+            "email": "E-mail",
+            "subject": "Objet",
+            "subjects": [
+              "Demande d'enlèvement",
+              "Adhésion",
+              "Éco-contribution et conformité",
+              "Partenariat ou campagne",
+              "Autre"
+            ],
+            "message": "Votre message (wilaya, activité, volumes)",
+            "submit": "Envoyer",
+            "note": "Ce formulaire est une maquette : branchez-le sur votre service d'envoi (Vercel Forms, Formspree, API interne) avant la mise en ligne."
+          }
+        }
+      ]
+    },
+    "faq": {
+      "metaTitle": "Questions fréquentes — EL MAIN LIL SINAA",
+      "metaDescription": "Réponses aux questions courantes sur la collecte des huiles usagées, la conformité réglementaire et les coûts en Algérie.",
+      "title": "Questions fréquentes",
+      "intro": "Les questions que l'on nous pose le plus souvent, au téléphone comme sur site.",
+      "sections": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Puis-je jeter l'huile usagée à l'égout ou la brûler ?",
+              "a": "Non. Le déversement et le brûlage non autorisés sont interdits et exposent à des sanctions, renforcées par la loi 25-02. L'huile doit être remise à un opérateur autorisé."
+            },
+            {
+              "q": "Le service est-il payant ?",
+              "a": "Cela dépend du flux. Les huiles alimentaires en volume régulier peuvent faire l'objet d'une reprise ; les petits volumes et les déchets associés donnent lieu à une prestation facturée. Le devis est toujours écrit."
+            },
+            {
+              "q": "Quel volume minimum pour un enlèvement ?",
+              "a": "Nous organisons des tournées mutualisées : même un petit producteur peut être intégré au passage d'un secteur."
+            },
+            {
+              "q": "Quels documents vais-je recevoir ?",
+              "a": "Un bordereau d'enlèvement à chaque intervention, mentionnant la nature, la quantité et la destination, puis un récapitulatif annuel."
+            },
+            {
+              "q": "Intervenez-vous dans le Sud ?",
+              "a": "Oui, sur les zones industrielles et pétrolières, avec une fréquence adaptée aux distances. Contactez-nous pour le calendrier de votre secteur."
+            },
+            {
+              "q": "Peut-on mélanger huile moteur et huile de friture ?",
+              "a": "Jamais. Le mélange rend le flux non valorisable et peut déclasser l'ensemble en déchet dangereux. Deux contenants séparés, toujours."
+            },
+            {
+              "q": "Que devient l'huile collectée ?",
+              "a": "Elle est orientée vers la valorisation : régénération, valorisation énergétique ou production de biodiesel, selon la qualité et les filières disponibles."
+            },
+            {
+              "q": "Fournissez-vous les contenants ?",
+              "a": "Oui : bacs et bidons étanches, marqués, livrés et entretenus par nos soins."
+            },
+            {
+              "q": "Comment se passe un contrôle ?",
+              "a": "Vous présentez vos bordereaux et votre registre. C'est précisément ce que notre dossier de traçabilité est fait pour couvrir."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Votre question n'est pas là ?",
+          "text": "Écrivez-nous : nous répondons sous 48 heures ouvrables.",
+          "actions": [
+            {
+              "label": "Poser une question",
+              "href": "/fr/contacts/"
+            },
+            {
+              "label": "Voir la réglementation",
+              "href": "/fr/rules/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

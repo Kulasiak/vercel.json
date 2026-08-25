@@ -1,0 +1,918 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "rules": "Normativa",
+    "contribution": "Contributo",
+    "companies": "Aziende",
+    "associations": "Partner",
+    "campaign": "Campagna",
+    "membership": "Adesione",
+    "contacts": "Contatti",
+    "faq": "FAQ"
+  },
+  "common": {
+    "brandName": "EL MAIN LIL SINAA",
+    "brandSub": "Ambiente · Algeria",
+    "skip": "Vai al contenuto",
+    "menu": "Menu",
+    "mainNav": "Navigazione principale",
+    "languageLabel": "Cambia lingua",
+    "breadcrumb": "Percorso di navigazione",
+    "chooseLanguage": "Scegli la lingua",
+    "footerAbout": "EL MAIN LIL SINAA (المعين للصناعة) raccoglie, traccia e valorizza gli oli usati e i rifiuti speciali delle imprese algerine, nel rispetto della legge 01-19 modificata dalla legge 25-02.",
+    "footerConsortium": "L'azienda",
+    "footerServices": "Servizi",
+    "rights": "Tutti i diritti riservati",
+    "vat": "Identificativi",
+    "disclaimer": "Contenuto dimostrativo — riferimenti normativi da verificare sulla Gazzetta ufficiale algerina prima della pubblicazione."
+  },
+  "pages": {
+    "home": {
+      "metaTitle": "EL MAIN LIL SINAA — Raccolta e valorizzazione degli oli usati in Algeria",
+      "metaDescription": "Raccolta, tracciabilità e valorizzazione di oli usati e rifiuti speciali per le imprese algerine. Conformità legge 01-19 / 25-02, servizio nelle 58 wilaya.",
+      "eyebrow": "Algeria · Economia circolare",
+      "title": "I tuoi oli usati non sono un rifiuto. Sono una risorsa.",
+      "intro": "Raccogliamo, tracciamo e valorizziamo gli **oli lubrificanti e alimentari esausti** delle imprese algerine, consegnando i documenti che dimostrano la tua conformità.",
+      "actions": [
+        {
+          "label": "Richiedi un ritiro",
+          "href": "/it/contacts/"
+        },
+        {
+          "label": "Aderisci",
+          "href": "/it/membership/"
+        }
+      ],
+      "sections": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "≈ 110.000 t",
+              "label": "di oli usati generati ogni anno in Algeria"
+            },
+            {
+              "value": "20–25 %",
+              "label": "la quota oggi raccolta in modo formale"
+            },
+            {
+              "value": "450.519 m³",
+              "label": "di oli alimentari esausti all'anno (stima AND)"
+            },
+            {
+              "value": "58",
+              "label": "wilaya coperte dalla rete di raccolta"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "eyebrow": "Servizi",
+          "title": "Una filiera completa, dalla cisterna al documento",
+          "lead": "Un unico interlocutore per raccolta, trasporto, tracciabilità e valorizzazione.",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "drop",
+              "title": "Oli lubrificanti usati",
+              "text": "Oli motore, idraulici e da taglio: contenitori a tenuta, ritiro programmato, formulario di trasporto."
+            },
+            {
+              "icon": "collect",
+              "title": "Oli alimentari esausti",
+              "text": "Ristoranti, hotel, mense e agroalimentare: taniche fornite, rotazione regolare, nessuno scarico in fognatura."
+            },
+            {
+              "icon": "doc",
+              "title": "Tracciabilità e conformità",
+              "text": "Ogni ritiro produce un fascicolo documentale, utilizzabile in caso di controllo o audit."
+            },
+            {
+              "icon": "recycle",
+              "title": "Valorizzazione",
+              "text": "Flussi indirizzati a rigenerazione, recupero energetico o produzione di biodiesel."
+            },
+            {
+              "icon": "shield",
+              "title": "Rifiuti collegati",
+              "text": "Filtri, stracci contaminati e imballaggi di olio: stessa rigidità documentale."
+            },
+            {
+              "icon": "chart",
+              "title": "Report annuale",
+              "text": "Volumi, destinazioni e indicatori ambientali, pronti per la rendicontazione."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "alt": true,
+          "eyebrow": "Perché adesso",
+          "title": "La normativa algerina ha cambiato rotta",
+          "body": [
+            "La legge n. 25-02 del febbraio 2025, che modifica e integra la legge n. 01-19 sulla gestione, il controllo e lo smaltimento dei rifiuti, iscrive l'**economia circolare** nel diritto algerino: responsabilità estesa del produttore (REP), ecoprogettazione, sistema digitale di gestione dei rifiuti e sanzioni rafforzate.",
+            "Per un'impresa il senso è semplice: il rifiuto che produci ti segue fino alla destinazione finale. La domanda non è più «chi lo porta via», ma «sai dimostrare dove è finito»."
+          ],
+          "panel": {
+            "title": "Cosa ti vincola",
+            "items": [
+              "Legge n. 01-19 modificata dalla legge n. 25-02 — gestione e smaltimento dei rifiuti",
+              "Legge n. 03-10 — tutela dell'ambiente e sviluppo sostenibile",
+              "Decreto esecutivo n. 13-176 — lubrificanti e rigenerazione degli oli usati",
+              "Tributi ambientali fissati ogni anno dalla legge finanziaria",
+              "SNGID 2035 — obiettivo del 47 % di valorizzazione dei rifiuti urbani"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Hai un flusso di olio da smaltire questa settimana?",
+          "text": "Indicaci wilaya e volumi: ti rispondiamo con un calendario di ritiro e un preventivo.",
+          "actions": [
+            {
+              "label": "Contattaci",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "Vedi i servizi",
+              "href": "/it/companies/"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "metaTitle": "Chi siamo — EL MAIN LIL SINAA",
+      "metaDescription": "EL MAIN LIL SINAA, operatore algerino della raccolta e valorizzazione degli oli usati: missione, metodo e copertura territoriale.",
+      "title": "Chi siamo",
+      "intro": "EL MAIN LIL SINAA — **المعين للصناعة** — affianca le imprese algerine su un punto preciso: far uscire gli oli usati dal circuito informale e riportarli in un ciclo pulito, documentato e legale.",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Perché esistiamo",
+          "body": [
+            "L'Algeria consuma circa 180.000 tonnellate di lubrificanti all'anno e genera fino a 110.000 tonnellate di oli usati. Una quota rilevante non viene né raccolta né tracciata: finisce bruciata, dispersa nel suolo o nelle reti fognarie. Un solo litro di olio basta a contaminare un volume d'acqua enorme.",
+            "Il nostro mestiere è rendere il gesto corretto più semplice del gesto comodo: un contenitore adatto, un ritiro a data certa, un documento in regola."
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Principi",
+          "title": "Quattro impegni, a ogni ritiro",
+          "columns": 4,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Prima la conformità",
+              "text": "Autorizzazioni, trasporto e destinazione: tutto verificabile, niente affidato alla parola."
+            },
+            {
+              "icon": "map",
+              "title": "Copertura reale",
+              "text": "Una rete costruita wilaya per wilaya, con partner locali formati."
+            },
+            {
+              "icon": "doc",
+              "title": "Tracciabilità scritta",
+              "text": "Nessun ritiro senza documento, nessun documento senza destinazione identificata."
+            },
+            {
+              "icon": "recycle",
+              "title": "Valorizzazione utile",
+              "text": "Priorità a rigenerazione e biodiesel, non al semplice smaltimento."
+            }
+          ]
+        },
+        {
+          "type": "regions",
+          "eyebrow": "Territorio",
+          "title": "Organizzazione per poli regionali",
+          "lead": "Il servizio è distribuito su poli regionali, ciascuno con un deposito e una squadra di ritiro.",
+          "items": [
+            {
+              "title": "Centro",
+              "sub": "Algeri, Blida, Boumerdès, Tizi Ouzou"
+            },
+            {
+              "title": "Ovest",
+              "sub": "Orano, Mostaganem, Sidi Bel Abbès, Tlemcen"
+            },
+            {
+              "title": "Est",
+              "sub": "Costantina, Annaba, Sétif, Skikda"
+            },
+            {
+              "title": "Altipiani",
+              "sub": "Djelfa, Batna, Tiaret, M'Sila"
+            },
+            {
+              "title": "Sud-Est",
+              "sub": "Ouargla, Hassi Messaoud, Touggourt, Biskra"
+            },
+            {
+              "title": "Sud-Ovest",
+              "sub": "Béchar, Adrar, Tindouf, Timimoun"
+            }
+          ],
+          "note": "Le località citate sono esempi di dispiegamento: sostituiscile con le sedi reali prima della pubblicazione."
+        },
+        {
+          "type": "cta",
+          "title": "Lavoriamo insieme",
+          "text": "Industrie, ristorazione, enti locali: il primo passo è sempre un sopralluogo gratuito.",
+          "actions": [
+            {
+              "label": "Fissa un appuntamento",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "I nostri partner",
+              "href": "/it/partners/"
+            }
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "metaTitle": "Normativa ambientale algerina — EL MAIN LIL SINAA",
+      "metaDescription": "Panoramica dei testi algerini: legge 01-19, legge 25-02, legge 03-10, decreto esecutivo 13-176, tributi ambientali e strategia SNGID 2035.",
+      "title": "Normativa: l'ambiente in Algeria dalla A alla Z",
+      "intro": "I testi che regolano rifiuti, oli usati e fiscalità ambientale in Algeria, riassunti in linguaggio chiaro. **Verifica sempre l'ultima versione sulla Gazzetta ufficiale (JORADP)** prima di ogni decisione.",
+      "sections": [
+        {
+          "type": "norms",
+          "eyebrow": "Testi di riferimento",
+          "title": "La base legale",
+          "items": [
+            {
+              "tag": "2001",
+              "title": "Legge n. 01-19 del 12 dicembre 2001",
+              "text": "Gestione, controllo e smaltimento dei rifiuti: obbligo di raccolta differenziata, valorizzazione e smaltimento in condizioni rispettose dell'ambiente."
+            },
+            {
+              "tag": "2025",
+              "title": "Legge n. 25-02 (GU n. 12, febbraio 2025)",
+              "text": "Modifica e integra la legge 01-19: responsabilità estesa del produttore, ecoprogettazione, sistema digitale di gestione, sostituzione progressiva della plastica monouso, sanzioni riviste."
+            },
+            {
+              "tag": "2003",
+              "title": "Legge n. 03-10 del 19 luglio 2003",
+              "text": "Tutela dell'ambiente nel quadro dello sviluppo sostenibile: cornice generale, principi di prevenzione e «chi inquina paga»."
+            },
+            {
+              "tag": "2013",
+              "title": "Decreto esecutivo n. 13-176 del 30 aprile 2013",
+              "text": "Condizioni di fabbricazione, stoccaggio e distribuzione all'ingrosso dei lubrificanti e rigenerazione degli oli usati (GU n. 25 del 12 maggio 2013)."
+            },
+            {
+              "tag": "2002",
+              "title": "Decreto esecutivo n. 02-175 del 20 maggio 2002",
+              "text": "Istituzione, organizzazione e funzionamento dell'Agenzia nazionale dei rifiuti (AND), sotto la vigilanza del ministero dell'Ambiente."
+            },
+            {
+              "tag": "Fiscalità",
+              "title": "Tributi ambientali (leggi finanziarie)",
+              "text": "Tributo sulle attività inquinanti o pericolose, tributo su oli, lubrificanti e preparazioni lubrificanti, tributo di incentivo allo smaltimento delle scorte di rifiuti industriali speciali, tributo sui sacchetti di plastica, tributi complementari su inquinamento atmosferico e acque reflue."
+            },
+            {
+              "tag": "2035",
+              "title": "Strategia nazionale di gestione integrata dei rifiuti (SNGID)",
+              "text": "Orizzonte 2035: valorizzare il 47 % dei rifiuti urbani, ridurre la produzione sotto 1,1 kg/abitante/giorno, eliminare le discariche abusive e creare 30.000 posti di lavoro diretti."
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Chi fa cosa",
+          "title": "Le istituzioni da conoscere",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Ministero dell'Ambiente",
+              "text": "Definisce la politica nazionale ed esercita la vigilanza sugli enti del settore."
+            },
+            {
+              "icon": "recycle",
+              "title": "AND",
+              "text": "Agenzia nazionale dei rifiuti: conoscenza dei flussi, supporto tecnico e promozione del riciclo."
+            },
+            {
+              "icon": "factory",
+              "title": "CNTPP",
+              "text": "Centro nazionale delle tecnologie di produzione più pulita: accompagna l'industria verso processi meno inquinanti."
+            },
+            {
+              "icon": "chart",
+              "title": "ONEDD",
+              "text": "Osservatorio nazionale dell'ambiente e dello sviluppo sostenibile: misura e pubblica lo stato dell'ambiente."
+            },
+            {
+              "icon": "users",
+              "title": "CNFE",
+              "text": "Conservatorio nazionale delle formazioni ambientali: formazione e sensibilizzazione degli operatori."
+            },
+            {
+              "icon": "map",
+              "title": "Wilaya e comuni",
+              "text": "Autorizzazioni locali, piani comunali di gestione dei rifiuti e controllo di prossimità."
+            }
+          ]
+        },
+        {
+          "type": "sources",
+          "title": "Fonti pubbliche",
+          "lead": "I dati di questa pagina provengono dai riferimenti seguenti.",
+          "items": [
+            {
+              "title": "Cadre institutionnel et réglementaire",
+              "publisher": "Agence nationale des déchets (and.dz)",
+              "href": "https://and.dz/presentation/cadre-institutionnel-et-reglementaire/"
+            },
+            {
+              "title": "Legge 25-02 sulla gestione dei rifiuti (testo)",
+              "publisher": "JORADP n. 12 / 2025",
+              "href": "https://bet-khatraoui-abdessamie.com/wp-content/uploads/2025/02/Loi-25-02-modifiant-et-completant-la-loi-01-19-relative-a-la-gestion-des-dechets.pdf"
+            },
+            {
+              "title": "Décret exécutif n° 13-176",
+              "publisher": "CNTPP (cntpp.dz)",
+              "href": "https://cntpp.dz/wp-content/uploads/2023/11/Decret-executif-n-%C2%B013-176.pdf"
+            },
+            {
+              "title": "Déchets et recyclage",
+              "publisher": "Ministero dell'Ambiente (me.gov.dz)",
+              "href": "https://www.me.gov.dz/fr/dechets-et-recyclage/"
+            },
+            {
+              "title": "Taxes écologiques",
+              "publisher": "ONEDD (onedd.org)",
+              "href": "https://onedd.org/taxes-ecologiques/"
+            }
+          ],
+          "note": "Questa panoramica è una sintesi divulgativa, non un parere legale. Fai validare la tua posizione da un consulente abilitato."
+        }
+      ]
+    },
+    "contribution": {
+      "metaTitle": "Contributo ambientale e fiscalità — EL MAIN LIL SINAA",
+      "metaDescription": "I tributi ambientali algerini applicabili a oli, lubrificanti e rifiuti industriali speciali, e gli obblighi che ne derivano.",
+      "title": "Contributo ambientale e fiscalità",
+      "intro": "In Algeria il principio **«chi inquina paga»** si traduce in una serie di tributi ambientali approvati ogni anno con la legge finanziaria. Ecco la lettura pratica per un'impresa.",
+      "sections": [
+        {
+          "type": "norms",
+          "eyebrow": "Cosa si paga",
+          "title": "I principali tributi ambientali",
+          "items": [
+            {
+              "tag": "Oli",
+              "title": "Tributo su oli, lubrificanti e preparazioni lubrificanti",
+              "text": "Colpisce i prodotti il cui uso genera oli usati. La legge finanziaria 2026 ne prevede un gettito di 7,5 miliardi di DA, ripartito al 66 % allo Stato e al 34 % ai comuni."
+            },
+            {
+              "tag": "Industria",
+              "title": "Tributo sulle attività inquinanti o pericolose per l'ambiente",
+              "text": "Dovuto dagli impianti classificati, in base a natura e capacità."
+            },
+            {
+              "tag": "Scorte",
+              "title": "Tributo di incentivo allo smaltimento delle scorte di rifiuti industriali speciali",
+              "text": "Penalizza lo stoccaggio prolungato in sito. Previsione 2026: 550 milioni di DA, di cui 84 % allo Stato e 16 % ai comuni."
+            },
+            {
+              "tag": "Plastica",
+              "title": "Tributo specifico sui sacchetti di plastica",
+              "text": "Applicabile ai sacchetti importati o prodotti localmente."
+            },
+            {
+              "tag": "Aria e acqua",
+              "title": "Tributi complementari: inquinamento atmosferico e acque reflue",
+              "text": "Calcolati sugli scarichi industriali che superano i valori limite di legge."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "alt": true,
+          "eyebrow": "Metodo",
+          "title": "Come riduciamo la tua esposizione",
+          "items": [
+            {
+              "title": "Analisi iniziale",
+              "text": "Inventario dei flussi: nature, volumi, punti di produzione, stoccaggio attuale."
+            },
+            {
+              "title": "Piano di evacuazione",
+              "text": "Frequenza di ritiro calibrata per evitare lo stoccaggio prolungato — e il tributo che ne consegue."
+            },
+            {
+              "title": "Documentazione",
+              "text": "Costruzione del fascicolo di tracciabilità, ritiro dopo ritiro."
+            },
+            {
+              "title": "Bilancio annuale",
+              "text": "Riepilogo di volumi e destinazioni, utilizzabile in dichiarazione e in sede di controllo."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Stima la tua situazione",
+          "text": "Inviaci i volumi annui: rispondiamo con un piano di ritiro e una stima di costo.",
+          "actions": [
+            {
+              "label": "Chiedi una stima",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "Leggi la normativa",
+              "href": "/it/rules/"
+            }
+          ]
+        }
+      ]
+    },
+    "companies": {
+      "metaTitle": "Servizi alle imprese — EL MAIN LIL SINAA",
+      "metaDescription": "Raccolta di oli usati per officine, industria, hotel, ristorazione, agroalimentare e flotte di trasporto in Algeria.",
+      "title": "Aziende",
+      "intro": "Un servizio pensato per chi produce olio usato senza farne il proprio mestiere: **tu produci, noi ritiriamo, a te resta la prova.**",
+      "sections": [
+        {
+          "type": "cards",
+          "eyebrow": "Settori",
+          "title": "Chi ci chiama",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "collect",
+              "title": "Officine e stazioni di servizio",
+              "text": "Oli di cambio, filtri, imballaggi contaminati: ritiro regolare e contenitori adatti."
+            },
+            {
+              "icon": "factory",
+              "title": "Industria e manifattura",
+              "text": "Oli idraulici, da taglio e da tempra, con monitoraggio dei volumi per reparto."
+            },
+            {
+              "icon": "drop",
+              "title": "Hotel e ristorazione",
+              "text": "Oli di frittura esausti: taniche fornite, rotazione tarata sulla tua attività."
+            },
+            {
+              "icon": "recycle",
+              "title": "Agroalimentare",
+              "text": "Flussi elevati e regolari, con vincoli igienici e di separazione delle materie."
+            },
+            {
+              "icon": "map",
+              "title": "Trasporti e flotte",
+              "text": "Officine di manutenzione, depositi e basi logistiche, anche in siti isolati del Sud."
+            },
+            {
+              "icon": "users",
+              "title": "Enti e istituzioni",
+              "text": "Comuni, ospedali, scuole e università: appalti pubblici e convenzioni."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "alt": true,
+          "eyebrow": "Percorso",
+          "title": "Come nasce un contratto",
+          "items": [
+            {
+              "title": "Sopralluogo e diagnosi",
+              "text": "Misuriamo i volumi reali e individuiamo i punti di raccolta in sito."
+            },
+            {
+              "title": "Proposta scritta",
+              "text": "Frequenza, contenitori, tariffa e impegni sui tempi, senza clausole nascoste."
+            },
+            {
+              "title": "Attivazione",
+              "text": "Consegna di contenitori a tenuta, marcatura e formazione rapida del personale."
+            },
+            {
+              "title": "Ritiri programmati",
+              "text": "Passaggio a data fissa o a chiamata, con pesatura e formulario a ogni intervento."
+            },
+            {
+              "title": "Fascicolo di conformità",
+              "text": "I documenti vengono archiviati e consegnati in sintesi annuale."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "title": "I tuoi obblighi, in chiaro",
+          "body": [
+            "Il produttore di un rifiuto ne resta responsabile fino allo smaltimento o alla valorizzazione finale. In pratica: devi sapere cosa produci, stoccarlo correttamente, affidarlo a un operatore autorizzato e poterlo dimostrare.",
+            "È esattamente ciò che documentiamo per te, intervento dopo intervento."
+          ],
+          "panel": {
+            "title": "Checklist del produttore",
+            "items": [
+              "Identificare e classificare i rifiuti",
+              "Stoccare su bacino di contenimento, al riparo e senza miscelazioni",
+              "Non mescolare mai oli minerali e alimentari",
+              "Contrattualizzare con un raccoglitore autorizzato",
+              "Conservare i formulari di ritiro",
+              "Tenere aggiornato il registro delle uscite"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Richiedi un sopralluogo",
+          "text": "Gratuito e senza impegno, ovunque la rete sia attiva.",
+          "actions": [
+            {
+              "label": "Scrivici",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "Aderisci",
+              "href": "/it/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    "associations": {
+      "metaTitle": "Partner e istituzioni — EL MAIN LIL SINAA",
+      "metaDescription": "Gli interlocutori istituzionali e professionali in Algeria: ministero, AND, CNTPP, ONEDD, wilaya, camere di commercio e associazioni.",
+      "title": "Partner e istituzioni",
+      "intro": "Una filiera non si costruisce da sola. Lavoriamo con le autorità, gli enti tecnici e le organizzazioni professionali che strutturano il settore in Algeria.",
+      "sections": [
+        {
+          "type": "cards",
+          "eyebrow": "Ecosistema",
+          "title": "Con chi dialoghiamo",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Autorità ambientali",
+              "text": "Ministero dell'Ambiente e direzioni ambientali di wilaya: autorizzazioni e controllo."
+            },
+            {
+              "icon": "recycle",
+              "title": "Agenzia nazionale dei rifiuti",
+              "text": "Dati sui flussi, buone pratiche e supporto alla strutturazione delle filiere."
+            },
+            {
+              "icon": "factory",
+              "title": "CNTPP",
+              "text": "Accompagnamento delle industrie verso processi più puliti e meno produttivi di rifiuti."
+            },
+            {
+              "icon": "users",
+              "title": "Associazioni professionali",
+              "text": "Ristoratori, albergatori, meccanici e trasportatori: presìdi indispensabili sul territorio."
+            },
+            {
+              "icon": "map",
+              "title": "Comuni",
+              "text": "Punti di conferimento, campagne di quartiere e giornate di pulizia."
+            },
+            {
+              "icon": "chart",
+              "title": "Ricerca e startup",
+              "text": "Laboratori e imprese giovani che lavorano su biodiesel e rigenerazione degli oli."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "alt": true,
+          "title": "Cosa portiamo in una partnership",
+          "body": [
+            "Un operatore sul campo, dati di raccolta affidabili e la capacità di mobilitare imprese su un territorio definito.",
+            "Partecipiamo volentieri a iniziative di sensibilizzazione, giornate dell'ambiente e programmi scolastici: è lì che si costruisce la raccolta di domani."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Proponi una collaborazione",
+          "text": "Istituzione, associazione o impresa: scrivici descrivendo il progetto.",
+          "actions": [
+            {
+              "label": "Contattaci",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "Vedi la campagna",
+              "href": "/it/campaign/"
+            }
+          ]
+        }
+      ]
+    },
+    "campaign": {
+      "metaTitle": "Campagna di sensibilizzazione ambientale — EL MAIN LIL SINAA",
+      "metaDescription": "Slogan e piano di comunicazione ambientale rivolti al grande pubblico algerino, in arabo standard e in darija.",
+      "title": "Campagna e slogan",
+      "intro": "Parlare di ambiente al pubblico algerino richiede parole semplici, nella **lingua di tutti i giorni**. Ecco il kit di messaggi, in arabo classico e in darija, pronto per radio, affissioni e social.",
+      "sections": [
+        {
+          "type": "slogans",
+          "eyebrow": "Messaggi",
+          "title": "I nostri slogan",
+          "lead": "Ogni slogan è pensato per un supporto e un pubblico precisi.",
+          "items": [
+            {
+              "ar": "زيتك المستعمل ثروة… لا ترميه",
+              "local": "Il tuo olio usato è una ricchezza: non buttarlo.",
+              "note": "Messaggio principale · affissioni e radio"
+            },
+            {
+              "ar": "لتر واحد من الزيت يلوّث ملايين اللترات من الماء",
+              "local": "Un litro d'olio inquina milioni di litri d'acqua.",
+              "note": "Messaggio didattico · scuole e social"
+            },
+            {
+              "ar": "ما ترميش… سلّمهالنا",
+              "local": "Non buttarlo: consegnalo a noi.",
+              "note": "Darija · stazioni di servizio e officine"
+            },
+            {
+              "ar": "من المطبخ إلى الطاقة",
+              "local": "Dalla cucina all'energia.",
+              "note": "Oli alimentari · ristoranti e hotel"
+            },
+            {
+              "ar": "الجزائر نظيفة… مسؤولية الجميع",
+              "local": "Un'Algeria pulita è responsabilità di tutti.",
+              "note": "Messaggio civico · campagne comunali"
+            },
+            {
+              "ar": "نجمعو، نرسكلو، نحافظو",
+              "local": "Raccogliamo, ricicliamo, preserviamo.",
+              "note": "Darija · spot radio e video brevi"
+            },
+            {
+              "ar": "بيئة نظيفة، صناعة مسؤولة",
+              "local": "Ambiente pulito, industria responsabile.",
+              "note": "Messaggio B2B · fiere e stampa specializzata"
+            },
+            {
+              "ar": "كل قطرة تُجمع… مستقبل يُصان",
+              "local": "Ogni goccia raccolta protegge un futuro.",
+              "note": "Chiusura campagna · maxi affissioni"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Diffusione",
+          "title": "Dove portiamo questi messaggi",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "users",
+              "title": "Radio locali",
+              "text": "Spot da 20 secondi in arabo e in darija sulle emittenti di wilaya."
+            },
+            {
+              "icon": "map",
+              "title": "Affissioni urbane",
+              "text": "Cartelli agli ingressi delle città, mercati, stazioni di servizio e zone industriali."
+            },
+            {
+              "icon": "chart",
+              "title": "Social media",
+              "text": "Video verticali brevi in formato dimostrativo: il gesto giusto in dieci secondi."
+            },
+            {
+              "icon": "doc",
+              "title": "Scuole e università",
+              "text": "Laboratori e manifesti, con una parte pratica sull'olio di frittura domestico."
+            },
+            {
+              "icon": "collect",
+              "title": "Punti di raccolta",
+              "text": "Segnaletica comune sui contenitori, perché il gesto sia riconoscibile ovunque."
+            },
+            {
+              "icon": "shield",
+              "title": "Partenariati comunali",
+              "text": "Giornate di pulizia con i comuni e le associazioni di quartiere."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "eyebrow": "Piano",
+          "title": "La campagna in quattro fasi",
+          "items": [
+            {
+              "title": "Capire",
+              "text": "Il problema in un numero: l'olio gettato contamina l'acqua e ostruisce le reti."
+            },
+            {
+              "title": "Mostrare",
+              "text": "Il gesto corretto, ripreso in una cucina e in un'officina, non in studio."
+            },
+            {
+              "title": "Facilitare",
+              "text": "Indicare il punto di raccolta più vicino, wilaya per wilaya."
+            },
+            {
+              "title": "Rendicontare",
+              "text": "Pubblicare i volumi raccolti: la prova che il gesto serve."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Porta la campagna nel tuo territorio",
+          "text": "Comuni, scuole, imprese: forniamo grafiche e messaggi, adattati al tuo contesto.",
+          "actions": [
+            {
+              "label": "Richiedi il kit",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "Diventa partner",
+              "href": "/it/partners/"
+            }
+          ]
+        }
+      ]
+    },
+    "membership": {
+      "metaTitle": "Adesione — EL MAIN LIL SINAA",
+      "metaDescription": "Entrare nella rete EL MAIN LIL SINAA: condizioni, passaggi e documenti necessari per le imprese algerine.",
+      "title": "Adesione",
+      "intro": "Aderire significa affidare i flussi di oli usati a un unico operatore e ricevere in cambio la documentazione che prova la tua conformità.",
+      "sections": [
+        {
+          "type": "steps",
+          "eyebrow": "Procedura",
+          "title": "Quattro passaggi",
+          "items": [
+            {
+              "title": "Richiesta",
+              "text": "Modulo online o telefonata: attività, wilaya, volumi stimati."
+            },
+            {
+              "title": "Diagnosi",
+              "text": "Sopralluogo entro pochi giorni lavorativi, poi proposta scritta."
+            },
+            {
+              "title": "Contratto",
+              "text": "Firma, consegna dei contenitori e calendario dei ritiri."
+            },
+            {
+              "title": "Monitoraggio",
+              "text": "Formulari a ogni passaggio e bilancio annuale dei volumi valorizzati."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "alt": true,
+          "title": "Cosa comprende l'adesione",
+          "body": [
+            "Un servizio completo, senza costi nascosti: i contenitori restano di nostra proprietà e la manutenzione è a nostro carico.",
+            "Per i grandi produttori il contratto può prevedere un ritiro valorizzato degli oli, in base a volumi e qualità del flusso."
+          ],
+          "panel": {
+            "title": "Documenti da preparare",
+            "items": [
+              "Registro del commercio",
+              "Identificativo fiscale (NIF)",
+              "Riferimenti del responsabile HSE o del gestore",
+              "Stima dei volumi mensili",
+              "Indirizzo preciso dei punti di raccolta"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Avvia l'adesione",
+          "text": "Compila il modulo di contatto: rispondiamo entro 48 ore lavorative.",
+          "actions": [
+            {
+              "label": "Modulo di contatto",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "Domande frequenti",
+              "href": "/it/faq/"
+            }
+          ]
+        }
+      ]
+    },
+    "contacts": {
+      "metaTitle": "Contatti — EL MAIN LIL SINAA",
+      "metaDescription": "Contattare EL MAIN LIL SINAA: indirizzo, telefono, e-mail e modulo di richiesta ritiro per tutta l'Algeria.",
+      "title": "Contatti",
+      "intro": "Una domanda, un preventivo, un ritiro da programmare: scrivici indicando **wilaya** e **volumi stimati**, la risposta sarà più rapida.",
+      "sections": [
+        {
+          "type": "contacts",
+          "labels": {
+            "office": "Sede",
+            "phone": "Telefono",
+            "email": "E-mail",
+            "hours": "Orari",
+            "pec": "Ufficio commerciale"
+          }
+        },
+        {
+          "type": "form",
+          "alt": true,
+          "title": "Modulo di richiesta",
+          "fields": {
+            "name": "Azienda o nome",
+            "email": "E-mail",
+            "subject": "Oggetto",
+            "subjects": [
+              "Richiesta di ritiro",
+              "Adesione",
+              "Contributo ambientale e conformità",
+              "Partnership o campagna",
+              "Altro"
+            ],
+            "message": "Messaggio (wilaya, attività, volumi)",
+            "submit": "Invia",
+            "note": "Il modulo è un mockup: collegalo al tuo servizio di invio (Vercel Forms, Formspree, API interna) prima della pubblicazione."
+          }
+        }
+      ]
+    },
+    "faq": {
+      "metaTitle": "Domande frequenti — EL MAIN LIL SINAA",
+      "metaDescription": "Risposte alle domande più comuni su raccolta degli oli usati, conformità normativa e costi in Algeria.",
+      "title": "Domande frequenti",
+      "intro": "Le domande che ci vengono poste più spesso, al telefono e in sopralluogo.",
+      "sections": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Posso scaricare l'olio usato in fognatura o bruciarlo?",
+              "a": "No. Lo scarico e la combustione non autorizzati sono vietati ed esposti a sanzioni, rafforzate dalla legge 25-02. L'olio va consegnato a un operatore autorizzato."
+            },
+            {
+              "q": "Il servizio è a pagamento?",
+              "a": "Dipende dal flusso. Gli oli alimentari con volumi regolari possono essere ritirati con riconoscimento di valore; piccoli volumi e rifiuti collegati comportano una prestazione fatturata. Il preventivo è sempre scritto."
+            },
+            {
+              "q": "Qual è il volume minimo per un ritiro?",
+              "a": "Organizziamo giri condivisi: anche un piccolo produttore può essere inserito nel passaggio di zona."
+            },
+            {
+              "q": "Quali documenti ricevo?",
+              "a": "Un formulario a ogni intervento, con natura, quantità e destinazione, più un riepilogo annuale."
+            },
+            {
+              "q": "Operate anche nel Sud?",
+              "a": "Sì, sulle zone industriali e petrolifere, con frequenze adattate alle distanze. Contattaci per il calendario della tua area."
+            },
+            {
+              "q": "Si possono mescolare olio motore e olio di frittura?",
+              "a": "Mai. La miscela rende il flusso non valorizzabile e può declassare tutto a rifiuto pericoloso. Sempre due contenitori separati."
+            },
+            {
+              "q": "Che fine fa l'olio raccolto?",
+              "a": "Viene avviato a valorizzazione: rigenerazione, recupero energetico o produzione di biodiesel, secondo qualità e filiere disponibili."
+            },
+            {
+              "q": "Fornite voi i contenitori?",
+              "a": "Sì: vasche e taniche a tenuta, marcate, consegnate e mantenute da noi."
+            },
+            {
+              "q": "Come si affronta un controllo?",
+              "a": "Presentando formulari e registro. È esattamente ciò che il nostro fascicolo di tracciabilità copre."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Non trovi la tua domanda?",
+          "text": "Scrivici: rispondiamo entro 48 ore lavorative.",
+          "actions": [
+            {
+              "label": "Fai una domanda",
+              "href": "/it/contacts/"
+            },
+            {
+              "label": "Vedi la normativa",
+              "href": "/it/rules/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

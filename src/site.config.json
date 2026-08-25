@@ -1,0 +1,21 @@
+{
+  "url": "https://elmain-lil-sinaa.vercel.app",
+  "brand": {
+    "name": "EL MAIN LIL SINAA",
+    "arabic": "المعين للصناعة",
+    "shortName": "EL MAIN"
+  },
+  "defaultLang": "ar",
+  "contact": {
+    "street": "Zone d'activité — Lot n° 00",
+    "city": "16000 Alger",
+    "country": "Algérie",
+    "phone": "+213 (0) 21 00 00 00",
+    "phoneHref": "+21321000000",
+    "mobile": "+213 (0) 5 00 00 00 00",
+    "email": "contact@example.dz",
+    "pec": "commercial@example.dz",
+    "vat": "NIF 000000000000000 — RC 16/00-0000000 B 00",
+    "hours": "08:30 – 16:30"
+  }
+}

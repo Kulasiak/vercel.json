@@ -1,0 +1,918 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "rules": "Regulation",
+    "contribution": "Eco-contribution",
+    "companies": "Businesses",
+    "associations": "Partners",
+    "campaign": "Campaign",
+    "membership": "Membership",
+    "contacts": "Contact",
+    "faq": "FAQ"
+  },
+  "common": {
+    "brandName": "EL MAIN LIL SINAA",
+    "brandSub": "Environment · Algeria",
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "mainNav": "Main navigation",
+    "languageLabel": "Change language",
+    "breadcrumb": "Breadcrumb",
+    "chooseLanguage": "Choose your language",
+    "footerAbout": "EL MAIN LIL SINAA (المعين للصناعة) collects, tracks and recovers waste oils and special waste from Algerian businesses, in line with Law 01-19 as amended by Law 25-02.",
+    "footerConsortium": "Company",
+    "footerServices": "Services",
+    "rights": "All rights reserved",
+    "vat": "Registration",
+    "disclaimer": "Demo content — verify all legal references in the Algerian Official Journal before publishing."
+  },
+  "pages": {
+    "home": {
+      "metaTitle": "EL MAIN LIL SINAA — Waste oil collection and recovery in Algeria",
+      "metaDescription": "Collection, traceability and recovery of waste oils and special waste for Algerian businesses. Law 01-19 / 25-02 compliance, service across all 58 wilayas.",
+      "eyebrow": "Algeria · Circular economy",
+      "title": "Your waste oil isn't waste. It's a resource.",
+      "intro": "We collect, track and recover **used lubricants and cooking oil** from Algerian businesses — and hand you the paperwork that proves you are compliant.",
+      "actions": [
+        {
+          "label": "Request a collection",
+          "href": "/en/contacts/"
+        },
+        {
+          "label": "Become a member",
+          "href": "/en/membership/"
+        }
+      ],
+      "sections": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "≈ 110,000 t",
+              "label": "of waste oil generated in Algeria every year"
+            },
+            {
+              "value": "20–25 %",
+              "label": "of it is collected through formal channels"
+            },
+            {
+              "value": "450,519 m³",
+              "label": "of used cooking oil per year (AND estimate)"
+            },
+            {
+              "value": "58",
+              "label": "wilayas targeted by our collection network"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "eyebrow": "Services",
+          "title": "One chain, from the tank to the certificate",
+          "lead": "A single point of contact for collection, transport, traceability and recovery.",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "drop",
+              "title": "Used lubricants",
+              "text": "Engine, hydraulic and cutting oils: sealed containers, scheduled collection, waste transfer note."
+            },
+            {
+              "icon": "collect",
+              "title": "Used cooking oil",
+              "text": "Restaurants, hotels, canteens and food industry: containers provided, regular rotation, nothing down the drain."
+            },
+            {
+              "icon": "doc",
+              "title": "Traceability & compliance",
+              "text": "Every collection generates a documented file you can produce during an inspection or audit."
+            },
+            {
+              "icon": "recycle",
+              "title": "Recovery",
+              "text": "Streams routed to re-refining, energy recovery or biodiesel production."
+            },
+            {
+              "icon": "shield",
+              "title": "Associated waste",
+              "text": "Filters, oily rags and oil packaging: handled with the same documentary discipline."
+            },
+            {
+              "icon": "chart",
+              "title": "Annual reporting",
+              "text": "Volumes, destinations and environmental indicators, ready for your ESG reporting."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "alt": true,
+          "eyebrow": "Why now",
+          "title": "Algerian regulation has changed direction",
+          "body": [
+            "Law 25-02 of February 2025, amending and supplementing Law 01-19 on waste management, control and disposal, writes the **circular economy** into Algerian law: extended producer responsibility (EPR), eco-design, a digital waste management system and tougher penalties.",
+            "For a business the meaning is simple: the waste you generate stays attached to you all the way to its final destination. The question is no longer \"who takes it away\", but \"can you prove where it went\"."
+          ],
+          "panel": {
+            "title": "What binds you",
+            "items": [
+              "Law 01-19 as amended by Law 25-02 — waste management and disposal",
+              "Law 03-10 — environmental protection and sustainable development",
+              "Executive Decree 13-176 — lubricants and regeneration of waste oils",
+              "Environmental taxes set each year by the Finance Act",
+              "SNGID 2035 — target of 47 % recovery of municipal waste"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Oil to move this week?",
+          "text": "Tell us your wilaya and your volumes: we come back with a collection schedule and a quote.",
+          "actions": [
+            {
+              "label": "Contact us",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "See our services",
+              "href": "/en/companies/"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "metaTitle": "About us — EL MAIN LIL SINAA",
+      "metaDescription": "EL MAIN LIL SINAA, an Algerian waste oil collection and recovery operator: mission, method and territorial coverage.",
+      "title": "About us",
+      "intro": "EL MAIN LIL SINAA — **المعين للصناعة** — supports Algerian businesses on one specific point: moving their waste oil out of the informal circuit and back into a clean, documented, legal cycle.",
+      "sections": [
+        {
+          "type": "text",
+          "title": "Why we exist",
+          "body": [
+            "Algeria consumes around 180,000 tonnes of lubricants a year and generates up to 110,000 tonnes of waste oil. A large share is neither collected nor tracked: it ends up burned, poured onto the ground or into sewers. A single litre of oil is enough to contaminate an enormous volume of water.",
+            "Our job is to make the right move easier than the convenient one: the right container, a fixed collection date, a document in order."
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Principles",
+          "title": "Four commitments, on every collection",
+          "columns": 4,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Compliance first",
+              "text": "Permits, transport and destination: everything verifiable, nothing taken on trust."
+            },
+            {
+              "icon": "map",
+              "title": "Real coverage",
+              "text": "A network built wilaya by wilaya, with trained local partners."
+            },
+            {
+              "icon": "doc",
+              "title": "Written traceability",
+              "text": "No collection without a document; no document without an identified destination."
+            },
+            {
+              "icon": "recycle",
+              "title": "Useful recovery",
+              "text": "Re-refining and biodiesel before plain disposal."
+            }
+          ]
+        },
+        {
+          "type": "regions",
+          "eyebrow": "Territory",
+          "title": "Organised by regional hubs",
+          "lead": "The service runs through regional hubs, each with a depot and a collection crew.",
+          "items": [
+            {
+              "title": "Centre",
+              "sub": "Algiers, Blida, Boumerdès, Tizi Ouzou"
+            },
+            {
+              "title": "West",
+              "sub": "Oran, Mostaganem, Sidi Bel Abbès, Tlemcen"
+            },
+            {
+              "title": "East",
+              "sub": "Constantine, Annaba, Sétif, Skikda"
+            },
+            {
+              "title": "High Plateaux",
+              "sub": "Djelfa, Batna, Tiaret, M'Sila"
+            },
+            {
+              "title": "South-East",
+              "sub": "Ouargla, Hassi Messaoud, Touggourt, Biskra"
+            },
+            {
+              "title": "South-West",
+              "sub": "Béchar, Adrar, Tindouf, Timimoun"
+            }
+          ],
+          "note": "The cities listed are deployment examples: replace them with your actual sites before going live."
+        },
+        {
+          "type": "cta",
+          "title": "Let's work together",
+          "text": "Industry, hospitality, local authorities: the first step is always a free site visit.",
+          "actions": [
+            {
+              "label": "Book a visit",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "Our partners",
+              "href": "/en/partners/"
+            }
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "metaTitle": "Algerian environmental regulation — EL MAIN LIL SINAA",
+      "metaDescription": "Overview of Algerian legislation: Law 01-19, Law 25-02, Law 03-10, Executive Decree 13-176, environmental taxes and the SNGID 2035 strategy.",
+      "title": "Regulation: Algeria's environment from A to Z",
+      "intro": "The texts governing waste, waste oils and environmental taxation in Algeria, summarised in plain language. **Always check the latest version in the Official Journal (JORADP)** before acting.",
+      "sections": [
+        {
+          "type": "norms",
+          "eyebrow": "Reference texts",
+          "title": "The legal base",
+          "items": [
+            {
+              "tag": "2001",
+              "title": "Law 01-19 of 12 December 2001",
+              "text": "Waste management, control and disposal: duty to sort, recover and dispose of waste in environmentally sound conditions."
+            },
+            {
+              "tag": "2025",
+              "title": "Law 25-02 (Official Journal no. 12, February 2025)",
+              "text": "Amends and supplements Law 01-19: extended producer responsibility, eco-design, a digital management system, phase-out of single-use plastics, revised penalties."
+            },
+            {
+              "tag": "2003",
+              "title": "Law 03-10 of 19 July 2003",
+              "text": "Environmental protection for sustainable development: general framework, prevention and polluter-pays principles."
+            },
+            {
+              "tag": "2013",
+              "title": "Executive Decree 13-176 of 30 April 2013",
+              "text": "Conditions for manufacturing, storing and wholesaling lubricants, and for regenerating waste oils (Official Journal no. 25 of 12 May 2013)."
+            },
+            {
+              "tag": "2002",
+              "title": "Executive Decree 02-175 of 20 May 2002",
+              "text": "Creation, organisation and operation of the National Waste Agency (AND), under the environment ministry."
+            },
+            {
+              "tag": "Taxation",
+              "title": "Environmental taxes (Finance Acts)",
+              "text": "Tax on polluting or hazardous activities, tax on oils and lubricants, incentive tax on destocking special industrial waste, plastic bag tax, and supplementary taxes on air pollution and wastewater."
+            },
+            {
+              "tag": "2035",
+              "title": "National Integrated Waste Management Strategy (SNGID)",
+              "text": "By 2035: recover 47 % of municipal waste, cut generation below 1.1 kg per inhabitant per day, eliminate illegal dumps and create 30,000 direct jobs."
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Who does what",
+          "title": "Institutions worth knowing",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Ministry of the Environment",
+              "text": "Sets national policy and supervises the sector's public bodies."
+            },
+            {
+              "icon": "recycle",
+              "title": "AND",
+              "text": "National Waste Agency: flow data, technical support and recycling promotion."
+            },
+            {
+              "icon": "factory",
+              "title": "CNTPP",
+              "text": "National Centre for Cleaner Production Technologies: helps industry adopt less polluting processes."
+            },
+            {
+              "icon": "chart",
+              "title": "ONEDD",
+              "text": "National Observatory for Environment and Sustainable Development: measures and publishes environmental data."
+            },
+            {
+              "icon": "users",
+              "title": "CNFE",
+              "text": "National Conservatory for Environmental Training: training and awareness for practitioners."
+            },
+            {
+              "icon": "map",
+              "title": "Wilayas & municipalities",
+              "text": "Local permits, municipal waste plans and on-the-ground enforcement."
+            }
+          ]
+        },
+        {
+          "type": "sources",
+          "title": "Public sources",
+          "lead": "The data on this page comes from the following references.",
+          "items": [
+            {
+              "title": "Institutional and regulatory framework",
+              "publisher": "National Waste Agency (and.dz)",
+              "href": "https://and.dz/presentation/cadre-institutionnel-et-reglementaire/"
+            },
+            {
+              "title": "Law 25-02 on waste management (full text)",
+              "publisher": "JORADP no. 12 / 2025",
+              "href": "https://bet-khatraoui-abdessamie.com/wp-content/uploads/2025/02/Loi-25-02-modifiant-et-completant-la-loi-01-19-relative-a-la-gestion-des-dechets.pdf"
+            },
+            {
+              "title": "Executive Decree 13-176",
+              "publisher": "CNTPP (cntpp.dz)",
+              "href": "https://cntpp.dz/wp-content/uploads/2023/11/Decret-executif-n-%C2%B013-176.pdf"
+            },
+            {
+              "title": "Waste and recycling",
+              "publisher": "Ministry of the Environment (me.gov.dz)",
+              "href": "https://www.me.gov.dz/fr/dechets-et-recyclage/"
+            },
+            {
+              "title": "Environmental taxes",
+              "publisher": "ONEDD (onedd.org)",
+              "href": "https://onedd.org/taxes-ecologiques/"
+            }
+          ],
+          "note": "This overview is an explanatory summary, not legal advice. Have your situation reviewed by a qualified adviser."
+        }
+      ]
+    },
+    "contribution": {
+      "metaTitle": "Eco-contribution and environmental taxation — EL MAIN LIL SINAA",
+      "metaDescription": "Understanding Algerian environmental taxes on oils, lubricants and special industrial waste, and the obligations that follow.",
+      "title": "Eco-contribution & environmental taxation",
+      "intro": "In Algeria the **polluter-pays** principle translates into a set of environmental taxes voted each year in the Finance Act. Here is the practical reading for a business.",
+      "sections": [
+        {
+          "type": "norms",
+          "eyebrow": "What you pay",
+          "title": "The main environmental taxes",
+          "items": [
+            {
+              "tag": "Oils",
+              "title": "Tax on oils, lubricants and lubricating preparations",
+              "text": "Applies to products whose use generates waste oil. The 2026 Finance Act forecasts DZD 7.5 billion in revenue, split 66 % to the State and 34 % to municipalities."
+            },
+            {
+              "tag": "Industry",
+              "title": "Tax on polluting or hazardous activities",
+              "text": "Payable by classified installations, according to their nature and capacity."
+            },
+            {
+              "tag": "Stockpiles",
+              "title": "Incentive tax on destocking special industrial waste",
+              "text": "Penalises prolonged on-site storage of special waste. 2026 forecast: DZD 550 million, 84 % to the State and 16 % to municipalities."
+            },
+            {
+              "tag": "Plastic",
+              "title": "Specific tax on plastic bags",
+              "text": "Applies to bags imported or produced locally."
+            },
+            {
+              "tag": "Air & water",
+              "title": "Supplementary taxes: air pollution and wastewater",
+              "text": "Based on industrial discharges exceeding regulatory limits."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "alt": true,
+          "eyebrow": "Method",
+          "title": "How we reduce your exposure",
+          "items": [
+            {
+              "title": "Baseline review",
+              "text": "An inventory of your streams: types, volumes, generation points, current storage."
+            },
+            {
+              "title": "Removal plan",
+              "text": "Collection frequency calibrated to avoid prolonged storage — and the tax that follows it."
+            },
+            {
+              "title": "Documentation",
+              "text": "Building the traceability file, one collection at a time."
+            },
+            {
+              "title": "Annual statement",
+              "text": "A summary of volumes and destinations, usable for filings and inspections alike."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Estimate your position",
+          "text": "Send us your annual volumes: you get back a collection plan and a cost estimate.",
+          "actions": [
+            {
+              "label": "Request an estimate",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "Read the regulation",
+              "href": "/en/rules/"
+            }
+          ]
+        }
+      ]
+    },
+    "companies": {
+      "metaTitle": "Business services — EL MAIN LIL SINAA",
+      "metaDescription": "Waste oil collection for garages, industry, hotels, restaurants, food processing and transport fleets across Algeria.",
+      "title": "Businesses",
+      "intro": "A service built for those who produce waste oil without making a business of it: **you produce, we remove, you keep the proof.**",
+      "sections": [
+        {
+          "type": "cards",
+          "eyebrow": "Sectors",
+          "title": "Who calls us",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "collect",
+              "title": "Garages & service stations",
+              "text": "Drain oil, filters and contaminated packaging: regular collection and suitable containers."
+            },
+            {
+              "icon": "factory",
+              "title": "Industry & manufacturing",
+              "text": "Hydraulic, cutting and quenching oils, with volumes tracked per workshop."
+            },
+            {
+              "icon": "drop",
+              "title": "Hotels & restaurants",
+              "text": "Used frying oil: containers supplied, rotation matched to your activity."
+            },
+            {
+              "icon": "recycle",
+              "title": "Food processing",
+              "text": "High, regular volumes with hygiene and material separation constraints."
+            },
+            {
+              "icon": "map",
+              "title": "Transport & fleets",
+              "text": "Maintenance workshops, depots and life bases, including remote sites in the South."
+            },
+            {
+              "icon": "users",
+              "title": "Public bodies",
+              "text": "Municipalities, hospitals, schools and universities: public tenders and agreements."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "alt": true,
+          "eyebrow": "Process",
+          "title": "How a contract works",
+          "items": [
+            {
+              "title": "Site visit and diagnosis",
+              "text": "We measure real volumes and map collection points on site."
+            },
+            {
+              "title": "Written proposal",
+              "text": "Frequency, containers, price and lead-time commitments, with no hidden clauses."
+            },
+            {
+              "title": "Set-up",
+              "text": "Sealed bins and drums delivered and labelled, with a short briefing for your team."
+            },
+            {
+              "title": "Scheduled collections",
+              "text": "Fixed dates or on call, with weighing and a transfer note every time."
+            },
+            {
+              "title": "Compliance file",
+              "text": "Your documents are archived and handed over as an annual summary."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "title": "Your obligations, in plain terms",
+          "body": [
+            "Whoever produces waste remains responsible for it until final disposal or recovery. In practice: know what you generate, store it properly, hand it to a licensed operator, and be able to prove it.",
+            "That is exactly what we document for you, collection after collection."
+          ],
+          "panel": {
+            "title": "Producer checklist",
+            "items": [
+              "Identify and classify your waste",
+              "Store on bunded areas, sheltered and unmixed",
+              "Never mix mineral and cooking oils",
+              "Contract with a licensed collector",
+              "Keep every transfer note",
+              "Maintain an up-to-date outgoing register"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Book a site visit",
+          "text": "Free and without obligation, anywhere our network operates.",
+          "actions": [
+            {
+              "label": "Write to us",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "Join",
+              "href": "/en/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    "associations": {
+      "metaTitle": "Partners and institutions — EL MAIN LIL SINAA",
+      "metaDescription": "Our institutional and professional counterparts in Algeria: ministry, AND, CNTPP, ONEDD, wilayas, chambers of commerce and associations.",
+      "title": "Partners & institutions",
+      "intro": "No collection chain is built alone. We work with the authorities, technical bodies and professional organisations that shape the sector in Algeria.",
+      "sections": [
+        {
+          "type": "cards",
+          "eyebrow": "Ecosystem",
+          "title": "Who we work with",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Environmental authorities",
+              "text": "The environment ministry and wilaya environment directorates: permits and oversight."
+            },
+            {
+              "icon": "recycle",
+              "title": "National Waste Agency",
+              "text": "Flow data, good practice and support in structuring collection chains."
+            },
+            {
+              "icon": "factory",
+              "title": "CNTPP",
+              "text": "Guiding manufacturers towards cleaner, less waste-intensive processes."
+            },
+            {
+              "icon": "users",
+              "title": "Trade associations",
+              "text": "Restaurateurs, hoteliers, mechanics and hauliers: essential relays on the ground."
+            },
+            {
+              "icon": "map",
+              "title": "Municipalities",
+              "text": "Drop-off points, neighbourhood campaigns and clean-up operations."
+            },
+            {
+              "icon": "chart",
+              "title": "Research & startups",
+              "text": "Labs and young companies working on biodiesel and oil regeneration."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "alt": true,
+          "title": "What we bring to a partnership",
+          "body": [
+            "A field operator, reliable collection data, and the ability to mobilise businesses across a defined territory.",
+            "We gladly take part in awareness drives, environment days and school programmes: that is where tomorrow's collection is won."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Propose a partnership",
+          "text": "Institution, association or company: write to us describing your project.",
+          "actions": [
+            {
+              "label": "Contact us",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "See the campaign",
+              "href": "/en/campaign/"
+            }
+          ]
+        }
+      ]
+    },
+    "campaign": {
+      "metaTitle": "Environmental awareness campaign — EL MAIN LIL SINAA",
+      "metaDescription": "Slogans and an environmental communication plan aimed at the Algerian public, in Modern Standard Arabic and Algerian darija.",
+      "title": "Campaign & slogans",
+      "intro": "Talking about the environment to the Algerian public takes plain words in **everyday language**. Here is our message kit, in Standard Arabic and darija, ready for radio, billboards and social media.",
+      "sections": [
+        {
+          "type": "slogans",
+          "eyebrow": "Messages",
+          "title": "Our slogans",
+          "lead": "Each slogan is written for a specific medium and a specific audience.",
+          "items": [
+            {
+              "ar": "زيتك المستعمل ثروة… لا ترميه",
+              "local": "Your waste oil is wealth — don't throw it away.",
+              "note": "Lead message · billboards and radio"
+            },
+            {
+              "ar": "لتر واحد من الزيت يلوّث ملايين اللترات من الماء",
+              "local": "One litre of oil pollutes millions of litres of water.",
+              "note": "Educational message · schools and social media"
+            },
+            {
+              "ar": "ما ترميش… سلّمهالنا",
+              "local": "Don't dump it — hand it to us.",
+              "note": "Darija · service stations and garages"
+            },
+            {
+              "ar": "من المطبخ إلى الطاقة",
+              "local": "From the kitchen to energy.",
+              "note": "Cooking oil · restaurants and hotels"
+            },
+            {
+              "ar": "الجزائر نظيفة… مسؤولية الجميع",
+              "local": "A clean Algeria is everyone's responsibility.",
+              "note": "Civic message · municipal campaigns"
+            },
+            {
+              "ar": "نجمعو، نرسكلو، نحافظو",
+              "local": "We collect, we recycle, we protect.",
+              "note": "Darija · radio spots and short video"
+            },
+            {
+              "ar": "بيئة نظيفة، صناعة مسؤولة",
+              "local": "Clean environment, responsible industry.",
+              "note": "B2B message · trade fairs and trade press"
+            },
+            {
+              "ar": "كل قطرة تُجمع… مستقبل يُصان",
+              "local": "Every drop collected protects a future.",
+              "note": "Campaign close · large-format billboards"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "alt": true,
+          "eyebrow": "Channels",
+          "title": "Where we carry these messages",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "users",
+              "title": "Local radio",
+              "text": "20-second spots in Arabic and darija on wilaya stations."
+            },
+            {
+              "icon": "map",
+              "title": "Urban billboards",
+              "text": "Panels at city entrances, markets, service stations and industrial zones."
+            },
+            {
+              "icon": "chart",
+              "title": "Social media",
+              "text": "Short vertical demo videos: the right move in ten seconds."
+            },
+            {
+              "icon": "doc",
+              "title": "Schools & universities",
+              "text": "Workshops and posters, with a practical section on household frying oil."
+            },
+            {
+              "icon": "collect",
+              "title": "Collection points",
+              "text": "Shared signage on containers, so the right move looks the same everywhere."
+            },
+            {
+              "icon": "shield",
+              "title": "Municipal partnerships",
+              "text": "Clean-up days with municipalities and neighbourhood associations."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "eyebrow": "Plan",
+          "title": "The campaign in four phases",
+          "items": [
+            {
+              "title": "Understand",
+              "text": "The problem in one number: dumped oil contaminates water and blocks drains."
+            },
+            {
+              "title": "Show",
+              "text": "The right move, filmed in a kitchen and in a garage — not in a studio."
+            },
+            {
+              "title": "Make it easy",
+              "text": "Point to the nearest collection point, wilaya by wilaya."
+            },
+            {
+              "title": "Report back",
+              "text": "Publish the volumes collected: proof that the effort counts."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Run the campaign locally",
+          "text": "Municipalities, schools, companies: we provide the artwork and messages, adapted to your area.",
+          "actions": [
+            {
+              "label": "Request the kit",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "Become a partner",
+              "href": "/en/partners/"
+            }
+          ]
+        }
+      ]
+    },
+    "membership": {
+      "metaTitle": "Membership — EL MAIN LIL SINAA",
+      "metaDescription": "Joining the EL MAIN LIL SINAA network: conditions, steps and documents required for Algerian businesses.",
+      "title": "Membership",
+      "intro": "Joining means handing your waste oil streams to a single operator and receiving, in return, the documentation that proves your compliance.",
+      "sections": [
+        {
+          "type": "steps",
+          "eyebrow": "Procedure",
+          "title": "Four steps",
+          "items": [
+            {
+              "title": "Request",
+              "text": "Online form or a phone call: activity, wilaya, estimated volumes."
+            },
+            {
+              "title": "Diagnosis",
+              "text": "A site visit within a few working days, then a written proposal."
+            },
+            {
+              "title": "Contract",
+              "text": "Signature, delivery of containers and a collection schedule."
+            },
+            {
+              "title": "Follow-up",
+              "text": "A transfer note at every visit and an annual statement of recovered volumes."
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "alt": true,
+          "title": "What membership includes",
+          "body": [
+            "A complete service with no hidden costs: containers remain our property and we maintain them.",
+            "For large producers, the contract can include payment for the oil collected, depending on volumes and stream quality."
+          ],
+          "panel": {
+            "title": "Documents to prepare",
+            "items": [
+              "Trade register extract",
+              "Tax identification number (NIF)",
+              "Contact details of the HSE manager or director",
+              "Estimated monthly volumes",
+              "Exact address of collection points"
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "title": "Start your membership",
+          "text": "Fill in the contact form: we reply within 48 working hours.",
+          "actions": [
+            {
+              "label": "Contact form",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "Frequently asked questions",
+              "href": "/en/faq/"
+            }
+          ]
+        }
+      ]
+    },
+    "contacts": {
+      "metaTitle": "Contact — EL MAIN LIL SINAA",
+      "metaDescription": "Contact EL MAIN LIL SINAA: address, phone, e-mail and collection request form for the whole of Algeria.",
+      "title": "Contact",
+      "intro": "A question, a quote, a collection to schedule: write to us with your **wilaya** and **estimated volumes** and the answer comes faster.",
+      "sections": [
+        {
+          "type": "contacts",
+          "labels": {
+            "office": "Head office",
+            "phone": "Phone",
+            "email": "E-mail",
+            "hours": "Opening hours",
+            "pec": "Sales desk"
+          }
+        },
+        {
+          "type": "form",
+          "alt": true,
+          "title": "Request form",
+          "fields": {
+            "name": "Company or name",
+            "email": "E-mail",
+            "subject": "Subject",
+            "subjects": [
+              "Collection request",
+              "Membership",
+              "Eco-contribution and compliance",
+              "Partnership or campaign",
+              "Other"
+            ],
+            "message": "Your message (wilaya, activity, volumes)",
+            "submit": "Send",
+            "note": "This form is a mock-up: connect it to your sending service (Vercel Forms, Formspree, internal API) before going live."
+          }
+        }
+      ]
+    },
+    "faq": {
+      "metaTitle": "Frequently asked questions — EL MAIN LIL SINAA",
+      "metaDescription": "Answers to common questions about waste oil collection, regulatory compliance and costs in Algeria.",
+      "title": "Frequently asked questions",
+      "intro": "The questions we get most often, on the phone and on site.",
+      "sections": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Can I pour waste oil down the drain or burn it?",
+              "a": "No. Unauthorised discharge and burning are prohibited and carry penalties, strengthened by Law 25-02. Oil must be handed to a licensed operator."
+            },
+            {
+              "q": "Is the service paid?",
+              "a": "It depends on the stream. Cooking oil in regular volumes can be bought back; small volumes and associated waste involve a charged service. The quote is always in writing."
+            },
+            {
+              "q": "What is the minimum volume for a collection?",
+              "a": "We run shared rounds: even a small producer can be added to an existing route."
+            },
+            {
+              "q": "What documents will I receive?",
+              "a": "A transfer note at every visit stating type, quantity and destination, plus an annual summary."
+            },
+            {
+              "q": "Do you operate in the South?",
+              "a": "Yes, in industrial and oil zones, at a frequency adapted to the distances. Contact us for your area's schedule."
+            },
+            {
+              "q": "Can engine oil and frying oil be mixed?",
+              "a": "Never. Mixing makes the stream unrecoverable and can downgrade everything to hazardous waste. Always two separate containers."
+            },
+            {
+              "q": "What happens to the oil collected?",
+              "a": "It goes to recovery: re-refining, energy recovery or biodiesel production, depending on quality and available outlets."
+            },
+            {
+              "q": "Do you supply the containers?",
+              "a": "Yes: sealed bins and drums, labelled, delivered and maintained by us."
+            },
+            {
+              "q": "What happens during an inspection?",
+              "a": "You present your transfer notes and register. That is precisely what our traceability file is built to cover."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Question not answered here?",
+          "text": "Write to us: we reply within 48 working hours.",
+          "actions": [
+            {
+              "label": "Ask a question",
+              "href": "/en/contacts/"
+            },
+            {
+              "label": "See the regulation",
+              "href": "/en/rules/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

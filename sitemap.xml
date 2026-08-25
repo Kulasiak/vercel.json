@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/about/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/about/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/rules/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/rules/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/rules/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/rules/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/rules/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/rules/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/environmental-contribution/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/environmental-contribution/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/companies/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/companies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/companies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/companies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/companies/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/companies/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/partners/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/partners/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/partners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/partners/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/partners/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/partners/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/campaign/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/campaign/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/membership/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/membership/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/membership/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/membership/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/membership/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/membership/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/contacts/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/contacts/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/it/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/faq/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/about/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/rules/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/rules/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/rules/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/rules/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/rules/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/rules/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/environmental-contribution/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/environmental-contribution/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/companies/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/companies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/companies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/companies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/companies/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/companies/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/partners/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/partners/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/partners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/partners/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/partners/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/partners/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/campaign/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/campaign/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/membership/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/membership/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/membership/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/membership/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/membership/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/membership/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/contacts/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/contacts/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/en/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/faq/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/about/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/about/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/rules/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/rules/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/rules/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/rules/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/rules/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/rules/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/environmental-contribution/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/environmental-contribution/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/companies/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/companies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/companies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/companies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/companies/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/companies/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/partners/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/partners/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/partners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/partners/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/partners/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/partners/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/campaign/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/campaign/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/membership/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/membership/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/membership/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/membership/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/membership/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/membership/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/contacts/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/contacts/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/fr/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/faq/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/about/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/about/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/rules/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/rules/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/rules/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/rules/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/rules/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/rules/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/environmental-contribution/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/environmental-contribution/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/companies/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/companies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/companies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/companies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/companies/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/companies/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/partners/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/partners/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/partners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/partners/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/partners/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/partners/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/campaign/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/campaign/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/membership/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/membership/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/membership/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/membership/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/membership/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/membership/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/contacts/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/contacts/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/de/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/faq/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/about/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/about/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/rules/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/rules/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/rules/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/rules/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/rules/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/rules/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/environmental-contribution/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/environmental-contribution/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/environmental-contribution/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/companies/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/companies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/companies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/companies/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/companies/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/companies/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/partners/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/partners/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/partners/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/partners/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/partners/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/partners/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/campaign/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/campaign/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/campaign/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/membership/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/membership/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/membership/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/membership/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/membership/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/membership/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/contacts/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/contacts/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elmain-lil-sinaa.vercel.app/ar/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://elmain-lil-sinaa.vercel.app/it/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elmain-lil-sinaa.vercel.app/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elmain-lil-sinaa.vercel.app/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elmain-lil-sinaa.vercel.app/de/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://elmain-lil-sinaa.vercel.app/ar/faq/"/>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
