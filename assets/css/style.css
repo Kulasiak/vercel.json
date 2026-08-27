@@ -525,6 +525,23 @@ address { font-style: normal; }
 .menu-cat-icon { display: grid; place-items: center; width: 52px; height: 52px; flex: none; border-radius: 16px; background: var(--capri-soft); color: var(--sea); }
 .menu-cat-icon svg { width: 26px; height: 26px; }
 .menu-cat.is-hidden { display: none; }
+
+/* Foto in testa a una categoria del menu. */
+.menu-cat-photo {
+  margin: 0 0 1.4rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  background: var(--paper-2);
+}
+.menu-cat-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+@media (max-width: 560px) { .menu-cat-photo img { aspect-ratio: 4 / 3; } }
 .dish.is-hidden { display: none; }
 
 .menu-empty { padding: 3rem 0; text-align: center; color: var(--ink-faint); font-size: 1.1rem; }

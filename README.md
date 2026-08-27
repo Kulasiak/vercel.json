@@ -105,6 +105,16 @@ in `public/` e la distribuzione fallisce.
 Il prezzo si aggiorna in tutte e nove le lingue insieme, e il QR sui tavoli continua a funzionare:
 non c'è nessun menu di carta da ristampare.
 
+**Aggiungere una foto a una categoria del menu** → metti l'immagine in
+`src/assets/img/` e aggiungi il campo `photo` alla categoria in `src/menu.json`:
+
+```json
+{ "id": "pizza", "icon": "pizza", "photo": "pizza.jpg", "items": [ … ] }
+```
+
+La foto compare in testa alla categoria, si carica solo quando serve e si adatta
+da sola allo schermo. Formato consigliato: 1600 px di larghezza, orizzontale.
+
 **Cambiare orari, telefono, indirizzo, social** → `src/site.config.json`.
 
 **Cambiare un testo** → `src/i18n/<lingua>.json`.

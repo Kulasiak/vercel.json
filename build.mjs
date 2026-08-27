@@ -278,7 +278,10 @@ function menuFullBlock(ctx) {
           </nav>
           <p class="menu-empty" data-menu-empty hidden>${esc(t.ui.noResults)}</p>
           ${menu.categories.map((c) => `
-          <div class="menu-cat" id="cat-${esc(c.id)}" data-cat="${esc(c.id)}">
+          <div class="menu-cat" id="cat-${esc(c.id)}" data-cat="${esc(c.id)}">${c.photo ? `
+            <figure class="menu-cat-photo reveal">
+              <img src="/assets/img/${esc(c.photo)}" alt="${esc(t.categories[c.id].name)}" loading="lazy" decoding="async" width="1600" height="900">
+            </figure>` : ""}
             <div class="menu-cat-head reveal">
               <span class="menu-cat-icon">${icon(c.icon)}</span>
               <div>
