@@ -115,6 +115,18 @@ non c'è nessun menu di carta da ristampare.
 La foto compare in testa alla categoria, si carica solo quando serve e si adatta
 da sola allo schermo. Formato consigliato: 1600 px di larghezza, orizzontale.
 
+Se parti dalla foto originale del telefono, fai tutto con un comando solo — ci
+pensa lui a ruotarla, ridimensionarla, comprimerla e a scrivere il campo `photo`:
+
+```
+python3 tools/add-menu-photo.py ~/Download/bistecca.jpg carne
+node build.mjs
+```
+
+Le categorie disponibili sono `colazione`, `antipasti`, `pasta`, `pizza`,
+`carne`, `pesce`, `vegano`, `vegetariano`, `senza-glutine`, `dolci`, `bevande`.
+Lo script richiede Pillow (`pip install Pillow`).
+
 **Cambiare orari, telefono, indirizzo, social** → `src/site.config.json`.
 
 **Cambiare un testo** → `src/i18n/<lingua>.json`.
