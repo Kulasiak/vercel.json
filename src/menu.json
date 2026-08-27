@@ -1,0 +1,138 @@
+{
+  "_nota": "Nomi dei piatti in italiano (restano uguali in tutte le lingue: cosi il cliente ordina e il cameriere capisce). Le descrizioni tradotte stanno in src/i18n/<lingua>.json alla voce dishes. Prezzi in euro.",
+  "currency": "EUR",
+  "tags": {
+    "vg": { "icon": "leaf",  "color": "green"  },
+    "v":  { "icon": "sprout","color": "olive"  },
+    "gf": { "icon": "wheat", "color": "amber"  },
+    "sp": { "icon": "flame", "color": "red"    },
+    "chef": { "icon": "star","color": "gold"   }
+  },
+  "categories": [
+    {
+      "id": "colazione", "icon": "coffee",
+      "items": [
+        { "id": "caffe",       "name": "Caffè espresso",            "price": 1.20, "tags": ["vg", "gf"] },
+        { "id": "cappuccino",  "name": "Cappuccino",                "price": 1.50, "tags": ["v", "gf"] },
+        { "id": "cornetto",    "name": "Cornetto",                  "price": 1.50, "tags": ["v"] },
+        { "id": "spremuta",    "name": "Spremuta d'arancia",        "price": 4.00, "tags": ["vg", "gf"] },
+        { "id": "toast",       "name": "Toast prosciutto e formaggio", "price": 4.00, "tags": [] },
+        { "id": "aperitivo",   "name": "Aperitivo con buffet",      "price": 8.00, "tags": ["chef"] }
+      ]
+    },
+    {
+      "id": "antipasti", "icon": "plate",
+      "items": [
+        { "id": "bruschetta",  "name": "Bruschetta al pomodoro",    "price": 5.00, "tags": ["vg"] },
+        { "id": "suppli",      "name": "Supplì al telefono",        "price": 3.50, "tags": ["chef"] },
+        { "id": "fiori-zucca", "name": "Fiori di zucca fritti",     "price": 6.50, "tags": ["v"] },
+        { "id": "tagliere",    "name": "Tagliere di salumi e formaggi", "price": 14.00, "tags": [] },
+        { "id": "burrata",     "name": "Burrata con pomodorini",    "price": 9.50, "tags": ["v", "gf"] },
+        { "id": "carciofo",    "name": "Carciofo alla romana",      "price": 7.00, "tags": ["vg", "gf"] }
+      ]
+    },
+    {
+      "id": "pasta", "icon": "pasta",
+      "items": [
+        { "id": "carbonara",   "name": "Spaghetti alla Carbonara",  "price": 12.00, "tags": ["chef"] },
+        { "id": "amatriciana", "name": "Bucatini all'Amatriciana",  "price": 12.00, "tags": ["sp"] },
+        { "id": "cacio-pepe",  "name": "Tonnarelli Cacio e Pepe",   "price": 11.50, "tags": ["v"] },
+        { "id": "gricia",      "name": "Rigatoni alla Gricia",      "price": 12.00, "tags": [] },
+        { "id": "arrabbiata",  "name": "Penne all'Arrabbiata",      "price": 9.50,  "tags": ["vg", "sp"] },
+        { "id": "lasagna",     "name": "Lasagna al forno",          "price": 12.50, "tags": [] },
+        { "id": "ravioli",     "name": "Ravioli ricotta e spinaci", "price": 12.00, "tags": ["v"] },
+        { "id": "gnocchi",     "name": "Gnocchi alla sorrentina",   "price": 11.00, "tags": ["v"] },
+        { "id": "vongole",     "name": "Spaghetti alle vongole",    "price": 15.00, "tags": [] },
+        { "id": "risotto",     "name": "Risotto ai funghi porcini", "price": 14.00, "tags": ["v", "gf"] }
+      ]
+    },
+    {
+      "id": "pizza", "icon": "pizza",
+      "items": [
+        { "id": "marinara",    "name": "Marinara",                  "price": 6.00,  "tags": ["vg"] },
+        { "id": "margherita",  "name": "Margherita",                "price": 7.00,  "tags": ["v"] },
+        { "id": "napoli",      "name": "Napoli",                    "price": 9.00,  "tags": [] },
+        { "id": "diavola",     "name": "Diavola",                   "price": 9.50,  "tags": ["sp"] },
+        { "id": "quattro-formaggi", "name": "Quattro Formaggi",     "price": 10.50, "tags": ["v"] },
+        { "id": "ortolana",    "name": "Ortolana",                  "price": 10.00, "tags": ["vg"] },
+        { "id": "capricciosa", "name": "Capricciosa",               "price": 11.00, "tags": [] },
+        { "id": "bufala",      "name": "Bufala e pomodorini",       "price": 11.00, "tags": ["v"] },
+        { "id": "calzone",     "name": "Calzone farcito",           "price": 11.00, "tags": [] },
+        { "id": "pizza-capri", "name": "Pizza Capri",               "price": 12.50, "tags": ["chef"] },
+        { "id": "frutti-mare", "name": "Pizza ai frutti di mare",   "price": 14.00, "tags": [] }
+      ]
+    },
+    {
+      "id": "carne", "icon": "meat",
+      "items": [
+        { "id": "saltimbocca", "name": "Saltimbocca alla romana",   "price": 16.00, "tags": ["chef"] },
+        { "id": "tagliata",    "name": "Tagliata di manzo e rucola","price": 19.00, "tags": ["gf"] },
+        { "id": "scaloppine",  "name": "Scaloppine al limone",      "price": 14.50, "tags": [] },
+        { "id": "pollo",       "name": "Pollo arrosto con patate",  "price": 13.50, "tags": ["gf"] },
+        { "id": "abbacchio",   "name": "Abbacchio scottadito",      "price": 18.00, "tags": ["gf"] },
+        { "id": "costine",     "name": "Costine di maiale al forno","price": 16.00, "tags": ["gf"] }
+      ]
+    },
+    {
+      "id": "pesce", "icon": "fish",
+      "items": [
+        { "id": "orata",       "name": "Orata alla griglia",        "price": 18.00, "tags": ["gf"] },
+        { "id": "frittura",    "name": "Frittura di calamari e gamberi", "price": 16.00, "tags": [] },
+        { "id": "salmone",     "name": "Filetto di salmone al forno","price": 17.00, "tags": ["gf"] },
+        { "id": "cozze",       "name": "Impepata di cozze",         "price": 12.00, "tags": ["gf", "sp"] },
+        { "id": "polpo",       "name": "Polpo e patate",            "price": 16.50, "tags": ["gf"] },
+        { "id": "spigola",     "name": "Spigola all'acqua pazza",   "price": 19.00, "tags": ["gf", "chef"] }
+      ]
+    },
+    {
+      "id": "vegano", "icon": "leaf",
+      "items": [
+        { "id": "pizza-vegana","name": "Pizza vegana",              "price": 10.00, "tags": ["vg"] },
+        { "id": "pomodoro-basilico", "name": "Pasta pomodoro e basilico", "price": 9.00, "tags": ["vg"] },
+        { "id": "vellutata",   "name": "Vellutata di stagione",     "price": 8.00,  "tags": ["vg", "gf"] },
+        { "id": "caponata",    "name": "Caponata di verdure",       "price": 9.50,  "tags": ["vg", "gf"] },
+        { "id": "insalatona-vegana", "name": "Insalatona vegana",   "price": 10.00, "tags": ["vg", "gf"] }
+      ]
+    },
+    {
+      "id": "vegetariano", "icon": "sprout",
+      "items": [
+        { "id": "parmigiana",  "name": "Parmigiana di melanzane",   "price": 11.00, "tags": ["v"] },
+        { "id": "caprese",     "name": "Insalata Caprese",          "price": 9.50,  "tags": ["v", "gf"] },
+        { "id": "verdure-griglia", "name": "Verdure grigliate miste","price": 8.50, "tags": ["vg", "gf"] },
+        { "id": "frittata",    "name": "Frittata di verdure",       "price": 9.00,  "tags": ["v", "gf"] },
+        { "id": "pizza-vegetariana", "name": "Pizza vegetariana",   "price": 10.00, "tags": ["v"] }
+      ]
+    },
+    {
+      "id": "senza-glutine", "icon": "wheat",
+      "items": [
+        { "id": "pizza-sg",    "name": "Pizza senza glutine",       "price": 10.50, "tags": ["gf"] },
+        { "id": "pasta-sg",    "name": "Pasta senza glutine",       "price": 12.50, "tags": ["gf"] },
+        { "id": "dolce-sg",    "name": "Dolce senza glutine",       "price": 6.00,  "tags": ["gf", "v"] },
+        { "id": "birra-sg",    "name": "Birra senza glutine",       "price": 5.00,  "tags": ["gf", "vg"] }
+      ]
+    },
+    {
+      "id": "dolci", "icon": "cake",
+      "items": [
+        { "id": "tiramisu",    "name": "Tiramisù",                  "price": 6.00, "tags": ["v", "chef"] },
+        { "id": "panna-cotta", "name": "Panna cotta",               "price": 5.50, "tags": ["v", "gf"] },
+        { "id": "cannolo",     "name": "Cannolo siciliano",         "price": 5.50, "tags": ["v"] },
+        { "id": "tartufo",     "name": "Tartufo nero",              "price": 6.00, "tags": ["v", "gf"] },
+        { "id": "macedonia",   "name": "Macedonia di frutta fresca","price": 5.00, "tags": ["vg", "gf"] }
+      ]
+    },
+    {
+      "id": "bevande", "icon": "glass",
+      "items": [
+        { "id": "acqua",       "name": "Acqua minerale 75 cl",      "price": 2.50,  "tags": ["vg", "gf"] },
+        { "id": "bibite",      "name": "Bibite in lattina",         "price": 3.00,  "tags": ["vg", "gf"] },
+        { "id": "birra-media", "name": "Birra alla spina media",    "price": 5.00,  "tags": ["vg"] },
+        { "id": "vino-calice", "name": "Vino della casa al calice", "price": 4.50,  "tags": ["vg", "gf"] },
+        { "id": "vino-bottiglia", "name": "Vino della casa 75 cl",  "price": 14.00, "tags": ["vg", "gf"] },
+        { "id": "amaro",       "name": "Amaro / Digestivo",         "price": 4.00,  "tags": ["vg", "gf"] }
+      ]
+    }
+  ]
+}

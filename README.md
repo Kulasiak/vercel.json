@@ -1,11 +1,35 @@
-# EL MAIN LIL SINAA — sito multilingue (المعين للصناعة)
+# BAR CAPRI — sito multilingue
 
-Sito statico per il mercato **algerino**: raccolta, tracciabilità e valorizzazione degli
-oli usati (lubrificanti e alimentari) per le imprese, più una sezione di **campagna di
-comunicazione ambientale** rivolta al pubblico algerino.
+Sito del **Bar Capri**, ristorante e pizzeria in **Via Principe Amedeo 78/80, 00185 Roma**.
+Telefono **351 265 0441** · WhatsApp **388 632 9575**.
 
-**5 lingue · 10 pagine ciascuna · 50 pagine HTML** generate staticamente:
-عربية (RTL), Français, English, Italiano, Deutsch.
+**9 lingue · 11 pagine ciascuna · 101 pagine HTML** generate staticamente:
+Italiano, English, Français, Español, Português, العربية (da destra a sinistra), Русский, Polski, Ελληνικά.
+
+Niente framework, niente database, nessuna dipendenza da installare: sono file HTML già pronti.
+Si aprono all'istante anche con la connessione lenta del telefono di un cliente al tavolo.
+
+---
+
+## I due codici QR
+
+Sono la parte pratica del sito. Entrambi **riconoscono da soli la lingua del telefono**
+e aprono la pagina giusta fra le nove disponibili.
+
+| Codice | Dove porta | A cosa serve |
+|---|---|---|
+| **QR menu** (`/assets/qr/menu.svg`) | `/menu/` | Sui tavoli, in vetrina, sui volantini |
+| **QR sito** (`/assets/qr/sito.svg`) | `/` | Biglietti da visita, insegna, social |
+
+La pagina **`/it/qr/`** li mostra entrambi, con il pulsante per scaricarli o stamparli
+e un **segnaposto da tavolo** già impaginato, pronto da stampare e piegare.
+
+Sono immagini vettoriali: restano nitide a qualsiasi dimensione, da un adesivo a un poster.
+Dimensione minima consigliata per la stampa: **3 cm di lato**.
+
+> I codici sono generati durante il build da `src/qr.mjs`, un encoder QR scritto da zero
+> (correzione d'errore Reed-Solomon, livello H). La correttezza è verificata rileggendo
+> gli SVG pubblicati con un lettore QR reale.
 
 ---
 
@@ -13,80 +37,87 @@ comunicazione ambientale** rivolta al pubblico algerino.
 
 ```
 build.mjs              generatore statico (Node, zero dipendenze)
-src/site.config.json   dati globali: dominio, nome azienda, recapiti
-src/i18n/<lang>.json   tutti i testi, una lingua per file
-src/assets/            CSS, JS e favicon sorgente
-vercel.json            configurazione deploy (trailing slash, header, cache)
+src/site.config.json   dati dell'attività: indirizzo, telefono, orari, social
+src/menu.json          i 70 piatti: nome, prezzo, etichette
+src/i18n/<lingua>.json tutti i testi tradotti, una lingua per file
+src/qr.mjs             generatore dei codici QR
+src/assets/            CSS, JavaScript, favicon, immagine social
 
-# output generato — da non modificare a mano:
-index.html             pagina di scelta lingua
-ar/ fr/ en/ it/ de/    una cartella per lingua
-assets/                copia di src/assets
+# generato automaticamente — da non modificare a mano:
+index.html             pagina di scelta lingua (destinazione del QR sito)
+menu/index.html        scelta lingua del menu (destinazione del QR menu)
+it/ en/ fr/ es/ pt/ ar/ ru/ pl/ el/
+assets/                copia di src/assets, più assets/qr/
 sitemap.xml robots.txt
 ```
+
+Ogni lingua ha: **Home · Menu · Chi siamo · Blog (4 articoli) · Domande frequenti · Contatti · Codici QR**.
 
 ## Comandi
 
 ```bash
 node build.mjs      # rigenera tutte le pagine
 npm run build       # equivalente
-npm run serve       # build + server locale su http://localhost:3000
+npm run serve       # build + anteprima su http://localhost:3000
 ```
 
-Su Vercel non serve alcun build step: l'HTML è già committato nel repository.
-Se preferisci generarlo in fase di deploy, imposta *Build Command* = `node build.mjs`
-e *Output Directory* = `.`.
+Su Vercel non serve alcun passaggio di build: l'HTML è già nel repository.
+Se preferisci generarlo al momento del deploy: *Build Command* = `node build.mjs`, *Output Directory* = `.`.
+
+---
 
 ## Modificare i contenuti
 
-Tutti i testi stanno in `src/i18n/<lingua>.json`. Ogni pagina è una lista di sezioni;
-il tipo di sezione decide il layout:
+**Cambiare un prezzo o un piatto** → `src/menu.json`, poi `node build.mjs`.
+Il prezzo si aggiorna in tutte e nove le lingue insieme, e il QR sui tavoli continua a funzionare:
+non c'è nessun menu di carta da ristampare.
 
-| tipo | resa |
-|---|---|
-| `stats` | fascia di numeri chiave |
-| `cards` | griglia di schede con icona |
-| `text` | titolo + paragrafi |
-| `split` | testo + riquadro laterale |
-| `steps` | elenco numerato |
-| `norms` | elenco di riferimenti normativi con etichetta |
-| `slogans` | slogan in arabo + traduzione + nota d'uso |
-| `regions` | griglia della copertura territoriale |
-| `faq` | accordion di domande e risposte |
-| `contacts` / `form` | recapiti e modulo |
-| `sources` | elenco di fonti esterne |
-| `cta` | banda di invito all'azione |
+**Cambiare orari, telefono, indirizzo, social** → `src/site.config.json`.
 
-Nel testo è ammesso solo `**grassetto**`. Gli slug delle pagine sono identici in tutte
-le lingue (`/ar/rules/`, `/fr/rules/`, …), così il cambio lingua resta sulla stessa
-pagina e gli `hreflang` combaciano.
+**Cambiare un testo** → `src/i18n/<lingua>.json`.
 
-Per aggiungere una lingua: crea `src/i18n/<code>.json` e aggiungi una riga in `LANGS`
-dentro `build.mjs` (`dir: "rtl"` se necessario). Il build fallisce se una lingua ha
-pagine o voci di menu mancanti.
+Il build **si ferma con un errore** se in una lingua manca anche un solo testo o la descrizione di un
+piatto: non è possibile pubblicare per sbaglio una pagina tradotta a metà.
 
-## Da sostituire prima della pubblicazione
+### Da completare con i dati reali
 
-Il sito è completo ma i dati identificativi sono **segnaposto**:
+Tre valori sono impostati con un segnaposto ragionevole e vanno confermati in `src/site.config.json`:
 
-- `src/site.config.json` — dominio, indirizzo, telefono, e-mail (`@example.dz`), NIF e RC
-- logo: `src/assets/favicon.svg` e il simbolo inline in `build.mjs` (costante `logo`)
-- città elencate nella sezione "copertura territoriale" di ogni lingua
-- il modulo contatti è solo interfaccia: collegalo a Vercel Forms, Formspree o a un'API
-- verifica i riferimenti normativi sul **JORADP** prima di pubblicarli come informazione
-  ufficiale (in fondo alla pagina "Normativa" ci sono i link alle fonti usate)
+| Voce | Valore attuale | Nota |
+|---|---|---|
+| `social.facebook` / `social.instagram` | `.../barcapriroma` | Sostituire con gli indirizzi reali (`""` per nascondere il pulsante) |
+| `hours` | Bar 7:00–23:30 · Cucina 12:00–15:30 e 18:30–23:00 | Alimenta anche gli orari mostrati a Google |
+| `geo` | 41.8973, 12.5028 | Coordinate indicative della via. La mappa incorporata usa l'indirizzo, quindi il segnaposto è già corretto; queste servono solo ai dati strutturati e ai pulsanti Apple Maps/Waze |
+| `domain` | `https://www.barcapriroma.it` | Il dominio definitivo: compare in sitemap, link canonici **e nei due QR** |
 
-## Fonti dei dati citati
+Cambiando `domain` i codici QR vengono rigenerati automaticamente al build successivo.
 
-- Agence Nationale des Déchets — <https://and.dz/presentation/cadre-institutionnel-et-reglementaire/>
-- Legge 25-02 (JORADP n. 12/2025), testo integrale in PDF
-- Décret exécutif n° 13-176 — CNTPP
-- Ministère de l'Environnement — <https://www.me.gov.dz/fr/dechets-et-recyclage/>
-- Taxes écologiques — ONEDD — <https://onedd.org/taxes-ecologiques/>
+---
 
-## Accessibilità e resa
+## Come è fatto
 
-Skip link, landmark semantici, `aria-current`, menu mobile e selettore lingua
-accessibili da tastiera, contrasti verificati, supporto tema chiaro/scuro,
-`prefers-reduced-motion` e stile di stampa. L'arabo usa proprietà CSS logiche:
-lo stesso foglio di stile serve LTR e RTL senza duplicazioni.
+**Ricerca e visibilità.** Ogni pagina ha titolo e descrizione propri, link canonico, `hreflang`
+verso le altre otto lingue, anteprima social e dati strutturati `schema.org`: la scheda
+`Restaurant` con indirizzo, telefono e orari, il `Menu` completo con i prezzi e le diete,
+le `FAQPage`, gli articoli e i percorsi di navigazione. `sitemap.xml` elenca tutte e 100 le pagine.
+
+**Mappa.** Reale, di Google Maps, ma caricata **solo dopo un clic**: finché il visitatore non la
+apre, la pagina non contatta alcun servizio esterno. I pulsanti Google Maps, Apple Maps e Waze
+funzionano subito.
+
+**Sul telefono.** Barra fissa in basso con *Menu · Chiama · WhatsApp · Mappa*: le quattro cose
+che serve davvero fare da un telefono, sempre a portata di pollice.
+
+**Menu.** Ricerca per nome o ingrediente e filtri combinabili: vegano, vegetariano, senza glutine,
+piccante, specialità. Le etichette colorate sono su ogni piatto.
+
+**Aperto o chiuso.** Calcolato nel browser sull'ora di Roma, quindi corretto anche per chi guarda
+il sito da un altro fuso orario.
+
+**Tema chiaro e scuro**, automatico secondo le impostazioni del telefono e commutabile a mano.
+
+**Senza JavaScript** il sito resta interamente leggibile: menu, prezzi, orari e contatti compresi.
+
+---
+
+© Bar Capri — Via Principe Amedeo 78/80, 00185 Roma

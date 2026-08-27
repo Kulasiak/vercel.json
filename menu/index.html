@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Il nostro menu — BAR CAPRI</title>
+    <meta name="description" content="Il menu completo di Bar Capri a Roma: antipasti, pasta e primi romani, pizza, carne, pesce, piatti vegani, vegetariani e senza glutine. Prezzi aggiornati.">
+    <link rel="canonical" href="https://www.barcapriroma.it/menu/">
+    <link rel="alternate" hreflang="it" href="https://www.barcapriroma.it/it/menu/">
+    <link rel="alternate" hreflang="en" href="https://www.barcapriroma.it/en/menu/">
+    <link rel="alternate" hreflang="fr" href="https://www.barcapriroma.it/fr/menu/">
+    <link rel="alternate" hreflang="es" href="https://www.barcapriroma.it/es/menu/">
+    <link rel="alternate" hreflang="pt" href="https://www.barcapriroma.it/pt/menu/">
+    <link rel="alternate" hreflang="ar" href="https://www.barcapriroma.it/ar/menu/">
+    <link rel="alternate" hreflang="ru" href="https://www.barcapriroma.it/ru/menu/">
+    <link rel="alternate" hreflang="pl" href="https://www.barcapriroma.it/pl/menu/">
+    <link rel="alternate" hreflang="el" href="https://www.barcapriroma.it/el/menu/">
+    <link rel="alternate" hreflang="x-default" href="https://www.barcapriroma.it/menu/">
+    <meta name="theme-color" content="#0d2137">
+    <meta property="og:title" content="Il nostro menu — BAR CAPRI">
+    <meta property="og:description" content="Il menu completo di Bar Capri a Roma: antipasti, pasta e primi romani, pizza, carne, pesce, piatti vegani, vegetariani e senza glutine. Prezzi aggiornati.">
+    <meta property="og:image" content="https://www.barcapriroma.it/assets/og.png">
+    <meta property="og:url" content="https://www.barcapriroma.it/menu/">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script>
+    (function () {
+      var codes = ["it","en","fr","es","pt","ar","ru","pl","el"];
+      var target = "menu/";
+      try {
+        if (location.search.indexOf("scegli") > -1) return;
+        var saved = localStorage.getItem("capri-lang");
+        var wanted = saved && codes.indexOf(saved) > -1 ? saved : null;
+        if (!wanted) {
+          var prefs = navigator.languages || [navigator.language || ""];
+          for (var i = 0; i < prefs.length && !wanted; i++) {
+            var code = String(prefs[i]).slice(0, 2).toLowerCase();
+            if (codes.indexOf(code) > -1) wanted = code;
+          }
+        }
+        if (wanted) location.replace("/" + wanted + "/" + target);
+      } catch (e) {}
+    })();
+    </script>
+</head>
+<body class="gate-body">
+    <main class="gate">
+      <span class="gate-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" class="lm-disc"/><path d="M11 25c3.2 0 3.2-3 6.4-3s3.2 3 6.4 3 3.2-3 6.2-3" class="lm-wave"/><circle cx="20" cy="14" r="4.4" class="lm-sun"/></svg>
+      </span>
+      <h1>BAR CAPRI</h1>
+      <p class="gate-sub">Choose your language to read the menu</p>
+      <p class="gate-addr"><bdi dir="ltr">Via Principe Amedeo 78/80</bdi> · <bdi dir="ltr">00185</bdi> Roma</p>
+      <div class="gate-grid">
+      <a class="gate-lang" href="/it/menu/" lang="it" hreflang="it" dir="ltr">
+        <span class="gate-native">Italiano</span>
+        <span class="gate-label">Entra</span>
+      </a>
+      <a class="gate-lang" href="/en/menu/" lang="en" hreflang="en" dir="ltr">
+        <span class="gate-native">English</span>
+        <span class="gate-label">Enter</span>
+      </a>
+      <a class="gate-lang" href="/fr/menu/" lang="fr" hreflang="fr" dir="ltr">
+        <span class="gate-native">Français</span>
+        <span class="gate-label">Entrer</span>
+      </a>
+      <a class="gate-lang" href="/es/menu/" lang="es" hreflang="es" dir="ltr">
+        <span class="gate-native">Español</span>
+        <span class="gate-label">Entrar</span>
+      </a>
+      <a class="gate-lang" href="/pt/menu/" lang="pt" hreflang="pt" dir="ltr">
+        <span class="gate-native">Português</span>
+        <span class="gate-label">Entrar</span>
+      </a>
+      <a class="gate-lang" href="/ar/menu/" lang="ar" hreflang="ar" dir="rtl">
+        <span class="gate-native">العربية</span>
+        <span class="gate-label">ادخل</span>
+      </a>
+      <a class="gate-lang" href="/ru/menu/" lang="ru" hreflang="ru" dir="ltr">
+        <span class="gate-native">Русский</span>
+        <span class="gate-label">Войти</span>
+      </a>
+      <a class="gate-lang" href="/pl/menu/" lang="pl" hreflang="pl" dir="ltr">
+        <span class="gate-native">Polski</span>
+        <span class="gate-label">Wejdź</span>
+      </a>
+      <a class="gate-lang" href="/el/menu/" lang="el" hreflang="el" dir="ltr">
+        <span class="gate-native">Ελληνικά</span>
+        <span class="gate-label">Είσοδος</span>
+      </a>
+      </div>
+      <div class="gate-actions">
+        <a class="btn btn-primary" href="tel:+393512650441"><bdi dir="ltr">351 265 0441</bdi></a>
+        <a class="btn btn-ghost" href="https://wa.me/393886329575" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </main>
+</body>
+</html>
