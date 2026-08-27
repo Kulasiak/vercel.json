@@ -71,30 +71,6 @@ const attr = (name, value) => (value ? ` ${name}="${esc(value)}"` : "");
  */
 const ltr = (v) => `<bdi dir="ltr">${esc(v)}</bdi>`;
 
-/**
- * Marchio del locale: il sole sul mare dentro un disco, con l'anello colore
- * limone. Gli identificativi dei gradienti prendono un prefisso perche in una
- * pagina non possono ripetersi.
- */
-const logoMark = (p = "m") => `<svg viewBox="0 0 64 64" aria-hidden="true">
-  <defs>
-    <linearGradient id="${p}-cielo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0a2f52"/><stop offset="1" stop-color="#1d76a8"/>
-    </linearGradient>
-    <radialGradient id="${p}-sole" cx=".42" cy=".38" r=".72">
-      <stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#f5b71d"/>
-    </radialGradient>
-    <clipPath id="${p}-disco"><circle cx="32" cy="32" r="32"/></clipPath>
-  </defs>
-  <circle cx="32" cy="32" r="32" fill="url(#${p}-cielo)"/>
-  <g clip-path="url(#${p}-disco)">
-    <circle cx="32" cy="26" r="11.6" fill="url(#${p}-sole)"/>
-    <path d="M-4 44.5q4.6-4.6 9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0" fill="none" stroke="#7ee0f4" stroke-width="3.3" stroke-linecap="round"/>
-    <path d="M-8.5 52.5q4.6-4.6 9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0" fill="none" stroke="#7ee0f4" stroke-width="2.9" stroke-linecap="round" opacity=".55"/>
-    <path d="M-4 60q4.6-4.6 9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0" fill="none" stroke="#7ee0f4" stroke-width="2.5" stroke-linecap="round" opacity=".28"/>
-  </g>
-  <circle cx="32" cy="32" r="29.6" fill="none" stroke="#ffd23f" stroke-width="1.1" opacity=".4"/>
-</svg>`;
 
 /* ------------------------------------------------------------------ icone */
 
@@ -703,7 +679,6 @@ function header(ctx) {
   return `    <header class="site-head" data-head>
       <div class="wrap head-inner">
         <a class="logo" href="${href(lang, "")}" aria-label="${esc(config.brand.display)}">
-          <span class="logo-mark" aria-hidden="true">${logoMark("h")}</span>
           <span class="logo-text"><strong>${esc(config.brand.display)}</strong><small>${esc(t.ui.tagline)}</small></span>
         </a>
 
@@ -1093,7 +1068,6 @@ ${alternates}
 </head>
 <body class="gate-body">
     <main class="gate">
-      <span class="gate-mark" aria-hidden="true">${logoMark("g")}</span>
       <h1>${esc(config.brand.display)}</h1>
       <p class="gate-sub">${esc(sub)}</p>
       <p class="gate-addr">${ltr(config.contact.street)} · ${ltr(config.contact.postalCode)} ${esc(config.contact.city)}</p>
