@@ -147,6 +147,8 @@ address { font-style: normal; }
 
 .section { padding: clamp(3.5rem, 2rem + 6vw, 6.5rem) 0; }
 .section-alt { background: var(--paper-2); }
+/* Sezione che parte subito con il contenuto, senza titolo che riempia lo spazio. */
+.section-tight { padding-top: clamp(1.75rem, 1rem + 2vw, 3rem); }
 
 .section-head { max-width: 62ch; margin-bottom: clamp(2rem, 1rem + 3vw, 3.25rem); }
 .section-head.center-head { margin-inline: auto; text-align: center; }
@@ -175,7 +177,7 @@ address { font-style: normal; }
   padding: .72em 1.35em; border-radius: 999px; border: 1.5px solid var(--btn-bd);
   background: var(--btn-bg); color: var(--btn-fg);
   font: inherit; font-weight: 600; font-size: .96rem; line-height: 1.2;
-  text-decoration: none; cursor: pointer; white-space: nowrap;
+  text-decoration: none; cursor: pointer; text-align: center; max-width: 100%;
   transition: transform .18s var(--ease), box-shadow .18s var(--ease), background .18s, color .18s;
   box-shadow: var(--shadow-sm);
 }
@@ -228,14 +230,14 @@ address { font-style: normal; }
 .lm-wave { fill: none; stroke: var(--capri); stroke-width: 2.2; stroke-linecap: round; }
 .lm-sun  { fill: var(--lemon); }
 .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
-.logo-text strong { font-family: var(--font-display); font-size: 1.22rem; letter-spacing: .01em; }
+.logo-text strong { font-family: var(--font-display); font-size: 1.22rem; letter-spacing: .01em; white-space: nowrap; }
 .logo-text small { font-size: .68rem; letter-spacing: .17em; text-transform: uppercase; color: var(--ink-faint); white-space: nowrap; }
 @media (max-width: 400px) { .logo-text small { display: none; } .logo-text strong { font-size: 1.1rem; } }
 
-.head-nav { display: flex; gap: .35rem; }
+.head-nav { display: flex; gap: .1rem; flex-wrap: nowrap; }
 .head-nav a {
-  padding: .5em .85em; border-radius: 999px; text-decoration: none; color: var(--ink-soft);
-  font-weight: 600; font-size: .94rem; transition: background .2s, color .2s;
+  padding: .5em .7em; border-radius: 999px; text-decoration: none; color: var(--ink-soft);
+  font-weight: 600; font-size: .92rem; white-space: nowrap; transition: background .2s, color .2s;
 }
 .head-nav a:hover { background: var(--capri-soft); color: var(--sea); }
 .head-nav a[aria-current="page"] { color: var(--ink); background: var(--line-soft); }
@@ -244,13 +246,13 @@ address { font-style: normal; }
 
 .lang-switch { position: relative; }
 .lang-btn {
-  display: inline-flex; align-items: center; gap: .4em; padding: .5em .85em;
+  display: inline-flex; align-items: center; gap: .4em; padding: .5em .85em; white-space: nowrap;
   border-radius: 999px; border: 1.5px solid var(--line); background: var(--paper);
   color: var(--ink); font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
 }
 .lang-btn:hover { border-color: var(--capri); }
-.lang-btn svg { width: 17px; height: 17px; }
-.lang-btn .caret { transform: rotate(90deg); width: 14px; height: 14px; opacity: .6; }
+.lang-btn svg { width: 17px; height: 17px; flex: none; }
+.lang-btn .caret { transform: rotate(90deg); width: 14px; height: 14px; flex: none; opacity: .6; }
 .lang-switch.is-open .caret { transform: rotate(-90deg); }
 
 .lang-menu[hidden] { display: none; }
@@ -428,7 +430,7 @@ address { font-style: normal; }
 
 .cat-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .8rem; }
 .cat-tile {
-  display: flex; flex-direction: column; align-items: center; gap: .5rem; padding: 1.35rem .8rem;
+  display: flex; flex-direction: column; align-items: center; gap: .5rem; padding: 1.35rem .8rem; min-height: 100%;
   background: var(--paper); border: 1px solid var(--line-soft); border-radius: var(--radius);
   text-decoration: none; color: var(--ink); text-align: center; box-shadow: var(--shadow-sm);
   transition: transform .25s var(--ease), box-shadow .25s var(--ease), border-color .25s;
@@ -437,7 +439,7 @@ address { font-style: normal; }
 .cat-tile-icon { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; background: var(--lemon-soft); color: var(--lemon); }
 .cat-tile-icon svg { width: 23px; height: 23px; }
 .cat-tile-name { font-weight: 700; font-size: .95rem; line-height: 1.25; }
-.cat-tile-count { font-size: .76rem; color: var(--ink-faint); }
+.cat-tile-count { font-size: .76rem; color: var(--ink-faint); margin-top: auto; }
 
 .dish-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: .35rem 2.5rem; }
 
@@ -691,7 +693,7 @@ address { font-style: normal; }
 }
 .qr-frame svg { display: block; width: 100%; height: auto; }
 .qr-url { margin: 1rem 0 1.2rem; font-size: .84rem; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; color: var(--ink-faint); word-break: break-all; }
-.qr-url a { color: inherit; text-decoration: none; }
+.qr-url a { color: inherit; text-decoration: none; display: inline-block; padding: .5em 0; }
 .qr-actions { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
 
 .qr-how { margin-top: clamp(2.5rem, 2rem + 2vw, 4rem); }
@@ -761,7 +763,7 @@ address { font-style: normal; }
 .to-top.is-visible { opacity: 1; visibility: visible; transform: none; }
 .to-top svg { width: 20px; height: 20px; transform: rotate(-90deg); }
 
-@media (max-width: 860px) {
+@media (max-width: 1023px) {
   .head-nav, .head-call { display: none; }
   .burger { display: inline-flex; }
   .lang-btn span:not(.caret) { display: none; }
@@ -884,4 +886,52 @@ body.printing-only > *:not(.print-host) { display: none !important; }
   :root:not([data-theme="light"]) .contact-wa { color: #4fd98a; }
   :root:not([data-theme="light"]) .site-foot { background: #061320; }
   :root:not([data-theme="light"]) .ab-wa { color: #4fd98a; }
+}
+
+/* Su schermo stretto la tabella degli orari diventa un elenco: tre colonne di
+   orari non entrano in 360 px e facevano scorrere lateralmente tutta la pagina. */
+@media (max-width: 560px) {
+  .hours-table thead { display: none; }
+  .hours-table, .hours-table tbody, .hours-table tr, .hours-table th, .hours-table td { display: block; width: 100%; }
+  .hours-table tr { padding: .55rem 0; border-block-end: 1px solid var(--line-soft); }
+  .hours-table tbody th { padding: 0 0 .3rem; border: 0; color: var(--ink); font-weight: 700; }
+  .hours-table td { padding: .12rem 0; border: 0; white-space: normal; display: flex; flex-wrap: wrap; gap: .2em .75em; justify-content: space-between; }
+  .hours-table td::before { content: attr(data-label); color: var(--ink-faint); font-size: .84rem; flex: none; }
+  .hours-table .hours-val { text-align: end; }
+  .hours-table tr.is-today { background: var(--capri-soft); border-radius: 12px; padding-inline: .7rem; }
+}
+/* La scheda compatta dei contatti sta in una colonna stretta: la tabella
+   si impila sempre, non solo sul telefono, altrimenti sborda dalla pagina. */
+.hours-card.is-compact .hours-table thead { display: none; }
+.hours-card.is-compact .hours-table, .hours-card.is-compact .hours-table tbody, .hours-card.is-compact .hours-table tr, .hours-card.is-compact .hours-table th, .hours-card.is-compact .hours-table td { display: block; width: 100%; }
+.hours-card.is-compact .hours-table tr { padding: .55rem 0; border-block-end: 1px solid var(--line-soft); }
+.hours-card.is-compact .hours-table tbody th { padding: 0 0 .3rem; border: 0; color: var(--ink); font-weight: 700; }
+.hours-card.is-compact .hours-table td { padding: .12rem 0; border: 0; white-space: normal; display: flex; flex-wrap: wrap; gap: .2em .75em; justify-content: space-between; }
+.hours-card.is-compact .hours-table td::before { content: attr(data-label); color: var(--ink-faint); font-size: .84rem; flex: none; }
+.hours-card.is-compact .hours-table .hours-val { text-align: end; }
+.hours-card.is-compact .hours-table tr.is-today { background: var(--capri-soft); border-radius: 12px; padding-inline: .7rem; }
+
+
+/* Aree di tocco comode sul telefono: telefono, WhatsApp e link di lettura
+   erano alti meno di 30 px, difficili da centrare con il dito. */
+@media (max-width: 860px) {
+  .hero-facts dd a,
+  .strip-item a,
+  .contact-wa,
+  .contact-big a,
+  .post-more,
+  .foot-brand address a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .strip-inner { gap: 0 2rem; }
+}
+
+/* Fascia intermedia: c'e la navigazione ma non lo spazio per le etichette dei
+   pulsanti, che in greco e polacco sono lunghe. Restano le sole icone. */
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .head-call span, .lang-btn span:not(.caret) { display: none; }
+  .head-nav a { padding-inline: .5em; font-size: .88rem; }
+  .logo-text small { display: none; }
 }

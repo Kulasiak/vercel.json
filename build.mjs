@@ -152,8 +152,8 @@ const sectionHead = (s, wrap = true) => {
   return wrap ? `<div class="section-head reveal">\n          ${inner}\n        </div>` : inner;
 };
 
-const section = (inner, { id = "", alt = false, tone = "" } = {}) =>
-  `      <section class="section${alt ? " section-alt" : ""}${tone ? ` section-${tone}` : ""}"${id ? ` id="${esc(id)}"` : ""}>
+const section = (inner, { id = "", alt = false, tone = "", tight = false } = {}) =>
+  `      <section class="section${alt ? " section-alt" : ""}${tight ? " section-tight" : ""}${tone ? ` section-${tone}` : ""}"${id ? ` id="${esc(id)}"` : ""}>
         <div class="wrap">${inner}
         </div>
       </section>`;
@@ -332,8 +332,8 @@ function hoursBlock(ctx, { compact = false } = {}) {
   const rows = [1, 2, 3, 4, 5, 6, 0].map((day) => `
             <tr data-day="${day}">
               <th scope="row">${esc(t.days[day])}</th>
-              <td>${ltr(`${bar.opens} – ${bar.closes}`)}</td>
-              <td>${ltr(`${lunch.opens} – ${lunch.closes}`)} · ${ltr(`${dinner.opens} – ${dinner.closes}`)}</td>
+              <td data-label="${esc(t.ui.bar)}"><span class="hours-val">${ltr(`${bar.opens} – ${bar.closes}`)}</span></td>
+              <td data-label="${esc(t.ui.kitchen)}"><span class="hours-val">${ltr(`${lunch.opens} – ${lunch.closes}`)} · ${ltr(`${dinner.opens} – ${dinner.closes}`)}</span></td>
             </tr>`).join("");
   return `<div class="hours-card${compact ? " is-compact" : ""}">
             <div class="hours-status" data-open-status>
@@ -417,7 +417,7 @@ function blogListBlock(ctx, opts = {}) {
 }
 
 const readingTime = (post) =>
-  Math.max(1, Math.round(post.body.join(" ").split(/\s+/).length / 180));
+  Math.max(1, Math.ceil(post.body.join(" ").split(/\s+/).length / 180));
 
 const formatDate = (iso, lang) => {
   try {
@@ -882,7 +882,7 @@ const buildAbout = (ctx) => [
 
 const buildBlog = (ctx) => [
   pageHeader(ctx, { title: ctx.t.pages.blog.title, lead: ctx.t.blog.lead }),
-  blogListBlock(ctx),
+  blogListBlock(ctx, { tight: true }),
   ctaBlock(ctx, ctx.t.blog.cta),
 ].join("\n");
 
@@ -918,7 +918,7 @@ function buildPost(ctx, post) {
 
 const buildFaq = (ctx) => [
   pageHeader(ctx, { title: ctx.t.pages.faq.title, lead: ctx.t.faq.lead }),
-  faqBlock(ctx, ctx.t.faq.items, {}),
+  faqBlock(ctx, ctx.t.faq.items, {}, { tight: true }),
   ctaBlock(ctx, ctx.t.faq.cta),
 ].join("\n");
 
