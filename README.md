@@ -61,8 +61,10 @@ npm run build       # equivalente
 npm run serve       # build + anteprima su http://localhost:3000
 ```
 
-Su Vercel non serve alcun passaggio di build: l'HTML è già nel repository.
-Se preferisci generarlo al momento del deploy: *Build Command* = `node build.mjs`, *Output Directory* = `.`.
+Su Vercel il deploy è già configurato in `vercel.json`: *Build Command* `node build.mjs`,
+*Output Directory* `.` (la radice). Il sito viene quindi rigenerato dai sorgenti a ogni deploy,
+e l'HTML committato serve come rete di sicurezza. Senza queste due voci Vercel cerca l'output
+in `public/` e la distribuzione fallisce.
 
 ---
 
