@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" width="840" height="220" role="img" aria-label="Bar Capri — Ristorante e Pizzeria">
+  <title>Bar Capri — Ristorante e Pizzeria</title>
+  <defs>
+    <linearGradient id="lcielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a2f52"/><stop offset="1" stop-color="#1d76a8"/>
+    </linearGradient>
+    <radialGradient id="lsole" cx=".42" cy=".38" r=".72">
+      <stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#f5b71d"/>
+    </radialGradient>
+    <clipPath id="ldisco"><circle cx="55" cy="55" r="42"/></clipPath>
+  </defs>
+
+  <g>
+    <circle cx="55" cy="55" r="42" fill="url(#lcielo)"/>
+    <g clip-path="url(#ldisco)" transform="translate(13 13) scale(1.3125)">
+      <circle cx="32" cy="26" r="11.6" fill="url(#lsole)"/>
+      <path d="M-4 44.5q4.6-4.6 9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0" fill="none" stroke="#7ee0f4" stroke-width="3.3" stroke-linecap="round"/>
+      <path d="M-8.5 52.5q4.6-4.6 9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0" fill="none" stroke="#7ee0f4" stroke-width="2.9" stroke-linecap="round" opacity=".55"/>
+      <path d="M-4 60q4.6-4.6 9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0t9.2 0" fill="none" stroke="#7ee0f4" stroke-width="2.5" stroke-linecap="round" opacity=".28"/>
+    </g>
+    <circle cx="55" cy="55" r="38.9" fill="none" stroke="#ffd23f" stroke-width="1.45" opacity=".4"/>
+  </g>
+
+  <text x="116" y="58" fill="#0d2137"
+        font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif"
+        font-size="40" font-weight="600" letter-spacing="1.5">BAR CAPRI</text>
+  <text x="118" y="80" fill="#5c6f83"
+        font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif"
+        font-size="12.5" font-weight="600" letter-spacing="4.6">RISTORANTE · PIZZERIA</text>
+</svg>

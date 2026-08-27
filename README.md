@@ -33,6 +33,31 @@ Dimensione minima consigliata per la stampa: **3 cm di lato**.
 
 ---
 
+## Il logo
+
+Il sole che scende sul mare, dentro un disco con l'anello color limone: un solo
+segno, che funziona dall'insegna al codice QR sul tavolo.
+
+| File | A cosa serve |
+|---|---|
+| `src/assets/logo.svg` | Logo orizzontale (simbolo + nome). Sito, documenti, carta intestata |
+| `src/assets/logo.png` | Lo stesso a 2400 px. Volantini, social, stampa veloce |
+| `src/assets/logo-mark.svg` | Solo il simbolo, quadrato. Profilo social, adesivi, timbro |
+| `src/assets/favicon.svg` | Icona nella scheda del browser |
+| `src/assets/apple-touch-icon.png` | Icona sullo schermo dell'iPhone |
+
+Il simbolo è disegnato per restare leggibile fino a **16 pixel**: è stato provato
+a 140, 64, 40, 24 e 16 px, su fondo chiaro e su fondo scuro.
+
+Colori: blu profondo `#0a2f52` → `#1d76a8`, sole `#ffe27a` → `#f5b71d`,
+onde `#7ee0f4`, anello `#ffd23f`.
+
+Nel logo orizzontale il nome è testo, non tracciati: per l'insegna o la stampa
+tipografica chiedi al fornitore di **convertire il testo in curve**, oppure
+consegna il `logo.png`, che non ha questo problema.
+
+---
+
 ## Struttura
 
 ```
