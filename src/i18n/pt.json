@@ -115,7 +115,7 @@
   "features": {
     "eyebrow": "Serviços",
     "title": "O que vai encontrar aqui",
-    "items": { "wifi": "Wi-Fi gratuito", "outdoor": "Mesas na rua", "takeaway": "Take-away", "delivery": "Entrega ao domicílio", "cards": "Cartões e Satispay", "family": "Adequado a crianças", "accessible": "Acesso sem degraus", "airCon": "Ar condicionado", "petFriendly": "Cães bem-vindos", "groups": "Grupos bem-vindos" }
+    "items": { "italian": "Cozinha 100% italiana", "wifi": "Wi-Fi gratuito", "outdoor": "Mesas na rua", "takeaway": "Take-away", "delivery": "Entrega ao domicílio", "cards": "Cartões e Satispay", "family": "Adequado a crianças", "accessible": "Acesso sem degraus", "airCon": "Ar condicionado", "petFriendly": "Cães bem-vindos", "groups": "Grupos bem-vindos" }
   },
 
   "contacts": {

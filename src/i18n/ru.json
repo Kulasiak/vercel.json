@@ -115,7 +115,7 @@
   "features": {
     "eyebrow": "Услуги",
     "title": "Что вас здесь ждёт",
-    "items": { "wifi": "Бесплатный Wi-Fi", "outdoor": "Столики на улице", "takeaway": "Еда с собой", "delivery": "Доставка на дом", "cards": "Карты и Satispay", "family": "Подходит для детей", "accessible": "Вход без ступеней", "airCon": "Кондиционер", "petFriendly": "Можно с собакой", "groups": "Принимаем группы" }
+    "items": { "italian": "100% итальянская кухня", "wifi": "Бесплатный Wi-Fi", "outdoor": "Столики на улице", "takeaway": "Еда с собой", "delivery": "Доставка на дом", "cards": "Карты и Satispay", "family": "Подходит для детей", "accessible": "Вход без ступеней", "airCon": "Кондиционер", "petFriendly": "Можно с собакой", "groups": "Принимаем группы" }
   },
 
   "contacts": {

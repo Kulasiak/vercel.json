@@ -115,7 +115,7 @@
   "features": {
     "eyebrow": "Servicios",
     "title": "Lo que encontrarás aquí",
-    "items": { "wifi": "Wi-Fi gratis", "outdoor": "Mesas fuera", "takeaway": "Para llevar", "delivery": "Reparto a domicilio", "cards": "Tarjetas y Satispay", "family": "Apto para niños", "accessible": "Acceso sin escalones", "airCon": "Aire acondicionado", "petFriendly": "Perros bienvenidos", "groups": "Grupos bienvenidos" }
+    "items": { "italian": "Cocina 100% italiana", "wifi": "Wi-Fi gratis", "outdoor": "Mesas fuera", "takeaway": "Para llevar", "delivery": "Reparto a domicilio", "cards": "Tarjetas y Satispay", "family": "Apto para niños", "accessible": "Acceso sin escalones", "airCon": "Aire acondicionado", "petFriendly": "Perros bienvenidos", "groups": "Grupos bienvenidos" }
   },
 
   "contacts": {

@@ -116,6 +116,7 @@ const ICONS = {
   arrow: '<path d="M5 12h14m0 0-6-6m6 6-6 6"/>',
   book: '<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v18H6.5A2.5 2.5 0 0 0 4 22Z"/><path d="M4 17.5A2.5 2.5 0 0 1 6.5 15H20"/>',
   chat: '<path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12Z"/>',
+  chef: '<path d="M6 14v6a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-6"/><path d="M6 14a4 4 0 0 1-1-7.9 4 4 0 0 1 7-2.6 4 4 0 0 1 7 2.6A4 4 0 0 1 18 14Z"/>',
   heart: '<path d="M12 20.5S3.5 15 3.5 9.2A4.7 4.7 0 0 1 12 6.3a4.7 4.7 0 0 1 8.5 2.9C20.5 15 12 20.5 12 20.5Z"/>',
 };
 
@@ -173,7 +174,10 @@ function heroBlock(ctx) {
         </div>
         <div class="wrap hero-inner">
           <img class="hero-crest" src="/assets/logo-crest.png" alt="${esc(config.brand.display)}" width="426" height="475" decoding="async">
-          <p class="hero-kicker">${icon("pin")}<span>${ltr(config.contact.street)} · ${esc(config.contact.city)}</span></p>
+          <div class="hero-chips">
+            <p class="hero-kicker">${icon("pin")}<span>${ltr(config.contact.street)} · ${esc(config.contact.city)}</span></p>
+            <p class="hero-kicker hero-kicker-accent">${icon("chef")}<span>${esc(t.features.items.italian)}</span></p>
+          </div>
           <h1 class="hero-title">${esc(h.title)} <em>${esc(h.titleAccent)}</em></h1>
           <p class="hero-lead">${rich(h.lead)}</p>
           <div class="hero-actions">
@@ -322,7 +326,7 @@ function featuresBlock(ctx, opts = {}) {
 }
 
 const FEATURE_ICON = {
-  wifi: "wifi", outdoor: "tree", takeaway: "bag", delivery: "scooter", cards: "card",
+  italian: "chef", wifi: "wifi", outdoor: "tree", takeaway: "bag", delivery: "scooter", cards: "card",
   family: "users", accessible: "accessible", airCon: "snow", petFriendly: "paw", groups: "users",
 };
 

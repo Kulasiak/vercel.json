@@ -325,7 +325,10 @@ address { font-style: normal; }
   background: rgba(255, 255, 255, .12); border: 1px solid rgba(255, 255, 255, .2);
   backdrop-filter: blur(6px);
 }
-.hero-kicker svg { width: 16px; height: 16px; color: var(--lemon); }
+.hero-kicker svg { width: 16px; height: 16px; color: var(--lemon); flex: none; }
+.hero-chips { display: flex; flex-wrap: wrap; gap: .55rem; margin-bottom: 1.4rem; }
+.hero-chips .hero-kicker { margin-bottom: 0; }
+.hero-kicker-accent { background: rgba(255, 210, 63, .16); border-color: rgba(255, 210, 63, .42); }
 
 .hero-title { margin: 0 0 .35em; font-size: clamp(2.5rem, 1.5rem + 5.6vw, 5.4rem); font-weight: 600; }
 .hero-title em {

@@ -115,7 +115,7 @@
   "features": {
     "eyebrow": "Παροχές",
     "title": "Τι θα βρείτε εδώ",
-    "items": { "wifi": "Δωρεάν Wi-Fi", "outdoor": "Τραπέζια έξω", "takeaway": "Πακέτο", "delivery": "Διανομή κατ' οίκον", "cards": "Κάρτες και Satispay", "family": "Κατάλληλο για παιδιά", "accessible": "Πρόσβαση χωρίς σκαλιά", "airCon": "Κλιματισμός", "petFriendly": "Δεκτά τα σκυλιά", "groups": "Δεχόμαστε γκρουπ" }
+    "items": { "italian": "100% ιταλική κουζίνα", "wifi": "Δωρεάν Wi-Fi", "outdoor": "Τραπέζια έξω", "takeaway": "Πακέτο", "delivery": "Διανομή κατ' οίκον", "cards": "Κάρτες και Satispay", "family": "Κατάλληλο για παιδιά", "accessible": "Πρόσβαση χωρίς σκαλιά", "airCon": "Κλιματισμός", "petFriendly": "Δεκτά τα σκυλιά", "groups": "Δεχόμαστε γκρουπ" }
   },
 
   "contacts": {

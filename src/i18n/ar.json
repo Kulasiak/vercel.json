@@ -115,7 +115,7 @@
   "features": {
     "eyebrow": "الخدمات",
     "title": "ما تجده عندنا",
-    "items": { "wifi": "واي فاي مجاني", "outdoor": "طاولات في الخارج", "takeaway": "طلبات خارجية", "delivery": "توصيل إلى المنزل", "cards": "بطاقات وSatispay", "family": "مناسب للأطفال", "accessible": "مدخل بلا درج", "airCon": "تكييف هواء", "petFriendly": "الكلاب مرحّب بها", "groups": "نستقبل المجموعات" }
+    "items": { "italian": "مطبخ إيطالي 100%", "wifi": "واي فاي مجاني", "outdoor": "طاولات في الخارج", "takeaway": "طلبات خارجية", "delivery": "توصيل إلى المنزل", "cards": "بطاقات وSatispay", "family": "مناسب للأطفال", "accessible": "مدخل بلا درج", "airCon": "تكييف هواء", "petFriendly": "الكلاب مرحّب بها", "groups": "نستقبل المجموعات" }
   },
 
   "contacts": {

@@ -52,7 +52,7 @@
     "payments": ["Contanti", "Bancomat", "Visa", "Mastercard", "American Express", "Satispay"]
   },
 
-  "features": ["wifi", "outdoor", "takeaway", "delivery", "cards", "family", "accessible", "airCon", "petFriendly", "groups"],
+  "features": ["italian", "wifi", "outdoor", "takeaway", "delivery", "cards", "family", "accessible", "airCon", "petFriendly", "groups"],
 
   "nearby": [
     { "name": "Roma Termini", "walk": 5 },
