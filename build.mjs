@@ -172,6 +172,7 @@ function heroBlock(ctx) {
           <span class="hero-grain"></span>
         </div>
         <div class="wrap hero-inner">
+          <img class="hero-crest" src="/assets/logo-crest.png" alt="${esc(config.brand.display)}" width="426" height="475" decoding="async">
           <p class="hero-kicker">${icon("pin")}<span>${ltr(config.contact.street)} · ${esc(config.contact.city)}</span></p>
           <h1 class="hero-title">${esc(h.title)} <em>${esc(h.titleAccent)}</em></h1>
           <p class="hero-lead">${rich(h.lead)}</p>
