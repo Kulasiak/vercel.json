@@ -33,25 +33,34 @@ Dimensione minima consigliata per la stampa: **3 cm di lato**.
 
 ---
 
-## L'identita
+## Il logo
 
-Nessun simbolo disegnato: l'identita e il nome. **BAR CAPRI** in un serif
-largo, un filetto color limone, e sotto **RISTORANTE · PIZZERIA** ben
-spaziato. E la scelta di molte trattorie storiche, e invecchia meglio di un
-disegno.
+Lo stemma dipinto fornito dal titolare: maiolica della Costiera, i Faraglioni,
+il forno a legna, il limone. E' un'immagine **raster**, non vettoriale.
 
 | File | A cosa serve |
 |---|---|
-| `src/assets/logo.svg` | Il nome composto. Sito, documenti, carta intestata |
-| `src/assets/logo.png` | Lo stesso a 2400 px. Volantini, social, stampa veloce |
-| `src/assets/favicon.svg` | Icona nella scheda del browser: la **C** su fondo blu |
+| `src/assets/logo-crest.png` | Lo stemma scontornato, fondo trasparente. Usato in tutto il sito |
+| `src/assets/logo.svg` / `logo.png` | Il solo nome composto, per quando lo stemma non entra |
+| `src/assets/favicon.svg` | Icona della scheda del browser: la **C** su fondo blu, bordo terracotta |
 | `src/assets/apple-touch-icon.png` | Icona sullo schermo dell'iPhone |
 
-Colori: blu profondo `#0d2137`, limone `#ffd23f`, grigio del sottotitolo `#5c6f83`.
+Dove compare: intestazione di tutte le pagine (56 px), pagina di scelta lingua
+(grande, e la prima cosa che vede chi inquadra il QR), segnaposto da tavolo e
+immagine di anteprima social.
 
-Nel file SVG il nome e testo, non tracciati: per l'insegna o la stampa
-tipografica chiedi al fornitore di **convertire il testo in curve**, oppure
-consegna il `logo.png`, che non ha questo problema.
+### Due cose da sapere
+
+**Nel logo c'e scritto «RESISTENTE» al posto di «RISTORANTE».** L'errore e
+nell'immagine originale e non e correggibile senza rifare il disegno.
+
+**Risoluzione: 426 x 475 pixel.** Basta e avanza per lo schermo, ma e poco per
+una stampa grande: su un'insegna o un manifesto si vedrebbero i bordi sgranati.
+Per quelli serve il file originale a risoluzione maggiore, o un ridisegno
+vettoriale.
+
+Accanto allo stemma resta il nome scritto, perche a 56 px le parole dentro il
+disegno non si leggono.
 
 ---
 

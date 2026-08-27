@@ -507,6 +507,7 @@ function qrPrintable(ctx) {
           <p class="lead reveal">${rich(t.qr.tentText)}</p>
           <div class="tent" id="tent">
             <div class="tent-face">
+              <img class="tent-crest" src="/assets/logo-crest.png" alt="" width="426" height="475">
               <p class="tent-brand">${esc(config.brand.display)}</p>
               <p class="tent-sub">${esc(t.qr.tentSub)}</p>
               <div class="tent-qr">${qr.menuSvg}</div>
@@ -679,6 +680,7 @@ function header(ctx) {
   return `    <header class="site-head" data-head>
       <div class="wrap head-inner">
         <a class="logo" href="${href(lang, "")}" aria-label="${esc(config.brand.display)}">
+          <img class="logo-crest" src="/assets/logo-crest.png" alt="" width="426" height="475" decoding="async">
           <span class="logo-text"><strong>${esc(config.brand.display)}</strong><small>${esc(t.ui.tagline)}</small></span>
         </a>
 
@@ -1068,6 +1070,7 @@ ${alternates}
 </head>
 <body class="gate-body">
     <main class="gate">
+      <img class="gate-crest" src="/assets/logo-crest.png" alt="${esc(config.brand.display)}" width="426" height="475" decoding="async">
       <h1>${esc(config.brand.display)}</h1>
       <p class="gate-sub">${esc(sub)}</p>
       <p class="gate-addr">${ltr(config.contact.street)} · ${ltr(config.contact.postalCode)} ${esc(config.contact.city)}</p>

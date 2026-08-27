@@ -40,7 +40,7 @@
   --radius-sm:  12px;
   --radius-lg:  28px;
   --wrap:       1180px;
-  --head-h:     72px;
+  --head-h:     80px;
 
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Noto Sans Arabic", sans-serif;
   --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
@@ -224,7 +224,7 @@ address { font-style: normal; }
 
 .head-inner { display: flex; align-items: center; gap: 1.25rem; min-height: var(--head-h); }
 
-.logo { display: flex; align-items: center; min-height: 44px; text-decoration: none; color: inherit; margin-inline-end: auto; }
+.logo { display: flex; align-items: center; gap: .6rem; min-height: 44px; text-decoration: none; color: inherit; margin-inline-end: auto; }
 .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .logo-text strong { font-family: var(--font-display); font-size: 1.34rem; letter-spacing: .045em; white-space: nowrap; }
 .logo-text small { font-size: .66rem; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-faint); white-space: nowrap; }
@@ -930,3 +930,13 @@ body.printing-only > *:not(.print-host) { display: none !important; }
   .head-nav a { padding-inline: .5em; font-size: .88rem; }
   .logo-text small { display: none; }
 }
+
+/* --------------------------------------------------------------- stemma */
+
+.logo-crest { height: 56px; width: auto; flex: none; display: block; }
+@media (max-width: 560px) { .logo-crest { height: 46px; } }
+
+.gate-crest { width: clamp(112px, 24vw, 148px); height: auto; margin: 0 auto 1.1rem; display: block; }
+
+.tent-crest { width: 92px; height: auto; margin: 0 auto .7rem; display: block; }
+@media print { .tent-crest { width: 78px; } }
