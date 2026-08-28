@@ -81,12 +81,15 @@ recensioni vengano rimosse o che la scheda venga penalizzata.
 
 ## Il logo
 
-Lo stemma dipinto fornito dal titolare: maiolica della Costiera, i Faraglioni,
-il forno a legna, il limone. E' un'immagine **raster**, non vettoriale.
+Uno stemma tondo **vettoriale**: fascia blu con filetto dorato, i Faraglioni sul
+mare, il sole, due limoni ai lati. Sull'anello **BAR CAPRI** in alto e
+**RISTORANTE · PIZZERIA** in basso.
 
 | File | A cosa serve |
 |---|---|
-| `src/assets/logo-crest.png` | Lo stemma scontornato, fondo trasparente. Usato in tutto il sito |
+| `src/assets/logo-crest.svg` | **Il disegno vero**: vettoriale, da modificare qui |
+| `src/assets/logo-crest.png` | Lo stemma reso a 1400 px, fondo trasparente. È quello che il sito mostra |
+| `src/assets/logo-crest-maiolica.png` | Il vecchio stemma dipinto, quello con «RESISTENTE». Conservato |
 | `src/assets/logo.svg` / `logo.png` | Il solo nome composto, per quando lo stemma non entra |
 | `src/assets/favicon.svg` | Icona della scheda del browser: la **C** su fondo blu, bordo terracotta |
 | `src/assets/apple-touch-icon.png` | Icona sullo schermo dell'iPhone |
@@ -95,18 +98,28 @@ Dove compare: intestazione di tutte le pagine (56 px), pagina di scelta lingua
 (grande, e la prima cosa che vede chi inquadra il QR), segnaposto da tavolo e
 immagine di anteprima social.
 
-### Due cose da sapere
+### Come cambiarlo
 
-**Nel logo c'e scritto «RESISTENTE» al posto di «RISTORANTE».** L'errore e
-nell'immagine originale e non e correggibile senza rifare il disegno.
+Il disegno sta in `logo-crest.svg`. Dopo averlo modificato va rifatto il PNG, che
+e il file che il sito usa davvero:
 
-**Risoluzione: 426 x 475 pixel.** Basta e avanza per lo schermo, ma e poco per
-una stampa grande: su un'insegna o un manifesto si vedrebbero i bordi sgranati.
-Per quelli serve il file originale a risoluzione maggiore, o un ridisegno
-vettoriale.
+```
+node build.mjs                 # il sito legge logo-crest.png
+```
 
-Accanto allo stemma resta il nome scritto, perche a 56 px le parole dentro il
-disegno non si leggono.
+Il PNG si rigenera aprendo l'SVG nel browser e salvandolo a 1400 px, oppure con
+qualsiasi convertitore SVG→PNG mantenendo la trasparenza.
+
+**Perche vettoriale.** Lo stemma dipinto di prima era 426 x 475 pixel: bastava
+per lo schermo ma su un'insegna o un manifesto si sgranava, e riportava
+**«RESISTENTE»** al posto di «RISTORANTE», errore che stava nell'immagine
+originale. Questo si stampa nitido a qualsiasi dimensione e la scritta e giusta.
+
+Il vecchio resta in `logo-crest-maiolica.png`: per rimetterlo basta copiarlo
+sopra `logo-crest.png`.
+
+Accanto allo stemma resta il nome scritto, perche a 68 px le parole sull'anello
+non si leggono.
 
 ---
 
