@@ -175,6 +175,14 @@
   },
 
   "qr": {
+    "reviewKind": "Reviews",
+    "reviewTitle": "Google review QR code",
+    "reviewText": "Goes straight to the Google review form. Keep it at the till or hand it over with the bill.",
+    "reviewHead": "Leave a review",
+    "reviewScan": "Tell us how it went",
+    "reviewCardTitle": "Review card for the till",
+    "reviewCardText": "Print it and keep it by the till, or hand it over with the bill. **Two seconds for the guest**, and the restaurant's Google listing grows.",
+    "reviewCardPrint": "Print the review card",
     "wifiKind": "Wi-Fi",
     "wifiTitle": "Wi-Fi QR code",
     "wifiText": "Scan it and your phone joins our network without typing the password.",

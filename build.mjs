@@ -493,8 +493,8 @@ function nearbyBlock(ctx, opts = {}) {
 /** I due codici QR: uno per il menu al tavolo, uno per il sito. */
 function qrBlock(ctx, opts = {}) {
   const { t, qr } = ctx;
-  const KIND_ICON = { menu: "book", site: "globe", wifi: "wifi" };
-  const KIND_LABEL = { menu: "menuKind", site: "siteKind", wifi: "wifiKind" };
+  const KIND_ICON = { menu: "book", site: "globe", wifi: "wifi", review: "star" };
+  const KIND_LABEL = { menu: "menuKind", site: "siteKind", wifi: "wifiKind", review: "reviewKind" };
   const card = (kind, title, text, url, svg, file) => `<article class="qr-card reveal">
             <div class="qr-card-head">
               <span class="qr-kind">${icon(KIND_ICON[kind])}${esc(t.qr[KIND_LABEL[kind]])}</span>
@@ -516,6 +516,7 @@ function qrBlock(ctx, opts = {}) {
           ${card("menu", t.qr.menuTitle, t.qr.menuText, qr.menuUrl, qr.menuSvg, "menu")}
           ${card("site", t.qr.siteTitle, t.qr.siteText, qr.siteUrl, qr.siteSvg, "sito")}
           ${qr.wifiSvg ? card("wifi", t.qr.wifiTitle, t.qr.wifiText, qr.wifi.ssid, qr.wifiSvg, "wifi") : ""}
+          ${qr.reviewSvg ? card("review", t.qr.reviewTitle, t.qr.reviewText, qr.reviewUrl, qr.reviewSvg, "recensioni") : ""}
         </div>
         <div class="qr-how reveal">
           <h3>${esc(t.qr.howTitle)}</h3>
@@ -562,6 +563,21 @@ ${qr.wifiSvg ? `
               </div>
             </div>
             <p class="center"><button type="button" class="btn btn-primary btn-lg" data-print-tent="wifi-card">${icon("print")}<span>${esc(t.qr.wifiCardPrint)}</span></button></p>
+          </div>` : ""}
+${qr.reviewSvg ? `
+          <div class="wifi-block reveal">
+            <h2>${esc(t.qr.reviewCardTitle)}</h2>
+            <p class="lead">${rich(t.qr.reviewCardText)}</p>
+            <div class="tent">
+              <div class="tent-face wifi-face" id="review-card">
+                <p class="wifi-eyebrow">${icon("star")}<span>${esc(t.qr.reviewHead)}</span></p>
+                <p class="tent-brand">${esc(config.brand.display)}</p>
+                <div class="tent-qr">${qr.reviewSvg}</div>
+                <p class="tent-scan">${esc(t.qr.reviewScan)}</p>
+                <p class="tent-foot">${ltr(config.contact.street)} · ${esc(config.contact.city)}</p>
+              </div>
+            </div>
+            <p class="center"><button type="button" class="btn btn-primary btn-lg" data-print-tent="review-card">${icon("print")}<span>${esc(t.qr.reviewCardPrint)}</span></button></p>
           </div>` : ""}
         </div>
       </section>`;
@@ -1040,7 +1056,9 @@ function validate(t, lang, menu) {
                    "menu.lead", "about.story.body", "blog.posts", "faq.items", "contacts.lead",
                    "qr.menuTitle", "qr.siteTitle", "qr.how", "footer.tagline", "features.items",
                    "qr.wifiKind", "qr.wifiTitle", "qr.wifiText", "qr.wifiNetwork", "qr.wifiPassword",
-                   "qr.wifiScan", "qr.wifiFree", "qr.wifiCardTitle", "qr.wifiCardText", "qr.wifiCardPrint"]) need(k);
+                   "qr.wifiScan", "qr.wifiFree", "qr.wifiCardTitle", "qr.wifiCardText", "qr.wifiCardPrint",
+                   "qr.reviewKind", "qr.reviewTitle", "qr.reviewText", "qr.reviewHead", "qr.reviewScan",
+                   "qr.reviewCardTitle", "qr.reviewCardText", "qr.reviewCardPrint"]) need(k);
 
   if (Array.isArray(t.blog?.posts) && t.blog.posts.length !== POST_SLUGS.length) missing.push(`blog.posts: attesi ${POST_SLUGS.length} articoli, trovati ${t.blog.posts.length}`);
   if (Array.isArray(t.blog?.posts)) {
@@ -1251,6 +1269,12 @@ async function main() {
     qr.wifi = wifi;
     qr.wifiSvg = qrSvg(wifiPayload(wifi), { ...qrOptions, label: `QR Wi-Fi ${config.brand.display}` });
   }
+  // Il QR delle recensioni: stessa regola, nasce solo se il link c'e.
+  const recensione = config.review?.google;
+  if (recensione) {
+    qr.reviewUrl = recensione;
+    qr.reviewSvg = qrSvg(recensione, { ...qrOptions, label: `QR recensioni ${config.brand.display}` });
+  }
 
   // Pulizia dell'output precedente.
   for (const l of LANGS) await rm(join(ROOT, l.code), { recursive: true, force: true });
@@ -1263,6 +1287,7 @@ async function main() {
   await writeFile(join(ROOT, "assets", "qr", "menu.svg"), qr.menuSvg, "utf8");
   await writeFile(join(ROOT, "assets", "qr", "sito.svg"), qr.siteSvg, "utf8");
   if (qr.wifiSvg) await writeFile(join(ROOT, "assets", "qr", "wifi.svg"), qr.wifiSvg, "utf8");
+  if (qr.reviewSvg) await writeFile(join(ROOT, "assets", "qr", "recensioni.svg"), qr.reviewSvg, "utf8");
   await writeFile(join(ROOT, "assets", "site.webmanifest"), webmanifest(config), "utf8");
 
   let pageCount = 0;

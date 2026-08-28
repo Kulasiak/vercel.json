@@ -175,6 +175,14 @@
   },
 
   "qr": {
+    "reviewKind": "Recensioni",
+    "reviewTitle": "QR recensioni Google",
+    "reviewText": "Porta dritto al modulo di recensione su Google. Da tenere alla cassa o da dare con il conto.",
+    "reviewHead": "Lascia una recensione",
+    "reviewScan": "Raccontaci com'è andata",
+    "reviewCardTitle": "Cartellino recensioni per la cassa",
+    "reviewCardText": "Da stampare e tenere vicino al registratore di cassa o da dare con il conto. **Due secondi per il cliente**, e la scheda Google del locale cresce.",
+    "reviewCardPrint": "Stampa il cartellino recensioni",
     "wifiKind": "Wi-Fi",
     "wifiTitle": "QR Wi-Fi",
     "wifiText": "Chi lo inquadra si collega alla rete del locale senza digitare la password.",

@@ -11,20 +11,22 @@ Si aprono all'istante anche con la connessione lenta del telefono di un cliente 
 
 ---
 
-## I tre codici QR
+## I quattro codici QR
 
 Sono la parte pratica del sito. I primi due **riconoscono da soli la lingua del telefono**
-e aprono la pagina giusta fra le nove disponibili; il terzo collega alla rete Wi-Fi.
+e aprono la pagina giusta fra le nove disponibili; il terzo collega alla rete Wi-Fi, il
+quarto porta al modulo di recensione su Google.
 
 | Codice | Dove porta | A cosa serve |
 |---|---|---|
 | **QR menu** (`/assets/qr/menu.svg`) | `/menu/` | Sui tavoli, in vetrina, sui volantini |
 | **QR sito** (`/assets/qr/sito.svg`) | `/` | Biglietti da visita, insegna, social |
 | **QR Wi-Fi** (`/assets/qr/wifi.svg`) | la rete del locale | Sui tavoli: il cliente si collega senza chiedere la password |
+| **QR recensioni** (`/assets/qr/recensioni.svg`) | la scheda Google del locale | Alla cassa o insieme al conto |
 
-La pagina **`/it/qr/`** li mostra tutti, con il pulsante per scaricarli o stamparli,
-un **segnaposto da tavolo** per il menu e un **cartellino Wi-Fi**, entrambi già
-impaginati e pronti da stampare.
+La pagina **`/it/qr/`** li mostra tutti, con il pulsante per scaricarli o stamparli, e
+tre stampati già impaginati: un **segnaposto da tavolo** per il menu, un **cartellino
+Wi-Fi** e un **cartellino recensioni** per la cassa.
 
 Sono immagini vettoriali: restano nitide a qualsiasi dimensione, da un adesivo a un poster.
 Dimensione minima consigliata per la stampa: **3 cm di lato**.
@@ -57,6 +59,23 @@ chiaro: chiunque apra il sito può leggerla, non solo chi è seduto al tavolo. P
 una rete ospiti va benissimo — è fatta per essere data a tutti. Se invece è la
 stessa rete che usate voi per la cassa o il gestionale, **usane una separata per
 i clienti**.
+
+### Accendere il QR delle recensioni
+
+Stessa regola: senza link niente codice. Serve un valore in `src/site.config.json`:
+
+```json
+"review": { "google": "https://g.page/r/CODICE/review" }
+```
+
+Il link si prende dal **profilo Google Business** del locale: *Home → Chiedi
+recensioni*, e Google restituisce un indirizzo corto come quello sopra. In
+alternativa va bene anche `https://search.google.com/local/writereview?placeid=ID`.
+
+Il testo del cartellino è volutamente neutro — *«Raccontaci com'è andata»*, non
+*«Ti è piaciuto?»*. Chiedere una recensione solo a chi si è trovato bene si chiama
+*review gating* ed è **vietato dalle regole di Google**: il rischio è che le
+recensioni vengano rimosse o che la scheda venga penalizzata.
 
 ---
 

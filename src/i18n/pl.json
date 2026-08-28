@@ -153,6 +153,14 @@
   },
 
   "qr": {
+    "reviewKind": "Opinie",
+    "reviewTitle": "Kod QR do opinii Google",
+    "reviewText": "Prowadzi prosto do formularza opinii w Google. Do trzymania przy kasie albo do podania z rachunkiem.",
+    "reviewHead": "Zostaw opinię",
+    "reviewScan": "Opowiedz, jak było",
+    "reviewCardTitle": "Karta opinii na kasę",
+    "reviewCardText": "Do wydrukowania i trzymania przy kasie albo do podania z rachunkiem. **Dwie sekundy dla gościa**, a wizytówka restauracji w Google rośnie.",
+    "reviewCardPrint": "Drukuj kartę opinii",
     "wifiKind": "Wi-Fi",
     "wifiTitle": "Kod QR do Wi-Fi",
     "wifiText": "Po zeskanowaniu telefon łączy się z siecią bez wpisywania hasła.",

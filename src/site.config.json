@@ -26,6 +26,10 @@
   "_geo": "Coordinate indicative di Via Principe Amedeo 78/80. La mappa incorporata usa l'indirizzo (pin sempre corretto); queste servono solo ai dati strutturati. Verificare e correggere se necessario.",
   "geo": { "lat": 41.8973, "lng": 12.5028 },
 
+  "_review": "Link per lasciare una recensione su Google. Si prende dal profilo Google Business: Home > Chiedi recensioni, e un indirizzo tipo https://g.page/r/CODICE/review. In alternativa https://search.google.com/local/writereview?placeid=ID. Lasciandolo vuoto il QR recensioni non viene generato.",
+
+  "review": { "google": "" },
+
   "_wifi": "Rete Wi-Fi per i clienti. Riempi ssid e password e al build successivo compare il terzo QR: chi lo inquadra si collega senza digitare nulla. Con ssid vuoto il QR Wi-Fi non viene generato. security: WPA (quasi sempre), WEP, oppure nopass per una rete aperta.",
 
   "wifi": { "ssid": "", "password": "", "security": "WPA", "hidden": false },

@@ -153,6 +153,14 @@
   },
 
   "qr": {
+    "reviewKind": "Avaliações",
+    "reviewTitle": "Código QR de avaliações do Google",
+    "reviewText": "Leva direto ao formulário de avaliação do Google. Para ter na caixa ou dar com a conta.",
+    "reviewHead": "Deixe uma avaliação",
+    "reviewScan": "Conte-nos como correu",
+    "reviewCardTitle": "Cartão de avaliações para a caixa",
+    "reviewCardText": "Imprime e deixa junto à caixa, ou dá com a conta. **Dois segundos para o cliente**, e a ficha do Google do restaurante cresce.",
+    "reviewCardPrint": "Imprimir o cartão de avaliações",
     "wifiKind": "Wi-Fi",
     "wifiTitle": "Código QR do Wi-Fi",
     "wifiText": "Ao apontar a câmara o telemóvel liga-se à rede sem escrever a palavra-passe.",

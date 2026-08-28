@@ -153,6 +153,14 @@
   },
 
   "qr": {
+    "reviewKind": "Avis",
+    "reviewTitle": "QR avis Google",
+    "reviewText": "Mène directement au formulaire d'avis Google. À garder en caisse ou à donner avec l'addition.",
+    "reviewHead": "Laissez un avis",
+    "reviewScan": "Dites-nous comment c'était",
+    "reviewCardTitle": "Carton avis pour la caisse",
+    "reviewCardText": "À imprimer et à garder près de la caisse, ou à donner avec l'addition. **Deux secondes pour le client**, et la fiche Google du restaurant grandit.",
+    "reviewCardPrint": "Imprimer le carton avis",
     "wifiKind": "Wi-Fi",
     "wifiTitle": "QR Wi-Fi",
     "wifiText": "En le scannant, le téléphone rejoint le réseau sans taper le mot de passe.",

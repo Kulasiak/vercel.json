@@ -699,7 +699,12 @@ address { font-style: normal; }
 
 /* --------------------------------------------------------------- codici QR */
 
+/* Le schede dei codici si dispongono da sole. Con quattro codici si mettono
+   due per riga invece di tre piu una spaiata. */
 .qr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(1.25rem, 1rem + 1.5vw, 2rem); }
+@media (min-width: 861px) {
+  .qr-grid:has(> :nth-child(4)) { grid-template-columns: repeat(2, 1fr); }
+}
 .qr-card {
   display: flex; flex-direction: column; align-items: center; text-align: center;
   padding: clamp(1.5rem, 1rem + 1.5vw, 2.25rem);
