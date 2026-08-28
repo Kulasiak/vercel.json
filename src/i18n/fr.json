@@ -1,918 +1,356 @@
 {
-  "nav": {
-    "home": "Accueil",
-    "about": "À propos",
-    "rules": "Réglementation",
-    "contribution": "Éco-contribution",
-    "companies": "Entreprises",
-    "associations": "Partenaires",
-    "campaign": "Campagne",
-    "membership": "Adhésion",
-    "contacts": "Contact",
-    "faq": "FAQ"
+  "nav": { "home": "Accueil", "menu": "Carte", "about": "À propos", "blog": "Blog", "faq": "Questions fréquentes", "contacts": "Contact", "qr": "Codes QR" },
+
+  "ui": {
+    "call": "Appeler", "whatsapp": "WhatsApp", "phone": "Téléphone", "address": "Adresse",
+    "hours": "Horaires", "bar": "Bar", "kitchen": "Cuisine", "day": "Jour", "today": "Aujourd'hui",
+    "map": "Plan", "follow": "Suivez-nous", "search": "Chercher un plat…", "filters": "Filtres",
+    "all": "Tout", "categories": "Catégories", "noResults": "Aucun plat ne correspond à la recherche.",
+    "print": "Imprimer", "readMore": "Lire l'article", "backToBlog": "Tous les articles",
+    "minRead": "min de lecture", "minWalk": "min à pied",
+    "openNow": "Ouvert maintenant", "closedNow": "Fermé actuellement",
+    "opensAt": "ouvre à {time}", "closesAt": "ferme à {time}",
+    "chooseLanguage": "Choisissez votre langue", "theme": "Changer de thème", "backTop": "Revenir en haut",
+    "openMenu": "Ouvrir le menu de navigation", "mainNav": "Navigation principale",
+    "quickActions": "Actions rapides", "skipToContent": "Aller au contenu", "scroll": "Faire défiler",
+    "tagline": "Restaurant · Pizzeria", "qrStrip": "La carte par QR code",
+    "showMap": "Afficher le plan", "mapConsent": "Ouvrir le plan charge Google Maps."
   },
-  "common": {
-    "brandName": "EL MAIN LIL SINAA",
-    "brandSub": "Environnement · Algérie",
-    "skip": "Aller au contenu",
-    "menu": "Menu",
-    "mainNav": "Navigation principale",
-    "languageLabel": "Changer de langue",
-    "breadcrumb": "Fil d'Ariane",
-    "chooseLanguage": "Choisissez votre langue",
-    "footerAbout": "EL MAIN LIL SINAA (المعين للصناعة) collecte, trace et valorise les huiles usagées et les déchets spéciaux des entreprises algériennes, dans le respect de la loi 01-19 modifiée par la loi 25-02.",
-    "footerConsortium": "L'entreprise",
-    "footerServices": "Services",
-    "rights": "Tous droits réservés",
-    "vat": "Identifiants",
-    "disclaimer": "Contenu de démonstration — références légales à vérifier au JORADP avant publication."
-  },
+
+  "tags": { "vg": "Végan", "v": "Végétarien", "gf": "Sans gluten", "sp": "Épicé", "chef": "Spécialité" },
+
+  "days": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"],
+
+  "gate": { "description": "BAR CAPRI, restaurant et pizzeria Via Principe Amedeo 78/80 à Rome, à cinq minutes de Termini. Choisissez votre langue : carte, horaires, contacts.",
+    "menuDescription": "La carte de BAR CAPRI à Rome : pâtes, pizza, viande, poisson, plats vegan, végétariens et sans gluten. Choisissez la langue et lisez à table.",
+    "title": "Restaurant et pizzeria à Rome", "sub": "Choisissez votre langue", "menuTitle": "Notre carte", "menuSub": "Choose your language to read the menu", "enter": "Entrer" },
+
   "pages": {
-    "home": {
-      "metaTitle": "EL MAIN LIL SINAA — Collecte et valorisation des huiles usagées en Algérie",
-      "metaDescription": "Collecte, traçabilité et valorisation des huiles usagées et des déchets spéciaux pour les entreprises algériennes. Conformité loi 01-19 / 25-02, service dans les 58 wilayas.",
-      "eyebrow": "Algérie · Économie circulaire",
-      "title": "Vos huiles usagées ne sont pas un déchet. C'est une ressource.",
-      "intro": "Nous collectons, traçons et valorisons les **huiles lubrifiantes et alimentaires usagées** des entreprises algériennes — avec les documents qui prouvent votre conformité réglementaire.",
-      "actions": [
-        {
-          "label": "Demander un enlèvement",
-          "href": "/fr/contacts/"
-        },
-        {
-          "label": "Devenir adhérent",
-          "href": "/fr/membership/"
-        }
+    "home":     { "title": "Restaurant et pizzeria près de Termini", "description": "Bar Capri : restaurant, pizzeria et bar au 78/80 Via Principe Amedeo, à cinq minutes de Roma Termini. Cuisine romaine, pizza, poisson, vegan, sans gluten." },
+    "menu":     { "title": "La carte",
+      "seoTitle": "Carte et prix · pizza, pâtes et cuisine romaine", "description": "La carte complète du Bar Capri à Rome : entrées, pâtes romaines, pizza, viande, poisson, plats végans, végétariens et sans gluten. Prix indiqués." },
+    "about":    { "title": "À propos", "description": "L'histoire du Bar Capri : une cuisine romaine franche et une pizza à longue maturation, au cœur du quartier de l'Esquilin à Rome, du matin jusque tard le soir." },
+    "blog":     { "title": "Blog",
+      "seoTitle": "Blog · cuisine romaine, pizza et vie à Rome", "description": "Récits de cuisine romaine, de pizza et conseils pratiques pour bien manger près de la gare de Termini à Rome." },
+    "faq":      { "title": "Questions fréquentes", "description": "Réservation, horaires, options sans gluten et véganes, groupes, paiements : les réponses aux questions les plus courantes sur le Bar Capri à Rome." },
+    "contacts": { "title": "Contact et accès", "description": "Bar Capri, Via Principe Amedeo 78/80, 00185 Rome. Téléphone 351 265 0441, WhatsApp 388 632 9575. Plan, horaires et itinéraire depuis Termini." },
+    "qr":       { "title": "Codes QR",
+      "seoTitle": "Codes QR de la carte et du site", "description": "Les deux codes QR du Bar Capri : l'un ouvre la carte à table dans la langue du client, l'autre le site. Prêts à imprimer." }
+  },
+
+  "home": {
+    "hero": {
+      "title": "Cuisine romaine et pizza",
+      "titleAccent": "à deux pas de Termini",
+      "lead": "Du café du matin à la pizza de minuit. **Bar Capri** est le restaurant de quartier de la Via Principe Amedeo : de vrais plats romains, une pizza à longue maturation, du poisson frais et une vraie carte végane, végétarienne et sans gluten.",
+      "ctaPrimary": "Voir la carte"
+    },
+    "strip": { "walkLabel": "Depuis Termini", "walk": "5 minutes à pied" },
+    "highlights": {
+      "eyebrow": "Pourquoi Bar Capri",
+      "title": "Un seul lieu, toute la journée",
+      "lead": "Petit-déjeuner, déjeuner rapide, apéritif et dîner : le moment change, le soin reste.",
+      "items": [
+        { "icon": "pasta", "title": "Les classiques romains", "text": "Carbonara, amatriciana, gricia et cacio e pepe faites dans les règles, au guanciale et au pecorino romano." },
+        { "icon": "pizza", "title": "Pizza à longue maturation", "text": "Pâte maturée **24 heures**, bord léger et digeste. Existe aussi **sans gluten**." },
+        { "icon": "leaf", "title": "Une table pour tous", "text": "Plats végans, végétariens et sans gluten avec leurs propres sections : personne ne reste à regarder." },
+        { "icon": "train", "title": "Tout près de la gare", "text": "Cinq minutes à pied de Roma Termini et des métros A et B. Idéal avant ou après le train." }
+      ]
+    },
+    "menuPreview": { "eyebrow": "La carte", "title": "Du petit-déjeuner au dessert", "lead": "Soixante-dix plats en onze sections. Touchez une section pour y aller directement.", "specialsTitle": "Les spécialités de la maison", "cta": "Ouvrir la carte complète" },
+    "story": {
+      "eyebrow": "À propos",
+      "title": "Un bar de quartier avec une cuisine de trattoria",
+      "body": [
+        "Bar Capri se trouve à l'Esquilin, Via Principe Amedeo, là où passent chaque jour des Romains qui vont travailler et des voyageurs à peine descendus du train. Nous servons les uns et les autres de la même façon : de bons produits, des portions honnêtes, des prix clairs.",
+        "En cuisine nous restons dans la tradition romaine : guanciale croustillant, pecorino râpé à la minute, artichauts de saison. Au four, nous travaillons une pâte qui mature vingt-quatre heures, parce qu'une pizza doit se digérer.",
+        "Ceux qui ont des besoins particuliers trouvent pain, pâtes, pizza et dessert sans gluten, ainsi qu'une carte végane et végétarienne qui est un vrai choix, pas un pis-aller."
       ],
-      "sections": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "≈ 110 000 t",
-              "label": "d'huiles usagées générées chaque année en Algérie"
-            },
-            {
-              "value": "20–25 %",
-              "label": "seulement sont collectées de manière formelle"
-            },
-            {
-              "value": "450 519 m³",
-              "label": "d'huiles alimentaires usagées par an (estimation AND)"
-            },
-            {
-              "value": "58",
-              "label": "wilayas visées par notre réseau de collecte"
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "eyebrow": "Nos services",
-          "title": "Une chaîne complète, de la cuve au justificatif",
-          "lead": "Un interlocuteur unique pour la collecte, le transport, la traçabilité et la valorisation de vos flux.",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "drop",
-              "title": "Huiles lubrifiantes usagées",
-              "text": "Vidanges, huiles moteur, hydrauliques et de coupe : bacs étanches, enlèvement programmé, bordereau de suivi."
-            },
-            {
-              "icon": "collect",
-              "title": "Huiles alimentaires usagées",
-              "text": "Restaurants, hôtels, cantines et agroalimentaire : bidons fournis, rotation régulière, zéro rejet à l'égout."
-            },
-            {
-              "icon": "doc",
-              "title": "Traçabilité & conformité",
-              "text": "Chaque enlèvement génère un dossier documenté, réutilisable lors d'un contrôle ou d'un audit."
-            },
-            {
-              "icon": "recycle",
-              "title": "Valorisation",
-              "text": "Orientation des flux vers la régénération, la valorisation énergétique ou la production de biodiesel."
-            },
-            {
-              "icon": "shield",
-              "title": "Déchets spéciaux associés",
-              "text": "Filtres, chiffons souillés, emballages d'huile : traités avec la même rigueur documentaire."
-            },
-            {
-              "icon": "chart",
-              "title": "Reporting annuel",
-              "text": "Volumes, destinations et indicateurs environnementaux, prêts pour vos rapports RSE."
-            }
-          ]
-        },
-        {
-          "type": "split",
-          "alt": true,
-          "eyebrow": "Pourquoi maintenant",
-          "title": "La réglementation algérienne a changé de cap",
-          "body": [
-            "La loi n° 25-02 de février 2025, qui modifie et complète la loi n° 01-19 relative à la gestion, au contrôle et à l'élimination des déchets, inscrit l'**économie circulaire** dans le droit algérien : responsabilité élargie du producteur (REP), éco-conception, système numérique de gestion des déchets et sanctions renforcées.",
-            "Pour une entreprise, cela veut dire une chose simple : ce que vous produisez comme déchet vous suit désormais jusqu'à sa destination finale. La question n'est plus « qui l'emporte », mais « pouvez-vous prouver où il est allé »."
-          ],
-          "panel": {
-            "title": "Ce qui vous engage",
-            "items": [
-              "Loi n° 01-19 modifiée par la loi n° 25-02 — gestion et élimination des déchets",
-              "Loi n° 03-10 — protection de l'environnement et développement durable",
-              "Décret exécutif n° 13-176 — lubrifiants et régénération des huiles usagées",
-              "Taxes écologiques annuelles fixées par la loi de finances",
-              "SNGID 2035 — objectif de 47 % de valorisation des déchets ménagers"
-            ]
-          }
-        },
-        {
-          "type": "cta",
-          "title": "Un flux d'huile à évacuer cette semaine ?",
-          "text": "Dites-nous votre wilaya et vos volumes : nous revenons vers vous avec un calendrier d'enlèvement et un devis.",
-          "actions": [
-            {
-              "label": "Nous contacter",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Voir nos services",
-              "href": "/fr/companies/"
-            }
-          ]
-        }
+      "panelTitle": "En bref",
+      "panelItems": [
+        "Ouvert **tous les jours**, de 7h00 à 23h30",
+        "Cuisine au déjeuner et au dîner, four à pizza allumé toute la soirée",
+        "**Carte en 9 langues**, en scannant le QR code à table",
+        "Environ 70 couverts, terrasse et salle pour les groupes",
+        "À emporter et livraison dans le quartier"
       ]
     },
-    "about": {
-      "metaTitle": "Qui sommes-nous — EL MAIN LIL SINAA",
-      "metaDescription": "EL MAIN LIL SINAA, opérateur algérien de la collecte et de la valorisation des huiles usagées : mission, méthode et couverture territoriale.",
-      "title": "Qui sommes-nous",
-      "intro": "EL MAIN LIL SINAA — **المعين للصناعة** — accompagne les entreprises algériennes sur un point précis : sortir leurs huiles usagées du circuit informel et les remettre dans un cycle propre, documenté et légal.",
-      "sections": [
-        {
-          "type": "text",
-          "title": "Notre raison d'être",
-          "body": [
-            "L'Algérie consomme environ 180 000 tonnes de lubrifiants par an et génère jusqu'à 110 000 tonnes d'huiles usagées. Une part importante n'est ni collectée ni tracée : elle finit brûlée, déversée dans le sol ou dans les réseaux d'assainissement. Un seul litre d'huile suffit à contaminer un volume d'eau considérable.",
-            "Notre métier consiste à rendre le geste correct plus simple que le geste facile : un contenant adapté, un enlèvement à date, un document en règle."
-          ]
-        },
-        {
-          "type": "cards",
-          "alt": true,
-          "eyebrow": "Nos principes",
-          "title": "Quatre engagements, tenus à chaque enlèvement",
-          "columns": 4,
-          "items": [
-            {
-              "icon": "shield",
-              "title": "Conformité d'abord",
-              "text": "Autorisations, transport et destination : tout est vérifiable, rien ne repose sur la parole."
-            },
-            {
-              "icon": "map",
-              "title": "Couverture réelle",
-              "text": "Un maillage construit wilaya par wilaya, avec des partenaires locaux formés."
-            },
-            {
-              "icon": "doc",
-              "title": "Traçabilité écrite",
-              "text": "Pas d'enlèvement sans document ; pas de document sans destination identifiée."
-            },
-            {
-              "icon": "recycle",
-              "title": "Valorisation utile",
-              "text": "Priorité à la régénération et au biodiesel plutôt qu'à la simple élimination."
-            }
-          ]
-        },
-        {
-          "type": "regions",
-          "eyebrow": "Territoire",
-          "title": "Une organisation par grandes régions",
-          "lead": "Le service est déployé par pôles régionaux, chacun rattaché à un dépôt et à une équipe d'enlèvement.",
-          "items": [
-            {
-              "title": "Centre",
-              "sub": "Alger, Blida, Boumerdès, Tizi Ouzou"
-            },
-            {
-              "title": "Ouest",
-              "sub": "Oran, Mostaganem, Sidi Bel Abbès, Tlemcen"
-            },
-            {
-              "title": "Est",
-              "sub": "Constantine, Annaba, Sétif, Skikda"
-            },
-            {
-              "title": "Hauts-Plateaux",
-              "sub": "Djelfa, Batna, Tiaret, M'Sila"
-            },
-            {
-              "title": "Sud-Est",
-              "sub": "Ouargla, Hassi Messaoud, Touggourt, Biskra"
-            },
-            {
-              "title": "Sud-Ouest",
-              "sub": "Béchar, Adrar, Tindouf, Timimoun"
-            }
-          ],
-          "note": "Les localités citées sont des exemples de déploiement : remplacez-les par votre implantation réelle avant la mise en ligne."
-        },
-        {
-          "type": "cta",
-          "title": "Travaillons ensemble",
-          "text": "Industriels, restaurateurs, collectivités : la première étape est toujours une visite et un état des lieux gratuit.",
-          "actions": [
-            {
-              "label": "Prendre rendez-vous",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Nos partenaires",
-              "href": "/fr/partners/"
-            }
-          ]
-        }
+    "visit": { "eyebrow": "Venez nous voir", "title": "Horaires et accès", "lead": "Nous sommes au 78/80 Via Principe Amedeo, entre Termini et la Piazza Vittorio." },
+    "cta": { "title": "Réserver une table", "text": "Appelez-nous ou écrivez sur WhatsApp : nous répondons pendant toutes les heures d'ouverture." }
+  },
+
+  "menu": {
+    "lead": "Tous les plats, avec les prix et les mentions végan, végétarien, sans gluten et épicé. Utilisez la recherche ou les filtres pour trouver ce qu'il vous faut.",
+    "allergenNote": "Demandez au personnel la liste complète des allergènes. Les plats sans gluten sont préparés avec des ingrédients certifiés et du matériel dédié ; la cuisine dans son ensemble n'est toutefois pas entièrement sans gluten.",
+    "priceNote": "Prix en euros, service compris. Certains produits peuvent être surgelés à l'origine selon la disponibilité et la saison.",
+    "cta": { "title": "Nous vous gardons une table", "text": "Un appel suffit pour réserver ou commander à emporter." }
+  },
+
+  "about": {
+    "lead": "Une famille, une cuisine et un four, dans l'une des rues les plus vivantes de l'Esquilin.",
+    "story": {
+      "eyebrow": "Notre histoire",
+      "title": "Simple, bien fait, tous les jours",
+      "body": [
+        "Nous avons ouvert Via Principe Amedeo parce que c'est une rue qui ne dort jamais : le café au comptoir le matin, les pâtes à midi, la pizza le soir. Un bar qui est aussi restaurant et pizzeria, comme autrefois.",
+        "La carte change peu, et cela nous convient : nous préférons bien faire dix choses plutôt que cent à moitié. Les pâtes sont tréfilées au bronze, le poisson arrive frais plusieurs fois par semaine, les légumes suivent la saison.",
+        "Rome est à la fois une ville de passage et un ensemble de quartiers. Nous aimons qu'une famille du coin soit assise à une table et, à côté, quelqu'un arrivé le matin même avec sa valise. C'est pourquoi la carte se lit en neuf langues : il suffit de scanner le QR code."
+      ],
+      "panelTitle": "Notre façon de travailler",
+      "panelItems": [
+        "Pâte à pizza maturée **24 heures**",
+        "Guanciale et pecorino romano pour les pâtes traditionnelles",
+        "Poisson frais, selon le marché",
+        "Une gamme **sans gluten** aux ingrédients certifiés",
+        "Plats végans et végétariens toujours disponibles"
       ]
     },
-    "rules": {
-      "metaTitle": "Réglementation environnementale algérienne — EL MAIN LIL SINAA",
-      "metaDescription": "Panorama des textes algériens : loi 01-19, loi 25-02, loi 03-10, décret exécutif 13-176, taxes écologiques et stratégie SNGID 2035.",
-      "title": "Réglementation : l'environnement de A à Z en Algérie",
-      "intro": "Les textes qui encadrent les déchets, les huiles usagées et la fiscalité écologique en Algérie, résumés en langage clair. **Vérifiez toujours la dernière version au Journal officiel (JORADP)** avant toute décision.",
-      "sections": [
-        {
-          "type": "norms",
-          "eyebrow": "Textes de référence",
-          "title": "Le socle légal",
-          "items": [
-            {
-              "tag": "2001",
-              "title": "Loi n° 01-19 du 12 décembre 2001",
-              "text": "Gestion, contrôle et élimination des déchets : obligation de tri, de valorisation et d'élimination dans des conditions respectueuses de l'environnement."
-            },
-            {
-              "tag": "2025",
-              "title": "Loi n° 25-02 (JO n° 12, février 2025)",
-              "text": "Modifie et complète la loi 01-19 : responsabilité élargie du producteur, éco-conception, système numérique de gestion, remplacement progressif du plastique à usage unique, sanctions révisées."
-            },
-            {
-              "tag": "2003",
-              "title": "Loi n° 03-10 du 19 juillet 2003",
-              "text": "Protection de l'environnement dans le cadre du développement durable : cadre général, principes de prévention et de pollueur-payeur."
-            },
-            {
-              "tag": "2013",
-              "title": "Décret exécutif n° 13-176 du 30 avril 2013",
-              "text": "Conditions de fabrication, de stockage et de distribution en gros des lubrifiants, ainsi que de régénération des huiles usagées (JO n° 25 du 12 mai 2013)."
-            },
-            {
-              "tag": "2002",
-              "title": "Décret exécutif n° 02-175 du 20 mai 2002",
-              "text": "Création, organisation et fonctionnement de l'Agence nationale des déchets (AND), sous tutelle du ministère chargé de l'environnement."
-            },
-            {
-              "tag": "Fiscalité",
-              "title": "Taxes écologiques (lois de finances)",
-              "text": "Taxe sur les activités polluantes ou dangereuses, taxe sur les huiles, lubrifiants et préparations lubrifiantes, taxe d'incitation au déstockage des déchets industriels spéciaux, taxe sur les sacs en plastique, taxes complémentaires sur la pollution atmosphérique et les eaux usées."
-            },
-            {
-              "tag": "2035",
-              "title": "Stratégie nationale de gestion intégrée des déchets (SNGID)",
-              "text": "Horizon 2035 : valoriser 47 % des déchets ménagers et assimilés, réduire la production sous 1,1 kg/habitant/jour, éradiquer les décharges sauvages et créer 30 000 emplois directs."
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "alt": true,
-          "eyebrow": "Qui fait quoi",
-          "title": "Les institutions à connaître",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "shield",
-              "title": "Ministère de l'Environnement",
-              "text": "Définit la politique nationale et exerce la tutelle sur les organismes du secteur."
-            },
-            {
-              "icon": "recycle",
-              "title": "AND",
-              "text": "Agence nationale des déchets : connaissance des flux, appui technique et promotion du recyclage."
-            },
-            {
-              "icon": "factory",
-              "title": "CNTPP",
-              "text": "Centre national des technologies de production plus propre : accompagne l'industrie vers des procédés moins polluants."
-            },
-            {
-              "icon": "chart",
-              "title": "ONEDD",
-              "text": "Observatoire national de l'environnement et du développement durable : mesure et publie l'état de l'environnement."
-            },
-            {
-              "icon": "users",
-              "title": "CNFE",
-              "text": "Conservatoire national des formations à l'environnement : formation et sensibilisation des acteurs."
-            },
-            {
-              "icon": "map",
-              "title": "Wilayas & APC",
-              "text": "Autorisations locales, plans communaux de gestion des déchets et contrôle de proximité."
-            }
-          ]
-        },
-        {
-          "type": "sources",
-          "title": "Sources publiques",
-          "lead": "Les données de cette page proviennent des références suivantes.",
-          "items": [
-            {
-              "title": "Cadre institutionnel et réglementaire",
-              "publisher": "Agence nationale des déchets (and.dz)",
-              "href": "https://and.dz/presentation/cadre-institutionnel-et-reglementaire/"
-            },
-            {
-              "title": "Loi 25-02 relative à la gestion des déchets (texte)",
-              "publisher": "JORADP n° 12 / 2025",
-              "href": "https://bet-khatraoui-abdessamie.com/wp-content/uploads/2025/02/Loi-25-02-modifiant-et-completant-la-loi-01-19-relative-a-la-gestion-des-dechets.pdf"
-            },
-            {
-              "title": "Décret exécutif n° 13-176",
-              "publisher": "CNTPP (cntpp.dz)",
-              "href": "https://cntpp.dz/wp-content/uploads/2023/11/Decret-executif-n-%C2%B013-176.pdf"
-            },
-            {
-              "title": "Déchets et recyclage",
-              "publisher": "Ministère de l'Environnement (me.gov.dz)",
-              "href": "https://www.me.gov.dz/fr/dechets-et-recyclage/"
-            },
-            {
-              "title": "Taxes écologiques",
-              "publisher": "ONEDD (onedd.org)",
-              "href": "https://onedd.org/taxes-ecologiques/"
-            }
-          ],
-          "note": "Ce panorama est un résumé pédagogique, non un avis juridique. Faites valider votre situation par un conseil habilité."
-        }
+    "values": {
+      "eyebrow": "Nos principes",
+      "title": "Trois choses auxquelles nous ne renonçons pas",
+      "items": [
+        { "icon": "heart", "title": "Un vrai accueil", "text": "Une table bien dressée et quelqu'un qui vous explique la carte dans votre langue." },
+        { "icon": "check", "title": "Des prix honnêtes", "text": "Les prix sont affichés et il n'y a pas de surprise sur l'addition : couvert et service sont compris." },
+        { "icon": "sprout", "title": "Le respect de vos besoins", "text": "Allergies, intolérances, choix alimentaires : nous en parlons avant de commander, pas après." }
       ]
     },
-    "contribution": {
-      "metaTitle": "Éco-contribution et fiscalité environnementale — EL MAIN LIL SINAA",
-      "metaDescription": "Comprendre les taxes écologiques algériennes applicables aux huiles, lubrifiants et déchets industriels spéciaux, et les obligations qui en découlent.",
-      "title": "Éco-contribution & fiscalité environnementale",
-      "intro": "En Algérie, le principe **pollueur-payeur** se traduit par une série de taxes écologiques votées chaque année en loi de finances. En voici la lecture pratique pour une entreprise.",
-      "sections": [
-        {
-          "type": "norms",
-          "eyebrow": "Ce que vous payez",
-          "title": "Les principales taxes écologiques",
-          "items": [
-            {
-              "tag": "Huiles",
-              "title": "Taxe sur les huiles, lubrifiants et préparations lubrifiantes",
-              "text": "Frappe les produits dont l'usage génère des huiles usagées. La loi de finances 2026 en prévoit un rendement de 7,5 milliards DA, réparti à 66 % pour l'État et 34 % pour les communes."
-            },
-            {
-              "tag": "Industrie",
-              "title": "Taxe sur les activités polluantes ou dangereuses pour l'environnement",
-              "text": "Due par les installations classées, selon leur nature et leur capacité."
-            },
-            {
-              "tag": "Stocks",
-              "title": "Taxe d'incitation au déstockage des déchets industriels spéciaux",
-              "text": "Pénalise le stockage prolongé des déchets spéciaux sur site. Prévision 2026 : 550 millions DA, dont 84 % pour l'État et 16 % pour les communes."
-            },
-            {
-              "tag": "Plastique",
-              "title": "Taxe spécifique sur les sacs en plastique",
-              "text": "Applicable aux sacs importés ou produits localement."
-            },
-            {
-              "tag": "Air & eau",
-              "title": "Taxes complémentaires : pollution atmosphérique et eaux usées",
-              "text": "Assises sur les rejets industriels dépassant les valeurs limites réglementaires."
-            }
-          ]
-        },
-        {
-          "type": "steps",
-          "alt": true,
-          "eyebrow": "Méthode",
-          "title": "Comment nous réduisons votre exposition",
-          "items": [
-            {
-              "title": "État des lieux",
-              "text": "Inventaire de vos flux : natures, volumes, points de production, stockage actuel."
-            },
-            {
-              "title": "Plan d'évacuation",
-              "text": "Fréquence d'enlèvement calibrée pour éviter le stockage prolongé — et la taxe qui va avec."
-            },
-            {
-              "title": "Documentation",
-              "text": "Constitution du dossier de traçabilité, enlèvement par enlèvement."
-            },
-            {
-              "title": "Bilan annuel",
-              "text": "Récapitulatif des volumes et des destinations, utilisable en déclaration comme en contrôle."
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Estimer votre situation",
-          "text": "Envoyez-nous vos volumes annuels : nous vous répondons avec un plan d'enlèvement et une estimation de coût.",
-          "actions": [
-            {
-              "label": "Demander une estimation",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Lire la réglementation",
-              "href": "/fr/rules/"
-            }
-          ]
-        }
-      ]
-    },
-    "companies": {
-      "metaTitle": "Services aux entreprises — EL MAIN LIL SINAA",
-      "metaDescription": "Collecte d'huiles usagées pour garages, industries, hôtels, restaurants, agroalimentaire et flottes de transport en Algérie.",
-      "title": "Entreprises",
-      "intro": "Un service pensé pour ceux qui produisent de l'huile usagée sans en faire leur métier : **vous produisez, nous évacuons, vous gardez la preuve.**",
-      "sections": [
-        {
-          "type": "cards",
-          "eyebrow": "Secteurs",
-          "title": "Qui nous appelle",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "collect",
-              "title": "Garages & stations-service",
-              "text": "Huiles de vidange, filtres, emballages souillés : enlèvement régulier et bacs adaptés."
-            },
-            {
-              "icon": "factory",
-              "title": "Industrie & manufacture",
-              "text": "Huiles hydrauliques, de coupe et de trempe, avec suivi des volumes par atelier."
-            },
-            {
-              "icon": "drop",
-              "title": "Hôtellerie & restauration",
-              "text": "Huiles de friture usagées : bidons fournis, rotation calée sur votre activité."
-            },
-            {
-              "icon": "recycle",
-              "title": "Agroalimentaire",
-              "text": "Flux importants et réguliers, avec contraintes d'hygiène et de séparation des matières."
-            },
-            {
-              "icon": "map",
-              "title": "Transport & flottes",
-              "text": "Ateliers de maintenance, dépôts et bases-vie, y compris sur sites isolés du Sud."
-            },
-            {
-              "icon": "users",
-              "title": "Collectivités & institutions",
-              "text": "Communes, hôpitaux, écoles et universités : marchés publics et conventions."
-            }
-          ]
-        },
-        {
-          "type": "steps",
-          "alt": true,
-          "eyebrow": "Déroulé",
-          "title": "Comment se passe un contrat",
-          "items": [
-            {
-              "title": "Visite et diagnostic",
-              "text": "Nous mesurons vos volumes réels et repérons les points de collecte sur site."
-            },
-            {
-              "title": "Proposition écrite",
-              "text": "Fréquence, contenants, tarif et engagements de délai, sans clause cachée."
-            },
-            {
-              "title": "Mise en place",
-              "text": "Livraison des bacs et bidons étanches, marquage et formation rapide de vos équipes."
-            },
-            {
-              "title": "Enlèvements programmés",
-              "text": "Passage à date fixe ou sur appel, avec pesée et bordereau à chaque intervention."
-            },
-            {
-              "title": "Dossier de conformité",
-              "text": "Vos documents sont archivés et remis en synthèse annuelle."
-            }
-          ]
-        },
-        {
-          "type": "split",
-          "title": "Vos obligations, en clair",
-          "body": [
-            "Le producteur d'un déchet en reste responsable jusqu'à son élimination ou sa valorisation finale. En pratique : vous devez savoir ce que vous produisez, le stocker correctement, le confier à un opérateur autorisé et pouvoir le démontrer.",
-            "C'est exactement ce que nous documentons pour vous, intervention après intervention."
-          ],
-          "panel": {
-            "title": "Checklist du producteur",
-            "items": [
-              "Identifier et classer vos déchets",
-              "Stocker sur rétention, à l'abri et sans mélange",
-              "Ne jamais mélanger huiles minérales et alimentaires",
-              "Contractualiser avec un collecteur autorisé",
-              "Conserver les bordereaux d'enlèvement",
-              "Tenir un registre à jour des sorties"
-            ]
-          }
-        },
-        {
-          "type": "cta",
-          "title": "Demander une visite",
-          "text": "Gratuite et sans engagement, partout où notre réseau est déployé.",
-          "actions": [
-            {
-              "label": "Nous écrire",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Adhérer",
-              "href": "/fr/membership/"
-            }
-          ]
-        }
-      ]
-    },
-    "associations": {
-      "metaTitle": "Partenaires et institutions — EL MAIN LIL SINAA",
-      "metaDescription": "Nos interlocuteurs institutionnels et professionnels en Algérie : ministère, AND, CNTPP, ONEDD, wilayas, chambres de commerce et associations.",
-      "title": "Partenaires & institutions",
-      "intro": "Une filière ne se construit pas seule. Nous travaillons avec les autorités, les organismes techniques et les organisations professionnelles qui structurent le secteur en Algérie.",
-      "sections": [
-        {
-          "type": "cards",
-          "eyebrow": "Écosystème",
-          "title": "Avec qui nous dialoguons",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "shield",
-              "title": "Autorités environnementales",
-              "text": "Ministère chargé de l'environnement et directions de l'environnement de wilaya : autorisations et contrôle."
-            },
-            {
-              "icon": "recycle",
-              "title": "Agence nationale des déchets",
-              "text": "Données de flux, bonnes pratiques et appui à la structuration des filières."
-            },
-            {
-              "icon": "factory",
-              "title": "CNTPP",
-              "text": "Accompagnement des industriels vers des procédés plus propres et moins générateurs de déchets."
-            },
-            {
-              "icon": "users",
-              "title": "Associations professionnelles",
-              "text": "Restaurateurs, hôteliers, garagistes et transporteurs : relais indispensables sur le terrain."
-            },
-            {
-              "icon": "map",
-              "title": "Communes & APC",
-              "text": "Points d'apport, campagnes de quartier et opérations de nettoyage."
-            },
-            {
-              "icon": "chart",
-              "title": "Recherche & startups",
-              "text": "Laboratoires et jeunes entreprises travaillant sur le biodiesel et la régénération des huiles."
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "alt": true,
-          "title": "Ce que nous apportons à un partenariat",
-          "body": [
-            "Un opérateur de terrain, des données de collecte fiables et une capacité à mobiliser des entreprises sur un territoire donné.",
-            "Nous participons volontiers aux opérations de sensibilisation, aux journées de l'environnement et aux programmes scolaires : c'est là que se gagne la collecte de demain."
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Proposer un partenariat",
-          "text": "Institution, association ou entreprise : écrivez-nous en décrivant votre projet.",
-          "actions": [
-            {
-              "label": "Nous contacter",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Voir la campagne",
-              "href": "/fr/campaign/"
-            }
-          ]
-        }
-      ]
-    },
-    "campaign": {
-      "metaTitle": "Campagne de sensibilisation environnementale — EL MAIN LIL SINAA",
-      "metaDescription": "Slogans et plan de communication environnementale destinés au grand public algérien, en arabe classique et en darija.",
-      "title": "Campagne & slogans",
-      "intro": "Parler d'environnement au public algérien demande des mots simples, dans **la langue de tous les jours**. Voici notre kit de messages, en arabe littéraire et en darija, prêt pour la radio, l'affichage et les réseaux sociaux.",
-      "sections": [
-        {
-          "type": "slogans",
-          "eyebrow": "Messages",
-          "title": "Nos slogans",
-          "lead": "Chaque slogan est pensé pour un support précis et une audience précise.",
-          "items": [
-            {
-              "ar": "زيتك المستعمل ثروة… لا ترميه",
-              "local": "Ton huile usagée est une richesse — ne la jette pas.",
-              "note": "Message principal · affichage et radio"
-            },
-            {
-              "ar": "لتر واحد من الزيت يلوّث ملايين اللترات من الماء",
-              "local": "Un litre d'huile pollue des millions de litres d'eau.",
-              "note": "Message pédagogique · écoles et réseaux sociaux"
-            },
-            {
-              "ar": "ما ترميش… سلّمهالنا",
-              "local": "Ne la jette pas — remets-la nous.",
-              "note": "Darija · stations-service et garages"
-            },
-            {
-              "ar": "من المطبخ إلى الطاقة",
-              "local": "De la cuisine à l'énergie.",
-              "note": "Huiles alimentaires · restaurants et hôtels"
-            },
-            {
-              "ar": "الجزائر نظيفة… مسؤولية الجميع",
-              "local": "Une Algérie propre : l'affaire de tous.",
-              "note": "Message civique · campagnes communales"
-            },
-            {
-              "ar": "نجمعو، نرسكلو، نحافظو",
-              "local": "On collecte, on recycle, on préserve.",
-              "note": "Darija · spots radio et vidéos courtes"
-            },
-            {
-              "ar": "بيئة نظيفة، صناعة مسؤولة",
-              "local": "Environnement propre, industrie responsable.",
-              "note": "Message B2B · salons et presse spécialisée"
-            },
-            {
-              "ar": "كل قطرة تُجمع… مستقبل يُصان",
-              "local": "Chaque goutte collectée protège un avenir.",
-              "note": "Clôture de campagne · affichage grand format"
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "alt": true,
-          "eyebrow": "Diffusion",
-          "title": "Où nous portons ces messages",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "users",
-              "title": "Radios locales",
-              "text": "Spots de 20 secondes en arabe et en darija, sur les stations de wilaya."
-            },
-            {
-              "icon": "map",
-              "title": "Affichage urbain",
-              "text": "Panneaux aux entrées de ville, marchés, stations-service et zones d'activité."
-            },
-            {
-              "icon": "chart",
-              "title": "Réseaux sociaux",
-              "text": "Vidéos verticales courtes, format démonstration : le bon geste en dix secondes."
-            },
-            {
-              "icon": "doc",
-              "title": "Écoles & universités",
-              "text": "Ateliers et affiches, avec un volet pratique sur l'huile de friture domestique."
-            },
-            {
-              "icon": "collect",
-              "title": "Points de collecte",
-              "text": "Signalétique commune sur les bacs, pour que le geste soit identifiable partout."
-            },
-            {
-              "icon": "shield",
-              "title": "Partenariats communaux",
-              "text": "Journées propreté avec les APC et les associations de quartier."
-            }
-          ]
-        },
-        {
-          "type": "steps",
-          "eyebrow": "Plan",
-          "title": "La campagne en quatre phases",
-          "items": [
-            {
-              "title": "Comprendre",
-              "text": "Le problème en un chiffre : l'huile jetée contamine l'eau et bouche les réseaux."
-            },
-            {
-              "title": "Montrer",
-              "text": "Le bon geste, filmé dans une cuisine et dans un garage — pas en studio."
-            },
-            {
-              "title": "Faciliter",
-              "text": "Indiquer le point de collecte le plus proche, wilaya par wilaya."
-            },
-            {
-              "title": "Rendre compte",
-              "text": "Publier les volumes collectés : la preuve que le geste sert à quelque chose."
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Reprendre la campagne chez vous",
-          "text": "Communes, écoles, entreprises : nous fournissons les visuels et les messages, adaptés à votre territoire.",
-          "actions": [
-            {
-              "label": "Demander le kit",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Devenir partenaire",
-              "href": "/fr/partners/"
-            }
-          ]
-        }
-      ]
-    },
-    "membership": {
-      "metaTitle": "Adhésion — EL MAIN LIL SINAA",
-      "metaDescription": "Rejoindre le réseau EL MAIN LIL SINAA : conditions, étapes et documents nécessaires pour les entreprises algériennes.",
-      "title": "Adhésion",
-      "intro": "Adhérer, c'est confier vos flux d'huiles usagées à un opérateur unique et recevoir, en retour, la documentation qui prouve votre conformité.",
-      "sections": [
-        {
-          "type": "steps",
-          "eyebrow": "Procédure",
-          "title": "Quatre étapes",
-          "items": [
-            {
-              "title": "Demande",
-              "text": "Formulaire en ligne ou appel : activité, wilaya, volumes estimés."
-            },
-            {
-              "title": "Diagnostic",
-              "text": "Visite sur site sous quelques jours ouvrables, puis proposition écrite."
-            },
-            {
-              "title": "Contrat",
-              "text": "Signature, remise des contenants et calendrier d'enlèvement."
-            },
-            {
-              "title": "Suivi",
-              "text": "Bordereaux à chaque passage et bilan annuel des volumes valorisés."
-            }
-          ]
-        },
-        {
-          "type": "split",
-          "alt": true,
-          "title": "Ce que l'adhésion comprend",
-          "body": [
-            "Un service complet, sans frais cachés : les contenants restent notre propriété et leur entretien est à notre charge.",
-            "Pour les gros producteurs, le contrat peut prévoir une reprise valorisée des huiles, selon les volumes et la qualité du flux."
-          ],
-          "panel": {
-            "title": "Documents à préparer",
-            "items": [
-              "Registre de commerce",
-              "Identifiant fiscal (NIF)",
-              "Coordonnées du responsable HSE ou du gérant",
-              "Estimation des volumes mensuels",
-              "Adresse précise des points de collecte"
-            ]
-          }
-        },
-        {
-          "type": "cta",
-          "title": "Commencer l'adhésion",
-          "text": "Remplissez le formulaire de contact : nous revenons vers vous sous 48 heures ouvrables.",
-          "actions": [
-            {
-              "label": "Formulaire de contact",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Questions fréquentes",
-              "href": "/fr/faq/"
-            }
-          ]
-        }
-      ]
-    },
-    "contacts": {
-      "metaTitle": "Contact — EL MAIN LIL SINAA",
-      "metaDescription": "Contacter EL MAIN LIL SINAA : adresse, téléphone, e-mail et formulaire de demande d'enlèvement pour toute l'Algérie.",
-      "title": "Contact",
-      "intro": "Une question, un devis, un enlèvement à programmer : écrivez-nous en précisant votre **wilaya** et vos **volumes estimés**, la réponse sera plus rapide.",
-      "sections": [
-        {
-          "type": "contacts",
-          "labels": {
-            "office": "Siège",
-            "phone": "Téléphone",
-            "email": "E-mail",
-            "hours": "Horaires",
-            "pec": "Service commercial"
-          }
-        },
-        {
-          "type": "form",
-          "alt": true,
-          "title": "Formulaire de demande",
-          "fields": {
-            "name": "Entreprise ou nom",
-            "email": "E-mail",
-            "subject": "Objet",
-            "subjects": [
-              "Demande d'enlèvement",
-              "Adhésion",
-              "Éco-contribution et conformité",
-              "Partenariat ou campagne",
-              "Autre"
-            ],
-            "message": "Votre message (wilaya, activité, volumes)",
-            "submit": "Envoyer",
-            "note": "Ce formulaire est une maquette : branchez-le sur votre service d'envoi (Vercel Forms, Formspree, API interne) avant la mise en ligne."
-          }
-        }
-      ]
-    },
-    "faq": {
-      "metaTitle": "Questions fréquentes — EL MAIN LIL SINAA",
-      "metaDescription": "Réponses aux questions courantes sur la collecte des huiles usagées, la conformité réglementaire et les coûts en Algérie.",
-      "title": "Questions fréquentes",
-      "intro": "Les questions que l'on nous pose le plus souvent, au téléphone comme sur site.",
-      "sections": [
-        {
-          "type": "faq",
-          "items": [
-            {
-              "q": "Puis-je jeter l'huile usagée à l'égout ou la brûler ?",
-              "a": "Non. Le déversement et le brûlage non autorisés sont interdits et exposent à des sanctions, renforcées par la loi 25-02. L'huile doit être remise à un opérateur autorisé."
-            },
-            {
-              "q": "Le service est-il payant ?",
-              "a": "Cela dépend du flux. Les huiles alimentaires en volume régulier peuvent faire l'objet d'une reprise ; les petits volumes et les déchets associés donnent lieu à une prestation facturée. Le devis est toujours écrit."
-            },
-            {
-              "q": "Quel volume minimum pour un enlèvement ?",
-              "a": "Nous organisons des tournées mutualisées : même un petit producteur peut être intégré au passage d'un secteur."
-            },
-            {
-              "q": "Quels documents vais-je recevoir ?",
-              "a": "Un bordereau d'enlèvement à chaque intervention, mentionnant la nature, la quantité et la destination, puis un récapitulatif annuel."
-            },
-            {
-              "q": "Intervenez-vous dans le Sud ?",
-              "a": "Oui, sur les zones industrielles et pétrolières, avec une fréquence adaptée aux distances. Contactez-nous pour le calendrier de votre secteur."
-            },
-            {
-              "q": "Peut-on mélanger huile moteur et huile de friture ?",
-              "a": "Jamais. Le mélange rend le flux non valorisable et peut déclasser l'ensemble en déchet dangereux. Deux contenants séparés, toujours."
-            },
-            {
-              "q": "Que devient l'huile collectée ?",
-              "a": "Elle est orientée vers la valorisation : régénération, valorisation énergétique ou production de biodiesel, selon la qualité et les filières disponibles."
-            },
-            {
-              "q": "Fournissez-vous les contenants ?",
-              "a": "Oui : bacs et bidons étanches, marqués, livrés et entretenus par nos soins."
-            },
-            {
-              "q": "Comment se passe un contrôle ?",
-              "a": "Vous présentez vos bordereaux et votre registre. C'est précisément ce que notre dossier de traçabilité est fait pour couvrir."
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Votre question n'est pas là ?",
-          "text": "Écrivez-nous : nous répondons sous 48 heures ouvrables.",
-          "actions": [
-            {
-              "label": "Poser une question",
-              "href": "/fr/contacts/"
-            },
-            {
-              "label": "Voir la réglementation",
-              "href": "/fr/rules/"
-            }
-          ]
-        }
-      ]
-    }
+    "cta": { "title": "Passez nous voir", "text": "Nous sommes ouverts tous les jours, du petit-déjeuner jusque tard le soir." }
+  },
+
+  "features": {
+    "eyebrow": "Services",
+    "title": "Ce que vous trouverez ici",
+    "items": { "italian": "Cuisine 100 % italienne", "wifi": "Wi-Fi gratuit", "outdoor": "Terrasse", "takeaway": "À emporter", "delivery": "Livraison à domicile", "cards": "Cartes et Satispay", "family": "Adapté aux enfants", "accessible": "Accès de plain-pied", "airCon": "Climatisation", "petFriendly": "Chiens acceptés", "groups": "Groupes acceptés" }
+  },
+
+  "contacts": {
+    "lead": "Via Principe Amedeo 78/80, à cinq minutes à pied de Roma Termini.",
+    "intro": { "eyebrow": "Contact", "title": "Comment nous rejoindre, et quand", "lead": "Le téléphone et WhatsApp répondent pendant toutes les heures d'ouverture." },
+    "hoursTitle": "Horaires d'ouverture",
+    "hoursNote": "Ouvert tous les jours. La cuisine respecte les services du déjeuner et du dîner ; le bar reste ouvert entre les deux.",
+    "nearTermini": "Cinq minutes à pied de la gare de Termini et des métros A et B.",
+    "phoneNote": "Pour les groupes de huit personnes ou plus, mieux vaut appeler la veille.",
+    "mapTitle": { "eyebrow": "Où nous sommes", "title": "Le plan", "lead": "Via Principe Amedeo 78/80, 00185 Rome." },
+    "nearby": { "eyebrow": "Aux alentours", "title": "Ce qu'il y a autour", "lead": "Distances à pied depuis les repères du quartier." },
+    "cta": { "title": "Réserver ou commander", "text": "Un appel ou un message WhatsApp : nous nous occupons du reste." }
+  },
+
+  "faq": {
+    "lead": "Les questions qu'on nous pose le plus souvent. Si la réponse n'y est pas, appelez-nous.",
+    "items": [
+      { "q": "Faut-il réserver ?", "a": "Pour deux ou trois personnes, en général non : il y a presque toujours une table libre. Les vendredis et samedis soir, et pour les groupes de six personnes ou plus, mieux vaut appeler. Quelques minutes au téléphone ou un message WhatsApp suffisent." },
+      { "q": "Avez-vous des plats sans gluten ?", "a": "Oui, une section entière avec pizza, pâtes, un dessert et de la bière sans gluten, préparés avec des ingrédients certifiés et du matériel dédié. La cuisine dans son ensemble n'est pas entièrement sans gluten : signalez-le toujours au personnel au moment de commander." },
+      { "q": "Y a-t-il des options véganes et végétariennes ?", "a": "Oui, deux sections complètes de la carte. De plus, de nombreux plats des autres sections sont déjà végétariens : sur la carte, ils portent une étiquette de couleur." },
+      { "q": "À quelle distance êtes-vous de la gare de Termini ?", "a": "Environ cinq minutes à pied. En sortant de Termini, prenez la Via Giovanni Giolitti puis tournez dans la Via Principe Amedeo : nous sommes au 78/80." },
+      { "q": "Peut-on payer par carte ?", "a": "Oui, nous acceptons la carte de débit, Visa, Mastercard, American Express et Satispay, sans montant minimum." },
+      { "q": "Faites-vous la vente à emporter et la livraison ?", "a": "Oui, toute la carte est disponible à emporter et nous livrons dans les rues alentour. Pour commander, appelez ou envoyez un message WhatsApp." },
+      { "q": "Acceptez-vous les groupes ?", "a": "Oui, nous avons une salle qui accueille les groupes. Au-delà de huit personnes, appelez-nous la veille pour que nous préparions les tables et, si vous le souhaitez, un menu convenu." },
+      { "q": "Les chiens sont-ils admis ?", "a": "Oui, les chiens sont les bienvenus en salle comme en terrasse." },
+      { "q": "La carte existe-t-elle dans d'autres langues ?", "a": "Oui, en neuf langues : italien, anglais, français, espagnol, portugais, arabe, russe, polonais et grec. Scannez le QR code sur la table et la carte s'ouvre dans la langue de votre téléphone." },
+      { "q": "À quelle heure la cuisine est-elle ouverte ?", "a": "Le midi de 12h00 à 15h30 et le soir de 18h30 à 23h00. En dehors de ces horaires, le bar reste ouvert pour le café, les sandwichs et l'apéritif." }
+    ],
+    "cta": { "title": "Vous ne trouvez pas la réponse ?", "text": "Appelez-nous ou écrivez sur WhatsApp : nous répondons tout de suite." }
+  },
+
+  "qr": {
+    "reviewKind": "Avis",
+    "reviewTitle": "QR avis Google",
+    "reviewText": "Mène directement au formulaire d'avis Google. À garder en caisse ou à donner avec l'addition.",
+    "reviewHead": "Laissez un avis",
+    "reviewScan": "Dites-nous comment c'était",
+    "reviewCardTitle": "Carton avis pour la caisse",
+    "reviewCardText": "À imprimer et à garder près de la caisse, ou à donner avec l'addition. **Deux secondes pour le client**, et la fiche Google du restaurant grandit.",
+    "reviewCardPrint": "Imprimer le carton avis",
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "QR Wi-Fi",
+    "wifiText": "En le scannant, le téléphone rejoint le réseau sans taper le mot de passe.",
+    "wifiNetwork": "Réseau",
+    "wifiPassword": "Mot de passe",
+    "wifiScan": "Scannez et vous êtes connecté",
+    "wifiFree": "Wi-Fi gratuit",
+    "wifiCardTitle": "Carton Wi-Fi pour les tables",
+    "wifiCardText": "À imprimer et à poser à côté de la carte. **Les clients se connectent seuls**, sans demander le mot de passe.",
+    "wifiCardPrint": "Imprimer le carton Wi-Fi",
+    "lead": "Deux codes, deux usages différents. Le premier ouvre la carte, le second le site. Tous deux reconnaissent seuls la langue du téléphone.",
+    "intro": { "eyebrow": "Prêts à imprimer", "title": "Les deux codes QR", "lead": "Ce sont des images vectorielles : elles s'impriment nettes à n'importe quelle taille, de l'autocollant à l'affiche." },
+    "menuKind": "Pour la table", "siteKind": "Pour l'établissement",
+    "menuTitle": "QR code de la carte",
+    "menuText": "Il ouvre directement la carte complète, dans la langue du téléphone. À poser sur les tables, en vitrine ou sur un prospectus.",
+    "siteTitle": "QR code du site",
+    "siteText": "Il ouvre la page d'accueil : carte, horaires, plan, contacts et blog. Utile sur les cartes de visite, l'enseigne et les réseaux sociaux.",
+    "howTitle": "Comment s'en servir",
+    "how": [
+      { "title": "Imprimer", "text": "Téléchargez le fichier SVG ou utilisez le bouton d'impression. Taille minimale conseillée : **3 centimètres** de côté." },
+      { "title": "Placer", "text": "Sur les tables, en vitrine, sur la carte papier ou à la caisse. Il faut un bon contraste et aucun reflet." },
+      { "title": "Le client scanne", "text": "L'appareil photo du téléphone suffit : aucune application à installer." },
+      { "title": "La carte s'ouvre dans sa langue", "text": "Le site reconnaît la langue du téléphone parmi les neuf disponibles et ouvre la bonne carte." }
+    ],
+    "tentTitle": "Chevalet de table",
+    "tentText": "Prêt à imprimer et à plier : posez-le sur les tables et la carte est servie. **Aucun papier à réimprimer à chaque changement de prix.**",
+    "tentSub": "Restaurant · Pizzeria", "tentScan": "Scannez pour la carte", "tentPrint": "Imprimer le chevalet",
+    "cta": { "title": "Il vous faut une autre version ?", "text": "Nous pouvons générer un QR code pour n'importe quelle page du site : appelez-nous." }
+  },
+
+  "blog": {
+    "lead": "Cuisine romaine, pizza et conseils pratiques pour bien manger près de Termini.",
+    "moreTitle": "Autres articles",
+    "cta": { "title": "Venez les goûter", "text": "Tous les plats dont nous parlons sont à la carte, tous les jours." },
+    "posts": [
+      {
+        "slug": "carbonara-vera", "tag": "Tradition", "date": "2026-06-12",
+        "title": "La vraie carbonara : quatre ingrédients et aucun raccourci",
+        "excerpt": "Guanciale, jaunes d'œufs, pecorino romano et poivre. Pas de crème, pas d'ail, pas d'oignon. Voici comment nous la faisons, et pourquoi.",
+        "body": [
+          "La carbonara est le plat qui fait le plus discuter à Rome, et c'est logique : il n'y a que quatre ingrédients, donc chacun se voit tout de suite. Si l'un d'eux est médiocre, rien ne sauve l'assiette.",
+          "## Du guanciale, pas de la pancetta",
+          "Le guanciale vient de la joue du porc. Il est plus doux et plus gras que la pancetta, et il se comporte différemment à la poêle : le gras fond et devient la vraie sauce. Nous le taillons en lanières d'un demi-centimètre et le faisons rendre à feu moyen, sans hâte, jusqu'à ce que le maigre soit croustillant et le gras translucide.",
+          "## La crème se fait sans crème",
+          "Des jaunes d'œufs, du pecorino romano râpé à la minute et du poivre noir concassé. On mélange à froid, puis on détend avec une louche d'eau de cuisson. La poêle doit être hors du feu quand les pâtes arrivent : c'est la chaleur résiduelle qui lie, pas la flamme. Trop chaud, l'œuf coagule et devient une omelette.",
+          "## Spaghetti ou rigatoni",
+          "Nous la servons avec des spaghetti, parce que la sauce les enrobe uniformément. Les rigatoni fonctionnent tout aussi bien et retiennent la sauce à l'intérieur : c'est une affaire de goût, pas de règle.",
+          "Un dernier conseil : moulez le poivre au dernier moment et faites-le torréfier un instant à la poêle. C'est la différence entre une bonne assiette et une assiette dont on se souvient."
+        ]
+      },
+      {
+        "slug": "pizza-romana-napoletana", "tag": "Pizza", "date": "2026-07-03",
+        "title": "Pizza romaine ou napolitaine : ce qui change vraiment",
+        "excerpt": "Bord haut ou bord fin, four plus ou moins chaud, pâtes différentes. Un guide court pour choisir celle que vous préférez.",
+        "body": [
+          "Qui entre dans une pizzeria à Rome se trouve face à deux écoles différentes, et aucune n'est meilleure que l'autre : ce sont deux idées de la pizza.",
+          "## La romaine : fine et croustillante",
+          "La pizza romaine a une base très fine, étalée au rouleau, et un bord bas. Elle cuit à température un peu plus basse et plus longtemps, elle ressort donc sèche et croustillante jusqu'au centre. C'est celle qu'on mange à la main sans qu'elle se plie.",
+          "## La napolitaine : un bord haut et moelleux",
+          "La napolitaine s'étale à la main en laissant l'air sur le pourtour, qui gonfle au four en une corniche haute et alvéolée. Elle cuit très peu à très haute température, reste moelleuse et se mange aussitôt, à la fourchette si besoin.",
+          "## Ce que nous servons",
+          "Au Bar Capri nous travaillons une pâte qui mature vingt-quatre heures, à hydratation moyenne : le résultat se situe entre les deux, avec un bord présent mais sans excès et un centre fin et bien cuit. C'est, selon nous, la pizza qui se mange le mieux en fin de journée.",
+          "Pour ceux qui ne peuvent pas manger de gluten, nous préparons une base certifiée, cuite séparément pour éviter toute contamination."
+        ]
+      },
+      {
+        "slug": "senza-glutine-roma", "tag": "Sans gluten", "date": "2026-07-24",
+        "title": "Sans gluten à Rome : ce qu'il faut demander avant de commander",
+        "excerpt": "Trois questions qu'il vaut la peine de poser partout, et comment les plats sans gluten sont préparés chez nous.",
+        "body": [
+          "Les personnes cœliaques le savent : le problème n'est pas de trouver un lieu qui a des pâtes sans gluten, mais de comprendre comment elles sont cuites. Voici ce qu'il vaut la peine de demander partout, pas seulement ici.",
+          "## Première question : où cuisent les pâtes ?",
+          "Si les pâtes sans gluten bouillent dans la même eau que les autres, le plat n'est pas sûr. Il faut une casserole dédiée et de l'eau propre. Chez nous, les pâtes sans gluten ont leur casserole et leurs ustensiles.",
+          "## Deuxième question : comment cuit la pizza ?",
+          "Une base sans gluten ne peut pas aller sur la même sole où l'on vient d'étaler une pâte au blé. Nous cuisons la nôtre dans un moule dédié et la manipulons avec des pelles séparées.",
+          "## Troisième question : qui la prépare ?",
+          "Le plan de travail et le changement de gants comptent aussi. Aucun cuisinier sérieux ne prend mal cette question : si l'établissement est équipé, la réponse arrive tout de suite et précise.",
+          "## Ce qu'il y a à la carte",
+          "Pizza, pâtes, un dessert du jour et une bière sans gluten, tous avec des ingrédients certifiés. Nous ne sommes pas une cuisine entièrement sans gluten, et nous le disons clairement : une personne atteinte d'une cœliaquie sévère mérite une information honnête, pas une réassurance vague."
+        ]
+      },
+      {
+        "slug": "mangiare-vicino-termini", "tag": "Quartier", "date": "2026-08-14",
+        "title": "Bien manger près de Termini : comment éviter les pièges",
+        "excerpt": "Le quartier de la gare compte beaucoup d'attrape-touristes et quelques excellentes tables. Quatre signes pour les distinguer.",
+        "body": [
+          "Autour d'une gare, il y a toujours des adresses qui vivent du passage : on y mange une fois et on n'y revient pas. Mais l'Esquilin est aussi un quartier habité, avec une tradition de vraies trattorias. Voici comment les reconnaître.",
+          "## La carte est courte",
+          "Une cuisine qui propose quatre-vingts plats ne les prépare pas tous à la minute. Une carte courte, avec quelques plats du jour, est presque toujours bon signe.",
+          "## Les prix sont affichés et clairs",
+          "Le couvert, le service et les éventuels suppléments doivent être écrits. Si le prix du poisson n'est indiqué qu'aux cent grammes sans le poids de la portion, demandez avant ce que cela fera.",
+          "## Personne ne vous invite depuis la rue",
+          "Le personnel qui arrête les passants sur le trottoir est le signe le plus fiable qu'un établissement a besoin de se remplir vite. Les bonnes tables ont des gens assis, pas debout devant la porte.",
+          "## Il y a des clients du quartier",
+          "C'est le meilleur critère : si à midi vous voyez des gens qui travaillent dans le coin, le rapport qualité-prix tient. Regardez ce qu'ils ont dans l'assiette et commandez la même chose.",
+          "Nous sommes au 78/80 Via Principe Amedeo, à cinq minutes à pied de la gare. La carte est celle de toujours, et vous pouvez en lire les prix sur ce site avant même d'entrer."
+        ]
+      }
+    ]
+  },
+
+  "footer": { "tagline": "Bar, restaurant et pizzeria à l'Esquilin, du matin jusque tard le soir.", "navTitle": "Le site", "hoursTitle": "Horaires", "rights": "Tous droits réservés.", "made": "Via Principe Amedeo 78/80 · 00185 Rome" },
+
+  "categories": {
+    "colazione":     { "name": "Petit-déjeuner et bar", "lead": "Dès 7h00, au comptoir ou à table." },
+    "antipasti":     { "name": "Entrées", "lead": "Pour commencer, et à partager." },
+    "pasta":         { "name": "Pâtes et entrées chaudes", "lead": "Les quatre classiques romains, et un peu plus." },
+    "pizza":         { "name": "Pizza", "lead": "Pâte maturée 24 heures." },
+    "carne":         { "name": "Viandes", "lead": "Plats de viande, cuits à la commande." },
+    "pesce":         { "name": "Poissons", "lead": "Selon le marché, plusieurs fois par semaine." },
+    "vegano":        { "name": "Végan", "lead": "Aucun ingrédient d'origine animale." },
+    "vegetariano":   { "name": "Végétarien", "lead": "Ni viande ni poisson." },
+    "senza-glutine": { "name": "Sans gluten", "lead": "Ingrédients certifiés, préparation séparée." },
+    "dolci":         { "name": "Desserts", "lead": "Faits maison, pour finir." },
+    "bevande":       { "name": "Boissons", "lead": "Une carte des vins courte et de la bière pression." }
+  },
+
+  "dishes": {
+    "caffe": { "name": "Café expresso" }, "cappuccino": { "name": "Cappuccino" }, "cornetto": { "name": "Croissant italien" },
+    "spremuta": { "name": "Jus d'orange pressé" }, "toast": { "name": "Croque jambon-fromage" }, "aperitivo": { "name": "Apéritif avec buffet" },
+
+    "bruschetta":   { "name": "Bruschetta à la tomate", "desc": "Pain de campagne grillé, tomate fraîche, basilic et huile d'olive vierge extra." },
+    "suppli":       { "name": "Croquettes de riz romaines", "desc": "Riz à la sauce tomate et mozzarella fondante, panés et frits à la commande." },
+    "fiori-zucca":  { "name": "Fleurs de courgette frites", "desc": "Fleurs de courgette en beignet, mozzarella et anchois." },
+    "tagliere":     { "name": "Planche de charcuterie et fromages", "desc": "Sélection de charcuteries italiennes et de fromages affinés, pain et confiture." },
+    "burrata":      { "name": "Burrata aux tomates cerises", "desc": "Burrata des Pouilles, tomates cerises confites, basilic et huile d'olive." },
+    "carciofo":     { "name": "Artichaut à la romaine", "desc": "Artichaut romanesco braisé à l'ail, à la menthe sauvage et à l'huile d'olive." },
+
+    "carbonara":    { "name": "Spaghetti carbonara", "desc": "Guanciale croustillant, jaunes d'œufs, pecorino romano et poivre noir. Sans crème." },
+    "amatriciana":  { "name": "Bucatini all'amatriciana", "desc": "Guanciale, tomate, pecorino romano et une pointe de piment." },
+    "cacio-pepe":   { "name": "Tonnarelli cacio e pepe", "desc": "Tonnarelli liés au pecorino romano et au poivre noir torréfié." },
+    "gricia":       { "name": "Rigatoni alla gricia", "desc": "L'amatriciana sans tomate : guanciale, pecorino et poivre." },
+    "arrabbiata":   { "name": "Penne all'arrabbiata", "desc": "Tomate, ail, piment et persil. Juste ce qu'il faut de piquant." },
+    "lasagna":      { "name": "Lasagnes au four", "desc": "Feuilles de pâte, ragù de viande, béchamel et parmesan, gratinées au four." },
+    "ravioli":      { "name": "Raviolis ricotta-épinards", "desc": "Raviolis frais à la ricotta et aux épinards, beurre fondu et sauge." },
+    "gnocchi":      { "name": "Gnocchi alla sorrentina", "desc": "Gnocchi de pomme de terre, tomate, mozzarella et basilic, au four." },
+    "vongole":      { "name": "Spaghetti aux palourdes", "desc": "Palourdes, ail, huile d'olive, persil et un trait de vin blanc." },
+    "risotto":      { "name": "Risotto aux cèpes", "desc": "Riz Carnaroli lié aux cèpes et au persil." },
+
+    "marinara":     { "name": "Marinara", "desc": "Tomate, ail, origan et huile d'olive vierge extra. Sans fromage." },
+    "margherita":   { "name": "Margherita", "desc": "Tomate, mozzarella fiordilatte et basilic frais." },
+    "napoli":       { "name": "Napoli", "desc": "Tomate, mozzarella, anchois, câpres et origan." },
+    "diavola":      { "name": "Diavola", "desc": "Tomate, mozzarella et salami piquant." },
+    "quattro-formaggi": { "name": "Quatre fromages", "desc": "Mozzarella, gorgonzola, pecorino et provola fumée." },
+    "ortolana":     { "name": "Ortolana", "desc": "Tomate et légumes de saison grillés. Sans fromage." },
+    "capricciosa":  { "name": "Capricciosa", "desc": "Tomate, mozzarella, jambon blanc, champignons, artichauts et olives." },
+    "bufala":       { "name": "Pizza à la bufflonne", "desc": "Mozzarella de bufflonne ajoutée après cuisson, tomates cerises et basilic." },
+    "calzone":      { "name": "Calzone garni", "desc": "Plié et cuit au four avec jambon blanc, mozzarella et ricotta." },
+    "pizza-capri":  { "name": "Pizza Capri", "desc": "La nôtre : mozzarella de bufflonne, tomates cerises jaunes, olives taggiasche et basilic." },
+    "frutti-mare":  { "name": "Pizza aux fruits de mer", "desc": "Tomate, calamars, crevettes, moules et persil." },
+
+    "saltimbocca":  { "name": "Saltimbocca alla romana", "desc": "Escalopes de veau au jambon cru et à la sauge, déglacées au vin blanc." },
+    "tagliata":     { "name": "Tagliata de bœuf et roquette", "desc": "Faux-filet grillé, roquette et copeaux de grana." },
+    "scaloppine":   { "name": "Escalopes au citron", "desc": "Veau poêlé au beurre, citron et persil." },
+    "pollo":        { "name": "Poulet rôti aux pommes de terre", "desc": "Haut de cuisse rôti au four avec pommes de terre et romarin." },
+    "abbacchio":    { "name": "Côtelettes d'agneau grillées", "desc": "Côtelettes d'agneau à la braise, à manger avec les doigts." },
+    "costine":      { "name": "Travers de porc au four", "desc": "Travers de porc longuement rôtis, croustillants à l'extérieur." },
+
+    "orata":        { "name": "Dorade grillée", "desc": "Dorade entière au gril, huile d'olive, citron et persil." },
+    "frittura":     { "name": "Friture de calamars et crevettes", "desc": "Calamars et crevettes en beignet léger, avec du citron." },
+    "salmone":      { "name": "Filet de saumon au four", "desc": "Filet de saumon cuit au four aux herbes, avec pommes de terre." },
+    "cozze":        { "name": "Moules au poivre", "desc": "Moules ouvertes à la poêle avec poivre noir, ail et persil." },
+    "polpo":        { "name": "Poulpe et pommes de terre", "desc": "Poulpe longuement cuit, pommes de terre écrasées, huile d'olive et persil." },
+    "spigola":      { "name": "Bar all'acqua pazza", "desc": "Bar aux tomates cerises, olives, câpres et persil." },
+
+    "pizza-vegana":  { "name": "Pizza végane", "desc": "Tomate, légumes de saison et huile d'olive vierge extra. Sans fromage." },
+    "pomodoro-basilico": { "name": "Pâtes tomate et basilic", "desc": "Pâtes à la tomate fraîche, basilic et huile d'olive vierge extra." },
+    "vellutata":     { "name": "Velouté de légumes de saison", "desc": "Velouté de légumes de saison avec croûtons et filet d'huile d'olive." },
+    "caponata":      { "name": "Caponata de légumes", "desc": "Aubergine, céleri, oignon et tomate en aigre-doux." },
+    "insalatona-vegana": { "name": "Grande salade végane", "desc": "Salade mêlée, pois chiches, tomates cerises, avocat et graines torréfiées." },
+
+    "parmigiana":   { "name": "Parmigiana d'aubergines", "desc": "Couches d'aubergines frites, tomate, mozzarella et basilic." },
+    "caprese":      { "name": "Salade caprese", "desc": "Mozzarella, tomate, basilic et huile d'olive vierge extra." },
+    "verdure-griglia": { "name": "Légumes grillés", "desc": "Courgette, aubergine et poivron grillés, huile d'olive et origan." },
+    "frittata":     { "name": "Omelette aux légumes", "desc": "Omelette aux légumes de saison, servie tiède." },
+    "pizza-vegetariana": { "name": "Pizza végétarienne", "desc": "Tomate, mozzarella et légumes de saison grillés." },
+
+    "pizza-sg":     { "name": "Pizza sans gluten", "desc": "Base certifiée sans gluten, cuite dans un moule dédié. Garniture au choix." },
+    "pasta-sg":     { "name": "Pâtes sans gluten", "desc": "Pâtes certifiées, cuites dans une casserole dédiée. Carbonara ou tomate." },
+    "dolce-sg":     { "name": "Dessert sans gluten", "desc": "Le dessert du jour en version sans gluten. Demandez au personnel." },
+    "birra-sg":     { "name": "Bière sans gluten", "desc": "Bière blonde certifiée sans gluten, bouteille de 33 cl." },
+
+    "tiramisu":     { "name": "Tiramisù", "desc": "Mascarpone, biscuits imbibés de café et cacao amer. Fait maison." },
+    "panna-cotta":  { "name": "Panna cotta", "desc": "Panna cotta au coulis de fruits rouges ou au caramel." },
+    "cannolo":      { "name": "Cannolo sicilien", "desc": "Coque croustillante garnie à la minute de ricotta de brebis." },
+    "tartufo":      { "name": "Tartufo au chocolat", "desc": "Glace au chocolat à cœur fondant, saupoudrée de cacao." },
+    "macedonia":    { "name": "Salade de fruits frais", "desc": "Fruits frais de saison, coupés à la minute." },
+
+    "acqua": { "name": "Eau minérale 75 cl" }, "bibite": { "name": "Boissons en canette" },
+    "birra-media": { "name": "Bière pression, moyenne" }, "vino-calice": { "name": "Vin de la maison au verre" },
+    "vino-bottiglia": { "name": "Vin de la maison 75 cl" }, "amaro": { "name": "Amaro / digestif" }
   }
 }

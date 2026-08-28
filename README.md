@@ -1,11 +1,125 @@
-# EL MAIN LIL SINAA — sito multilingue (المعين للصناعة)
+# BAR CAPRI — sito multilingue
 
-Sito statico per il mercato **algerino**: raccolta, tracciabilità e valorizzazione degli
-oli usati (lubrificanti e alimentari) per le imprese, più una sezione di **campagna di
-comunicazione ambientale** rivolta al pubblico algerino.
+Sito del **Bar Capri**, ristorante e pizzeria in **Via Principe Amedeo 78/80, 00185 Roma**.
+Telefono **351 265 0441** · WhatsApp **388 632 9575**.
 
-**5 lingue · 10 pagine ciascuna · 50 pagine HTML** generate staticamente:
-عربية (RTL), Français, English, Italiano, Deutsch.
+**9 lingue · 11 pagine ciascuna · 101 pagine HTML** generate staticamente:
+Italiano, English, Français, Español, Português, العربية (da destra a sinistra), Русский, Polski, Ελληνικά.
+
+Niente framework, niente database, nessuna dipendenza da installare: sono file HTML già pronti.
+Si aprono all'istante anche con la connessione lenta del telefono di un cliente al tavolo.
+
+---
+
+## I quattro codici QR
+
+Sono la parte pratica del sito. I primi due **riconoscono da soli la lingua del telefono**
+e aprono la pagina giusta fra le nove disponibili; il terzo collega alla rete Wi-Fi, il
+quarto porta al modulo di recensione su Google.
+
+| Codice | Dove porta | A cosa serve |
+|---|---|---|
+| **QR menu** (`/assets/qr/menu.svg`) | `/menu/` | Sui tavoli, in vetrina, sui volantini |
+| **QR sito** (`/assets/qr/sito.svg`) | `/` | Biglietti da visita, insegna, social |
+| **QR Wi-Fi** (`/assets/qr/wifi.svg`) | la rete del locale | Sui tavoli: il cliente si collega senza chiedere la password |
+| **QR recensioni** (`/assets/qr/recensioni.svg`) | la scheda Google del locale | Alla cassa o insieme al conto |
+
+La pagina **`/it/qr/`** li mostra tutti, con il pulsante per scaricarli o stamparli, e
+tre stampati già impaginati: un **segnaposto da tavolo** per il menu, un **cartellino
+Wi-Fi** e un **cartellino recensioni** per la cassa.
+
+Sono immagini vettoriali: restano nitide a qualsiasi dimensione, da un adesivo a un poster.
+Dimensione minima consigliata per la stampa: **3 cm di lato**.
+
+> I codici sono generati durante il build da `src/qr.mjs`, un encoder QR scritto da zero
+> (correzione d'errore Reed-Solomon, livello H). La correttezza è verificata rileggendo
+> gli SVG pubblicati con un lettore QR reale.
+
+### Accendere il QR del Wi-Fi
+
+Il terzo codice **non viene generato finché la rete non è configurata**: meglio
+nessun codice che un codice che non collega a niente. Servono due valori in
+`src/site.config.json`:
+
+```json
+"wifi": { "ssid": "NOME DELLA RETE", "password": "la-password", "security": "WPA", "hidden": false }
+```
+
+Poi `node build.mjs` e il QR compare da solo nella pagina dei codici, in tutte e
+nove le lingue, insieme al cartellino da tavolo.
+
+- `security`: `WPA` quasi sempre. `WEP` solo su impianti vecchi. `nopass` per una
+  rete aperta — in quel caso lascia `password` vuota.
+- `hidden`: `true` solo se la rete non trasmette il nome.
+- Nome e password possono contenere spazi, accenti e punteggiatura: i caratteri
+  che romperebbero il formato (`\ ; , : "`) vengono protetti da soli.
+
+**Una cosa da sapere prima di pubblicarlo.** Il QR contiene la password in
+chiaro: chiunque apra il sito può leggerla, non solo chi è seduto al tavolo. Per
+una rete ospiti va benissimo — è fatta per essere data a tutti. Se invece è la
+stessa rete che usate voi per la cassa o il gestionale, **usane una separata per
+i clienti**.
+
+### Accendere il QR delle recensioni
+
+Stessa regola: senza link niente codice. Serve un valore in `src/site.config.json`:
+
+```json
+"review": { "google": "https://g.page/r/CODICE/review" }
+```
+
+Il link si prende dal **profilo Google Business** del locale: *Home → Chiedi
+recensioni*, e Google restituisce un indirizzo corto come quello sopra. In
+alternativa va bene anche `https://search.google.com/local/writereview?placeid=ID`.
+
+Il testo del cartellino è volutamente neutro — *«Raccontaci com'è andata»*, non
+*«Ti è piaciuto?»*. Chiedere una recensione solo a chi si è trovato bene si chiama
+*review gating* ed è **vietato dalle regole di Google**: il rischio è che le
+recensioni vengano rimosse o che la scheda venga penalizzata.
+
+---
+
+## Il logo
+
+Uno stemma tondo **vettoriale**: fascia blu con filetto dorato, i Faraglioni sul
+mare, il sole, due limoni ai lati. Sull'anello **BAR CAPRI** in alto e
+**RISTORANTE · PIZZERIA** in basso.
+
+| File | A cosa serve |
+|---|---|
+| `src/assets/logo-crest.svg` | **Il disegno vero**: vettoriale, da modificare qui |
+| `src/assets/logo-crest.png` | Lo stemma reso a 1400 px, fondo trasparente. È quello che il sito mostra |
+| `src/assets/logo-crest-maiolica.png` | Il vecchio stemma dipinto, quello con «RESISTENTE». Conservato |
+| `src/assets/logo.svg` / `logo.png` | Il solo nome composto, per quando lo stemma non entra |
+| `src/assets/favicon.svg` | Icona della scheda del browser: la **C** su fondo blu, bordo terracotta |
+| `src/assets/apple-touch-icon.png` | Icona sullo schermo dell'iPhone |
+
+Dove compare: intestazione di tutte le pagine (56 px), pagina di scelta lingua
+(grande, e la prima cosa che vede chi inquadra il QR), segnaposto da tavolo e
+immagine di anteprima social.
+
+### Come cambiarlo
+
+Il disegno sta in `logo-crest.svg`. Dopo averlo modificato va rifatto il PNG, che
+e il file che il sito usa davvero:
+
+```
+node build.mjs                 # il sito legge logo-crest.png
+```
+
+Il PNG si rigenera aprendo l'SVG nel browser e salvandolo a 1400 px, oppure con
+qualsiasi convertitore SVG→PNG mantenendo la trasparenza.
+
+**Perche vettoriale.** Lo stemma dipinto di prima era 426 x 475 pixel: bastava
+per lo schermo ma su un'insegna o un manifesto si sgranava, e riportava
+**«RESISTENTE»** al posto di «RISTORANTE», errore che stava nell'immagine
+originale. Questo si stampa nitido a qualsiasi dimensione e la scritta e giusta.
+
+Il vecchio resta in `logo-crest-maiolica.png`: per rimetterlo basta copiarlo
+sopra `logo-crest.png`.
+
+Accanto allo stemma resta il nome scritto, perche a 68 px le parole sull'anello
+non si leggono.
 
 ---
 
@@ -13,80 +127,111 @@ comunicazione ambientale** rivolta al pubblico algerino.
 
 ```
 build.mjs              generatore statico (Node, zero dipendenze)
-src/site.config.json   dati globali: dominio, nome azienda, recapiti
-src/i18n/<lang>.json   tutti i testi, una lingua per file
-src/assets/            CSS, JS e favicon sorgente
-vercel.json            configurazione deploy (trailing slash, header, cache)
+src/site.config.json   dati dell'attività: indirizzo, telefono, orari, social
+src/menu.json          i 70 piatti: nome, prezzo, etichette
+src/i18n/<lingua>.json tutti i testi tradotti, una lingua per file
+src/qr.mjs             generatore dei codici QR
+src/assets/            CSS, JavaScript, favicon, immagine social
 
-# output generato — da non modificare a mano:
-index.html             pagina di scelta lingua
-ar/ fr/ en/ it/ de/    una cartella per lingua
-assets/                copia di src/assets
+# generato automaticamente — da non modificare a mano:
+index.html             pagina di scelta lingua (destinazione del QR sito)
+menu/index.html        scelta lingua del menu (destinazione del QR menu)
+it/ en/ fr/ es/ pt/ ar/ ru/ pl/ el/
+assets/                copia di src/assets, più assets/qr/
 sitemap.xml robots.txt
 ```
+
+Ogni lingua ha: **Home · Menu · Chi siamo · Blog (4 articoli) · Domande frequenti · Contatti · Codici QR**.
 
 ## Comandi
 
 ```bash
 node build.mjs      # rigenera tutte le pagine
 npm run build       # equivalente
-npm run serve       # build + server locale su http://localhost:3000
+npm run serve       # build + anteprima su http://localhost:3000
 ```
 
-Su Vercel non serve alcun build step: l'HTML è già committato nel repository.
-Se preferisci generarlo in fase di deploy, imposta *Build Command* = `node build.mjs`
-e *Output Directory* = `.`.
+Su Vercel il deploy è già configurato in `vercel.json`: *Build Command* `node build.mjs`,
+*Output Directory* `.` (la radice). Il sito viene quindi rigenerato dai sorgenti a ogni deploy,
+e l'HTML committato serve come rete di sicurezza. Senza queste due voci Vercel cerca l'output
+in `public/` e la distribuzione fallisce.
+
+---
 
 ## Modificare i contenuti
 
-Tutti i testi stanno in `src/i18n/<lingua>.json`. Ogni pagina è una lista di sezioni;
-il tipo di sezione decide il layout:
+**Cambiare un prezzo o un piatto** → `src/menu.json`, poi `node build.mjs`.
+Il prezzo si aggiorna in tutte e nove le lingue insieme, e il QR sui tavoli continua a funzionare:
+non c'è nessun menu di carta da ristampare.
 
-| tipo | resa |
-|---|---|
-| `stats` | fascia di numeri chiave |
-| `cards` | griglia di schede con icona |
-| `text` | titolo + paragrafi |
-| `split` | testo + riquadro laterale |
-| `steps` | elenco numerato |
-| `norms` | elenco di riferimenti normativi con etichetta |
-| `slogans` | slogan in arabo + traduzione + nota d'uso |
-| `regions` | griglia della copertura territoriale |
-| `faq` | accordion di domande e risposte |
-| `contacts` / `form` | recapiti e modulo |
-| `sources` | elenco di fonti esterne |
-| `cta` | banda di invito all'azione |
+**Aggiungere una foto a una categoria del menu** → metti l'immagine in
+`src/assets/img/` e aggiungi il campo `photo` alla categoria in `src/menu.json`:
 
-Nel testo è ammesso solo `**grassetto**`. Gli slug delle pagine sono identici in tutte
-le lingue (`/ar/rules/`, `/fr/rules/`, …), così il cambio lingua resta sulla stessa
-pagina e gli `hreflang` combaciano.
+```json
+{ "id": "pizza", "icon": "pizza", "photo": "pizza.jpg", "items": [ … ] }
+```
 
-Per aggiungere una lingua: crea `src/i18n/<code>.json` e aggiungi una riga in `LANGS`
-dentro `build.mjs` (`dir: "rtl"` se necessario). Il build fallisce se una lingua ha
-pagine o voci di menu mancanti.
+La foto compare in testa alla categoria, si carica solo quando serve e si adatta
+da sola allo schermo. Formato consigliato: 1600 px di larghezza, orizzontale.
 
-## Da sostituire prima della pubblicazione
+Se parti dalla foto originale del telefono, fai tutto con un comando solo — ci
+pensa lui a ruotarla, ridimensionarla, comprimerla e a scrivere il campo `photo`:
 
-Il sito è completo ma i dati identificativi sono **segnaposto**:
+```
+python3 tools/add-menu-photo.py ~/Download/bistecca.jpg carne
+node build.mjs
+```
 
-- `src/site.config.json` — dominio, indirizzo, telefono, e-mail (`@example.dz`), NIF e RC
-- logo: `src/assets/favicon.svg` e il simbolo inline in `build.mjs` (costante `logo`)
-- città elencate nella sezione "copertura territoriale" di ogni lingua
-- il modulo contatti è solo interfaccia: collegalo a Vercel Forms, Formspree o a un'API
-- verifica i riferimenti normativi sul **JORADP** prima di pubblicarli come informazione
-  ufficiale (in fondo alla pagina "Normativa" ci sono i link alle fonti usate)
+Le categorie disponibili sono `colazione`, `antipasti`, `pasta`, `pizza`,
+`carne`, `pesce`, `vegano`, `vegetariano`, `senza-glutine`, `dolci`, `bevande`.
+Lo script richiede Pillow (`pip install Pillow`).
 
-## Fonti dei dati citati
+**Cambiare orari, telefono, indirizzo, social** → `src/site.config.json`.
 
-- Agence Nationale des Déchets — <https://and.dz/presentation/cadre-institutionnel-et-reglementaire/>
-- Legge 25-02 (JORADP n. 12/2025), testo integrale in PDF
-- Décret exécutif n° 13-176 — CNTPP
-- Ministère de l'Environnement — <https://www.me.gov.dz/fr/dechets-et-recyclage/>
-- Taxes écologiques — ONEDD — <https://onedd.org/taxes-ecologiques/>
+**Cambiare un testo** → `src/i18n/<lingua>.json`.
 
-## Accessibilità e resa
+Il build **si ferma con un errore** se in una lingua manca anche un solo testo o la descrizione di un
+piatto: non è possibile pubblicare per sbaglio una pagina tradotta a metà.
 
-Skip link, landmark semantici, `aria-current`, menu mobile e selettore lingua
-accessibili da tastiera, contrasti verificati, supporto tema chiaro/scuro,
-`prefers-reduced-motion` e stile di stampa. L'arabo usa proprietà CSS logiche:
-lo stesso foglio di stile serve LTR e RTL senza duplicazioni.
+### Da completare con i dati reali
+
+Tre valori sono impostati con un segnaposto ragionevole e vanno confermati in `src/site.config.json`:
+
+| Voce | Valore attuale | Nota |
+|---|---|---|
+| `social.facebook` / `social.instagram` | `.../barcapriroma` | Sostituire con gli indirizzi reali (`""` per nascondere il pulsante) |
+| `hours` | Bar 7:00–23:30 · Cucina 12:00–15:30 e 18:30–23:00 | Alimenta anche gli orari mostrati a Google |
+| `geo` | 41.8973, 12.5028 | Coordinate indicative della via. La mappa incorporata usa l'indirizzo, quindi il segnaposto è già corretto; queste servono solo ai dati strutturati e ai pulsanti Apple Maps/Waze |
+| `domain` | `https://www.barcapriroma.it` | Il dominio definitivo: compare in sitemap, link canonici **e nei due QR** |
+
+Cambiando `domain` i codici QR vengono rigenerati automaticamente al build successivo.
+
+---
+
+## Come è fatto
+
+**Ricerca e visibilità.** Ogni pagina ha titolo e descrizione propri, link canonico, `hreflang`
+verso le altre otto lingue, anteprima social e dati strutturati `schema.org`: la scheda
+`Restaurant` con indirizzo, telefono e orari, il `Menu` completo con i prezzi e le diete,
+le `FAQPage`, gli articoli e i percorsi di navigazione. `sitemap.xml` elenca tutte e 100 le pagine.
+
+**Mappa.** Reale, di Google Maps, ma caricata **solo dopo un clic**: finché il visitatore non la
+apre, la pagina non contatta alcun servizio esterno. I pulsanti Google Maps, Apple Maps e Waze
+funzionano subito.
+
+**Sul telefono.** Barra fissa in basso con *Menu · Chiama · WhatsApp · Mappa*: le quattro cose
+che serve davvero fare da un telefono, sempre a portata di pollice.
+
+**Menu.** Ricerca per nome o ingrediente e filtri combinabili: vegano, vegetariano, senza glutine,
+piccante, specialità. Le etichette colorate sono su ogni piatto.
+
+**Aperto o chiuso.** Calcolato nel browser sull'ora di Roma, quindi corretto anche per chi guarda
+il sito da un altro fuso orario.
+
+**Tema chiaro e scuro**, automatico secondo le impostazioni del telefono e commutabile a mano.
+
+**Senza JavaScript** il sito resta interamente leggibile: menu, prezzi, orari e contatti compresi.
+
+---
+
+© Bar Capri — Via Principe Amedeo 78/80, 00185 Roma

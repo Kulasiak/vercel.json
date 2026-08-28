@@ -1,14 +1,12 @@
 {
-  "name": "el-main-lil-sinaa-site",
+  "name": "bar-capri-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Site multilingue (ar, fr, en, it, de) — collecte et valorisation des huiles usagées en Algérie.",
+  "description": "Sito multilingue di BAR CAPRI — ristorante e pizzeria, Via Principe Amedeo 78/80, Roma.",
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
     "serve": "node --run build && npx --yes serve@14 ."
   },
-  "engines": {
-    "node": ">=18"
-  }
+  "engines": { "node": ">=18" }
 }

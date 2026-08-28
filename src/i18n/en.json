@@ -1,918 +1,402 @@
 {
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "rules": "Regulation",
-    "contribution": "Eco-contribution",
-    "companies": "Businesses",
-    "associations": "Partners",
-    "campaign": "Campaign",
-    "membership": "Membership",
-    "contacts": "Contact",
-    "faq": "FAQ"
+  "nav": { "home": "Home", "menu": "Menu", "about": "About us", "blog": "Blog", "faq": "FAQ", "contacts": "Contact", "qr": "QR codes" },
+
+  "ui": {
+    "call": "Call", "whatsapp": "WhatsApp", "phone": "Phone", "address": "Address",
+    "hours": "Opening hours", "bar": "Bar", "kitchen": "Kitchen", "day": "Day", "today": "Today",
+    "map": "Map", "follow": "Follow us", "search": "Search a dish…", "filters": "Filters",
+    "all": "All", "categories": "Categories", "noResults": "No dish matches your search.",
+    "print": "Print", "readMore": "Read the article", "backToBlog": "All articles",
+    "minRead": "min read", "minWalk": "min walk",
+    "openNow": "Open now", "closedNow": "Closed now",
+    "opensAt": "opens at {time}", "closesAt": "closes at {time}",
+    "chooseLanguage": "Choose your language", "theme": "Switch theme", "backTop": "Back to top",
+    "openMenu": "Open navigation menu", "mainNav": "Main navigation",
+    "quickActions": "Quick actions", "skipToContent": "Skip to content", "scroll": "Scroll",
+    "tagline": "Restaurant · Pizzeria", "qrStrip": "Menu by QR code",
+    "showMap": "Show the map", "mapConsent": "Opening the map loads Google Maps."
   },
-  "common": {
-    "brandName": "EL MAIN LIL SINAA",
-    "brandSub": "Environment · Algeria",
-    "skip": "Skip to content",
-    "menu": "Menu",
-    "mainNav": "Main navigation",
-    "languageLabel": "Change language",
-    "breadcrumb": "Breadcrumb",
-    "chooseLanguage": "Choose your language",
-    "footerAbout": "EL MAIN LIL SINAA (المعين للصناعة) collects, tracks and recovers waste oils and special waste from Algerian businesses, in line with Law 01-19 as amended by Law 25-02.",
-    "footerConsortium": "Company",
-    "footerServices": "Services",
-    "rights": "All rights reserved",
-    "vat": "Registration",
-    "disclaimer": "Demo content — verify all legal references in the Algerian Official Journal before publishing."
+
+  "tags": { "vg": "Vegan", "v": "Vegetarian", "gf": "Gluten free", "sp": "Spicy", "chef": "House special" },
+
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+
+  "gate": {
+    "description": "BAR CAPRI, restaurant and pizzeria at Via Principe Amedeo 78/80 in Rome, five minutes from Termini. Choose your language: menu, hours, contacts.",
+    "menuDescription": "The BAR CAPRI menu in Rome: pasta, pizza, meat, fish, vegan, vegetarian and gluten-free dishes. Pick your language and read it at the table.",
+    "title": "Restaurant and Pizzeria in Rome",
+    "sub": "Choose your language",
+    "menuTitle": "Our menu",
+    "menuSub": "Choose your language to read the menu",
+    "enter": "Enter"
   },
+
   "pages": {
-    "home": {
-      "metaTitle": "EL MAIN LIL SINAA — Waste oil collection and recovery in Algeria",
-      "metaDescription": "Collection, traceability and recovery of waste oils and special waste for Algerian businesses. Law 01-19 / 25-02 compliance, service across all 58 wilayas.",
-      "eyebrow": "Algeria · Circular economy",
-      "title": "Your waste oil isn't waste. It's a resource.",
-      "intro": "We collect, track and recover **used lubricants and cooking oil** from Algerian businesses — and hand you the paperwork that proves you are compliant.",
-      "actions": [
-        {
-          "label": "Request a collection",
-          "href": "/en/contacts/"
-        },
-        {
-          "label": "Become a member",
-          "href": "/en/membership/"
-        }
+    "home":     { "title": "Restaurant and Pizzeria near Termini", "description": "Bar Capri: restaurant, pizzeria and bar at Via Principe Amedeo 78/80, five minutes from Roma Termini. Roman cooking, pizza, fish, vegan and gluten-free." },
+    "menu":     { "title": "Menu",
+      "seoTitle": "Menu and prices · pizza, pasta and Roman cooking", "description": "The full menu of Bar Capri in Rome: starters, Roman pasta, pizza, meat, fish, vegan, vegetarian and gluten-free dishes. Prices included." },
+    "about":    { "title": "About us", "description": "The story of Bar Capri: honest Roman cooking and slow-risen pizza in the heart of the Esquilino district in Rome, from morning until late." },
+    "blog":     { "title": "Blog",
+      "seoTitle": "Blog · Roman food, pizza and life in Rome", "description": "Stories about Roman cooking, pizza and practical tips for eating well near Termini station in Rome." },
+    "faq":      { "title": "Frequently asked questions", "description": "Booking, opening hours, gluten-free and vegan options, groups, payments: answers to the most common questions about Bar Capri in Rome." },
+    "contacts": { "title": "Contact and directions", "description": "Bar Capri, Via Principe Amedeo 78/80, 00185 Rome. Phone 351 265 0441, WhatsApp 388 632 9575. Map, opening hours and how to walk here from Termini." },
+    "qr":       { "title": "QR codes",
+      "seoTitle": "QR codes for the menu and the site", "description": "The two QR codes of Bar Capri: one opens the menu at the table in the guest's own language, the other opens the website. Ready to print." }
+  },
+
+  "home": {
+    "hero": {
+      "title": "Roman cooking and pizza",
+      "titleAccent": "steps away from Termini",
+      "lead": "From the morning espresso to a midnight pizza. **Bar Capri** is the neighbourhood restaurant on Via Principe Amedeo: real Roman dishes, slow-risen pizza, fresh fish and a proper vegan, vegetarian and gluten-free selection.",
+      "ctaPrimary": "See the menu"
+    },
+    "strip": { "walkLabel": "From Termini", "walk": "5 minutes on foot" },
+    "highlights": {
+      "eyebrow": "Why Bar Capri",
+      "title": "One place, all day long",
+      "lead": "Breakfast, a quick lunch, aperitivo and dinner: the hour changes, the care does not.",
+      "items": [
+        { "icon": "pasta", "title": "The Roman classics", "text": "Carbonara, amatriciana, gricia and cacio e pepe made properly, with guanciale and pecorino romano." },
+        { "icon": "pizza", "title": "Slow-risen pizza", "text": "Dough matured for **24 hours**, with a light, easy-to-digest crust. Also available **gluten free**." },
+        { "icon": "leaf", "title": "A table for everyone", "text": "Vegan, vegetarian and gluten-free dishes with their own sections: nobody sits and watches." },
+        { "icon": "train", "title": "Right by the station", "text": "Five minutes on foot from Roma Termini and metro lines A and B. Perfect before or after a train." }
+      ]
+    },
+    "menuPreview": {
+      "eyebrow": "The menu",
+      "title": "From breakfast to dessert",
+      "lead": "Seventy dishes in eleven sections. Tap a section to jump straight to it.",
+      "specialsTitle": "House specials",
+      "cta": "Open the full menu"
+    },
+    "story": {
+      "eyebrow": "About us",
+      "title": "A neighbourhood bar with a trattoria kitchen",
+      "body": [
+        "Bar Capri sits in the Esquilino district, on Via Principe Amedeo, where Romans walk to work every morning and travellers arrive straight off the train. We serve both the same way: good ingredients, honest portions, clear prices.",
+        "In the kitchen we stay with Roman tradition: crisp guanciale, pecorino grated to order, artichokes in season. At the oven we work a dough that matures for twenty-four hours, because a pizza should be easy to digest.",
+        "Guests with particular needs will find gluten-free bread, pasta, pizza and dessert, and a vegan and vegetarian list that is a real choice, not an afterthought."
       ],
-      "sections": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "≈ 110,000 t",
-              "label": "of waste oil generated in Algeria every year"
-            },
-            {
-              "value": "20–25 %",
-              "label": "of it is collected through formal channels"
-            },
-            {
-              "value": "450,519 m³",
-              "label": "of used cooking oil per year (AND estimate)"
-            },
-            {
-              "value": "58",
-              "label": "wilayas targeted by our collection network"
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "eyebrow": "Services",
-          "title": "One chain, from the tank to the certificate",
-          "lead": "A single point of contact for collection, transport, traceability and recovery.",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "drop",
-              "title": "Used lubricants",
-              "text": "Engine, hydraulic and cutting oils: sealed containers, scheduled collection, waste transfer note."
-            },
-            {
-              "icon": "collect",
-              "title": "Used cooking oil",
-              "text": "Restaurants, hotels, canteens and food industry: containers provided, regular rotation, nothing down the drain."
-            },
-            {
-              "icon": "doc",
-              "title": "Traceability & compliance",
-              "text": "Every collection generates a documented file you can produce during an inspection or audit."
-            },
-            {
-              "icon": "recycle",
-              "title": "Recovery",
-              "text": "Streams routed to re-refining, energy recovery or biodiesel production."
-            },
-            {
-              "icon": "shield",
-              "title": "Associated waste",
-              "text": "Filters, oily rags and oil packaging: handled with the same documentary discipline."
-            },
-            {
-              "icon": "chart",
-              "title": "Annual reporting",
-              "text": "Volumes, destinations and environmental indicators, ready for your ESG reporting."
-            }
-          ]
-        },
-        {
-          "type": "split",
-          "alt": true,
-          "eyebrow": "Why now",
-          "title": "Algerian regulation has changed direction",
-          "body": [
-            "Law 25-02 of February 2025, amending and supplementing Law 01-19 on waste management, control and disposal, writes the **circular economy** into Algerian law: extended producer responsibility (EPR), eco-design, a digital waste management system and tougher penalties.",
-            "For a business the meaning is simple: the waste you generate stays attached to you all the way to its final destination. The question is no longer \"who takes it away\", but \"can you prove where it went\"."
-          ],
-          "panel": {
-            "title": "What binds you",
-            "items": [
-              "Law 01-19 as amended by Law 25-02 — waste management and disposal",
-              "Law 03-10 — environmental protection and sustainable development",
-              "Executive Decree 13-176 — lubricants and regeneration of waste oils",
-              "Environmental taxes set each year by the Finance Act",
-              "SNGID 2035 — target of 47 % recovery of municipal waste"
-            ]
-          }
-        },
-        {
-          "type": "cta",
-          "title": "Oil to move this week?",
-          "text": "Tell us your wilaya and your volumes: we come back with a collection schedule and a quote.",
-          "actions": [
-            {
-              "label": "Contact us",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "See our services",
-              "href": "/en/companies/"
-            }
-          ]
-        }
+      "panelTitle": "In short",
+      "panelItems": [
+        "Open **every day**, from 7:00 to 23:30",
+        "Kitchen at lunch and dinner, pizza oven lit all evening",
+        "**Menu in 9 languages**, by scanning the QR code at the table",
+        "Around 70 seats, outdoor tables and a room for groups",
+        "Takeaway and local delivery"
       ]
     },
-    "about": {
-      "metaTitle": "About us — EL MAIN LIL SINAA",
-      "metaDescription": "EL MAIN LIL SINAA, an Algerian waste oil collection and recovery operator: mission, method and territorial coverage.",
-      "title": "About us",
-      "intro": "EL MAIN LIL SINAA — **المعين للصناعة** — supports Algerian businesses on one specific point: moving their waste oil out of the informal circuit and back into a clean, documented, legal cycle.",
-      "sections": [
-        {
-          "type": "text",
-          "title": "Why we exist",
-          "body": [
-            "Algeria consumes around 180,000 tonnes of lubricants a year and generates up to 110,000 tonnes of waste oil. A large share is neither collected nor tracked: it ends up burned, poured onto the ground or into sewers. A single litre of oil is enough to contaminate an enormous volume of water.",
-            "Our job is to make the right move easier than the convenient one: the right container, a fixed collection date, a document in order."
-          ]
-        },
-        {
-          "type": "cards",
-          "alt": true,
-          "eyebrow": "Principles",
-          "title": "Four commitments, on every collection",
-          "columns": 4,
-          "items": [
-            {
-              "icon": "shield",
-              "title": "Compliance first",
-              "text": "Permits, transport and destination: everything verifiable, nothing taken on trust."
-            },
-            {
-              "icon": "map",
-              "title": "Real coverage",
-              "text": "A network built wilaya by wilaya, with trained local partners."
-            },
-            {
-              "icon": "doc",
-              "title": "Written traceability",
-              "text": "No collection without a document; no document without an identified destination."
-            },
-            {
-              "icon": "recycle",
-              "title": "Useful recovery",
-              "text": "Re-refining and biodiesel before plain disposal."
-            }
-          ]
-        },
-        {
-          "type": "regions",
-          "eyebrow": "Territory",
-          "title": "Organised by regional hubs",
-          "lead": "The service runs through regional hubs, each with a depot and a collection crew.",
-          "items": [
-            {
-              "title": "Centre",
-              "sub": "Algiers, Blida, Boumerdès, Tizi Ouzou"
-            },
-            {
-              "title": "West",
-              "sub": "Oran, Mostaganem, Sidi Bel Abbès, Tlemcen"
-            },
-            {
-              "title": "East",
-              "sub": "Constantine, Annaba, Sétif, Skikda"
-            },
-            {
-              "title": "High Plateaux",
-              "sub": "Djelfa, Batna, Tiaret, M'Sila"
-            },
-            {
-              "title": "South-East",
-              "sub": "Ouargla, Hassi Messaoud, Touggourt, Biskra"
-            },
-            {
-              "title": "South-West",
-              "sub": "Béchar, Adrar, Tindouf, Timimoun"
-            }
-          ],
-          "note": "The cities listed are deployment examples: replace them with your actual sites before going live."
-        },
-        {
-          "type": "cta",
-          "title": "Let's work together",
-          "text": "Industry, hospitality, local authorities: the first step is always a free site visit.",
-          "actions": [
-            {
-              "label": "Book a visit",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "Our partners",
-              "href": "/en/partners/"
-            }
-          ]
-        }
+    "visit": {
+      "eyebrow": "Come and see us",
+      "title": "Opening hours and directions",
+      "lead": "We are at Via Principe Amedeo 78/80, between Termini and Piazza Vittorio."
+    },
+    "cta": { "title": "Book a table", "text": "Call us or send a WhatsApp message: we answer throughout opening hours." }
+  },
+
+  "menu": {
+    "lead": "Every dish, with prices and labels for vegan, vegetarian, gluten-free and spicy. Use the search box or the filters to find what you need.",
+    "allergenNote": "Ask our staff for the full allergen list. Gluten-free dishes are made with certified ingredients and separate equipment; the kitchen as a whole, however, is not entirely gluten free.",
+    "priceNote": "Prices in euros, service included. Some products may be frozen at source depending on availability and season.",
+    "cta": { "title": "We will keep a table for you", "text": "One call is enough to book or to order a takeaway." }
+  },
+
+  "about": {
+    "lead": "One family, one kitchen and one oven, on one of the liveliest streets in the Esquilino.",
+    "story": {
+      "eyebrow": "Our story",
+      "title": "Simple, done well, every day",
+      "body": [
+        "We opened on Via Principe Amedeo because it is a street that never sleeps: espresso at the counter in the morning, pasta at midday, pizza at night. A bar that is also a restaurant and a pizzeria, the way it used to be.",
+        "The menu changes little, and that suits us: we would rather do ten things well than a hundred halfway. The pasta is bronze-cut, fish arrives fresh several times a week, vegetables follow the season.",
+        "Rome is a city of passers-by and of neighbourhoods at the same time. We like it when a local family sits at one table and someone who arrived that morning with a suitcase sits at the next. That is why the menu reads in nine languages: just scan the QR code."
+      ],
+      "panelTitle": "How we work",
+      "panelItems": [
+        "Pizza dough matured for **24 hours**",
+        "Guanciale and pecorino romano for the traditional pasta",
+        "Fresh fish, following the market",
+        "A **gluten-free** line with certified ingredients",
+        "Vegan and vegetarian dishes always available"
       ]
     },
-    "rules": {
-      "metaTitle": "Algerian environmental regulation — EL MAIN LIL SINAA",
-      "metaDescription": "Overview of Algerian legislation: Law 01-19, Law 25-02, Law 03-10, Executive Decree 13-176, environmental taxes and the SNGID 2035 strategy.",
-      "title": "Regulation: Algeria's environment from A to Z",
-      "intro": "The texts governing waste, waste oils and environmental taxation in Algeria, summarised in plain language. **Always check the latest version in the Official Journal (JORADP)** before acting.",
-      "sections": [
-        {
-          "type": "norms",
-          "eyebrow": "Reference texts",
-          "title": "The legal base",
-          "items": [
-            {
-              "tag": "2001",
-              "title": "Law 01-19 of 12 December 2001",
-              "text": "Waste management, control and disposal: duty to sort, recover and dispose of waste in environmentally sound conditions."
-            },
-            {
-              "tag": "2025",
-              "title": "Law 25-02 (Official Journal no. 12, February 2025)",
-              "text": "Amends and supplements Law 01-19: extended producer responsibility, eco-design, a digital management system, phase-out of single-use plastics, revised penalties."
-            },
-            {
-              "tag": "2003",
-              "title": "Law 03-10 of 19 July 2003",
-              "text": "Environmental protection for sustainable development: general framework, prevention and polluter-pays principles."
-            },
-            {
-              "tag": "2013",
-              "title": "Executive Decree 13-176 of 30 April 2013",
-              "text": "Conditions for manufacturing, storing and wholesaling lubricants, and for regenerating waste oils (Official Journal no. 25 of 12 May 2013)."
-            },
-            {
-              "tag": "2002",
-              "title": "Executive Decree 02-175 of 20 May 2002",
-              "text": "Creation, organisation and operation of the National Waste Agency (AND), under the environment ministry."
-            },
-            {
-              "tag": "Taxation",
-              "title": "Environmental taxes (Finance Acts)",
-              "text": "Tax on polluting or hazardous activities, tax on oils and lubricants, incentive tax on destocking special industrial waste, plastic bag tax, and supplementary taxes on air pollution and wastewater."
-            },
-            {
-              "tag": "2035",
-              "title": "National Integrated Waste Management Strategy (SNGID)",
-              "text": "By 2035: recover 47 % of municipal waste, cut generation below 1.1 kg per inhabitant per day, eliminate illegal dumps and create 30,000 direct jobs."
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "alt": true,
-          "eyebrow": "Who does what",
-          "title": "Institutions worth knowing",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "shield",
-              "title": "Ministry of the Environment",
-              "text": "Sets national policy and supervises the sector's public bodies."
-            },
-            {
-              "icon": "recycle",
-              "title": "AND",
-              "text": "National Waste Agency: flow data, technical support and recycling promotion."
-            },
-            {
-              "icon": "factory",
-              "title": "CNTPP",
-              "text": "National Centre for Cleaner Production Technologies: helps industry adopt less polluting processes."
-            },
-            {
-              "icon": "chart",
-              "title": "ONEDD",
-              "text": "National Observatory for Environment and Sustainable Development: measures and publishes environmental data."
-            },
-            {
-              "icon": "users",
-              "title": "CNFE",
-              "text": "National Conservatory for Environmental Training: training and awareness for practitioners."
-            },
-            {
-              "icon": "map",
-              "title": "Wilayas & municipalities",
-              "text": "Local permits, municipal waste plans and on-the-ground enforcement."
-            }
-          ]
-        },
-        {
-          "type": "sources",
-          "title": "Public sources",
-          "lead": "The data on this page comes from the following references.",
-          "items": [
-            {
-              "title": "Institutional and regulatory framework",
-              "publisher": "National Waste Agency (and.dz)",
-              "href": "https://and.dz/presentation/cadre-institutionnel-et-reglementaire/"
-            },
-            {
-              "title": "Law 25-02 on waste management (full text)",
-              "publisher": "JORADP no. 12 / 2025",
-              "href": "https://bet-khatraoui-abdessamie.com/wp-content/uploads/2025/02/Loi-25-02-modifiant-et-completant-la-loi-01-19-relative-a-la-gestion-des-dechets.pdf"
-            },
-            {
-              "title": "Executive Decree 13-176",
-              "publisher": "CNTPP (cntpp.dz)",
-              "href": "https://cntpp.dz/wp-content/uploads/2023/11/Decret-executif-n-%C2%B013-176.pdf"
-            },
-            {
-              "title": "Waste and recycling",
-              "publisher": "Ministry of the Environment (me.gov.dz)",
-              "href": "https://www.me.gov.dz/fr/dechets-et-recyclage/"
-            },
-            {
-              "title": "Environmental taxes",
-              "publisher": "ONEDD (onedd.org)",
-              "href": "https://onedd.org/taxes-ecologiques/"
-            }
-          ],
-          "note": "This overview is an explanatory summary, not legal advice. Have your situation reviewed by a qualified adviser."
-        }
+    "values": {
+      "eyebrow": "What we stand for",
+      "title": "Three things we will not give up",
+      "items": [
+        { "icon": "heart", "title": "Real hospitality", "text": "A properly laid table and someone who explains the menu in your own language." },
+        { "icon": "check", "title": "Honest prices", "text": "Prices on display and no surprises on the bill: cover and service are already included." },
+        { "icon": "sprout", "title": "Respect for your needs", "text": "Allergies, intolerances, dietary choices: we talk about them before you order, not after." }
       ]
     },
-    "contribution": {
-      "metaTitle": "Eco-contribution and environmental taxation — EL MAIN LIL SINAA",
-      "metaDescription": "Understanding Algerian environmental taxes on oils, lubricants and special industrial waste, and the obligations that follow.",
-      "title": "Eco-contribution & environmental taxation",
-      "intro": "In Algeria the **polluter-pays** principle translates into a set of environmental taxes voted each year in the Finance Act. Here is the practical reading for a business.",
-      "sections": [
-        {
-          "type": "norms",
-          "eyebrow": "What you pay",
-          "title": "The main environmental taxes",
-          "items": [
-            {
-              "tag": "Oils",
-              "title": "Tax on oils, lubricants and lubricating preparations",
-              "text": "Applies to products whose use generates waste oil. The 2026 Finance Act forecasts DZD 7.5 billion in revenue, split 66 % to the State and 34 % to municipalities."
-            },
-            {
-              "tag": "Industry",
-              "title": "Tax on polluting or hazardous activities",
-              "text": "Payable by classified installations, according to their nature and capacity."
-            },
-            {
-              "tag": "Stockpiles",
-              "title": "Incentive tax on destocking special industrial waste",
-              "text": "Penalises prolonged on-site storage of special waste. 2026 forecast: DZD 550 million, 84 % to the State and 16 % to municipalities."
-            },
-            {
-              "tag": "Plastic",
-              "title": "Specific tax on plastic bags",
-              "text": "Applies to bags imported or produced locally."
-            },
-            {
-              "tag": "Air & water",
-              "title": "Supplementary taxes: air pollution and wastewater",
-              "text": "Based on industrial discharges exceeding regulatory limits."
-            }
-          ]
-        },
-        {
-          "type": "steps",
-          "alt": true,
-          "eyebrow": "Method",
-          "title": "How we reduce your exposure",
-          "items": [
-            {
-              "title": "Baseline review",
-              "text": "An inventory of your streams: types, volumes, generation points, current storage."
-            },
-            {
-              "title": "Removal plan",
-              "text": "Collection frequency calibrated to avoid prolonged storage — and the tax that follows it."
-            },
-            {
-              "title": "Documentation",
-              "text": "Building the traceability file, one collection at a time."
-            },
-            {
-              "title": "Annual statement",
-              "text": "A summary of volumes and destinations, usable for filings and inspections alike."
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Estimate your position",
-          "text": "Send us your annual volumes: you get back a collection plan and a cost estimate.",
-          "actions": [
-            {
-              "label": "Request an estimate",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "Read the regulation",
-              "href": "/en/rules/"
-            }
-          ]
-        }
-      ]
-    },
-    "companies": {
-      "metaTitle": "Business services — EL MAIN LIL SINAA",
-      "metaDescription": "Waste oil collection for garages, industry, hotels, restaurants, food processing and transport fleets across Algeria.",
-      "title": "Businesses",
-      "intro": "A service built for those who produce waste oil without making a business of it: **you produce, we remove, you keep the proof.**",
-      "sections": [
-        {
-          "type": "cards",
-          "eyebrow": "Sectors",
-          "title": "Who calls us",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "collect",
-              "title": "Garages & service stations",
-              "text": "Drain oil, filters and contaminated packaging: regular collection and suitable containers."
-            },
-            {
-              "icon": "factory",
-              "title": "Industry & manufacturing",
-              "text": "Hydraulic, cutting and quenching oils, with volumes tracked per workshop."
-            },
-            {
-              "icon": "drop",
-              "title": "Hotels & restaurants",
-              "text": "Used frying oil: containers supplied, rotation matched to your activity."
-            },
-            {
-              "icon": "recycle",
-              "title": "Food processing",
-              "text": "High, regular volumes with hygiene and material separation constraints."
-            },
-            {
-              "icon": "map",
-              "title": "Transport & fleets",
-              "text": "Maintenance workshops, depots and life bases, including remote sites in the South."
-            },
-            {
-              "icon": "users",
-              "title": "Public bodies",
-              "text": "Municipalities, hospitals, schools and universities: public tenders and agreements."
-            }
-          ]
-        },
-        {
-          "type": "steps",
-          "alt": true,
-          "eyebrow": "Process",
-          "title": "How a contract works",
-          "items": [
-            {
-              "title": "Site visit and diagnosis",
-              "text": "We measure real volumes and map collection points on site."
-            },
-            {
-              "title": "Written proposal",
-              "text": "Frequency, containers, price and lead-time commitments, with no hidden clauses."
-            },
-            {
-              "title": "Set-up",
-              "text": "Sealed bins and drums delivered and labelled, with a short briefing for your team."
-            },
-            {
-              "title": "Scheduled collections",
-              "text": "Fixed dates or on call, with weighing and a transfer note every time."
-            },
-            {
-              "title": "Compliance file",
-              "text": "Your documents are archived and handed over as an annual summary."
-            }
-          ]
-        },
-        {
-          "type": "split",
-          "title": "Your obligations, in plain terms",
-          "body": [
-            "Whoever produces waste remains responsible for it until final disposal or recovery. In practice: know what you generate, store it properly, hand it to a licensed operator, and be able to prove it.",
-            "That is exactly what we document for you, collection after collection."
-          ],
-          "panel": {
-            "title": "Producer checklist",
-            "items": [
-              "Identify and classify your waste",
-              "Store on bunded areas, sheltered and unmixed",
-              "Never mix mineral and cooking oils",
-              "Contract with a licensed collector",
-              "Keep every transfer note",
-              "Maintain an up-to-date outgoing register"
-            ]
-          }
-        },
-        {
-          "type": "cta",
-          "title": "Book a site visit",
-          "text": "Free and without obligation, anywhere our network operates.",
-          "actions": [
-            {
-              "label": "Write to us",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "Join",
-              "href": "/en/membership/"
-            }
-          ]
-        }
-      ]
-    },
-    "associations": {
-      "metaTitle": "Partners and institutions — EL MAIN LIL SINAA",
-      "metaDescription": "Our institutional and professional counterparts in Algeria: ministry, AND, CNTPP, ONEDD, wilayas, chambers of commerce and associations.",
-      "title": "Partners & institutions",
-      "intro": "No collection chain is built alone. We work with the authorities, technical bodies and professional organisations that shape the sector in Algeria.",
-      "sections": [
-        {
-          "type": "cards",
-          "eyebrow": "Ecosystem",
-          "title": "Who we work with",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "shield",
-              "title": "Environmental authorities",
-              "text": "The environment ministry and wilaya environment directorates: permits and oversight."
-            },
-            {
-              "icon": "recycle",
-              "title": "National Waste Agency",
-              "text": "Flow data, good practice and support in structuring collection chains."
-            },
-            {
-              "icon": "factory",
-              "title": "CNTPP",
-              "text": "Guiding manufacturers towards cleaner, less waste-intensive processes."
-            },
-            {
-              "icon": "users",
-              "title": "Trade associations",
-              "text": "Restaurateurs, hoteliers, mechanics and hauliers: essential relays on the ground."
-            },
-            {
-              "icon": "map",
-              "title": "Municipalities",
-              "text": "Drop-off points, neighbourhood campaigns and clean-up operations."
-            },
-            {
-              "icon": "chart",
-              "title": "Research & startups",
-              "text": "Labs and young companies working on biodiesel and oil regeneration."
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "alt": true,
-          "title": "What we bring to a partnership",
-          "body": [
-            "A field operator, reliable collection data, and the ability to mobilise businesses across a defined territory.",
-            "We gladly take part in awareness drives, environment days and school programmes: that is where tomorrow's collection is won."
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Propose a partnership",
-          "text": "Institution, association or company: write to us describing your project.",
-          "actions": [
-            {
-              "label": "Contact us",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "See the campaign",
-              "href": "/en/campaign/"
-            }
-          ]
-        }
-      ]
-    },
-    "campaign": {
-      "metaTitle": "Environmental awareness campaign — EL MAIN LIL SINAA",
-      "metaDescription": "Slogans and an environmental communication plan aimed at the Algerian public, in Modern Standard Arabic and Algerian darija.",
-      "title": "Campaign & slogans",
-      "intro": "Talking about the environment to the Algerian public takes plain words in **everyday language**. Here is our message kit, in Standard Arabic and darija, ready for radio, billboards and social media.",
-      "sections": [
-        {
-          "type": "slogans",
-          "eyebrow": "Messages",
-          "title": "Our slogans",
-          "lead": "Each slogan is written for a specific medium and a specific audience.",
-          "items": [
-            {
-              "ar": "زيتك المستعمل ثروة… لا ترميه",
-              "local": "Your waste oil is wealth — don't throw it away.",
-              "note": "Lead message · billboards and radio"
-            },
-            {
-              "ar": "لتر واحد من الزيت يلوّث ملايين اللترات من الماء",
-              "local": "One litre of oil pollutes millions of litres of water.",
-              "note": "Educational message · schools and social media"
-            },
-            {
-              "ar": "ما ترميش… سلّمهالنا",
-              "local": "Don't dump it — hand it to us.",
-              "note": "Darija · service stations and garages"
-            },
-            {
-              "ar": "من المطبخ إلى الطاقة",
-              "local": "From the kitchen to energy.",
-              "note": "Cooking oil · restaurants and hotels"
-            },
-            {
-              "ar": "الجزائر نظيفة… مسؤولية الجميع",
-              "local": "A clean Algeria is everyone's responsibility.",
-              "note": "Civic message · municipal campaigns"
-            },
-            {
-              "ar": "نجمعو، نرسكلو، نحافظو",
-              "local": "We collect, we recycle, we protect.",
-              "note": "Darija · radio spots and short video"
-            },
-            {
-              "ar": "بيئة نظيفة، صناعة مسؤولة",
-              "local": "Clean environment, responsible industry.",
-              "note": "B2B message · trade fairs and trade press"
-            },
-            {
-              "ar": "كل قطرة تُجمع… مستقبل يُصان",
-              "local": "Every drop collected protects a future.",
-              "note": "Campaign close · large-format billboards"
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "alt": true,
-          "eyebrow": "Channels",
-          "title": "Where we carry these messages",
-          "columns": 3,
-          "items": [
-            {
-              "icon": "users",
-              "title": "Local radio",
-              "text": "20-second spots in Arabic and darija on wilaya stations."
-            },
-            {
-              "icon": "map",
-              "title": "Urban billboards",
-              "text": "Panels at city entrances, markets, service stations and industrial zones."
-            },
-            {
-              "icon": "chart",
-              "title": "Social media",
-              "text": "Short vertical demo videos: the right move in ten seconds."
-            },
-            {
-              "icon": "doc",
-              "title": "Schools & universities",
-              "text": "Workshops and posters, with a practical section on household frying oil."
-            },
-            {
-              "icon": "collect",
-              "title": "Collection points",
-              "text": "Shared signage on containers, so the right move looks the same everywhere."
-            },
-            {
-              "icon": "shield",
-              "title": "Municipal partnerships",
-              "text": "Clean-up days with municipalities and neighbourhood associations."
-            }
-          ]
-        },
-        {
-          "type": "steps",
-          "eyebrow": "Plan",
-          "title": "The campaign in four phases",
-          "items": [
-            {
-              "title": "Understand",
-              "text": "The problem in one number: dumped oil contaminates water and blocks drains."
-            },
-            {
-              "title": "Show",
-              "text": "The right move, filmed in a kitchen and in a garage — not in a studio."
-            },
-            {
-              "title": "Make it easy",
-              "text": "Point to the nearest collection point, wilaya by wilaya."
-            },
-            {
-              "title": "Report back",
-              "text": "Publish the volumes collected: proof that the effort counts."
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Run the campaign locally",
-          "text": "Municipalities, schools, companies: we provide the artwork and messages, adapted to your area.",
-          "actions": [
-            {
-              "label": "Request the kit",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "Become a partner",
-              "href": "/en/partners/"
-            }
-          ]
-        }
-      ]
-    },
-    "membership": {
-      "metaTitle": "Membership — EL MAIN LIL SINAA",
-      "metaDescription": "Joining the EL MAIN LIL SINAA network: conditions, steps and documents required for Algerian businesses.",
-      "title": "Membership",
-      "intro": "Joining means handing your waste oil streams to a single operator and receiving, in return, the documentation that proves your compliance.",
-      "sections": [
-        {
-          "type": "steps",
-          "eyebrow": "Procedure",
-          "title": "Four steps",
-          "items": [
-            {
-              "title": "Request",
-              "text": "Online form or a phone call: activity, wilaya, estimated volumes."
-            },
-            {
-              "title": "Diagnosis",
-              "text": "A site visit within a few working days, then a written proposal."
-            },
-            {
-              "title": "Contract",
-              "text": "Signature, delivery of containers and a collection schedule."
-            },
-            {
-              "title": "Follow-up",
-              "text": "A transfer note at every visit and an annual statement of recovered volumes."
-            }
-          ]
-        },
-        {
-          "type": "split",
-          "alt": true,
-          "title": "What membership includes",
-          "body": [
-            "A complete service with no hidden costs: containers remain our property and we maintain them.",
-            "For large producers, the contract can include payment for the oil collected, depending on volumes and stream quality."
-          ],
-          "panel": {
-            "title": "Documents to prepare",
-            "items": [
-              "Trade register extract",
-              "Tax identification number (NIF)",
-              "Contact details of the HSE manager or director",
-              "Estimated monthly volumes",
-              "Exact address of collection points"
-            ]
-          }
-        },
-        {
-          "type": "cta",
-          "title": "Start your membership",
-          "text": "Fill in the contact form: we reply within 48 working hours.",
-          "actions": [
-            {
-              "label": "Contact form",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "Frequently asked questions",
-              "href": "/en/faq/"
-            }
-          ]
-        }
-      ]
-    },
-    "contacts": {
-      "metaTitle": "Contact — EL MAIN LIL SINAA",
-      "metaDescription": "Contact EL MAIN LIL SINAA: address, phone, e-mail and collection request form for the whole of Algeria.",
-      "title": "Contact",
-      "intro": "A question, a quote, a collection to schedule: write to us with your **wilaya** and **estimated volumes** and the answer comes faster.",
-      "sections": [
-        {
-          "type": "contacts",
-          "labels": {
-            "office": "Head office",
-            "phone": "Phone",
-            "email": "E-mail",
-            "hours": "Opening hours",
-            "pec": "Sales desk"
-          }
-        },
-        {
-          "type": "form",
-          "alt": true,
-          "title": "Request form",
-          "fields": {
-            "name": "Company or name",
-            "email": "E-mail",
-            "subject": "Subject",
-            "subjects": [
-              "Collection request",
-              "Membership",
-              "Eco-contribution and compliance",
-              "Partnership or campaign",
-              "Other"
-            ],
-            "message": "Your message (wilaya, activity, volumes)",
-            "submit": "Send",
-            "note": "This form is a mock-up: connect it to your sending service (Vercel Forms, Formspree, internal API) before going live."
-          }
-        }
-      ]
-    },
-    "faq": {
-      "metaTitle": "Frequently asked questions — EL MAIN LIL SINAA",
-      "metaDescription": "Answers to common questions about waste oil collection, regulatory compliance and costs in Algeria.",
-      "title": "Frequently asked questions",
-      "intro": "The questions we get most often, on the phone and on site.",
-      "sections": [
-        {
-          "type": "faq",
-          "items": [
-            {
-              "q": "Can I pour waste oil down the drain or burn it?",
-              "a": "No. Unauthorised discharge and burning are prohibited and carry penalties, strengthened by Law 25-02. Oil must be handed to a licensed operator."
-            },
-            {
-              "q": "Is the service paid?",
-              "a": "It depends on the stream. Cooking oil in regular volumes can be bought back; small volumes and associated waste involve a charged service. The quote is always in writing."
-            },
-            {
-              "q": "What is the minimum volume for a collection?",
-              "a": "We run shared rounds: even a small producer can be added to an existing route."
-            },
-            {
-              "q": "What documents will I receive?",
-              "a": "A transfer note at every visit stating type, quantity and destination, plus an annual summary."
-            },
-            {
-              "q": "Do you operate in the South?",
-              "a": "Yes, in industrial and oil zones, at a frequency adapted to the distances. Contact us for your area's schedule."
-            },
-            {
-              "q": "Can engine oil and frying oil be mixed?",
-              "a": "Never. Mixing makes the stream unrecoverable and can downgrade everything to hazardous waste. Always two separate containers."
-            },
-            {
-              "q": "What happens to the oil collected?",
-              "a": "It goes to recovery: re-refining, energy recovery or biodiesel production, depending on quality and available outlets."
-            },
-            {
-              "q": "Do you supply the containers?",
-              "a": "Yes: sealed bins and drums, labelled, delivered and maintained by us."
-            },
-            {
-              "q": "What happens during an inspection?",
-              "a": "You present your transfer notes and register. That is precisely what our traceability file is built to cover."
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "title": "Question not answered here?",
-          "text": "Write to us: we reply within 48 working hours.",
-          "actions": [
-            {
-              "label": "Ask a question",
-              "href": "/en/contacts/"
-            },
-            {
-              "label": "See the regulation",
-              "href": "/en/rules/"
-            }
-          ]
-        }
-      ]
+    "cta": { "title": "Drop in and see us", "text": "We are open every day, from breakfast until late in the evening." }
+  },
+
+  "features": {
+    "eyebrow": "Facilities",
+    "title": "What you will find here",
+    "items": {
+      "italian": "100% Italian cuisine",
+      "wifi": "Free Wi-Fi", "outdoor": "Outdoor tables", "takeaway": "Takeaway",
+      "delivery": "Home delivery", "cards": "Cards and Satispay", "family": "Child friendly",
+      "accessible": "Step-free access", "airCon": "Air conditioning", "petFriendly": "Dogs welcome",
+      "groups": "Groups welcome"
     }
+  },
+
+  "contacts": {
+    "lead": "Via Principe Amedeo 78/80, a five-minute walk from Roma Termini.",
+    "intro": { "eyebrow": "Contact", "title": "How to reach us, and when", "lead": "Phone and WhatsApp are answered throughout opening hours." },
+    "hoursTitle": "Opening hours",
+    "hoursNote": "Open every day. The kitchen keeps lunch and dinner service; the bar stays open in between.",
+    "nearTermini": "Five minutes on foot from Termini station and metro lines A and B.",
+    "phoneNote": "For groups of eight or more, it is best to call a day ahead.",
+    "mapTitle": { "eyebrow": "Where we are", "title": "The map", "lead": "Via Principe Amedeo 78/80, 00185 Rome." },
+    "nearby": { "eyebrow": "Around here", "title": "What is nearby", "lead": "Walking distance to the landmarks of the neighbourhood." },
+    "cta": { "title": "Book or order", "text": "One call or a WhatsApp message: we take care of the rest." }
+  },
+
+  "faq": {
+    "lead": "The questions we are asked most often. If your answer is not here, give us a call.",
+    "items": [
+      { "q": "Do I need to book?", "a": "For two or three people, usually not: there is normally a table free. On Friday and Saturday evenings, and for groups of six or more, it is better to call. A couple of minutes on the phone or a WhatsApp message is enough." },
+      { "q": "Do you have gluten-free dishes?", "a": "Yes, there is a dedicated section with pizza, pasta, a dessert and gluten-free beer, made with certified ingredients and separate equipment. The kitchen as a whole is not entirely gluten free, so please always tell the staff when you order." },
+      { "q": "Are there vegan and vegetarian options?", "a": "Yes, two whole sections of the menu. On top of that, many dishes in the other sections are already vegetarian: you can recognise them by the coloured labels on the menu." },
+      { "q": "How far are you from Termini station?", "a": "About five minutes on foot. Leaving Termini, take Via Giovanni Giolitti and turn into Via Principe Amedeo: we are at number 78/80." },
+      { "q": "Can I pay by card?", "a": "Yes, we accept debit cards, Visa, Mastercard, American Express and Satispay, with no minimum amount." },
+      { "q": "Do you do takeaway and delivery?", "a": "Yes, the whole menu is available to take away and we deliver in the surrounding streets. To order, just call or send a WhatsApp message." },
+      { "q": "Do you take groups?", "a": "Yes, we have a room that fits groups. For more than eight people, call us a day ahead so we can arrange the tables and, if you wish, an agreed menu." },
+      { "q": "Are dogs allowed?", "a": "Yes, dogs are welcome both inside and at the outdoor tables." },
+      { "q": "Is the menu available in other languages?", "a": "Yes, in nine languages: Italian, English, French, Spanish, Portuguese, Arabic, Russian, Polish and Greek. Scan the QR code on the table and the menu opens in your phone's language." },
+      { "q": "When is the kitchen open?", "a": "For lunch from 12:00 to 15:30 and for dinner from 18:30 to 23:00. Outside those hours the bar stays open for coffee, sandwiches and aperitivo." }
+    ],
+    "cta": { "title": "Still looking for an answer?", "text": "Call us or write on WhatsApp: we reply straight away." }
+  },
+
+  "qr": {
+    "reviewKind": "Reviews",
+    "reviewTitle": "Google review QR code",
+    "reviewText": "Goes straight to the Google review form. Keep it at the till or hand it over with the bill.",
+    "reviewHead": "Leave a review",
+    "reviewScan": "Tell us how it went",
+    "reviewCardTitle": "Review card for the till",
+    "reviewCardText": "Print it and keep it by the till, or hand it over with the bill. **Two seconds for the guest**, and the restaurant's Google listing grows.",
+    "reviewCardPrint": "Print the review card",
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "Wi-Fi QR code",
+    "wifiText": "Scan it and your phone joins our network without typing the password.",
+    "wifiNetwork": "Network",
+    "wifiPassword": "Password",
+    "wifiScan": "Scan and you are connected",
+    "wifiFree": "Free Wi-Fi",
+    "wifiCardTitle": "Wi-Fi card for the tables",
+    "wifiCardText": "Print it and set it beside the menu. **Guests connect on their own**, without asking the staff for the password.",
+    "wifiCardPrint": "Print the Wi-Fi card",
+    "lead": "Two codes, two different jobs. The first opens the menu, the second the website. Both detect the language of the phone on their own.",
+    "intro": { "eyebrow": "Ready to print", "title": "The two QR codes", "lead": "They are vector images: they print sharp at any size, from a sticker to a poster." },
+    "menuKind": "For the table",
+    "siteKind": "For the venue",
+    "menuTitle": "Menu QR code",
+    "menuText": "Opens the full menu directly, in the language of the phone. Put it on the tables, in the window or on a flyer.",
+    "siteTitle": "Website QR code",
+    "siteText": "Opens the home page: menu, hours, map, contact details and blog. Useful on business cards, on the sign and on social media.",
+    "howTitle": "How to use them",
+    "how": [
+      { "title": "Print", "text": "Download the SVG file or use the print button. Recommended minimum size: **3 centimetres** per side." },
+      { "title": "Place it", "text": "On the tables, in the window, on the paper menu or at the till. It needs good contrast and no glare." },
+      { "title": "The guest scans it", "text": "The phone camera is enough: there is no app to download." },
+      { "title": "It opens in their language", "text": "The site detects the phone's language among the nine available and opens the right menu." }
+    ],
+    "tentTitle": "Table tent card",
+    "tentText": "Ready to print and fold: put it on the tables and the menu is served. **No paper to reprint every time a price changes.**",
+    "tentSub": "Restaurant · Pizzeria",
+    "tentScan": "Scan for the menu",
+    "tentPrint": "Print the table card",
+    "cta": { "title": "Need a different version?", "text": "We can generate a QR code for any page of the site: just call us." }
+  },
+
+  "blog": {
+    "lead": "Roman cooking, pizza and practical advice for eating well near Termini.",
+    "moreTitle": "More articles",
+    "cta": { "title": "Come and try them", "text": "Every dish we write about is on the menu, every day." },
+    "posts": [
+      {
+        "slug": "carbonara-vera",
+        "tag": "Tradition",
+        "date": "2026-06-12",
+        "title": "Real carbonara: four ingredients and no shortcuts",
+        "excerpt": "Guanciale, egg yolks, pecorino romano and pepper. No cream, no garlic, no onion. Here is how we make it, and why.",
+        "body": [
+          "Carbonara is the dish Romans argue about most, and that makes sense: there are only four ingredients, so each one shows immediately. If one of them is mediocre, nothing can save the plate.",
+          "## Guanciale, not pancetta",
+          "Guanciale comes from the pig's cheek. It is sweeter and fattier than pancetta, and it behaves differently in the pan: the fat melts and becomes the real sauce. We cut it into strips half a centimetre thick and render it over medium heat, without rushing, until the lean part is crisp and the fat is translucent.",
+          "## The cream is made without cream",
+          "Egg yolks, pecorino romano grated to order and coarsely ground black pepper. Whisk them cold, then loosen with a ladle of pasta water. The pan must be off the heat when the pasta goes in: it is the residual warmth that binds the sauce, not the flame. Too hot and the egg sets into an omelette.",
+          "## Spaghetti or rigatoni",
+          "We serve it with spaghetti, because the sauce coats them evenly. Rigatoni work just as well and hold the sauce inside: it is a matter of taste, not of rules.",
+          "One last tip: grind the pepper fresh and toast it for a moment in the pan. That is the difference between a good plate and one you remember."
+        ]
+      },
+      {
+        "slug": "pizza-romana-napoletana",
+        "tag": "Pizza",
+        "date": "2026-07-03",
+        "title": "Roman or Neapolitan pizza: what really changes",
+        "excerpt": "Tall crust or thin edge, hotter or cooler oven, different doughs. A short guide to choosing the one you prefer.",
+        "body": [
+          "Anyone walking into a pizzeria in Rome meets two different schools, and neither is better than the other: they are two ideas of pizza.",
+          "## Roman: thin and crisp",
+          "Roman pizza has a very thin base, rolled out with a pin, and a low edge. It bakes at a slightly lower temperature for longer, so it comes out dry and crisp right to the middle. It is the one you can eat with your hands without it folding over.",
+          "## Neapolitan: a tall, soft crust",
+          "Neapolitan pizza is stretched by hand, leaving the air in the rim, which puffs up in the oven into a tall, open crust. It bakes very briefly at a very high temperature, stays soft, and should be eaten at once, with a fork if needed.",
+          "## What we serve",
+          "At Bar Capri we work a dough that matures for twenty-four hours at medium hydration: the result sits in between, with a crust that is present but not exaggerated, and a thin, well-baked centre. It is, we think, the pizza that eats best at the end of a long day.",
+          "For guests who cannot eat gluten we prepare a certified base, baked separately to avoid contamination."
+        ]
+      },
+      {
+        "slug": "senza-glutine-roma",
+        "tag": "Gluten free",
+        "date": "2026-07-24",
+        "title": "Eating gluten free in Rome: what to ask before you order",
+        "excerpt": "Three questions worth asking anywhere, and how gluten-free dishes are prepared here.",
+        "body": [
+          "Anyone with coeliac disease knows the problem is not finding a place with gluten-free pasta, but understanding how they cook it. Here is what is worth asking everywhere, not only here.",
+          "## First question: where do they boil the pasta?",
+          "If gluten-free pasta boils in the same water as the regular one, the dish is not safe. It needs its own pot and clean water. Here, gluten-free pasta has its own pot and its own utensils.",
+          "## Second question: how do they bake the pizza?",
+          "A gluten-free base cannot go onto the same oven floor where a wheat dough has just been stretched. We bake ours in a dedicated tin and handle it with separate peels.",
+          "## Third question: who prepares it?",
+          "The work surface and a change of gloves matter too. No serious cook takes this question badly: if the kitchen is set up for it, the answer comes back straight away and precise.",
+          "## What is on the menu",
+          "Pizza, pasta, a dessert of the day and gluten-free beer, all with certified ingredients. We are not an entirely gluten-free kitchen, and we say so plainly: anyone with severe coeliac disease deserves honest information, not a vague reassurance."
+        ]
+      },
+      {
+        "slug": "mangiare-vicino-termini",
+        "tag": "Neighbourhood",
+        "date": "2026-08-14",
+        "title": "Eating well near Termini: how to avoid the traps",
+        "excerpt": "The station area has plenty of tourist traps and a few excellent tables. Four signs that tell them apart.",
+        "body": [
+          "There are always places around a station that live on passing trade: you eat there once and never return. But the Esquilino is also a lived-in neighbourhood with a tradition of real trattorias. Here is how to spot them.",
+          "## The menu is short",
+          "A kitchen offering eighty dishes is not cooking all of them to order. A short menu, with a few daily specials, is nearly always a good sign.",
+          "## Prices are displayed and clear",
+          "Cover charge, service and any extras should be written down. If the price of fish is given only per hundred grams without the weight of a portion, ask what it will come to before you order.",
+          "## Nobody invites you in from the street",
+          "Staff stopping passers-by on the pavement is the most reliable sign that a place needs to fill up fast. Good tables have people sitting at them, not standing outside the door.",
+          "## There are local customers",
+          "This is the best test of all: if at lunchtime you see people who work nearby, the value for money holds up. Look at what is on their plates and order that.",
+          "We are at Via Principe Amedeo 78/80, five minutes on foot from the station. The menu is the one we always serve, and you can read the prices on this site before you even walk in."
+        ]
+      }
+    ]
+  },
+
+  "footer": {
+    "tagline": "Bar, restaurant and pizzeria in the Esquilino, from morning until late.",
+    "navTitle": "The site",
+    "hoursTitle": "Hours",
+    "rights": "All rights reserved.",
+    "made": "Via Principe Amedeo 78/80 · 00185 Rome"
+  },
+
+  "categories": {
+    "colazione":     { "name": "Breakfast and bar", "lead": "From 7:00, at the counter or at a table." },
+    "antipasti":     { "name": "Starters", "lead": "To begin with, and to share." },
+    "pasta":         { "name": "Pasta and first courses", "lead": "The four Roman classics, and a little more." },
+    "pizza":         { "name": "Pizza", "lead": "Dough matured for 24 hours." },
+    "carne":         { "name": "Meat", "lead": "Main courses from the land, cooked to order." },
+    "pesce":         { "name": "Fish", "lead": "Following the market, several times a week." },
+    "vegano":        { "name": "Vegan", "lead": "No ingredients of animal origin." },
+    "vegetariano":   { "name": "Vegetarian", "lead": "No meat and no fish." },
+    "senza-glutine": { "name": "Gluten free", "lead": "Certified ingredients, separate preparation." },
+    "dolci":         { "name": "Desserts", "lead": "Homemade, to finish." },
+    "bevande":       { "name": "Drinks", "lead": "A short wine list and beer on tap." }
+  },
+
+  "dishes": {
+    "caffe":        { "name": "Espresso coffee" },
+    "cappuccino":   { "name": "Cappuccino" },
+    "cornetto":     { "name": "Italian croissant" },
+    "spremuta":     { "name": "Freshly squeezed orange juice" },
+    "toast":        { "name": "Ham and cheese toastie" },
+    "aperitivo":    { "name": "Aperitivo with buffet" },
+
+    "bruschetta":   { "name": "Tomato bruschetta", "desc": "Toasted country bread, fresh tomato, basil and extra virgin olive oil." },
+    "suppli":       { "name": "Roman rice croquettes", "desc": "Rice in tomato sauce with melting mozzarella, breaded and fried to order." },
+    "fiori-zucca":  { "name": "Fried courgette flowers", "desc": "Courgette flowers in batter with mozzarella and anchovy." },
+    "tagliere":     { "name": "Cured meat and cheese board", "desc": "A selection of Italian cured meats and aged cheeses, with bread and fruit preserve." },
+    "burrata":      { "name": "Burrata with cherry tomatoes", "desc": "Burrata from Puglia, confit cherry tomatoes, basil and extra virgin olive oil." },
+    "carciofo":     { "name": "Roman-style artichoke", "desc": "Romanesco artichoke braised with garlic, wild mint and olive oil." },
+
+    "carbonara":    { "name": "Spaghetti carbonara", "desc": "Crisp guanciale, egg yolks, pecorino romano and black pepper. No cream." },
+    "amatriciana":  { "name": "Bucatini amatriciana", "desc": "Guanciale, tomato, pecorino romano and a touch of chilli." },
+    "cacio-pepe":   { "name": "Tonnarelli cacio e pepe", "desc": "Tonnarelli tossed with pecorino romano and toasted black pepper." },
+    "gricia":       { "name": "Rigatoni alla gricia", "desc": "Amatriciana without the tomato: guanciale, pecorino and pepper." },
+    "arrabbiata":   { "name": "Penne all'arrabbiata", "desc": "Tomato, garlic, chilli and parsley. As spicy as it should be." },
+    "lasagna":      { "name": "Baked lasagne", "desc": "Pasta sheets, meat ragù, béchamel and parmesan, baked until golden." },
+    "ravioli":      { "name": "Ricotta and spinach ravioli", "desc": "Fresh ravioli of ricotta and spinach, melted butter and sage." },
+    "gnocchi":      { "name": "Gnocchi alla sorrentina", "desc": "Potato gnocchi with tomato, mozzarella and basil, baked in the oven." },
+    "vongole":      { "name": "Spaghetti with clams", "desc": "Clams, garlic, olive oil, parsley and a splash of white wine." },
+    "risotto":      { "name": "Porcini mushroom risotto", "desc": "Carnaroli rice stirred with porcini mushrooms and parsley." },
+
+    "marinara":     { "name": "Marinara", "desc": "Tomato, garlic, oregano and extra virgin olive oil. No cheese." },
+    "margherita":   { "name": "Margherita", "desc": "Tomato, fiordilatte mozzarella and fresh basil." },
+    "napoli":       { "name": "Napoli", "desc": "Tomato, mozzarella, anchovies, capers and oregano." },
+    "diavola":      { "name": "Diavola", "desc": "Tomato, mozzarella and spicy salami." },
+    "quattro-formaggi": { "name": "Four cheeses", "desc": "Mozzarella, gorgonzola, pecorino and smoked provola." },
+    "ortolana":     { "name": "Ortolana", "desc": "Tomato and grilled seasonal vegetables. No cheese." },
+    "capricciosa":  { "name": "Capricciosa", "desc": "Tomato, mozzarella, cooked ham, mushrooms, artichokes and olives." },
+    "bufala":       { "name": "Buffalo mozzarella pizza", "desc": "Buffalo mozzarella added after baking, cherry tomatoes and basil." },
+    "calzone":      { "name": "Filled calzone", "desc": "Folded and baked with cooked ham, mozzarella and ricotta." },
+    "pizza-capri":  { "name": "Capri pizza", "desc": "Ours: buffalo mozzarella, yellow cherry tomatoes, taggiasca olives and basil." },
+    "frutti-mare":  { "name": "Seafood pizza", "desc": "Tomato, squid, prawns, mussels and parsley." },
+
+    "saltimbocca":  { "name": "Saltimbocca alla romana", "desc": "Veal escalopes with prosciutto and sage, finished with white wine." },
+    "tagliata":     { "name": "Sliced beef with rocket", "desc": "Grilled beef sirloin, rocket and shavings of grana cheese." },
+    "scaloppine":   { "name": "Veal escalopes with lemon", "desc": "Pan-fried veal with butter, lemon and parsley." },
+    "pollo":        { "name": "Roast chicken with potatoes", "desc": "Oven-roasted chicken thigh with potatoes and rosemary." },
+    "abbacchio":    { "name": "Grilled lamb chops", "desc": "Lamb cutlets over the coals, meant to be eaten with your hands." },
+    "costine":      { "name": "Baked pork ribs", "desc": "Pork ribs slow-baked in the oven, crisp on the outside." },
+
+    "orata":        { "name": "Grilled sea bream", "desc": "Whole sea bream on the grill with olive oil, lemon and parsley." },
+    "frittura":     { "name": "Fried squid and prawns", "desc": "Squid and prawns in a light batter, with lemon." },
+    "salmone":      { "name": "Baked salmon fillet", "desc": "Salmon fillet baked with herbs and potatoes." },
+    "cozze":        { "name": "Peppered mussels", "desc": "Mussels opened in the pan with black pepper, garlic and parsley." },
+    "polpo":        { "name": "Octopus and potatoes", "desc": "Slow-cooked octopus, crushed potatoes, olive oil and parsley." },
+    "spigola":      { "name": "Sea bass all'acqua pazza", "desc": "Sea bass with cherry tomatoes, olives, capers and parsley." },
+
+    "pizza-vegana":  { "name": "Vegan pizza", "desc": "Tomato, seasonal vegetables and extra virgin olive oil. No cheese." },
+    "pomodoro-basilico": { "name": "Pasta with tomato and basil", "desc": "Pasta with fresh tomato, basil and extra virgin olive oil." },
+    "vellutata":     { "name": "Seasonal vegetable soup", "desc": "Creamed seasonal vegetables with croutons and a drizzle of olive oil." },
+    "caponata":      { "name": "Vegetable caponata", "desc": "Aubergine, celery, onion and tomato in a sweet-and-sour dressing." },
+    "insalatona-vegana": { "name": "Large vegan salad", "desc": "Mixed leaves, chickpeas, cherry tomatoes, avocado and toasted seeds." },
+
+    "parmigiana":   { "name": "Aubergine parmigiana", "desc": "Layers of fried aubergine with tomato, mozzarella and basil." },
+    "caprese":      { "name": "Caprese salad", "desc": "Mozzarella, tomato, basil and extra virgin olive oil." },
+    "verdure-griglia": { "name": "Mixed grilled vegetables", "desc": "Grilled courgette, aubergine and pepper, with olive oil and oregano." },
+    "frittata":     { "name": "Vegetable omelette", "desc": "Egg omelette with seasonal vegetables, served warm." },
+    "pizza-vegetariana": { "name": "Vegetarian pizza", "desc": "Tomato, mozzarella and grilled seasonal vegetables." },
+
+    "pizza-sg":     { "name": "Gluten-free pizza", "desc": "Certified gluten-free base, baked in a dedicated tin. Choose your topping." },
+    "pasta-sg":     { "name": "Gluten-free pasta", "desc": "Certified pasta, boiled in a dedicated pot. With carbonara or tomato sauce." },
+    "dolce-sg":     { "name": "Gluten-free dessert", "desc": "The dessert of the day in a gluten-free version. Ask our staff." },
+    "birra-sg":     { "name": "Gluten-free beer", "desc": "Certified gluten-free lager, 33 cl bottle." },
+
+    "tiramisu":     { "name": "Tiramisù", "desc": "Mascarpone, coffee-soaked sponge fingers and bitter cocoa. Homemade." },
+    "panna-cotta":  { "name": "Panna cotta", "desc": "Panna cotta with berry or caramel sauce." },
+    "cannolo":      { "name": "Sicilian cannolo", "desc": "Crisp shell filled to order with sheep's milk ricotta." },
+    "tartufo":      { "name": "Chocolate tartufo", "desc": "Chocolate ice cream with a molten centre, dusted with cocoa." },
+    "macedonia":    { "name": "Fresh fruit salad", "desc": "Seasonal fresh fruit, cut to order." },
+
+    "acqua":        { "name": "Mineral water 75 cl" },
+    "bibite":       { "name": "Canned soft drinks" },
+    "birra-media":  { "name": "Draught beer, medium" },
+    "vino-calice":  { "name": "House wine by the glass" },
+    "vino-bottiglia": { "name": "House wine 75 cl" },
+    "amaro":        { "name": "Amaro / digestivo" }
   }
 }

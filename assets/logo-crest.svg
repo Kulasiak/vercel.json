@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="BAR CAPRI — Ristorante e Pizzeria">
+  <title>BAR CAPRI — Ristorante e Pizzeria, Roma</title>
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3fafd"/><stop offset="1" stop-color="#c8e7f4"/>
+    </linearGradient>
+    <linearGradient id="mare" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39b0d4"/><stop offset=".5" stop-color="#0f7fb0"/><stop offset="1" stop-color="#0a4f74"/>
+    </linearGradient>
+    <linearGradient id="roccia" x1="0" y1="0" x2="1" y2=".4">
+      <stop offset="0" stop-color="#f0e7d9"/><stop offset=".55" stop-color="#cdbca4"/><stop offset="1" stop-color="#9d886d"/>
+    </linearGradient>
+    <clipPath id="disco"><circle cx="500" cy="500" r="352"/></clipPath>
+    <!-- le due guide del testo corrono in mezzo alla fascia blu -->
+    <path id="arcoAlto"  d="M 88 500 A 412 412 0 0 1 912 500"/>
+    <path id="arcoBasso" d="M 96 500 A 404 404 0 0 0 904 500"/>
+  </defs>
+
+  <circle cx="500" cy="500" r="496" fill="#0d2137"/>
+  <circle cx="500" cy="500" r="478" fill="none" stroke="#c9a227" stroke-width="4"/>
+  <circle cx="500" cy="500" r="362" fill="none" stroke="#c9a227" stroke-width="6"/>
+
+  <circle cx="500" cy="500" r="352" fill="url(#cielo)"/>
+  <g clip-path="url(#disco)">
+    <circle cx="562" cy="352" r="58" fill="#f4c95a"/>
+    <path d="M148 566 H852 V860 H148 Z" fill="url(#mare)"/>
+    <path d="M534 566 h56 l30 294 h-116 Z" fill="#a5ddf0" opacity=".45"/>
+    <path d="M150 626 q42 -19 84 0 t84 0 t84 0 t84 0 t84 0 t84 0 t84 0 t84 0" fill="none" stroke="#c9e9f6" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+    <path d="M120 696 q46 -21 92 0 t92 0 t92 0 t92 0 t92 0 t92 0 t92 0 t92 0" fill="none" stroke="#c9e9f6" stroke-width="7" stroke-linecap="round" opacity=".38"/>
+    <path d="M150 764 q42 -18 84 0 t84 0 t84 0 t84 0 t84 0 t84 0 t84 0 t84 0" fill="none" stroke="#c9e9f6" stroke-width="6" stroke-linecap="round" opacity=".28"/>
+
+    <!-- Faraglioni: profili irregolari, quello di mezzo con l'arco -->
+    <path d="M300 572 q-4 -60 12 -104 q10 -30 26 -74 q12 -34 24 -60 q10 24 16 62 q8 44 18 82 q12 44 14 94 Z" fill="url(#roccia)"/>
+    <path d="M362 274 q10 24 16 62 q8 44 18 82 q12 44 14 94 h-34 q6 -70 -4 -134 q-8 -54 -10 -104 Z" fill="#8f7a5f" opacity=".45"/>
+
+    <path d="M430 572 q-6 -80 14 -150 q16 -56 38 -104 q16 -36 30 -62 q14 30 26 74 q18 64 32 122 q16 66 18 120 Z" fill="url(#roccia)"/>
+    <path d="M512 256 q14 30 26 74 q18 64 32 122 q16 66 18 120 h-46 q4 -96 -10 -180 q-12 -74 -20 -136 Z" fill="#8f7a5f" opacity=".45"/>
+    <path d="M486 572 q0 -46 20 -66 q22 22 22 66 Z" fill="#0a4f74" opacity=".85"/>
+
+    <path d="M580 572 q-4 -48 10 -88 q12 -34 26 -62 q12 26 20 60 q10 42 12 90 Z" fill="url(#roccia)"/>
+    <path d="M616 422 q12 26 20 60 q10 42 12 90 h-26 q2 -78 -6 -150 Z" fill="#8f7a5f" opacity=".45"/>
+
+    <path d="M258 318 q17 -15 34 0 q17 -15 34 0" fill="none" stroke="#0d2137" stroke-width="6" stroke-linecap="round" opacity=".42"/>
+    <path d="M690 286 q13 -12 26 0 q13 -12 26 0" fill="none" stroke="#0d2137" stroke-width="5" stroke-linecap="round" opacity=".32"/>
+  </g>
+
+  <g font-family="Charter, 'Bitstream Charter', 'Liberation Serif', Georgia, serif" font-weight="700" fill="#f7f1e4">
+    <text font-size="112" letter-spacing="16" text-anchor="middle">
+      <textPath href="#arcoAlto" startOffset="50%">BAR CAPRI</textPath>
+    </text>
+    <text font-size="54" letter-spacing="12" text-anchor="middle" fill="#e8dcc4">
+      <textPath href="#arcoBasso" startOffset="50%">RISTORANTE · PIZZERIA</textPath>
+    </text>
+  </g>
+
+  <g fill="#f4c95a" stroke="#c9a227" stroke-width="4">
+    <ellipse cx="60" cy="500" rx="16" ry="22"/><ellipse cx="940" cy="500" rx="16" ry="22"/>
+  </g>
+  <g fill="#5b9a5e">
+    <path d="M60 473 q20 -15 32 -4 q-13 15 -32 4 Z"/><path d="M940 473 q20 -15 32 -4 q-13 15 -32 4 Z"/>
+  </g>
+</svg>

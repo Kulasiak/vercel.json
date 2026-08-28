@@ -1,0 +1,356 @@
+{
+  "nav": { "home": "Início", "menu": "Ementa", "about": "Quem somos", "blog": "Blog", "faq": "Perguntas frequentes", "contacts": "Contactos", "qr": "Códigos QR" },
+
+  "ui": {
+    "call": "Ligar", "whatsapp": "WhatsApp", "phone": "Telefone", "address": "Morada",
+    "hours": "Horário", "bar": "Bar", "kitchen": "Cozinha", "day": "Dia", "today": "Hoje",
+    "map": "Mapa", "follow": "Siga-nos", "search": "Procurar um prato…", "filters": "Filtros",
+    "all": "Todos", "categories": "Categorias", "noResults": "Nenhum prato corresponde à pesquisa.",
+    "print": "Imprimir", "readMore": "Ler o artigo", "backToBlog": "Todos os artigos",
+    "minRead": "min de leitura", "minWalk": "min a pé",
+    "openNow": "Aberto agora", "closedNow": "Fechado agora",
+    "opensAt": "abre às {time}", "closesAt": "fecha às {time}",
+    "chooseLanguage": "Escolha o seu idioma", "theme": "Mudar de tema", "backTop": "Voltar ao topo",
+    "openMenu": "Abrir o menu de navegação", "mainNav": "Navegação principal",
+    "quickActions": "Ações rápidas", "skipToContent": "Ir para o conteúdo", "scroll": "Deslizar",
+    "tagline": "Restaurante · Pizzaria", "qrStrip": "A ementa por QR",
+    "showMap": "Ver o mapa", "mapConsent": "Ao abrir o mapa carrega-se o Google Maps."
+  },
+
+  "tags": { "vg": "Vegano", "v": "Vegetariano", "gf": "Sem glúten", "sp": "Picante", "chef": "Especialidade" },
+
+  "days": ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"],
+
+  "gate": { "description": "BAR CAPRI, restaurante e pizzaria na Via Principe Amedeo 78/80, em Roma, a cinco minutos de Termini. Escolha o idioma: menu, horários e contactos.",
+    "menuDescription": "O menu do BAR CAPRI em Roma: massa, pizza, carne, peixe, pratos veganos, vegetarianos e sem glúten. Escolha o idioma e leia à mesa.",
+    "title": "Restaurante e pizzaria em Roma", "sub": "Escolha o seu idioma", "menuTitle": "A nossa ementa", "menuSub": "Choose your language to read the menu", "enter": "Entrar" },
+
+  "pages": {
+    "home":     { "title": "Restaurante e pizzaria perto de Termini", "description": "Bar Capri: restaurante, pizzaria e bar na Via Principe Amedeo 78/80, a cinco minutos de Roma Termini. Cozinha romana, pizza, peixe, vegano e sem glúten." },
+    "menu":     { "title": "Ementa",
+      "seoTitle": "Ementa e preços · pizza, massa e cozinha romana", "description": "A ementa completa do Bar Capri em Roma: entradas, massas romanas, pizza, carne, peixe, pratos veganos, vegetarianos e sem glúten. Com preços." },
+    "about":    { "title": "Quem somos", "description": "A história do Bar Capri: cozinha romana honesta e pizza de longa fermentação, no coração do bairro do Esquilino em Roma, da manhã até tarde." },
+    "blog":     { "title": "Blog",
+      "seoTitle": "Blog · cozinha romana, pizza e vida em Roma", "description": "Histórias de cozinha romana, pizza e conselhos práticos para comer bem perto da estação de Termini em Roma." },
+    "faq":      { "title": "Perguntas frequentes", "description": "Reservas, horários, opções sem glúten e veganas, grupos, pagamentos: as respostas às perguntas mais comuns sobre o Bar Capri em Roma." },
+    "contacts": { "title": "Contactos e como chegar", "description": "Bar Capri, Via Principe Amedeo 78/80, 00185 Roma. Telefone 351 265 0441, WhatsApp 388 632 9575. Mapa, horários e como chegar a pé desde Termini." },
+    "qr":       { "title": "Códigos QR",
+      "seoTitle": "Códigos QR da ementa e do site", "description": "Os dois códigos QR do Bar Capri: um abre a ementa à mesa no idioma do cliente, o outro abre o site. Prontos a imprimir." }
+  },
+
+  "home": {
+    "hero": {
+      "title": "Cozinha romana e pizza",
+      "titleAccent": "a dois passos de Termini",
+      "lead": "Do café da manhã à pizza da meia-noite. O **Bar Capri** é o restaurante de bairro da Via Principe Amedeo: pratos romanos a sério, pizza de longa fermentação, peixe fresco e uma verdadeira ementa vegana, vegetariana e sem glúten.",
+      "ctaPrimary": "Ver a ementa"
+    },
+    "strip": { "walkLabel": "Desde Termini", "walk": "5 minutos a pé" },
+    "highlights": {
+      "eyebrow": "Porquê o Bar Capri",
+      "title": "Um só sítio, o dia inteiro",
+      "lead": "Pequeno-almoço, almoço rápido, aperitivo e jantar: muda a hora, não o cuidado.",
+      "items": [
+        { "icon": "pasta", "title": "Os clássicos romanos", "text": "Carbonara, amatriciana, gricia e cacio e pepe feitas como deve ser, com guanciale e pecorino romano." },
+        { "icon": "pizza", "title": "Pizza de longa fermentação", "text": "Massa maturada **24 horas**, com bordo leve e fácil de digerir. Também **sem glúten**." },
+        { "icon": "leaf", "title": "Uma mesa para todos", "text": "Pratos veganos, vegetarianos e sem glúten com secções próprias: ninguém fica a olhar." },
+        { "icon": "train", "title": "Mesmo ao lado da estação", "text": "Cinco minutos a pé de Roma Termini e do metro A e B. Ideal antes ou depois do comboio." }
+      ]
+    },
+    "menuPreview": { "eyebrow": "A ementa", "title": "Do pequeno-almoço à sobremesa", "lead": "Setenta pratos em onze secções. Toque numa secção para ir directo ao ponto.", "specialsTitle": "Especialidades da casa", "cta": "Abrir a ementa completa" },
+    "story": {
+      "eyebrow": "Quem somos",
+      "title": "Um bar de bairro com cozinha de trattoria",
+      "body": [
+        "O Bar Capri fica no Esquilino, na Via Principe Amedeo, por onde passam todos os dias romanos a caminho do trabalho e viajantes acabados de sair do comboio. Servimos uns e outros da mesma maneira: bons produtos, doses honestas, preços claros.",
+        "Na cozinha mantemo-nos na tradição romana: guanciale estaladiço, pecorino ralado na hora, alcachofras da época. No forno trabalhamos uma massa que matura vinte e quatro horas, porque a pizza tem de se digerir bem.",
+        "Quem tem necessidades particulares encontra pão, massa, pizza e sobremesa sem glúten, e uma carta vegana e vegetariana que é uma escolha a sério, não um remendo."
+      ],
+      "panelTitle": "Em resumo",
+      "panelItems": [
+        "Aberto **todos os dias**, das 7:00 às 23:30",
+        "Cozinha ao almoço e ao jantar, forno de pizza aceso toda a noite",
+        "**Ementa em 9 idiomas**, lendo o QR da mesa",
+        "Cerca de 70 lugares, mesas na rua e sala para grupos",
+        "Take-away e entregas na zona"
+      ]
+    },
+    "visit": { "eyebrow": "Venha visitar-nos", "title": "Horários e como chegar", "lead": "Estamos na Via Principe Amedeo 78/80, entre Termini e a Piazza Vittorio." },
+    "cta": { "title": "Reserve uma mesa", "text": "Ligue-nos ou escreva por WhatsApp: respondemos durante todo o horário de abertura." }
+  },
+
+  "menu": {
+    "lead": "Todos os pratos, com preços e indicações de vegano, vegetariano, sem glúten e picante. Use a pesquisa ou os filtros para encontrar o que precisa.",
+    "allergenNote": "Peça ao pessoal a lista completa de alergénios. Os pratos sem glúten são preparados com ingredientes certificados e utensílios dedicados; ainda assim, a cozinha no seu conjunto não é totalmente isenta de glúten.",
+    "priceNote": "Preços em euros, serviço incluído. Alguns produtos podem ser congelados na origem, consoante a disponibilidade e a época.",
+    "cta": { "title": "Guardamos-lhe uma mesa", "text": "Basta um telefonema para reservar ou pedir para levar." }
+  },
+
+  "about": {
+    "lead": "Uma família, uma cozinha e um forno, numa das ruas mais vivas do Esquilino.",
+    "story": {
+      "eyebrow": "A nossa história",
+      "title": "Simples, bem feito, todos os dias",
+      "body": [
+        "Abrimos na Via Principe Amedeo porque é uma rua que nunca dorme: o café ao balcão de manhã, a massa ao meio-dia, a pizza à noite. Um bar que é também restaurante e pizzaria, como se fazia antigamente.",
+        "A ementa muda pouco, e está bem assim: preferimos fazer dez coisas bem a cem pela metade. A massa é trefilada a bronze, o peixe chega fresco várias vezes por semana, os legumes seguem a época.",
+        "Roma é ao mesmo tempo cidade de passagem e cidade de bairros. Gostamos que numa mesa esteja uma família do bairro e na do lado alguém que chegou nessa manhã com a mala. Por isso a ementa lê-se em nove idiomas: basta ler o QR."
+      ],
+      "panelTitle": "Como trabalhamos",
+      "panelItems": [
+        "Massa de pizza maturada **24 horas**",
+        "Guanciale e pecorino romano para as massas tradicionais",
+        "Peixe fresco, conforme o mercado",
+        "Linha **sem glúten** com ingredientes certificados",
+        "Pratos veganos e vegetarianos sempre disponíveis"
+      ]
+    },
+    "values": {
+      "eyebrow": "Os nossos princípios",
+      "title": "Três coisas de que não abrimos mão",
+      "items": [
+        { "icon": "heart", "title": "Acolhimento a sério", "text": "Uma mesa bem posta e alguém que lhe explica a ementa no seu idioma." },
+        { "icon": "check", "title": "Preços honestos", "text": "Preços à vista e nenhuma surpresa na conta: couvert e serviço já estão incluídos." },
+        { "icon": "sprout", "title": "Respeito pelas suas necessidades", "text": "Alergias, intolerâncias, escolhas alimentares: falamos disso antes de pedir, não depois." }
+      ]
+    },
+    "cta": { "title": "Apareça", "text": "Estamos abertos todos os dias, do pequeno-almoço até tarde." }
+  },
+
+  "features": {
+    "eyebrow": "Serviços",
+    "title": "O que vai encontrar aqui",
+    "items": { "italian": "Cozinha 100% italiana", "wifi": "Wi-Fi gratuito", "outdoor": "Mesas na rua", "takeaway": "Take-away", "delivery": "Entrega ao domicílio", "cards": "Cartões e Satispay", "family": "Adequado a crianças", "accessible": "Acesso sem degraus", "airCon": "Ar condicionado", "petFriendly": "Cães bem-vindos", "groups": "Grupos bem-vindos" }
+  },
+
+  "contacts": {
+    "lead": "Via Principe Amedeo 78/80, a cinco minutos a pé de Roma Termini.",
+    "intro": { "eyebrow": "Contactos", "title": "Como chegar até nós, e quando", "lead": "O telefone e o WhatsApp são atendidos durante todo o horário de abertura." },
+    "hoursTitle": "Horário de abertura",
+    "hoursNote": "Aberto todos os dias. A cozinha respeita os serviços de almoço e jantar; o bar continua aberto entre os dois.",
+    "nearTermini": "Cinco minutos a pé da estação de Termini e do metro A e B.",
+    "phoneNote": "Para grupos de oito pessoas ou mais, é melhor ligar com um dia de antecedência.",
+    "mapTitle": { "eyebrow": "Onde estamos", "title": "O mapa", "lead": "Via Principe Amedeo 78/80, 00185 Roma." },
+    "nearby": { "eyebrow": "Na zona", "title": "O que há à volta", "lead": "Distâncias a pé desde os pontos de referência do bairro." },
+    "cta": { "title": "Reserve ou peça", "text": "Um telefonema ou uma mensagem de WhatsApp: do resto tratamos nós." }
+  },
+
+  "faq": {
+    "lead": "As perguntas que mais nos fazem. Se não encontrar a resposta, ligue-nos.",
+    "items": [
+      { "q": "É preciso reservar?", "a": "Para duas ou três pessoas, normalmente não: costuma haver mesa. Às sextas e sábados à noite, e para grupos de seis ou mais, é melhor ligar: bastam alguns minutos ao telefone ou uma mensagem de WhatsApp." },
+      { "q": "Têm pratos sem glúten?", "a": "Sim, há uma secção própria com pizza, massa, uma sobremesa e cerveja sem glúten, preparados com ingredientes certificados e utensílios dedicados. A cozinha no seu conjunto não é totalmente isenta de glúten, por isso avise sempre o pessoal ao fazer o pedido." },
+      { "q": "Há opções veganas e vegetarianas?", "a": "Sim, duas secções inteiras da ementa. Além disso, muitos pratos das outras secções já são vegetarianos: na ementa reconhecem-se pelas etiquetas coloridas." },
+      { "q": "A que distância estão da estação de Termini?", "a": "Cerca de cinco minutos a pé. À saída de Termini siga pela Via Giovanni Giolitti e vire para a Via Principe Amedeo: estamos no número 78/80." },
+      { "q": "Pode-se pagar com cartão?", "a": "Sim, aceitamos cartão de débito, Visa, Mastercard, American Express e Satispay, sem valor mínimo." },
+      { "q": "Fazem take-away e entregas?", "a": "Sim, toda a ementa está disponível para levar e entregamos nas ruas da zona. Para pedir basta ligar ou escrever por WhatsApp." },
+      { "q": "Aceitam grupos?", "a": "Sim, temos uma sala para grupos. Para mais de oito pessoas ligue-nos com um dia de antecedência para prepararmos as mesas e, se quiser, uma ementa combinada." },
+      { "q": "Podem-se levar cães?", "a": "Sim, os cães são bem-vindos tanto na sala como nas mesas da rua." },
+      { "q": "A ementa existe noutros idiomas?", "a": "Sim, em nove idiomas: italiano, inglês, francês, espanhol, português, árabe, russo, polaco e grego. Leia o QR da mesa e a ementa abre no idioma do seu telemóvel." },
+      { "q": "A que horas está a cozinha aberta?", "a": "Ao almoço das 12:00 às 15:30 e ao jantar das 18:30 às 23:00. Fora desse horário o bar continua aberto com cafetaria, sandes e aperitivos." }
+    ],
+    "cta": { "title": "Não encontrou a resposta?", "text": "Ligue-nos ou escreva por WhatsApp: respondemos de imediato." }
+  },
+
+  "qr": {
+    "reviewKind": "Avaliações",
+    "reviewTitle": "Código QR de avaliações do Google",
+    "reviewText": "Leva direto ao formulário de avaliação do Google. Para ter na caixa ou dar com a conta.",
+    "reviewHead": "Deixe uma avaliação",
+    "reviewScan": "Conte-nos como correu",
+    "reviewCardTitle": "Cartão de avaliações para a caixa",
+    "reviewCardText": "Imprime e deixa junto à caixa, ou dá com a conta. **Dois segundos para o cliente**, e a ficha do Google do restaurante cresce.",
+    "reviewCardPrint": "Imprimir o cartão de avaliações",
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "Código QR do Wi-Fi",
+    "wifiText": "Ao apontar a câmara o telemóvel liga-se à rede sem escrever a palavra-passe.",
+    "wifiNetwork": "Rede",
+    "wifiPassword": "Palavra-passe",
+    "wifiScan": "Aponta e ficas ligado",
+    "wifiFree": "Wi-Fi grátis",
+    "wifiCardTitle": "Cartão Wi-Fi para as mesas",
+    "wifiCardText": "Imprime e coloca ao lado do menu. **Os clientes ligam-se sozinhos**, sem pedir a palavra-passe.",
+    "wifiCardPrint": "Imprimir o cartão Wi-Fi",
+    "lead": "Dois códigos, dois usos diferentes. O primeiro leva à ementa, o segundo ao site. Ambos reconhecem sozinhos o idioma do telemóvel.",
+    "intro": { "eyebrow": "Prontos a imprimir", "title": "Os dois códigos QR", "lead": "São imagens vectoriais: imprimem-se nítidas em qualquer tamanho, de um autocolante a um cartaz." },
+    "menuKind": "Para a mesa", "siteKind": "Para o espaço",
+    "menuTitle": "QR da ementa",
+    "menuText": "Abre directamente a ementa completa, no idioma do telemóvel. Para pôr nas mesas, na montra ou no folheto.",
+    "siteTitle": "QR do site",
+    "siteText": "Leva à página inicial: ementa, horários, mapa, contactos e blog. Útil em cartões de visita, no letreiro e nas redes sociais.",
+    "howTitle": "Como se usa",
+    "how": [
+      { "title": "Imprima", "text": "Descarregue o ficheiro SVG ou use o botão de impressão. Tamanho mínimo recomendado: **3 centímetros** de lado." },
+      { "title": "Coloque", "text": "Nas mesas, na montra, na ementa em papel ou na caixa. Precisa de bom contraste e de nenhum reflexo." },
+      { "title": "O cliente lê", "text": "Basta a câmara do telemóvel: não há aplicação para instalar." },
+      { "title": "Abre no idioma dele", "text": "O site reconhece o idioma do telemóvel entre os nove disponíveis e abre a ementa certa." }
+    ],
+    "tentTitle": "Cavalete de mesa",
+    "tentText": "Pronto a imprimir e dobrar: ponha-o nas mesas e a ementa está servida. **Nenhum papel para reimprimir sempre que muda um preço.**",
+    "tentSub": "Restaurante · Pizzaria", "tentScan": "Leia para ver a ementa", "tentPrint": "Imprimir o cavalete",
+    "cta": { "title": "Precisa de outra versão?", "text": "Podemos gerar o QR de qualquer página do site: ligue-nos." }
+  },
+
+  "blog": {
+    "lead": "Cozinha romana, pizza e conselhos práticos para comer bem perto de Termini.",
+    "moreTitle": "Mais artigos",
+    "cta": { "title": "Venha prová-los", "text": "Todos os pratos de que falamos estão na ementa, todos os dias." },
+    "posts": [
+      {
+        "slug": "carbonara-vera", "tag": "Tradição", "date": "2026-06-12",
+        "title": "A carbonara a sério: quatro ingredientes e nenhum atalho",
+        "excerpt": "Guanciale, gemas, pecorino romano e pimenta. Sem natas, sem alho, sem cebola. É assim que a fazemos, e porquê.",
+        "body": [
+          "A carbonara é o prato sobre o qual mais se discute em Roma, e faz sentido: são apenas quatro ingredientes, por isso cada um nota-se logo. Se um deles for medíocre, o prato não se salva.",
+          "## Guanciale, não pancetta",
+          "O guanciale vem da face do porco, é mais doce e mais gordo do que a pancetta e na frigideira comporta-se de outra forma: a gordura derrete e torna-se o verdadeiro molho. Cortamo-lo em tiras de meio centímetro e alouramo-lo em lume médio, sem pressa, até a parte magra ficar estaladiça e a gorda translúcida.",
+          "## O creme faz-se sem natas",
+          "Gemas, pecorino romano ralado na hora e pimenta preta moída grossa. Bate-se tudo a frio e depois solta-se com uma concha da água de cozedura. A frigideira tem de estar fora do lume quando a massa entra: o que liga é o calor residual, não a chama. Se aquecer demais, o ovo coagula e vira omelete.",
+          "## Esparguete ou rigatoni",
+          "Nós servimo-la com esparguete, porque o creme envolve-o de forma uniforme. Os rigatoni funcionam igualmente bem e seguram o molho por dentro: é uma questão de gosto, não de regras.",
+          "Um último conselho: a pimenta mói-se na hora e torra-se por um instante na frigideira. É a diferença entre um prato bom e um prato de que nos lembramos."
+        ]
+      },
+      {
+        "slug": "pizza-romana-napoletana", "tag": "Pizza", "date": "2026-07-03",
+        "title": "Pizza romana ou napolitana: o que muda de verdade",
+        "excerpt": "Bordo alto ou bordo fino, forno mais ou menos quente, massas diferentes. Um guia curto para escolher a que prefere.",
+        "body": [
+          "Quem entra numa pizzaria em Roma encontra duas escolas diferentes, e nenhuma é melhor do que a outra: são duas ideias de pizza.",
+          "## A romana: fina e estaladiça",
+          "A pizza romana tem uma base muito fina, estendida com o rolo, e um bordo baixo. Coze a temperatura um pouco mais baixa e durante mais tempo, por isso sai seca e estaladiça até ao centro. É aquela que se come com as mãos sem dobrar.",
+          "## A napolitana: bordo alto e macio",
+          "A napolitana estende-se à mão deixando o ar no bordo, que no forno incha e se torna um cornicione alto e alveolado. Coze pouquíssimo a temperatura altíssima, fica macia e come-se logo, com garfo se for preciso.",
+          "## O que servimos nós",
+          "No Bar Capri trabalhamos uma massa que matura vinte e quatro horas, com hidratação média: o resultado fica a meio caminho, com um bordo presente mas sem exageros e um centro fino e bem cozido. É, na nossa opinião, a pizza que melhor se come ao fim do dia.",
+          "Para quem não pode comer glúten preparamos uma base certificada, cozida à parte para evitar contaminações."
+        ]
+      },
+      {
+        "slug": "senza-glutine-roma", "tag": "Sem glúten", "date": "2026-07-24",
+        "title": "Comer sem glúten em Roma: o que perguntar antes de pedir",
+        "excerpt": "Três perguntas que vale a pena fazer em qualquer sítio, e como preparamos aqui os pratos sem glúten.",
+        "body": [
+          "Quem é celíaco sabe: o problema não é encontrar um sítio com massa sem glúten, mas perceber como a cozinham. Isto é o que vale a pena perguntar em todo o lado, não só aqui.",
+          "## Primeira pergunta: onde cozem a massa?",
+          "Se a massa sem glúten ferve na mesma água da normal, o prato não é seguro. É preciso um tacho dedicado e água limpa. Aqui, a massa sem glúten tem o seu tacho e os seus utensílios.",
+          "## Segunda pergunta: como cozem a pizza?",
+          "A base sem glúten não pode ir para a mesma soleira onde se acabou de estender uma massa de trigo. Nós cozemo-la numa forma dedicada e manuseamo-la com pás separadas.",
+          "## Terceira pergunta: quem a prepara?",
+          "Também contam a bancada e a troca de luvas. Nenhum cozinheiro sério leva a mal esta pergunta: se o espaço está preparado, a resposta chega logo e precisa.",
+          "## O que há na ementa",
+          "Pizza, massa, uma sobremesa do dia e cerveja sem glúten, tudo com ingredientes certificados. Não somos uma cozinha totalmente isenta de glúten, e dizemo-lo claramente: quem tem uma celiaquia grave merece informação honesta, não uma garantia vaga."
+        ]
+      },
+      {
+        "slug": "mangiare-vicino-termini", "tag": "Bairro", "date": "2026-08-14",
+        "title": "Comer bem perto de Termini: como não errar",
+        "excerpt": "A zona da estação tem muitas armadilhas para turistas e algumas mesas excelentes. Quatro sinais para as distinguir.",
+        "body": [
+          "À volta de uma estação há sempre casas que vivem de quem passa: come-se lá uma vez e não se volta. Mas o Esquilino é também um bairro habitado, com tradição de trattorias a sério. É assim que se reconhecem.",
+          "## A ementa é curta",
+          "Uma cozinha que oferece oitenta pratos não os prepara todos na hora. Uma ementa curta, com alguns pratos do dia, é quase sempre bom sinal.",
+          "## Os preços estão à vista e são claros",
+          "Couvert, serviço e eventuais suplementos têm de estar escritos. Se o preço do peixe estiver indicado só por cem gramas sem o peso da dose, pergunte antes quanto vai custar.",
+          "## Ninguém o convida da rua",
+          "Pessoal que aborda quem passa no passeio é o sinal mais fiável de que a casa precisa de encher depressa. As boas mesas têm gente sentada, não à porta.",
+          "## Há clientes do bairro",
+          "É o melhor critério: se ao almoço vir pessoas que trabalham na zona, a relação entre qualidade e preço aguenta-se. Veja o que têm no prato e peça o mesmo.",
+          "Nós estamos na Via Principe Amedeo 78/80, a cinco minutos a pé da estação. A ementa é a de sempre, e os preços estão escritos neste site antes mesmo de entrar."
+        ]
+      }
+    ]
+  },
+
+  "footer": { "tagline": "Bar, restaurante e pizzaria no Esquilino, da manhã até tarde.", "navTitle": "O site", "hoursTitle": "Horário", "rights": "Todos os direitos reservados.", "made": "Via Principe Amedeo 78/80 · 00185 Roma" },
+
+  "categories": {
+    "colazione":     { "name": "Pequeno-almoço e bar", "lead": "A partir das 7:00, ao balcão ou à mesa." },
+    "antipasti":     { "name": "Entradas", "lead": "Para começar e para partilhar." },
+    "pasta":         { "name": "Massas e primeiros", "lead": "Os quatro clássicos romanos e mais alguma coisa." },
+    "pizza":         { "name": "Pizza", "lead": "Massa maturada 24 horas." },
+    "carne":         { "name": "Carne", "lead": "Pratos de carne, feitos na hora." },
+    "pesce":         { "name": "Peixe", "lead": "Conforme o mercado, várias vezes por semana." },
+    "vegano":        { "name": "Vegano", "lead": "Nenhum ingrediente de origem animal." },
+    "vegetariano":   { "name": "Vegetariano", "lead": "Sem carne nem peixe." },
+    "senza-glutine": { "name": "Sem glúten", "lead": "Ingredientes certificados, preparação separada." },
+    "dolci":         { "name": "Sobremesas", "lead": "Caseiras, para terminar." },
+    "bevande":       { "name": "Bebidas", "lead": "Carta de vinhos curta e cerveja de pressão." }
+  },
+
+  "dishes": {
+    "caffe": { "name": "Café expresso" }, "cappuccino": { "name": "Cappuccino" }, "cornetto": { "name": "Croissant italiano" },
+    "spremuta": { "name": "Sumo de laranja natural" }, "toast": { "name": "Tosta mista" }, "aperitivo": { "name": "Aperitivo com bufete" },
+
+    "bruschetta":   { "name": "Bruschetta de tomate", "desc": "Pão caseiro tostado, tomate fresco, manjericão e azeite virgem extra." },
+    "suppli":       { "name": "Croquetes de arroz romanos", "desc": "Arroz com tomate e mozzarela derretida, panados e fritos na hora." },
+    "fiori-zucca":  { "name": "Flores de courgette fritas", "desc": "Flores de courgette em polme com mozzarela e anchova." },
+    "tagliere":     { "name": "Tábua de enchidos e queijos", "desc": "Selecção de enchidos italianos e queijos curados, com pão e compota." },
+    "burrata":      { "name": "Burrata com tomate cereja", "desc": "Burrata da Apúlia, tomate cereja confitado, manjericão e azeite virgem extra." },
+    "carciofo":     { "name": "Alcachofra à romana", "desc": "Alcachofra romanesca estufada com alho, hortelã selvagem e azeite." },
+
+    "carbonara":    { "name": "Esparguete à carbonara", "desc": "Guanciale estaladiço, gemas, pecorino romano e pimenta preta. Sem natas." },
+    "amatriciana":  { "name": "Bucatini all'amatriciana", "desc": "Guanciale, tomate, pecorino romano e um toque de malagueta." },
+    "cacio-pepe":   { "name": "Tonnarelli cacio e pepe", "desc": "Tonnarelli envolvidos em pecorino romano e pimenta preta torrada." },
+    "gricia":       { "name": "Rigatoni alla gricia", "desc": "A amatriciana sem tomate: guanciale, pecorino e pimenta." },
+    "arrabbiata":   { "name": "Penne all'arrabbiata", "desc": "Tomate, alho, malagueta e salsa. Picante na medida certa." },
+    "lasagna":      { "name": "Lasanha no forno", "desc": "Folhas de massa, ragu de carne, béchamel e parmesão, gratinada no forno." },
+    "ravioli":      { "name": "Ravioli de ricota e espinafres", "desc": "Ravioli frescos de ricota e espinafres, manteiga derretida e salva." },
+    "gnocchi":      { "name": "Gnocchi alla sorrentina", "desc": "Gnocchi de batata com tomate, mozzarela e manjericão, no forno." },
+    "vongole":      { "name": "Esparguete com amêijoas", "desc": "Amêijoas, alho, azeite, salsa e um fio de vinho branco." },
+    "risotto":      { "name": "Risoto de cogumelos porcini", "desc": "Arroz Carnaroli envolvido com cogumelos porcini e salsa." },
+
+    "marinara":     { "name": "Marinara", "desc": "Tomate, alho, orégãos e azeite virgem extra. Sem queijo." },
+    "margherita":   { "name": "Margherita", "desc": "Tomate, mozzarela fiordilatte e manjericão fresco." },
+    "napoli":       { "name": "Napoli", "desc": "Tomate, mozzarela, anchovas, alcaparras e orégãos." },
+    "diavola":      { "name": "Diavola", "desc": "Tomate, mozzarela e chouriço picante." },
+    "quattro-formaggi": { "name": "Quatro queijos", "desc": "Mozzarela, gorgonzola, pecorino e provola fumada." },
+    "ortolana":     { "name": "Ortolana", "desc": "Tomate e legumes da época grelhados. Sem queijo." },
+    "capricciosa":  { "name": "Capricciosa", "desc": "Tomate, mozzarela, fiambre, cogumelos, alcachofras e azeitonas." },
+    "bufala":       { "name": "Pizza de búfala", "desc": "Mozzarela de búfala acrescentada no fim, tomate cereja e manjericão." },
+    "calzone":      { "name": "Calzone recheado", "desc": "Fechado e cozido no forno com fiambre, mozzarela e ricota." },
+    "pizza-capri":  { "name": "Pizza Capri", "desc": "A nossa: mozzarela de búfala, tomate cereja amarelo, azeitonas taggiasca e manjericão." },
+    "frutti-mare":  { "name": "Pizza de marisco", "desc": "Tomate, lulas, camarão, mexilhão e salsa." },
+
+    "saltimbocca":  { "name": "Saltimbocca à romana", "desc": "Escalopes de vitela com presunto e salva, refrescados com vinho branco." },
+    "tagliata":     { "name": "Tagliata de novilho com rúcula", "desc": "Lombo de novilho grelhado, rúcula e lascas de grana." },
+    "scaloppine":   { "name": "Escalopes de vitela com limão", "desc": "Vitela salteada com manteiga, limão e salsa." },
+    "pollo":        { "name": "Frango assado com batatas", "desc": "Coxa de frango assada no forno com batatas e alecrim." },
+    "abbacchio":    { "name": "Costeletas de borrego grelhadas", "desc": "Costeletas de borrego na brasa, para comer com as mãos." },
+    "costine":      { "name": "Entremeada de porco no forno", "desc": "Costelinhas de porco assadas devagar, estaladiças por fora." },
+
+    "orata":        { "name": "Dourada grelhada", "desc": "Dourada inteira na grelha com azeite, limão e salsa." },
+    "frittura":     { "name": "Fritura de lulas e camarão", "desc": "Lulas e camarão em polme leve, com limão." },
+    "salmone":      { "name": "Lombo de salmão no forno", "desc": "Lombo de salmão assado com ervas aromáticas e batatas." },
+    "cozze":        { "name": "Mexilhão à pimenta", "desc": "Mexilhão aberto na frigideira com pimenta preta, alho e salsa." },
+    "polpo":        { "name": "Polvo com batatas", "desc": "Polvo cozido devagar, batatas esmagadas, azeite e salsa." },
+    "spigola":      { "name": "Robalo all'acqua pazza", "desc": "Robalo com tomate cereja, azeitonas, alcaparras e salsa." },
+
+    "pizza-vegana":  { "name": "Pizza vegana", "desc": "Tomate, legumes da época e azeite virgem extra. Sem queijo." },
+    "pomodoro-basilico": { "name": "Massa com tomate e manjericão", "desc": "Massa com tomate fresco, manjericão e azeite virgem extra." },
+    "vellutata":     { "name": "Creme de legumes da época", "desc": "Creme de legumes da época com croutons e um fio de azeite." },
+    "caponata":      { "name": "Caponata de legumes", "desc": "Beringela, aipo, cebola e tomate em agridoce." },
+    "insalatona-vegana": { "name": "Salada vegana grande", "desc": "Folhas variadas, grão-de-bico, tomate cereja, abacate e sementes torradas." },
+
+    "parmigiana":   { "name": "Parmigiana de beringela", "desc": "Camadas de beringela frita com tomate, mozzarela e manjericão." },
+    "caprese":      { "name": "Salada caprese", "desc": "Mozzarela, tomate, manjericão e azeite virgem extra." },
+    "verdure-griglia": { "name": "Legumes grelhados", "desc": "Courgette, beringela e pimento grelhados, com azeite e orégãos." },
+    "frittata":     { "name": "Omelete de legumes", "desc": "Omelete de ovo com legumes da época, servida morna." },
+    "pizza-vegetariana": { "name": "Pizza vegetariana", "desc": "Tomate, mozzarela e legumes da época grelhados." },
+
+    "pizza-sg":     { "name": "Pizza sem glúten", "desc": "Base certificada sem glúten, cozida em forma dedicada. Recheio à escolha." },
+    "pasta-sg":     { "name": "Massa sem glúten", "desc": "Massa certificada, cozida em tacho dedicado. Com carbonara ou tomate." },
+    "dolce-sg":     { "name": "Sobremesa sem glúten", "desc": "A sobremesa do dia em versão sem glúten. Pergunte ao pessoal." },
+    "birra-sg":     { "name": "Cerveja sem glúten", "desc": "Cerveja loira certificada sem glúten, garrafa de 33 cl." },
+
+    "tiramisu":     { "name": "Tiramisù", "desc": "Mascarpone, palitos embebidos em café e cacau amargo. Caseiro." },
+    "panna-cotta":  { "name": "Panna cotta", "desc": "Panna cotta com molho de frutos vermelhos ou caramelo." },
+    "cannolo":      { "name": "Cannolo siciliano", "desc": "Casquinha estaladiça recheada na hora com ricota de ovelha." },
+    "tartufo":      { "name": "Tartufo de chocolate", "desc": "Gelado de chocolate com coração derretido, polvilhado com cacau." },
+    "macedonia":    { "name": "Salada de fruta fresca", "desc": "Fruta fresca da época, cortada na hora." },
+
+    "acqua": { "name": "Água mineral 75 cl" }, "bibite": { "name": "Refrigerantes em lata" },
+    "birra-media": { "name": "Cerveja de pressão, média" }, "vino-calice": { "name": "Vinho da casa a copo" },
+    "vino-bottiglia": { "name": "Vinho da casa 75 cl" }, "amaro": { "name": "Amaro / digestivo" }
+  }
+}

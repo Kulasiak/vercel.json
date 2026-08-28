@@ -1,21 +1,72 @@
 {
-  "url": "https://elmain-lil-sinaa.vercel.app",
+  "_nota": "Unico file da modificare per i dati dell'attivita. Dopo ogni modifica: node build.mjs",
+
+  "domain": "https://www.barcapriroma.it",
   "brand": {
-    "name": "EL MAIN LIL SINAA",
-    "arabic": "المعين للصناعة",
-    "shortName": "EL MAIN"
+    "name": "Bar Capri",
+    "display": "BAR CAPRI",
+    "legalName": "Bar Capri",
+    "shortName": "Capri"
   },
-  "defaultLang": "ar",
+
   "contact": {
-    "street": "Zone d'activité — Lot n° 00",
-    "city": "16000 Alger",
-    "country": "Algérie",
-    "phone": "+213 (0) 21 00 00 00",
-    "phoneHref": "+21321000000",
-    "mobile": "+213 (0) 5 00 00 00 00",
-    "email": "contact@example.dz",
-    "pec": "commercial@example.dz",
-    "vat": "NIF 000000000000000 — RC 16/00-0000000 B 00",
-    "hours": "08:30 – 16:30"
-  }
+    "street": "Via Principe Amedeo 78/80",
+    "postalCode": "00185",
+    "city": "Roma",
+    "region": "RM",
+    "country": "Italia",
+    "countryCode": "IT",
+    "phone": "351 265 0441",
+    "phoneHref": "+393512650441",
+    "whatsapp": "388 632 9575",
+    "whatsappHref": "393886329575",
+    "email": ""
+  },
+
+  "_geo": "Coordinate indicative di Via Principe Amedeo 78/80. La mappa incorporata usa l'indirizzo (pin sempre corretto); queste servono solo ai dati strutturati. Verificare e correggere se necessario.",
+  "geo": { "lat": 41.8973, "lng": 12.5028 },
+
+  "_review": "Link per lasciare una recensione su Google. Si prende dal profilo Google Business: Home > Chiedi recensioni, e un indirizzo tipo https://g.page/r/CODICE/review. In alternativa https://search.google.com/local/writereview?placeid=ID. Lasciandolo vuoto il QR recensioni non viene generato.",
+
+  "review": { "google": "" },
+
+  "_wifi": "Rete Wi-Fi per i clienti. Riempi ssid e password e al build successivo compare il terzo QR: chi lo inquadra si collega senza digitare nulla. Con ssid vuoto il QR Wi-Fi non viene generato. security: WPA (quasi sempre), WEP, oppure nopass per una rete aperta.",
+
+  "wifi": { "ssid": "", "password": "", "security": "WPA", "hidden": false },
+
+  "_social": "Sostituire con gli indirizzi reali delle pagine. Lasciare \"\" per nascondere il pulsante.",
+  "social": {
+    "facebook": "https://www.facebook.com/barcapriroma",
+    "instagram": "https://www.instagram.com/barcapriroma"
+  },
+
+  "_hours": "day: 0 = domenica ... 6 = sabato. Usati per gli orari e per i dati strutturati Google.",
+  "hours": {
+    "bar":     { "days": [1, 2, 3, 4, 5, 6, 0], "opens": "07:00", "closes": "23:30" },
+    "kitchen": [
+      { "label": "lunch",  "opens": "12:00", "closes": "15:30" },
+      { "label": "dinner", "opens": "18:30", "closes": "23:00" }
+    ],
+    "closedNote": "sempre aperti"
+  },
+
+  "business": {
+    "priceRange": "€€",
+    "currency": "EUR",
+    "cuisine": ["Italiana", "Romana", "Pizzeria", "Bar"],
+    "seats": 70,
+    "acceptsReservations": true,
+    "servesCuisine": "Italian",
+    "payments": ["Contanti", "Bancomat", "Visa", "Mastercard", "American Express", "Satispay"]
+  },
+
+  "features": ["italian", "wifi", "outdoor", "takeaway", "delivery", "cards", "family", "accessible", "airCon", "petFriendly", "groups"],
+
+  "nearby": [
+    { "name": "Roma Termini", "walk": 5 },
+    { "name": "Santa Maria Maggiore", "walk": 6 },
+    { "name": "Colosseo", "walk": 15 },
+    { "name": "Piazza Vittorio Emanuele II", "walk": 4 },
+    { "name": "Metro A / B – Termini", "walk": 5 }
+  ]
 }

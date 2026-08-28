@@ -1,0 +1,356 @@
+{
+  "nav": { "home": "Start", "menu": "Menu", "about": "O nas", "blog": "Blog", "faq": "Częste pytania", "contacts": "Kontakt", "qr": "Kody QR" },
+
+  "ui": {
+    "call": "Zadzwoń", "whatsapp": "WhatsApp", "phone": "Telefon", "address": "Adres",
+    "hours": "Godziny otwarcia", "bar": "Bar", "kitchen": "Kuchnia", "day": "Dzień", "today": "Dziś",
+    "map": "Mapa", "follow": "Obserwuj nas", "search": "Szukaj dania…", "filters": "Filtry",
+    "all": "Wszystkie", "categories": "Kategorie", "noResults": "Żadne danie nie pasuje do wyszukiwania.",
+    "print": "Drukuj", "readMore": "Przeczytaj artykuł", "backToBlog": "Wszystkie artykuły",
+    "minRead": "min czytania", "minWalk": "min pieszo",
+    "openNow": "Teraz otwarte", "closedNow": "Teraz zamknięte",
+    "opensAt": "otwieramy o {time}", "closesAt": "zamykamy o {time}",
+    "chooseLanguage": "Wybierz język", "theme": "Zmień motyw", "backTop": "Do góry",
+    "openMenu": "Otwórz menu nawigacji", "mainNav": "Nawigacja główna",
+    "quickActions": "Szybkie działania", "skipToContent": "Przejdź do treści", "scroll": "Przewiń",
+    "tagline": "Restauracja · Pizzeria", "qrStrip": "Menu przez kod QR",
+    "showMap": "Pokaż mapę", "mapConsent": "Otwarcie mapy ładuje Google Maps."
+  },
+
+  "tags": { "vg": "Wegańskie", "v": "Wegetariańskie", "gf": "Bez glutenu", "sp": "Ostre", "chef": "Specjalność" },
+
+  "days": ["Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"],
+
+  "gate": { "description": "BAR CAPRI, restauracja i pizzeria przy Via Principe Amedeo 78/80 w Rzymie, pięć minut od Termini. Wybierz język: menu, godziny otwarcia, kontakt.",
+    "menuDescription": "Menu BAR CAPRI w Rzymie: makarony, pizza, mięso, ryby, dania wegańskie, wegetariańskie i bezglutenowe. Wybierz język i czytaj przy stoliku.",
+    "title": "Restauracja i pizzeria w Rzymie", "sub": "Wybierz język", "menuTitle": "Nasze menu", "menuSub": "Choose your language to read the menu", "enter": "Wejdź" },
+
+  "pages": {
+    "home":     { "title": "Restauracja i pizzeria przy Termini", "description": "Bar Capri: restauracja, pizzeria i bar przy Via Principe Amedeo 78/80, pięć minut od dworca Termini. Kuchnia rzymska, pizza, ryby, wegańskie, bezglutenowe." },
+    "menu":     { "title": "Menu",
+      "seoTitle": "Menu i ceny · pizza, makarony, kuchnia rzymska", "description": "Pełne menu Bar Capri w Rzymie: przystawki, rzymskie makarony, pizza, mięso, ryby, dania wegańskie, wegetariańskie i bezglutenowe. Z cenami." },
+    "about":    { "title": "O nas", "description": "Historia Bar Capri: uczciwa kuchnia rzymska i pizza na cieście długo dojrzewającym, w sercu rzymskiej dzielnicy Esquilino, od rana do późnego wieczora." },
+    "blog":     { "title": "Blog",
+      "seoTitle": "Blog · kuchnia rzymska, pizza i życie w Rzymie", "description": "Opowieści o kuchni rzymskiej, pizzy i praktyczne rady, gdzie dobrze zjeść w pobliżu dworca Termini w Rzymie." },
+    "faq":      { "title": "Częste pytania", "description": "Rezerwacja, godziny otwarcia, dania bezglutenowe i wegańskie, grupy, płatności: odpowiedzi na najczęstsze pytania o Bar Capri w Rzymie." },
+    "contacts": { "title": "Kontakt i dojazd", "description": "Bar Capri, Via Principe Amedeo 78/80, 00185 Rzym. Telefon 351 265 0441, WhatsApp 388 632 9575. Mapa, godziny otwarcia i droga pieszo z Termini." },
+    "qr":       { "title": "Kody QR",
+      "seoTitle": "Kody QR menu i strony", "description": "Dwa kody QR Bar Capri: jeden otwiera menu przy stoliku w języku gościa, drugi stronę. Gotowe do druku." }
+  },
+
+  "home": {
+    "hero": {
+      "title": "Kuchnia rzymska i pizza",
+      "titleAccent": "dwa kroki od Termini",
+      "lead": "Od porannej kawy po pizzę o północy. **Bar Capri** to lokalna restauracja przy Via Principe Amedeo: prawdziwe dania rzymskie, pizza na cieście długo dojrzewającym, świeże ryby oraz pełne menu wegańskie, wegetariańskie i bezglutenowe.",
+      "ctaPrimary": "Zobacz menu"
+    },
+    "strip": { "walkLabel": "Od Termini", "walk": "5 minut pieszo" },
+    "highlights": {
+      "eyebrow": "Dlaczego Bar Capri",
+      "title": "Jedno miejsce na cały dzień",
+      "lead": "Śniadanie, szybki obiad, aperitif i kolacja: zmienia się pora, nie staranność.",
+      "items": [
+        { "icon": "pasta", "title": "Rzymska klasyka", "text": "Carbonara, amatriciana, gricia i cacio e pepe zrobione jak trzeba, z guanciale i pecorino romano." },
+        { "icon": "pizza", "title": "Pizza z długiego wyrostu", "text": "Ciasto dojrzewa **24 godziny**, brzeg lekki i dobrze strawny. Dostępna też **bez glutenu**." },
+        { "icon": "leaf", "title": "Stół dla wszystkich", "text": "Dania wegańskie, wegetariańskie i bezglutenowe mają własne działy: nikt nie zostaje z pustym talerzem." },
+        { "icon": "train", "title": "Tuż przy dworcu", "text": "Pięć minut pieszo od Roma Termini oraz metra A i B. Idealnie przed pociągiem albo po nim." }
+      ]
+    },
+    "menuPreview": { "eyebrow": "Menu", "title": "Od śniadania po deser", "lead": "Siedemdziesiąt dań w jedenastu działach. Dotknij działu, aby przejść od razu do niego.", "specialsTitle": "Specjalności zakładu", "cta": "Otwórz pełne menu" },
+    "story": {
+      "eyebrow": "O nas",
+      "title": "Lokalny bar z kuchnią jak w trattorii",
+      "body": [
+        "Bar Capri stoi w dzielnicy Esquilino, przy Via Principe Amedeo, którą codziennie idą rzymianie do pracy i podróżni prosto z pociągu. Obsługujemy jednych i drugich tak samo: dobre surowce, uczciwe porcje, jasne ceny.",
+        "W kuchni trzymamy się tradycji rzymskiej: chrupiące guanciale, pecorino tarte na miejscu, karczochy w sezonie. Przy piecu pracujemy na cieście, które dojrzewa dwadzieścia cztery godziny, bo pizza ma być lekkostrawna.",
+        "Kto ma szczególne potrzeby, znajdzie bezglutenowe pieczywo, makaron, pizzę i deser oraz kartę wegańską i wegetariańską, która jest prawdziwym wyborem, a nie namiastką."
+      ],
+      "panelTitle": "W skrócie",
+      "panelItems": [
+        "Otwarte **codziennie**, od 7:00 do 23:30",
+        "Kuchnia w porze obiadu i kolacji, piec do pizzy rozpalony przez cały wieczór",
+        "**Menu w 9 językach** po zeskanowaniu kodu QR przy stoliku",
+        "Około 70 miejsc, stoliki na zewnątrz i sala dla grup",
+        "Na wynos i dowóz w okolicy"
+      ]
+    },
+    "visit": { "eyebrow": "Odwiedź nas", "title": "Godziny otwarcia i dojazd", "lead": "Jesteśmy przy Via Principe Amedeo 78/80, między Termini a Piazza Vittorio." },
+    "cta": { "title": "Zarezerwuj stolik", "text": "Zadzwoń lub napisz na WhatsAppie: odpowiadamy przez cały czas otwarcia." }
+  },
+
+  "menu": {
+    "lead": "Wszystkie dania z cenami i oznaczeniami: wegańskie, wegetariańskie, bez glutenu, ostre. Skorzystaj z wyszukiwarki lub filtrów.",
+    "allergenNote": "Pełną listę alergenów można otrzymać od obsługi. Dania bezglutenowe przygotowujemy ze składników certyfikowanych i na osobnym sprzęcie; kuchnia jako całość nie jest jednak w pełni bezglutenowa.",
+    "priceNote": "Ceny w euro, obsługa wliczona. Niektóre produkty mogą być mrożone u źródła, zależnie od dostępności i sezonu.",
+    "cta": { "title": "Stolik na Ciebie czeka", "text": "Wystarczy jeden telefon, aby zarezerwować lub zamówić na wynos." }
+  },
+
+  "about": {
+    "lead": "Jedna rodzina, jedna kuchnia i jeden piec, przy jednej z najbardziej ruchliwych ulic Esquilino.",
+    "story": {
+      "eyebrow": "Nasza historia",
+      "title": "Prosto, dobrze, codziennie",
+      "body": [
+        "Otworzyliśmy się przy Via Principe Amedeo, bo to ulica, która nigdy nie śpi: rano kawa przy barze, w południe makaron, wieczorem pizza. Bar, który jest jednocześnie restauracją i pizzerią, jak dawniej.",
+        "Menu zmienia się rzadko i tak nam odpowiada: wolimy zrobić dobrze dziesięć rzeczy niż sto po połowie. Makaron jest ciągniony przez brąz, ryba przyjeżdża świeża kilka razy w tygodniu, warzywa idą za sezonem.",
+        "Rzym jest jednocześnie miastem przejazdu i miastem dzielnic. Lubimy, gdy przy jednym stoliku siedzi rodzina z sąsiedztwa, a przy drugim ktoś, kto przyjechał tego ranka z walizką. Dlatego menu czyta się w dziewięciu językach: wystarczy zeskanować kod QR."
+      ],
+      "panelTitle": "Jak pracujemy",
+      "panelItems": [
+        "Ciasto na pizzę dojrzewa **24 godziny**",
+        "Guanciale i pecorino romano do tradycyjnych makaronów",
+        "Świeża ryba, zależnie od rynku",
+        "Linia **bezglutenowa** ze składników certyfikowanych",
+        "Dania wegańskie i wegetariańskie zawsze dostępne"
+      ]
+    },
+    "values": {
+      "eyebrow": "Nasze zasady",
+      "title": "Trzy rzeczy, z których nie rezygnujemy",
+      "items": [
+        { "icon": "heart", "title": "Prawdziwa gościnność", "text": "Dobrze nakryty stół i ktoś, kto wytłumaczy menu w Twoim języku." },
+        { "icon": "check", "title": "Uczciwe ceny", "text": "Ceny na widoku i żadnych niespodzianek na rachunku: nakrycie i obsługa już wliczone." },
+        { "icon": "sprout", "title": "Szacunek dla Twoich potrzeb", "text": "Alergie, nietolerancje, wybory żywieniowe: rozmawiamy o nich przed zamówieniem, nie po." }
+      ]
+    },
+    "cta": { "title": "Wpadnij do nas", "text": "Jesteśmy otwarci codziennie, od śniadania do późnego wieczora." }
+  },
+
+  "features": {
+    "eyebrow": "Udogodnienia",
+    "title": "Co u nas znajdziesz",
+    "items": { "italian": "Kuchnia w 100% włoska", "wifi": "Darmowe Wi-Fi", "outdoor": "Stoliki na zewnątrz", "takeaway": "Na wynos", "delivery": "Dowóz do domu", "cards": "Karty i Satispay", "family": "Przyjazne dzieciom", "accessible": "Wejście bez schodów", "airCon": "Klimatyzacja", "petFriendly": "Psy mile widziane", "groups": "Przyjmujemy grupy" }
+  },
+
+  "contacts": {
+    "lead": "Via Principe Amedeo 78/80, pięć minut pieszo od dworca Roma Termini.",
+    "intro": { "eyebrow": "Kontakt", "title": "Jak do nas trafić i kiedy", "lead": "Telefon i WhatsApp są czynne przez cały czas otwarcia." },
+    "hoursTitle": "Godziny otwarcia",
+    "hoursNote": "Otwarte codziennie. Kuchnia pracuje w porze obiadu i kolacji; bar jest czynny również pomiędzy nimi.",
+    "nearTermini": "Pięć minut pieszo od dworca Termini oraz metra A i B.",
+    "phoneNote": "Przy grupach od ośmiu osób lepiej zadzwonić dzień wcześniej.",
+    "mapTitle": { "eyebrow": "Gdzie jesteśmy", "title": "Mapa", "lead": "Via Principe Amedeo 78/80, 00185 Rzym." },
+    "nearby": { "eyebrow": "W okolicy", "title": "Co jest dookoła", "lead": "Odległości pieszo od charakterystycznych punktów dzielnicy." },
+    "cta": { "title": "Zarezerwuj lub zamów", "text": "Telefon albo wiadomość na WhatsAppie — resztą zajmiemy się my." }
+  },
+
+  "faq": {
+    "lead": "Pytania, które słyszymy najczęściej. Jeśli nie ma tu odpowiedzi, zadzwoń do nas.",
+    "items": [
+      { "q": "Czy trzeba rezerwować?", "a": "Dla dwóch lub trzech osób zwykle nie: stolik zwykle się znajdzie. W piątkowe i sobotnie wieczory oraz przy grupach od sześciu osób lepiej zadzwonić: wystarczy kilka minut przez telefon albo wiadomość na WhatsAppie." },
+      { "q": "Czy macie dania bezglutenowe?", "a": "Tak, jest osobny dział z pizzą, makaronem, deserem i piwem bezglutenowym, przygotowywanymi ze składników certyfikowanych i na osobnym sprzęcie. Kuchnia jako całość nie jest w pełni bezglutenowa, dlatego zawsze uprzedź obsługę przy zamówieniu." },
+      { "q": "Czy są dania wegańskie i wegetariańskie?", "a": "Tak, dwa pełne działy menu. Poza tym wiele dań z pozostałych działów jest już wegetariańskich: w menu poznasz je po kolorowych oznaczeniach." },
+      { "q": "Jak daleko jesteście od dworca Termini?", "a": "Około pięciu minut pieszo. Wychodząc z Termini, idź Via Giovanni Giolitti i skręć w Via Principe Amedeo: jesteśmy pod numerem 78/80." },
+      { "q": "Czy można zapłacić kartą?", "a": "Tak, przyjmujemy karty debetowe, Visa, Mastercard, American Express i Satispay, bez kwoty minimalnej." },
+      { "q": "Czy robicie dania na wynos i dowóz?", "a": "Tak, całe menu jest dostępne na wynos, a dowozimy w okolicznych ulicach. Aby zamówić, wystarczy zadzwonić lub napisać na WhatsAppie." },
+      { "q": "Czy przyjmujecie grupy?", "a": "Tak, mamy salę dla grup. Przy więcej niż ośmiu osobach zadzwoń dzień wcześniej, abyśmy przygotowali stoły i — jeśli chcesz — ustalone menu." },
+      { "q": "Czy można przyjść z psem?", "a": "Tak, psy są mile widziane zarówno w sali, jak i przy stolikach na zewnątrz." },
+      { "q": "Czy menu jest w innych językach?", "a": "Tak, w dziewięciu: włoskim, angielskim, francuskim, hiszpańskim, portugalskim, arabskim, rosyjskim, polskim i greckim. Zeskanuj kod QR przy stoliku, a menu otworzy się w języku Twojego telefonu." },
+      { "q": "W jakich godzinach czynna jest kuchnia?", "a": "W porze obiadu od 12:00 do 15:30 i wieczorem od 18:30 do 23:00. Poza tymi godzinami bar jest czynny: kawa, kanapki i aperitify." }
+    ],
+    "cta": { "title": "Nie znalazłeś odpowiedzi?", "text": "Zadzwoń lub napisz na WhatsAppie — odpowiemy od razu." }
+  },
+
+  "qr": {
+    "reviewKind": "Opinie",
+    "reviewTitle": "Kod QR do opinii Google",
+    "reviewText": "Prowadzi prosto do formularza opinii w Google. Do trzymania przy kasie albo do podania z rachunkiem.",
+    "reviewHead": "Zostaw opinię",
+    "reviewScan": "Opowiedz, jak było",
+    "reviewCardTitle": "Karta opinii na kasę",
+    "reviewCardText": "Do wydrukowania i trzymania przy kasie albo do podania z rachunkiem. **Dwie sekundy dla gościa**, a wizytówka restauracji w Google rośnie.",
+    "reviewCardPrint": "Drukuj kartę opinii",
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "Kod QR do Wi-Fi",
+    "wifiText": "Po zeskanowaniu telefon łączy się z siecią bez wpisywania hasła.",
+    "wifiNetwork": "Sieć",
+    "wifiPassword": "Hasło",
+    "wifiScan": "Zeskanuj i jesteś połączony",
+    "wifiFree": "Darmowe Wi-Fi",
+    "wifiCardTitle": "Karta Wi-Fi na stoliki",
+    "wifiCardText": "Do wydrukowania i postawienia obok menu. **Goście łączą się sami**, bez pytania o hasło.",
+    "wifiCardPrint": "Drukuj kartę Wi-Fi",
+    "lead": "Dwa kody, dwa różne zastosowania. Pierwszy prowadzi do menu, drugi na stronę. Oba same rozpoznają język telefonu.",
+    "intro": { "eyebrow": "Gotowe do druku", "title": "Dwa kody QR", "lead": "To grafiki wektorowe: drukują się ostro w każdym rozmiarze, od naklejki po plakat." },
+    "menuKind": "Na stolik", "siteKind": "Dla lokalu",
+    "menuTitle": "Kod QR menu",
+    "menuText": "Otwiera od razu pełne menu, w języku telefonu. Do postawienia na stolikach, w witrynie lub na ulotce.",
+    "siteTitle": "Kod QR strony",
+    "siteText": "Prowadzi na stronę główną: menu, godziny, mapa, kontakt i blog. Przydatny na wizytówkach, szyldzie i w mediach społecznościowych.",
+    "howTitle": "Jak z tego korzystać",
+    "how": [
+      { "title": "Wydrukuj", "text": "Pobierz plik SVG albo użyj przycisku drukowania. Zalecany minimalny rozmiar: **3 centymetry** boku." },
+      { "title": "Umieść", "text": "Na stolikach, w witrynie, na papierowym menu albo przy kasie. Potrzebny jest dobry kontrast i brak odblasków." },
+      { "title": "Gość skanuje", "text": "Wystarczy aparat w telefonie: nie trzeba instalować żadnej aplikacji." },
+      { "title": "Otwiera się w jego języku", "text": "Strona rozpoznaje język telefonu spośród dziewięciu dostępnych i otwiera właściwe menu." }
+    ],
+    "tentTitle": "Stojak na stolik",
+    "tentText": "Gotowy do wydruku i złożenia: postaw na stolikach i menu jest podane. **Żadnego papieru do przedruku przy każdej zmianie ceny.**",
+    "tentSub": "Restauracja · Pizzeria", "tentScan": "Zeskanuj, aby zobaczyć menu", "tentPrint": "Wydrukuj stojak",
+    "cta": { "title": "Potrzebujesz innej wersji?", "text": "Możemy wygenerować kod QR do dowolnej strony serwisu: zadzwoń do nas." }
+  },
+
+  "blog": {
+    "lead": "Kuchnia rzymska, pizza i praktyczne rady, gdzie dobrze zjeść w pobliżu Termini.",
+    "moreTitle": "Więcej artykułów",
+    "cta": { "title": "Przyjdź i spróbuj", "text": "Wszystkie dania, o których piszemy, są w menu, codziennie." },
+    "posts": [
+      {
+        "slug": "carbonara-vera", "tag": "Tradycja", "date": "2026-06-12",
+        "title": "Prawdziwa carbonara: cztery składniki i żadnych skrótów",
+        "excerpt": "Guanciale, żółtka, pecorino romano i pieprz. Bez śmietany, bez czosnku, bez cebuli. Oto jak ją robimy i dlaczego.",
+        "body": [
+          "Carbonara to danie, o które w Rzymie kłóci się najwięcej, i ma to sens: składniki są tylko cztery, więc każdy widać od razu. Jeśli jeden jest przeciętny, dania już nic nie uratuje.",
+          "## Guanciale, nie pancetta",
+          "Guanciale pochodzi z policzka wieprzowego, jest słodsze i tłustsze od pancetty i na patelni zachowuje się inaczej: tłuszcz się wytapia i staje się prawdziwym sosem. Kroimy je w paski o grubości pół centymetra i wytapiamy na średnim ogniu, bez pośpiechu, aż część chuda zrobi się chrupiąca, a tłuszcz przezroczysty.",
+          "## Kremowość powstaje bez śmietany",
+          "Żółtka, pecorino romano tarte na miejscu i grubo mielony czarny pieprz. Miesza się to na zimno, a potem rozluźnia chochlą wody z gotowania makaronu. Patelnia musi być zdjęta z ognia, gdy trafia na nią makaron: wiąże ciepło resztkowe, nie płomień. Za gorąco — i jajko się zetnie, wychodzi omlet.",
+          "## Spaghetti czy rigatoni",
+          "My podajemy ze spaghetti, bo sos otula je równomiernie. Rigatoni sprawdzają się tak samo dobrze i zatrzymują sos w środku: to kwestia gustu, nie reguły.",
+          "Ostatnia rada: pieprz mielimy na bieżąco i przez chwilę prażymy na patelni. To różnica między dobrym daniem a takim, które się pamięta."
+        ]
+      },
+      {
+        "slug": "pizza-romana-napoletana", "tag": "Pizza", "date": "2026-07-03",
+        "title": "Pizza rzymska czy neapolitańska: co naprawdę je różni",
+        "excerpt": "Wysoki brzeg albo cienka krawędź, piec mocniej lub słabiej rozgrzany, inne ciasto. Krótki przewodnik, aby wybrać swoją.",
+        "body": [
+          "Kto wchodzi do pizzerii w Rzymie, trafia na dwie różne szkoły i żadna nie jest lepsza od drugiej: to dwa pomysły na pizzę.",
+          "## Rzymska: cienka i chrupiąca",
+          "Pizza rzymska ma bardzo cienki spód rozwałkowany wałkiem i niski brzeg. Piecze się w nieco niższej temperaturze i dłużej, więc wychodzi sucha i chrupiąca aż do środka. To ta, którą je się rękami i się nie zagina.",
+          "## Neapolitańska: wysoki i miękki brzeg",
+          "Neapolitańską rozciąga się rękami, zostawiając powietrze przy krawędzi, która w piecu wyrasta w wysoki, dziurkowany rant. Piecze się bardzo krótko w bardzo wysokiej temperaturze, zostaje miękka i je się ją od razu, w razie potrzeby widelcem.",
+          "## Co podajemy my",
+          "W Bar Capri pracujemy na cieście dojrzewającym dwadzieścia cztery godziny, o średnim nawodnieniu: wynik jest pośrodku — brzeg jest, ale bez przesady, środek cienki i dobrze wypieczony. Naszym zdaniem to pizza, która najlepiej smakuje pod koniec dnia.",
+          "Dla osób, które nie mogą jeść glutenu, przygotowujemy certyfikowany spód, pieczony osobno, aby uniknąć zanieczyszczeń."
+        ]
+      },
+      {
+        "slug": "senza-glutine-roma", "tag": "Bez glutenu", "date": "2026-07-24",
+        "title": "Jedzenie bezglutenowe w Rzymie: o co zapytać przed zamówieniem",
+        "excerpt": "Trzy pytania, które warto zadać wszędzie, i jak u nas przygotowuje się dania bezglutenowe.",
+        "body": [
+          "Osoby z celiakią to wiedzą: problemem nie jest znalezienie lokalu z makaronem bezglutenowym, ale ustalenie, jak go gotują. Oto o co warto pytać wszędzie, nie tylko u nas.",
+          "## Pierwsze pytanie: gdzie gotują makaron?",
+          "Jeśli makaron bezglutenowy gotuje się w tej samej wodzie co zwykły, danie nie jest bezpieczne. Potrzebny jest osobny garnek i czysta woda. U nas makaron bezglutenowy ma swój garnek i swoje przybory.",
+          "## Drugie pytanie: jak pieką pizzę?",
+          "Bezglutenowy spód nie może trafić na ten sam trzon pieca, na którym przed chwilą rozciągano ciasto pszenne. My pieczemy go w osobnej formie i obsługujemy oddzielnymi łopatami.",
+          "## Trzecie pytanie: kto ją przygotowuje?",
+          "Liczy się także blat roboczy i zmiana rękawiczek. Żaden poważny kucharz nie obraża się o to pytanie: jeśli lokal jest przygotowany, odpowiedź pada od razu i konkretnie.",
+          "## Co znajdziesz w menu",
+          "Pizza, makaron, deser dnia i piwo bezglutenowe, wszystko ze składników certyfikowanych. Nie jesteśmy kuchnią w pełni bezglutenową i mówimy to wprost: osoba z ciężką celiakią zasługuje na uczciwą informację, a nie ogólne zapewnienie."
+        ]
+      },
+      {
+        "slug": "mangiare-vicino-termini", "tag": "Dzielnica", "date": "2026-08-14",
+        "title": "Jak dobrze zjeść przy Termini i się nie pomylić",
+        "excerpt": "Okolica dworca ma wiele pułapek na turystów i kilka świetnych stołów. Cztery sygnały, które je odróżniają.",
+        "body": [
+          "Wokół dworca zawsze są lokale, które żyją z przechodniów: je się tam raz i nie wraca. Ale Esquilino to również zamieszkana dzielnica z tradycją prawdziwych trattorii. Oto jak je rozpoznać.",
+          "## Menu jest krótkie",
+          "Kuchnia, która proponuje osiemdziesiąt dań, nie przygotowuje ich wszystkich na bieżąco. Krótkie menu z kilkoma daniami dnia to prawie zawsze dobry znak.",
+          "## Ceny są wywieszone i jasne",
+          "Nakrycie, obsługa i ewentualne dopłaty muszą być zapisane. Jeśli cena ryby jest podana tylko za sto gramów, bez wagi porcji, zapytaj wcześniej, ile to wyniesie.",
+          "## Nikt nie zaprasza cię z ulicy",
+          "Obsługa zaczepiająca przechodniów na chodniku to najpewniejszy znak, że lokal musi się szybko zapełnić. Dobre lokale mają ludzi przy stolikach, a nie przed drzwiami.",
+          "## Są miejscowi klienci",
+          "To najlepsze kryterium: jeśli w porze obiadu widzisz ludzi pracujących w okolicy, stosunek jakości do ceny się broni. Zobacz, co mają na talerzach, i zamów to samo.",
+          "Jesteśmy przy Via Principe Amedeo 78/80, pięć minut pieszo od dworca. Menu jest to samo co zawsze, a ceny przeczytasz na tej stronie, zanim jeszcze wejdziesz."
+        ]
+      }
+    ]
+  },
+
+  "footer": { "tagline": "Bar, restauracja i pizzeria w Esquilino, od rana do późnego wieczora.", "navTitle": "Serwis", "hoursTitle": "Godziny", "rights": "Wszelkie prawa zastrzeżone.", "made": "Via Principe Amedeo 78/80 · 00185 Rzym" },
+
+  "categories": {
+    "colazione":     { "name": "Śniadanie i bar", "lead": "Od 7:00, przy barze albo przy stoliku." },
+    "antipasti":     { "name": "Przystawki", "lead": "Na początek i do dzielenia się." },
+    "pasta":         { "name": "Makarony i dania pierwsze", "lead": "Cztery rzymskie klasyki i coś ponadto." },
+    "pizza":         { "name": "Pizza", "lead": "Ciasto dojrzewające 24 godziny." },
+    "carne":         { "name": "Mięsa", "lead": "Dania główne, przyrządzane na bieżąco." },
+    "pesce":         { "name": "Ryby", "lead": "Zależnie od rynku, kilka razy w tygodniu." },
+    "vegano":        { "name": "Wegańskie", "lead": "Bez składników pochodzenia zwierzęcego." },
+    "vegetariano":   { "name": "Wegetariańskie", "lead": "Bez mięsa i bez ryb." },
+    "senza-glutine": { "name": "Bez glutenu", "lead": "Certyfikowane składniki, osobne przygotowanie." },
+    "dolci":         { "name": "Desery", "lead": "Domowe, na zakończenie." },
+    "bevande":       { "name": "Napoje", "lead": "Krótka karta win i piwo z beczki." }
+  },
+
+  "dishes": {
+    "caffe": { "name": "Kawa espresso" }, "cappuccino": { "name": "Cappuccino" }, "cornetto": { "name": "Włoski rogalik" },
+    "spremuta": { "name": "Świeżo wyciskany sok pomarańczowy" }, "toast": { "name": "Tost z szynką i serem" }, "aperitivo": { "name": "Aperitif z bufetem" },
+
+    "bruschetta":   { "name": "Bruschetta z pomidorem", "desc": "Opiekany chleb wiejski, świeży pomidor, bazylia i oliwa z pierwszego tłoczenia." },
+    "suppli":       { "name": "Rzymskie krokiety ryżowe", "desc": "Ryż w sosie pomidorowym z ciągnącą się mozzarellą, panierowany i smażony na bieżąco." },
+    "fiori-zucca":  { "name": "Smażone kwiaty cukinii", "desc": "Kwiaty cukinii w cieście z mozzarellą i anchois." },
+    "tagliere":     { "name": "Deska wędlin i serów", "desc": "Wybór włoskich wędlin i serów dojrzewających, z pieczywem i konfiturą." },
+    "burrata":      { "name": "Burrata z pomidorkami", "desc": "Burrata z Apulii, konfitowane pomidorki, bazylia i oliwa z pierwszego tłoczenia." },
+    "carciofo":     { "name": "Karczoch po rzymsku", "desc": "Karczoch romanesco duszony z czosnkiem, miętą i oliwą." },
+
+    "carbonara":    { "name": "Spaghetti carbonara", "desc": "Chrupiące guanciale, żółtka, pecorino romano i czarny pieprz. Bez śmietany." },
+    "amatriciana":  { "name": "Bucatini all'amatriciana", "desc": "Guanciale, pomidory, pecorino romano i nuta ostrej papryczki." },
+    "cacio-pepe":   { "name": "Tonnarelli cacio e pepe", "desc": "Tonnarelli połączone z pecorino romano i prażonym czarnym pieprzem." },
+    "gricia":       { "name": "Rigatoni alla gricia", "desc": "Amatriciana bez pomidorów: guanciale, pecorino i pieprz." },
+    "arrabbiata":   { "name": "Penne all'arrabbiata", "desc": "Pomidory, czosnek, ostra papryczka i pietruszka. Ostre w sam raz." },
+    "lasagna":      { "name": "Lasagne z pieca", "desc": "Płaty ciasta, ragù mięsne, beszamel i parmezan, zapiekane w piecu." },
+    "ravioli":      { "name": "Ravioli z ricottą i szpinakiem", "desc": "Świeże ravioli z ricottą i szpinakiem, roztopione masło i szałwia." },
+    "gnocchi":      { "name": "Gnocchi alla sorrentina", "desc": "Kopytka ziemniaczane z pomidorami, mozzarellą i bazylią, zapiekane." },
+    "vongole":      { "name": "Spaghetti z małżami vongole", "desc": "Małże vongole, czosnek, oliwa, pietruszka i odrobina białego wina." },
+    "risotto":      { "name": "Risotto z borowikami", "desc": "Ryż carnaroli połączony z borowikami i pietruszką." },
+
+    "marinara":     { "name": "Marinara", "desc": "Pomidory, czosnek, oregano i oliwa z pierwszego tłoczenia. Bez sera." },
+    "margherita":   { "name": "Margherita", "desc": "Pomidory, mozzarella fiordilatte i świeża bazylia." },
+    "napoli":       { "name": "Napoli", "desc": "Pomidory, mozzarella, anchois, kapary i oregano." },
+    "diavola":      { "name": "Diavola", "desc": "Pomidory, mozzarella i ostre salami." },
+    "quattro-formaggi": { "name": "Cztery sery", "desc": "Mozzarella, gorgonzola, pecorino i wędzona provola." },
+    "ortolana":     { "name": "Ortolana", "desc": "Pomidory i grillowane warzywa sezonowe. Bez sera." },
+    "capricciosa":  { "name": "Capricciosa", "desc": "Pomidory, mozzarella, szynka gotowana, pieczarki, karczochy i oliwki." },
+    "bufala":       { "name": "Pizza z mozzarellą bawolą", "desc": "Mozzarella bawola dodana po wypieku, pomidorki i bazylia." },
+    "calzone":      { "name": "Calzone z nadzieniem", "desc": "Złożone i upieczone z szynką gotowaną, mozzarellą i ricottą." },
+    "pizza-capri":  { "name": "Pizza Capri", "desc": "Nasza: mozzarella bawola, żółte pomidorki, oliwki taggiasca i bazylia." },
+    "frutti-mare":  { "name": "Pizza z owocami morza", "desc": "Pomidory, kalmary, krewetki, małże i pietruszka." },
+
+    "saltimbocca":  { "name": "Saltimbocca po rzymsku", "desc": "Płaty cielęciny z szynką surową i szałwią, podlane białym winem." },
+    "tagliata":     { "name": "Tagliata z wołowiny z rukolą", "desc": "Grillowany rostbef, rukola i płatki sera grana." },
+    "scaloppine":   { "name": "Sznycelki z cytryną", "desc": "Cielęcina z patelni z masłem, cytryną i pietruszką." },
+    "pollo":        { "name": "Pieczony kurczak z ziemniakami", "desc": "Udo z kurczaka z pieca, z ziemniakami i rozmarynem." },
+    "abbacchio":    { "name": "Grillowane kotleciki jagnięce", "desc": "Kotleciki jagnięce z grilla, do jedzenia rękami." },
+    "costine":      { "name": "Żeberka wieprzowe z pieca", "desc": "Żeberka pieczone długo, chrupiące z wierzchu." },
+
+    "orata":        { "name": "Dorada z grilla", "desc": "Cała dorada z grilla z oliwą, cytryną i pietruszką." },
+    "frittura":     { "name": "Smażone kalmary i krewetki", "desc": "Kalmary i krewetki w lekkim cieście, z cytryną." },
+    "salmone":      { "name": "Filet z łososia z pieca", "desc": "Filet z łososia pieczony z ziołami i ziemniakami." },
+    "cozze":        { "name": "Małże z pieprzem", "desc": "Małże otwarte na patelni z czarnym pieprzem, czosnkiem i pietruszką." },
+    "polpo":        { "name": "Ośmiornica z ziemniakami", "desc": "Długo gotowana ośmiornica, tłuczone ziemniaki, oliwa i pietruszka." },
+    "spigola":      { "name": "Labraks all'acqua pazza", "desc": "Labraks z pomidorkami, oliwkami, kaparami i pietruszką." },
+
+    "pizza-vegana":  { "name": "Pizza wegańska", "desc": "Pomidory, warzywa sezonowe i oliwa z pierwszego tłoczenia. Bez sera." },
+    "pomodoro-basilico": { "name": "Makaron z pomidorem i bazylią", "desc": "Makaron ze świeżym pomidorem, bazylią i oliwą z pierwszego tłoczenia." },
+    "vellutata":     { "name": "Krem z warzyw sezonowych", "desc": "Krem z warzyw sezonowych z grzankami i oliwą." },
+    "caponata":      { "name": "Caponata warzywna", "desc": "Bakłażan, seler, cebula i pomidor na słodko-kwaśno." },
+    "insalatona-vegana": { "name": "Duża sałatka wegańska", "desc": "Mix sałat, ciecierzyca, pomidorki, awokado i prażone ziarna." },
+
+    "parmigiana":   { "name": "Parmigiana z bakłażana", "desc": "Warstwy smażonego bakłażana z pomidorami, mozzarellą i bazylią." },
+    "caprese":      { "name": "Sałatka caprese", "desc": "Mozzarella, pomidor, bazylia i oliwa z pierwszego tłoczenia." },
+    "verdure-griglia": { "name": "Grillowane warzywa", "desc": "Cukinia, bakłażan i papryka z grilla, z oliwą i oregano." },
+    "frittata":     { "name": "Omlet z warzywami", "desc": "Omlet z warzywami sezonowymi, podawany letni." },
+    "pizza-vegetariana": { "name": "Pizza wegetariańska", "desc": "Pomidory, mozzarella i grillowane warzywa sezonowe." },
+
+    "pizza-sg":     { "name": "Pizza bez glutenu", "desc": "Certyfikowany spód bezglutenowy, pieczony w osobnej formie. Dodatki do wyboru." },
+    "pasta-sg":     { "name": "Makaron bez glutenu", "desc": "Certyfikowany makaron, gotowany w osobnym garnku. Z carbonarą lub z pomidorem." },
+    "dolce-sg":     { "name": "Deser bez glutenu", "desc": "Deser dnia w wersji bezglutenowej. Zapytaj obsługę." },
+    "birra-sg":     { "name": "Piwo bez glutenu", "desc": "Jasne piwo certyfikowane bezglutenowe, butelka 33 cl." },
+
+    "tiramisu":     { "name": "Tiramisù", "desc": "Mascarpone, biszkopty nasączone kawą i gorzkie kakao. Domowe." },
+    "panna-cotta":  { "name": "Panna cotta", "desc": "Panna cotta z sosem z owoców leśnych albo karmelowym." },
+    "cannolo":      { "name": "Cannolo sycylijskie", "desc": "Chrupiąca rurka nadziewana na bieżąco ricottą owczą." },
+    "tartufo":      { "name": "Tartufo czekoladowe", "desc": "Lody czekoladowe z płynnym środkiem, posypane kakao." },
+    "macedonia":    { "name": "Sałatka ze świeżych owoców", "desc": "Świeże owoce sezonowe, krojone na bieżąco." },
+
+    "acqua": { "name": "Woda mineralna 75 cl" }, "bibite": { "name": "Napoje w puszce" },
+    "birra-media": { "name": "Piwo z beczki, średnie" }, "vino-calice": { "name": "Wino domu na kieliszki" },
+    "vino-bottiglia": { "name": "Wino domu 75 cl" }, "amaro": { "name": "Amaro / digestif" }
+  }
+}
