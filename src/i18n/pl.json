@@ -153,6 +153,16 @@
   },
 
   "qr": {
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "Kod QR do Wi-Fi",
+    "wifiText": "Po zeskanowaniu telefon łączy się z siecią bez wpisywania hasła.",
+    "wifiNetwork": "Sieć",
+    "wifiPassword": "Hasło",
+    "wifiScan": "Zeskanuj i jesteś połączony",
+    "wifiFree": "Darmowe Wi-Fi",
+    "wifiCardTitle": "Karta Wi-Fi na stoliki",
+    "wifiCardText": "Do wydrukowania i postawienia obok menu. **Goście łączą się sami**, bez pytania o hasło.",
+    "wifiCardPrint": "Drukuj kartę Wi-Fi",
     "lead": "Dwa kody, dwa różne zastosowania. Pierwszy prowadzi do menu, drugi na stronę. Oba same rozpoznają język telefonu.",
     "intro": { "eyebrow": "Gotowe do druku", "title": "Dwa kody QR", "lead": "To grafiki wektorowe: drukują się ostro w każdym rozmiarze, od naklejki po plakat." },
     "menuKind": "Na stolik", "siteKind": "Dla lokalu",

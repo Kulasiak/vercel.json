@@ -153,6 +153,16 @@
   },
 
   "qr": {
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "Código QR do Wi-Fi",
+    "wifiText": "Ao apontar a câmara o telemóvel liga-se à rede sem escrever a palavra-passe.",
+    "wifiNetwork": "Rede",
+    "wifiPassword": "Palavra-passe",
+    "wifiScan": "Aponta e ficas ligado",
+    "wifiFree": "Wi-Fi grátis",
+    "wifiCardTitle": "Cartão Wi-Fi para as mesas",
+    "wifiCardText": "Imprime e coloca ao lado do menu. **Os clientes ligam-se sozinhos**, sem pedir a palavra-passe.",
+    "wifiCardPrint": "Imprimir o cartão Wi-Fi",
     "lead": "Dois códigos, dois usos diferentes. O primeiro leva à ementa, o segundo ao site. Ambos reconhecem sozinhos o idioma do telemóvel.",
     "intro": { "eyebrow": "Prontos a imprimir", "title": "Os dois códigos QR", "lead": "São imagens vectoriais: imprimem-se nítidas em qualquer tamanho, de um autocolante a um cartaz." },
     "menuKind": "Para a mesa", "siteKind": "Para o espaço",

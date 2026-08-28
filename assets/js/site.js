@@ -271,7 +271,7 @@
 
   $$("[data-print-tent]").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      var tent = $("#tent");
+      var tent = $("#" + (btn.getAttribute("data-print-tent") || "tent"));
       if (tent) printNode(tent.cloneNode(true));
     });
   });

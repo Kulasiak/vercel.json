@@ -153,6 +153,16 @@
   },
 
   "qr": {
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "QR Wi-Fi",
+    "wifiText": "En le scannant, le téléphone rejoint le réseau sans taper le mot de passe.",
+    "wifiNetwork": "Réseau",
+    "wifiPassword": "Mot de passe",
+    "wifiScan": "Scannez et vous êtes connecté",
+    "wifiFree": "Wi-Fi gratuit",
+    "wifiCardTitle": "Carton Wi-Fi pour les tables",
+    "wifiCardText": "À imprimer et à poser à côté de la carte. **Les clients se connectent seuls**, sans demander le mot de passe.",
+    "wifiCardPrint": "Imprimer le carton Wi-Fi",
     "lead": "Deux codes, deux usages différents. Le premier ouvre la carte, le second le site. Tous deux reconnaissent seuls la langue du téléphone.",
     "intro": { "eyebrow": "Prêts à imprimer", "title": "Les deux codes QR", "lead": "Ce sont des images vectorielles : elles s'impriment nettes à n'importe quelle taille, de l'autocollant à l'affiche." },
     "menuKind": "Pour la table", "siteKind": "Pour l'établissement",

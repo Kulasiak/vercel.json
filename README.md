@@ -11,18 +11,20 @@ Si aprono all'istante anche con la connessione lenta del telefono di un cliente 
 
 ---
 
-## I due codici QR
+## I tre codici QR
 
-Sono la parte pratica del sito. Entrambi **riconoscono da soli la lingua del telefono**
-e aprono la pagina giusta fra le nove disponibili.
+Sono la parte pratica del sito. I primi due **riconoscono da soli la lingua del telefono**
+e aprono la pagina giusta fra le nove disponibili; il terzo collega alla rete Wi-Fi.
 
 | Codice | Dove porta | A cosa serve |
 |---|---|---|
 | **QR menu** (`/assets/qr/menu.svg`) | `/menu/` | Sui tavoli, in vetrina, sui volantini |
 | **QR sito** (`/assets/qr/sito.svg`) | `/` | Biglietti da visita, insegna, social |
+| **QR Wi-Fi** (`/assets/qr/wifi.svg`) | la rete del locale | Sui tavoli: il cliente si collega senza chiedere la password |
 
-La pagina **`/it/qr/`** li mostra entrambi, con il pulsante per scaricarli o stamparli
-e un **segnaposto da tavolo** già impaginato, pronto da stampare e piegare.
+La pagina **`/it/qr/`** li mostra tutti, con il pulsante per scaricarli o stamparli,
+un **segnaposto da tavolo** per il menu e un **cartellino Wi-Fi**, entrambi già
+impaginati e pronti da stampare.
 
 Sono immagini vettoriali: restano nitide a qualsiasi dimensione, da un adesivo a un poster.
 Dimensione minima consigliata per la stampa: **3 cm di lato**.
@@ -30,6 +32,31 @@ Dimensione minima consigliata per la stampa: **3 cm di lato**.
 > I codici sono generati durante il build da `src/qr.mjs`, un encoder QR scritto da zero
 > (correzione d'errore Reed-Solomon, livello H). La correttezza è verificata rileggendo
 > gli SVG pubblicati con un lettore QR reale.
+
+### Accendere il QR del Wi-Fi
+
+Il terzo codice **non viene generato finché la rete non è configurata**: meglio
+nessun codice che un codice che non collega a niente. Servono due valori in
+`src/site.config.json`:
+
+```json
+"wifi": { "ssid": "NOME DELLA RETE", "password": "la-password", "security": "WPA", "hidden": false }
+```
+
+Poi `node build.mjs` e il QR compare da solo nella pagina dei codici, in tutte e
+nove le lingue, insieme al cartellino da tavolo.
+
+- `security`: `WPA` quasi sempre. `WEP` solo su impianti vecchi. `nopass` per una
+  rete aperta — in quel caso lascia `password` vuota.
+- `hidden`: `true` solo se la rete non trasmette il nome.
+- Nome e password possono contenere spazi, accenti e punteggiatura: i caratteri
+  che romperebbero il formato (`\ ; , : "`) vengono protetti da soli.
+
+**Una cosa da sapere prima di pubblicarlo.** Il QR contiene la password in
+chiaro: chiunque apra il sito può leggerla, non solo chi è seduto al tavolo. Per
+una rete ospiti va benissimo — è fatta per essere data a tutti. Se invece è la
+stessa rete che usate voi per la cassa o il gestionale, **usane una separata per
+i clienti**.
 
 ---
 

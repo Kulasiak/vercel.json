@@ -26,6 +26,10 @@
   "_geo": "Coordinate indicative di Via Principe Amedeo 78/80. La mappa incorporata usa l'indirizzo (pin sempre corretto); queste servono solo ai dati strutturati. Verificare e correggere se necessario.",
   "geo": { "lat": 41.8973, "lng": 12.5028 },
 
+  "_wifi": "Rete Wi-Fi per i clienti. Riempi ssid e password e al build successivo compare il terzo QR: chi lo inquadra si collega senza digitare nulla. Con ssid vuoto il QR Wi-Fi non viene generato. security: WPA (quasi sempre), WEP, oppure nopass per una rete aperta.",
+
+  "wifi": { "ssid": "", "password": "", "security": "WPA", "hidden": false },
+
   "_social": "Sostituire con gli indirizzi reali delle pagine. Lasciare \"\" per nascondere il pulsante.",
   "social": {
     "facebook": "https://www.facebook.com/barcapriroma",

@@ -175,6 +175,16 @@
   },
 
   "qr": {
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "QR Wi-Fi",
+    "wifiText": "Chi lo inquadra si collega alla rete del locale senza digitare la password.",
+    "wifiNetwork": "Rete",
+    "wifiPassword": "Password",
+    "wifiScan": "Inquadra e sei connesso",
+    "wifiFree": "Wi-Fi gratuito",
+    "wifiCardTitle": "Cartellino Wi-Fi per i tavoli",
+    "wifiCardText": "Da stampare e appoggiare accanto al menu. **Chi inquadra si collega da solo**, senza chiedere la password al personale.",
+    "wifiCardPrint": "Stampa il cartellino Wi-Fi",
     "lead": "Due codici, due usi diversi. Il primo porta al menu, il secondo al sito. Entrambi riconoscono da soli la lingua del telefono.",
     "intro": { "eyebrow": "Da stampare", "title": "I due codici QR", "lead": "Sono immagini vettoriali: si stampano nitide a qualsiasi dimensione, da un adesivo a un poster." },
     "menuKind": "Per il tavolo",

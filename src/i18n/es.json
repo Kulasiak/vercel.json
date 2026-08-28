@@ -153,6 +153,16 @@
   },
 
   "qr": {
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "Código QR del Wi-Fi",
+    "wifiText": "Al escanearlo el teléfono se conecta a la red sin escribir la contraseña.",
+    "wifiNetwork": "Red",
+    "wifiPassword": "Contraseña",
+    "wifiScan": "Escanea y ya estás conectado",
+    "wifiFree": "Wi-Fi gratis",
+    "wifiCardTitle": "Tarjeta Wi-Fi para las mesas",
+    "wifiCardText": "Imprímela y colócala junto a la carta. **Los clientes se conectan solos**, sin pedir la contraseña.",
+    "wifiCardPrint": "Imprimir la tarjeta Wi-Fi",
     "lead": "Dos códigos, dos usos distintos. El primero lleva a la carta, el segundo a la web. Los dos reconocen solos el idioma del teléfono.",
     "intro": { "eyebrow": "Listos para imprimir", "title": "Los dos códigos QR", "lead": "Son imágenes vectoriales: se imprimen nítidas a cualquier tamaño, de una pegatina a un cartel." },
     "menuKind": "Para la mesa", "siteKind": "Para el local",

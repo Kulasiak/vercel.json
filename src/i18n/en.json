@@ -175,6 +175,16 @@
   },
 
   "qr": {
+    "wifiKind": "Wi-Fi",
+    "wifiTitle": "Wi-Fi QR code",
+    "wifiText": "Scan it and your phone joins our network without typing the password.",
+    "wifiNetwork": "Network",
+    "wifiPassword": "Password",
+    "wifiScan": "Scan and you are connected",
+    "wifiFree": "Free Wi-Fi",
+    "wifiCardTitle": "Wi-Fi card for the tables",
+    "wifiCardText": "Print it and set it beside the menu. **Guests connect on their own**, without asking the staff for the password.",
+    "wifiCardPrint": "Print the Wi-Fi card",
     "lead": "Two codes, two different jobs. The first opens the menu, the second the website. Both detect the language of the phone on their own.",
     "intro": { "eyebrow": "Ready to print", "title": "The two QR codes", "lead": "They are vector images: they print sharp at any size, from a sticker to a poster." },
     "menuKind": "For the table",

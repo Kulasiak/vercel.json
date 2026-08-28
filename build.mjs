@@ -493,14 +493,18 @@ function nearbyBlock(ctx, opts = {}) {
 /** I due codici QR: uno per il menu al tavolo, uno per il sito. */
 function qrBlock(ctx, opts = {}) {
   const { t, qr } = ctx;
+  const KIND_ICON = { menu: "book", site: "globe", wifi: "wifi" };
+  const KIND_LABEL = { menu: "menuKind", site: "siteKind", wifi: "wifiKind" };
   const card = (kind, title, text, url, svg, file) => `<article class="qr-card reveal">
             <div class="qr-card-head">
-              <span class="qr-kind">${icon(kind === "menu" ? "book" : "globe")}${esc(kind === "menu" ? t.qr.menuKind : t.qr.siteKind)}</span>
+              <span class="qr-kind">${icon(KIND_ICON[kind])}${esc(t.qr[KIND_LABEL[kind]])}</span>
               <h3>${esc(title)}</h3>
               <p>${esc(text)}</p>
             </div>
             <div class="qr-frame">${svg}</div>
-            <p class="qr-url"><a href="${esc(url)}">${esc(url.replace(/^https?:\/\//, ""))}</a></p>
+            <p class="qr-url">${kind === "wifi"
+              ? `${esc(t.qr.wifiNetwork)}: <strong>${esc(url)}</strong>`
+              : `<a href="${esc(url)}">${esc(url.replace(/^https?:\/\//, ""))}</a>`}</p>
             <div class="qr-actions">
               <a class="btn btn-ghost" href="/assets/qr/${file}.svg" download>${icon("download")}<span>SVG</span></a>
               <button type="button" class="btn btn-ghost" data-print-qr="${kind}">${icon("print")}<span>${esc(t.ui.print)}</span></button>
@@ -511,6 +515,7 @@ function qrBlock(ctx, opts = {}) {
         <div class="qr-grid">
           ${card("menu", t.qr.menuTitle, t.qr.menuText, qr.menuUrl, qr.menuSvg, "menu")}
           ${card("site", t.qr.siteTitle, t.qr.siteText, qr.siteUrl, qr.siteSvg, "sito")}
+          ${qr.wifiSvg ? card("wifi", t.qr.wifiTitle, t.qr.wifiText, qr.wifi.ssid, qr.wifiSvg, "wifi") : ""}
         </div>
         <div class="qr-how reveal">
           <h3>${esc(t.qr.howTitle)}</h3>
@@ -538,7 +543,26 @@ function qrPrintable(ctx) {
               <p class="tent-foot">${ltr(config.contact.street)} · ${esc(config.contact.city)} · ${ltr(config.contact.phone)}</p>
             </div>
           </div>
-          <p class="center"><button type="button" class="btn btn-primary btn-lg" data-print-tent>${icon("print")}<span>${esc(t.qr.tentPrint)}</span></button></p>
+          <p class="center"><button type="button" class="btn btn-primary btn-lg" data-print-tent="tent">${icon("print")}<span>${esc(t.qr.tentPrint)}</span></button></p>
+${qr.wifiSvg ? `
+          <div class="wifi-block reveal">
+            <h2>${esc(t.qr.wifiCardTitle)}</h2>
+            <p class="lead">${rich(t.qr.wifiCardText)}</p>
+            <div class="tent">
+              <div class="tent-face wifi-face" id="wifi-card">
+                <p class="wifi-eyebrow">${icon("wifi")}<span>${esc(t.qr.wifiFree)}</span></p>
+                <p class="tent-brand">${esc(config.brand.display)}</p>
+                <div class="tent-qr">${qr.wifiSvg}</div>
+                <p class="tent-scan">${esc(t.qr.wifiScan)}</p>
+                <dl class="wifi-data">
+                  <dt>${esc(t.qr.wifiNetwork)}</dt><dd>${ltr(qr.wifi.ssid)}</dd>
+                  ${qr.wifi.password ? `<dt>${esc(t.qr.wifiPassword)}</dt><dd>${ltr(qr.wifi.password)}</dd>` : ""}
+                </dl>
+                <p class="tent-foot">${ltr(config.contact.street)} · ${esc(config.contact.city)}</p>
+              </div>
+            </div>
+            <p class="center"><button type="button" class="btn btn-primary btn-lg" data-print-tent="wifi-card">${icon("print")}<span>${esc(t.qr.wifiCardPrint)}</span></button></p>
+          </div>` : ""}
         </div>
       </section>`;
 }
@@ -1014,7 +1038,9 @@ function validate(t, lang, menu) {
 
   for (const k of ["home.hero.title", "home.hero.lead", "home.highlights.items", "home.story.body",
                    "menu.lead", "about.story.body", "blog.posts", "faq.items", "contacts.lead",
-                   "qr.menuTitle", "qr.siteTitle", "qr.how", "footer.tagline", "features.items"]) need(k);
+                   "qr.menuTitle", "qr.siteTitle", "qr.how", "footer.tagline", "features.items",
+                   "qr.wifiKind", "qr.wifiTitle", "qr.wifiText", "qr.wifiNetwork", "qr.wifiPassword",
+                   "qr.wifiScan", "qr.wifiFree", "qr.wifiCardTitle", "qr.wifiCardText", "qr.wifiCardPrint"]) need(k);
 
   if (Array.isArray(t.blog?.posts) && t.blog.posts.length !== POST_SLUGS.length) missing.push(`blog.posts: attesi ${POST_SLUGS.length} articoli, trovati ${t.blog.posts.length}`);
   if (Array.isArray(t.blog?.posts)) {
@@ -1123,6 +1149,18 @@ ${links}
 `;
 }
 
+/**
+ * La stringa che un telefono riconosce come "collegati a questa rete".
+ * Formato standard WIFI:, letto da iPhone e Android senza applicazioni.
+ * Dentro il nome e la password i caratteri  \\ ; , : "  vanno protetti,
+ * altrimenti spezzano i campi e il QR porta a una rete sbagliata.
+ */
+const wifiPayload = (wifi) => {
+  const q = (v) => String(v ?? "").replace(/([\\;,:"])/g, "\\$1");
+  const sicurezza = wifi.password ? (wifi.security || "WPA") : "nopass";
+  return `WIFI:T:${sicurezza};S:${q(wifi.ssid)};${wifi.password ? `P:${q(wifi.password)};` : ""}${wifi.hidden ? "H:true;" : ""};`;
+};
+
 /** Gli articoli hanno lo stesso slug in tutte le lingue: gli hreflang combaciano sempre. */
 const POST_SLUGS = ["carbonara-vera", "pizza-romana-napoletana", "senza-glutine-roma", "mangiare-vicino-termini"];
 
@@ -1206,6 +1244,13 @@ async function main() {
     menuSvg: qrSvg(menuUrl, { ...qrOptions, label: `QR menu ${config.brand.display}` }),
     siteSvg: qrSvg(siteUrl, { ...qrOptions, label: `QR ${config.brand.display}` }),
   };
+  // Il terzo QR nasce solo se la rete e stata configurata: meglio nessun
+  // codice che un codice che non collega a niente.
+  const wifi = config.wifi || {};
+  if (wifi.ssid) {
+    qr.wifi = wifi;
+    qr.wifiSvg = qrSvg(wifiPayload(wifi), { ...qrOptions, label: `QR Wi-Fi ${config.brand.display}` });
+  }
 
   // Pulizia dell'output precedente.
   for (const l of LANGS) await rm(join(ROOT, l.code), { recursive: true, force: true });
@@ -1217,6 +1262,7 @@ async function main() {
   await mkdir(join(ROOT, "assets", "qr"), { recursive: true });
   await writeFile(join(ROOT, "assets", "qr", "menu.svg"), qr.menuSvg, "utf8");
   await writeFile(join(ROOT, "assets", "qr", "sito.svg"), qr.siteSvg, "utf8");
+  if (qr.wifiSvg) await writeFile(join(ROOT, "assets", "qr", "wifi.svg"), qr.wifiSvg, "utf8");
   await writeFile(join(ROOT, "assets", "site.webmanifest"), webmanifest(config), "utf8");
 
   let pageCount = 0;

@@ -744,6 +744,27 @@ address { font-style: normal; }
 .tent-langs { margin: 0 0 1.4rem; font-size: .74rem; color: #9fc4dd; line-height: 1.6; }
 .tent-foot { margin: 0; font-size: .78rem; color: #b9d5e8; }
 
+/* Cartellino Wi-Fi: stessa carta del segnaposto del menu, piu basso perche
+   sotto il codice ci vanno nome della rete e password in chiaro — servono a
+   chi la fotocamera non la usa. */
+.wifi-block { margin-top: clamp(2.5rem, 2rem + 2vw, 4rem); text-align: center; }
+.wifi-block h2 { margin-bottom: .3em; }
+.wifi-block .lead { margin: 0 auto 1.5rem; max-width: 54ch; }
+.wifi-face { padding-block: 2rem; }
+.wifi-eyebrow {
+  display: inline-flex; align-items: center; gap: .5em; margin: 0 0 1rem;
+  padding: .3em .9em; border-radius: 999px; background: rgba(255, 255, 255, .12);
+  font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+}
+.wifi-eyebrow svg { width: 16px; height: 16px; }
+.wifi-data {
+  display: grid; grid-template-columns: auto auto; gap: .25rem .8rem;
+  justify-content: center; margin: 1.1rem 0 1.3rem; font-size: .92rem;
+}
+.wifi-data dt { color: #9fc4dd; text-align: end; }
+.wifi-data dd { margin: 0; font-weight: 700; text-align: start; word-break: break-all; }
+@media print { .wifi-face { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; } }
+
 /* ---------------------------------------------------------------- invito */
 
 .cta-band { background: linear-gradient(135deg, #0a2440, #0f5d8f 60%, #12a3c7); color: #fff; padding: clamp(2.5rem, 2rem + 3vw, 4.5rem) 0; }
