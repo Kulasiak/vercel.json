@@ -22,6 +22,8 @@
   "days": ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"],
 
   "gate": {
+    "description": "BAR CAPRI, ristorante e pizzeria in Via Principe Amedeo 78/80 a Roma, a cinque minuti da Termini. Scegli la lingua ed entra: menu, orari e contatti.",
+    "menuDescription": "Il menu di BAR CAPRI a Roma: pasta, pizza, carne, pesce, piatti vegani, vegetariani e senza glutine. Scegli la lingua e leggilo dal tavolo.",
     "title": "Ristorante e Pizzeria a Roma",
     "sub": "Scegli la tua lingua",
     "menuTitle": "Il nostro menu",
@@ -30,13 +32,16 @@
   },
 
   "pages": {
-    "home":     { "title": "Ristorante e Pizzeria vicino Termini", "description": "Bar Capri: ristorante, pizzeria e bar in Via Principe Amedeo 78/80, a due passi da Roma Termini. Cucina romana, pizza, pesce, piatti vegani, vegetariani e senza glutine. Aperto tutti i giorni." },
-    "menu":     { "title": "Menu", "description": "Il menu completo di Bar Capri a Roma: antipasti, pasta e primi romani, pizza, carne, pesce, piatti vegani, vegetariani e senza glutine. Prezzi aggiornati." },
+    "home":     { "title": "Ristorante e Pizzeria vicino Termini", "description": "Bar Capri: ristorante, pizzeria e bar in Via Principe Amedeo 78/80, a due passi da Roma Termini. Cucina romana, pizza, pesce, vegano e senza glutine." },
+    "menu":     { "title": "Menu",
+      "seoTitle": "Menu e prezzi · pizza, pasta e cucina romana", "description": "Il menu completo di Bar Capri a Roma: antipasti, pasta e primi romani, pizza, carne, pesce, piatti vegani, vegetariani e senza glutine. Prezzi aggiornati." },
     "about":    { "title": "Chi siamo", "description": "La storia di Bar Capri: una cucina romana schietta e una pizza lievitata a lungo, nel cuore dell'Esquilino a Roma, dal mattino a tarda sera." },
-    "blog":     { "title": "Blog", "description": "Racconti di cucina romana, pizza e consigli per mangiare bene vicino alla stazione Termini a Roma." },
+    "blog":     { "title": "Blog",
+      "seoTitle": "Blog · cucina romana, pizza e vita a Roma", "description": "Racconti di cucina romana, pizza e consigli per mangiare bene vicino alla stazione Termini a Roma." },
     "faq":      { "title": "Domande frequenti", "description": "Prenotazioni, orari, opzioni senza glutine e vegane, gruppi, pagamenti: le risposte alle domande più comuni su Bar Capri a Roma." },
     "contacts": { "title": "Contatti e dove siamo", "description": "Bar Capri, Via Principe Amedeo 78/80, 00185 Roma. Telefono 351 265 0441, WhatsApp 388 632 9575. Mappa, orari e come arrivare da Termini." },
-    "qr":       { "title": "Codici QR", "description": "I due codici QR di Bar Capri: uno apre il menu al tavolo nella lingua del cliente, l'altro il sito. Pronti da stampare." }
+    "qr":       { "title": "Codici QR",
+      "seoTitle": "Codici QR del menu e del sito", "description": "I due codici QR di Bar Capri: uno apre il menu al tavolo nella lingua del cliente, l'altro il sito. Pronti da stampare." }
   },
 
   "home": {

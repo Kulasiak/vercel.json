@@ -243,13 +243,13 @@ function menuPreviewBlock(ctx) {
 }
 
 /** Scheda di un piatto, usata in anteprima e nel menu completo. */
-function dishCard(item, ctx) {
+function dishCard(item, ctx, level = 4) {
   const { t } = ctx;
   const d = t.dishes[item.id] || {};
   const localName = d.name && d.name !== item.name ? `<span class="dish-alt">${esc(d.name)}</span>` : "";
   return `<article class="dish reveal" data-tags="${esc((item.tags || []).join(" "))}" data-search="${esc(`${item.name} ${d.name || ""} ${d.desc || ""}`.toLowerCase())}">
             <div class="dish-top">
-              <h4 class="dish-name">${esc(item.name)}${localName}</h4>
+              <h${level} class="dish-name">${esc(item.name)}${localName}</h${level}>
               <span class="dish-price"><bdi dir="ltr">€&nbsp;${money(item.price)}</bdi></span>
             </div>
             ${d.desc ? `<p class="dish-desc">${esc(d.desc)}</p>` : ""}
@@ -290,7 +290,7 @@ function menuFullBlock(ctx) {
               </div>
             </div>
             <div class="dish-grid">
-              ${c.items.map((i) => dishCard(i, ctx)).join("\n              ")}
+              ${c.items.map((i) => dishCard(i, ctx, 3)).join("\n              ")}
             </div>
           </div>`).join("")}
           <p class="menu-note">${icon("wheat")}<span>${rich(t.menu.allergenNote)}</span></p>
@@ -784,7 +784,10 @@ function shell(ctx, { title, description, body, schemas = [], canonicalSlug }) {
   const l = LANGS.find((x) => x.code === lang);
   const slug = canonicalSlug ?? ctx.slug;
   const canonical = `${config.domain}${href(lang, slug)}`;
-  const fullTitle = `${title} · ${config.brand.display}`;
+  // Il nome del locale si aggiunge solo se il titolo resta leggibile nei
+  // risultati di ricerca: Google ne mostra una sessantina di caratteri.
+  const suffix = ` · ${config.brand.display}`;
+  const fullTitle = title.length + suffix.length <= 65 ? title + suffix : title;
 
   const alternates = LANGS.map((x) => `    <link rel="alternate" hreflang="${x.hreflang}" href="${config.domain}${href(x.code, slug)}">`).join("\n");
 
@@ -1048,10 +1051,21 @@ function languageGate(config, dict, { target = "", title, sub, description }) {
 ${alternates}
     <link rel="alternate" hreflang="x-default" href="${config.domain}/${target ? `${target}/` : ""}">
     <meta name="theme-color" content="#0d2137">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="${esc(config.brand.display)}">
+    <meta property="og:locale" content="it_IT">
+${LANGS.filter((l) => l.code !== "it").map((l) => `    <meta property="og:locale:alternate" content="${l.locale}">`).join("\n")}
     <meta property="og:title" content="${esc(title)}">
     <meta property="og:description" content="${esc(description)}">
     <meta property="og:image" content="${config.domain}/assets/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:url" content="${config.domain}/${target ? `${target}/` : ""}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${esc(title)}">
+    <meta name="twitter:description" content="${esc(description)}">
+    <meta name="twitter:image" content="${config.domain}/assets/og.png">
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <link rel="manifest" href="/assets/site.webmanifest">
@@ -1110,6 +1124,7 @@ ${alternates.map((a) => `    <xhtml:link rel="alternate" hreflang="${a.hreflang}
   </url>`);
 
   push("/", "1.0", "monthly", LANGS.map((l) => ({ hreflang: l.hreflang, loc: href(l.code, "") })));
+  push("/menu/", "0.9", "monthly", LANGS.map((l) => ({ hreflang: l.hreflang, loc: href(l.code, "menu") })));
 
   for (const page of PAGES) {
     const alternates = LANGS.map((l) => ({ hreflang: l.hreflang, loc: href(l.code, page.slug) }));
@@ -1197,7 +1212,9 @@ async function main() {
     for (const page of PAGES) {
       const ctx = { lang: l.code, t, config, menu, qr, pageKey: page.key, slug: page.slug };
       const html = shell(ctx, {
-        title: t.pages[page.key].title,
+        // seoTitle, se c'e, vale solo per la scheda del browser e per Google:
+        // il titolo visibile in pagina e nelle briciole di pane resta breve.
+        title: t.pages[page.key].seoTitle || t.pages[page.key].title,
         description: t.pages[page.key].description,
         body: BUILDERS[page.key](ctx),
         schemas: schemasFor(ctx),
@@ -1234,13 +1251,13 @@ async function main() {
     target: "",
     title: `${config.brand.display} — ${dict.it.gate.title}`,
     sub: dict.en.gate.sub,
-    description: dict.it.pages.home.description,
+    description: dict.it.gate.description,
   }));
   await writePage(join(ROOT, "menu", "index.html"), languageGate(config, dict, {
     target: "menu",
     title: `${dict.it.gate.menuTitle} — ${config.brand.display}`,
     sub: dict.en.gate.menuSub,
-    description: dict.it.pages.menu.description,
+    description: dict.it.gate.menuDescription,
   }));
 
   await writeFile(join(ROOT, "sitemap.xml"), sitemap(config, dict), "utf8");

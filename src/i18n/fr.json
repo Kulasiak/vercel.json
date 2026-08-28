@@ -21,16 +21,21 @@
 
   "days": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"],
 
-  "gate": { "title": "Restaurant et pizzeria à Rome", "sub": "Choisissez votre langue", "menuTitle": "Notre carte", "menuSub": "Choose your language to read the menu", "enter": "Entrer" },
+  "gate": { "description": "BAR CAPRI, restaurant et pizzeria Via Principe Amedeo 78/80 à Rome, à cinq minutes de Termini. Choisissez votre langue : carte, horaires, contacts.",
+    "menuDescription": "La carte de BAR CAPRI à Rome : pâtes, pizza, viande, poisson, plats vegan, végétariens et sans gluten. Choisissez la langue et lisez à table.",
+    "title": "Restaurant et pizzeria à Rome", "sub": "Choisissez votre langue", "menuTitle": "Notre carte", "menuSub": "Choose your language to read the menu", "enter": "Entrer" },
 
   "pages": {
-    "home":     { "title": "Restaurant et pizzeria près de Termini", "description": "Bar Capri : restaurant, pizzeria et bar au 78/80 Via Principe Amedeo, à cinq minutes à pied de Roma Termini. Cuisine romaine, pizza, poisson, plats végans, végétariens et sans gluten. Ouvert tous les jours." },
-    "menu":     { "title": "La carte", "description": "La carte complète du Bar Capri à Rome : entrées, pâtes romaines, pizza, viande, poisson, plats végans, végétariens et sans gluten. Prix indiqués." },
+    "home":     { "title": "Restaurant et pizzeria près de Termini", "description": "Bar Capri : restaurant, pizzeria et bar au 78/80 Via Principe Amedeo, à cinq minutes de Roma Termini. Cuisine romaine, pizza, poisson, vegan, sans gluten." },
+    "menu":     { "title": "La carte",
+      "seoTitle": "Carte et prix · pizza, pâtes et cuisine romaine", "description": "La carte complète du Bar Capri à Rome : entrées, pâtes romaines, pizza, viande, poisson, plats végans, végétariens et sans gluten. Prix indiqués." },
     "about":    { "title": "À propos", "description": "L'histoire du Bar Capri : une cuisine romaine franche et une pizza à longue maturation, au cœur du quartier de l'Esquilin à Rome, du matin jusque tard le soir." },
-    "blog":     { "title": "Blog", "description": "Récits de cuisine romaine, de pizza et conseils pratiques pour bien manger près de la gare de Termini à Rome." },
+    "blog":     { "title": "Blog",
+      "seoTitle": "Blog · cuisine romaine, pizza et vie à Rome", "description": "Récits de cuisine romaine, de pizza et conseils pratiques pour bien manger près de la gare de Termini à Rome." },
     "faq":      { "title": "Questions fréquentes", "description": "Réservation, horaires, options sans gluten et véganes, groupes, paiements : les réponses aux questions les plus courantes sur le Bar Capri à Rome." },
     "contacts": { "title": "Contact et accès", "description": "Bar Capri, Via Principe Amedeo 78/80, 00185 Rome. Téléphone 351 265 0441, WhatsApp 388 632 9575. Plan, horaires et itinéraire depuis Termini." },
-    "qr":       { "title": "Codes QR", "description": "Les deux codes QR du Bar Capri : l'un ouvre la carte à table dans la langue du client, l'autre le site. Prêts à imprimer." }
+    "qr":       { "title": "Codes QR",
+      "seoTitle": "Codes QR de la carte et du site", "description": "Les deux codes QR du Bar Capri : l'un ouvre la carte à table dans la langue du client, l'autre le site. Prêts à imprimer." }
   },
 
   "home": {
@@ -205,7 +210,7 @@
       },
       {
         "slug": "senza-glutine-roma", "tag": "Sans gluten", "date": "2026-07-24",
-        "title": "Manger sans gluten à Rome : ce qu'il faut demander avant de commander",
+        "title": "Sans gluten à Rome : ce qu'il faut demander avant de commander",
         "excerpt": "Trois questions qu'il vaut la peine de poser partout, et comment les plats sans gluten sont préparés chez nous.",
         "body": [
           "Les personnes cœliaques le savent : le problème n'est pas de trouver un lieu qui a des pâtes sans gluten, mais de comprendre comment elles sont cuites. Voici ce qu'il vaut la peine de demander partout, pas seulement ici.",

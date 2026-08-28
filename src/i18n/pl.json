@@ -21,16 +21,21 @@
 
   "days": ["Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"],
 
-  "gate": { "title": "Restauracja i pizzeria w Rzymie", "sub": "Wybierz język", "menuTitle": "Nasze menu", "menuSub": "Choose your language to read the menu", "enter": "Wejdź" },
+  "gate": { "description": "BAR CAPRI, restauracja i pizzeria przy Via Principe Amedeo 78/80 w Rzymie, pięć minut od Termini. Wybierz język: menu, godziny otwarcia, kontakt.",
+    "menuDescription": "Menu BAR CAPRI w Rzymie: makarony, pizza, mięso, ryby, dania wegańskie, wegetariańskie i bezglutenowe. Wybierz język i czytaj przy stoliku.",
+    "title": "Restauracja i pizzeria w Rzymie", "sub": "Wybierz język", "menuTitle": "Nasze menu", "menuSub": "Choose your language to read the menu", "enter": "Wejdź" },
 
   "pages": {
-    "home":     { "title": "Restauracja i pizzeria przy Termini", "description": "Bar Capri: restauracja, pizzeria i bar przy Via Principe Amedeo 78/80, pięć minut pieszo od dworca Roma Termini. Kuchnia rzymska, pizza, ryby, dania wegańskie, wegetariańskie i bezglutenowe. Otwarte codziennie." },
-    "menu":     { "title": "Menu", "description": "Pełne menu Bar Capri w Rzymie: przystawki, rzymskie makarony, pizza, mięso, ryby, dania wegańskie, wegetariańskie i bezglutenowe. Z cenami." },
+    "home":     { "title": "Restauracja i pizzeria przy Termini", "description": "Bar Capri: restauracja, pizzeria i bar przy Via Principe Amedeo 78/80, pięć minut od dworca Termini. Kuchnia rzymska, pizza, ryby, wegańskie, bezglutenowe." },
+    "menu":     { "title": "Menu",
+      "seoTitle": "Menu i ceny · pizza, makarony, kuchnia rzymska", "description": "Pełne menu Bar Capri w Rzymie: przystawki, rzymskie makarony, pizza, mięso, ryby, dania wegańskie, wegetariańskie i bezglutenowe. Z cenami." },
     "about":    { "title": "O nas", "description": "Historia Bar Capri: uczciwa kuchnia rzymska i pizza na cieście długo dojrzewającym, w sercu rzymskiej dzielnicy Esquilino, od rana do późnego wieczora." },
-    "blog":     { "title": "Blog", "description": "Opowieści o kuchni rzymskiej, pizzy i praktyczne rady, gdzie dobrze zjeść w pobliżu dworca Termini w Rzymie." },
+    "blog":     { "title": "Blog",
+      "seoTitle": "Blog · kuchnia rzymska, pizza i życie w Rzymie", "description": "Opowieści o kuchni rzymskiej, pizzy i praktyczne rady, gdzie dobrze zjeść w pobliżu dworca Termini w Rzymie." },
     "faq":      { "title": "Częste pytania", "description": "Rezerwacja, godziny otwarcia, dania bezglutenowe i wegańskie, grupy, płatności: odpowiedzi na najczęstsze pytania o Bar Capri w Rzymie." },
     "contacts": { "title": "Kontakt i dojazd", "description": "Bar Capri, Via Principe Amedeo 78/80, 00185 Rzym. Telefon 351 265 0441, WhatsApp 388 632 9575. Mapa, godziny otwarcia i droga pieszo z Termini." },
-    "qr":       { "title": "Kody QR", "description": "Dwa kody QR Bar Capri: jeden otwiera menu przy stoliku w języku gościa, drugi stronę. Gotowe do druku." }
+    "qr":       { "title": "Kody QR",
+      "seoTitle": "Kody QR menu i strony", "description": "Dwa kody QR Bar Capri: jeden otwiera menu przy stoliku w języku gościa, drugi stronę. Gotowe do druku." }
   },
 
   "home": {

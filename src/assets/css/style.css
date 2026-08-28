@@ -12,7 +12,7 @@
   --paper-2:    #f6f1e8;
   --ink:        #10233a;
   --ink-soft:   #4a5d75;
-  --ink-faint:  #7f8fa3;
+  --ink-faint:  #5c7185;
 
   --sea:        #0f6ba8;
   --sea-deep:   #0b3f66;
@@ -24,6 +24,14 @@
   --terra-soft: #fbe7e0;
   --green:      #3f8f4f;
   --green-soft: #e4f2e5;
+
+  /* Tinte per il TESTO: le versioni piene sopra restano per bordi e sfondi,
+     ma come testo su fondo chiaro non arrivano al minimo di contrasto. */
+  --capri-text: #0c7690;
+  --green-text: #2f6e3c;
+  --lemon-text: #7d5b00;
+  --terra-text: #a53c1c;
+  --wa-text:    #0f7a41;
 
   --line:       rgba(16, 35, 58, .12);
   --line-soft:  rgba(16, 35, 58, .07);
@@ -67,6 +75,12 @@
   --terra-soft: #3a1d13;
   --green:      #67c37a;
   --green-soft: #14301b;
+
+  --capri-text: var(--capri);
+  --green-text: var(--green);
+  --lemon-text: var(--lemon);
+  --terra-text: var(--terra);
+  --wa-text:    #4fd98a;
 
   --line:       rgba(233, 241, 248, .14);
   --line-soft:  rgba(233, 241, 248, .08);
@@ -155,7 +169,7 @@ address { font-style: normal; }
 
 .eyebrow {
   font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
-  color: var(--capri); margin-bottom: .8em; display: flex; align-items: center; gap: .6em;
+  color: var(--capri-text); margin-bottom: .8em; display: flex; align-items: center; gap: .6em;
 }
 .eyebrow::after { content: ""; flex: 1; height: 1px; background: var(--line); max-width: 90px; }
 
@@ -187,7 +201,7 @@ address { font-style: normal; }
 
 .btn-primary { --btn-bg: linear-gradient(135deg, var(--sea), var(--capri)); --btn-fg: #fff; }
 .btn-whatsapp { --btn-bg: #25d366; --btn-fg: #06371a; }
-.btn-light   { --btn-bg: #fff; --btn-fg: var(--ink); }
+.btn-light   { --btn-bg: #fff; --btn-fg: #10233a; }   /* fondo bianco fisso: anche il testo va fissato */
 .btn-outline-light { --btn-bg: transparent; --btn-fg: #fff; --btn-bd: rgba(255,255,255,.5); }
 .btn-ghost   { --btn-bg: var(--paper); --btn-fg: var(--ink); --btn-bd: var(--line); box-shadow: none; }
 .btn-ghost:hover { --btn-bd: var(--capri); }
@@ -378,8 +392,8 @@ address { font-style: normal; }
 .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ink-faint); flex: none; }
 .is-open .dot { background: var(--green); box-shadow: 0 0 0 4px color-mix(in srgb, var(--green) 22%, transparent); animation: pulse 2.2s ease-out infinite; }
 .is-closed .dot { background: var(--terra); box-shadow: 0 0 0 4px color-mix(in srgb, var(--terra) 20%, transparent); }
-.is-open { color: var(--green); }
-.is-closed { color: var(--terra); }
+.is-open { color: var(--green-text); }
+.is-closed { color: var(--terra-text); }   /* come testo serve la tinta piu profonda */
 @keyframes pulse { 70% { box-shadow: 0 0 0 9px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
 
 /* ------------------------------------------------------------------ carte */
@@ -464,12 +478,11 @@ address { font-style: normal; }
   background: var(--line-soft); color: var(--ink-soft);
 }
 .chip svg { width: 13px; height: 13px; }
-.chip-vg { background: var(--green-soft); color: var(--green); }
-.chip-v  { background: var(--green-soft); color: var(--green); }
-.chip-gf { background: var(--lemon-soft); color: #a37600; }
-.chip-sp { background: var(--terra-soft); color: var(--terra); }
+.chip-vg { background: var(--green-soft); color: var(--green-text); }
+.chip-v  { background: var(--green-soft); color: var(--green-text); }
+.chip-gf { background: var(--lemon-soft); color: var(--lemon-text); }
+.chip-sp { background: var(--terra-soft); color: var(--terra-text); }
 .chip-chef { background: var(--capri-soft); color: var(--sea); }
-:root[data-theme="dark"] .chip-gf { color: var(--lemon); }
 
 /* ------------------------------------------------------- strumenti menu */
 
@@ -503,7 +516,7 @@ address { font-style: normal; }
 }
 .filter svg { width: 15px; height: 15px; }
 .filter:hover { border-color: var(--capri); color: var(--ink); }
-.filter.is-active { background: var(--ink); border-color: var(--ink); color: #fff; }
+.filter.is-active { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 
 .cat-nav {
   display: flex; gap: .4rem; overflow-x: auto; padding: .25rem 0 1rem;
@@ -613,7 +626,9 @@ address { font-style: normal; }
 .page-head .lead { max-width: 58ch; }
 
 .crumbs { display: flex; align-items: center; gap: .35em; margin-bottom: 1.2rem; font-size: .84rem; color: var(--ink-faint); flex-wrap: wrap; }
-.crumbs a { color: var(--ink-soft); text-decoration: none; }
+/* Anche le briciole di pane devono restare toccabili: 24 px e il minimo
+   richiesto dalle WCAG per un bersaglio. */
+.crumbs a { color: var(--ink-soft); text-decoration: none; display: inline-flex; align-items: center; min-height: 24px; }
 .crumbs a:hover { color: var(--sea); text-decoration: underline; }
 .crumbs svg { width: 13px; height: 13px; opacity: .6; }
 [dir="rtl"] .crumbs svg { transform: scaleX(-1); }
@@ -631,10 +646,9 @@ address { font-style: normal; }
 .post-card p { color: var(--ink-soft); font-size: .95rem; }
 .post-tag {
   align-self: flex-start; margin-bottom: .9rem; padding: .3em .8em; border-radius: 999px;
-  background: var(--lemon-soft); color: #96700a; font-size: .74rem; font-weight: 700;
+  background: var(--lemon-soft); color: var(--lemon-text); font-size: .74rem; font-weight: 700;
   letter-spacing: .06em; text-transform: uppercase;
 }
-:root[data-theme="dark"] .post-tag { color: var(--lemon); }
 .post-meta { font-size: .82rem; color: var(--ink-faint); }
 .post-more { margin-top: auto; display: inline-flex; align-items: center; gap: .4em; font-weight: 700; font-size: .92rem; color: var(--sea); text-decoration: none; }
 .post-more svg { width: 16px; height: 16px; transition: transform .2s; }
@@ -655,8 +669,7 @@ address { font-style: normal; }
 .contact-card h3 { margin-bottom: .5em; }
 .contact-big { font-size: 1.35rem; font-family: var(--font-display); margin-bottom: .3em; }
 .contact-big a { text-decoration: none; }
-.contact-wa { display: inline-flex; align-items: center; gap: .45em; font-weight: 600; text-decoration: none; color: #128c4b; }
-:root[data-theme="dark"] .contact-wa { color: #4fd98a; }
+.contact-wa { display: inline-flex; align-items: center; gap: .45em; font-weight: 600; text-decoration: none; color: var(--wa-text); }
 .contact-wa svg { width: 18px; height: 18px; }
 .contact-sub { font-size: .87rem; color: var(--ink-faint); margin: .6em 0 0; }
 
@@ -755,8 +768,10 @@ address { font-style: normal; }
 .foot-social a:hover { background: var(--capri); color: #06202f; transform: translateY(-3px); }
 .foot-social svg { width: 19px; height: 19px; }
 .foot-col h3 { font-family: var(--font-body); font-size: .76rem; letter-spacing: .15em; text-transform: uppercase; color: #7fa0bb; margin-bottom: 1rem; }
-.foot-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
-.foot-col a { color: #b9cfe2; text-decoration: none; font-size: .93rem; }
+.foot-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .1rem; }
+/* I link del pie di pagina devono restare comodi da toccare con il pollice:
+   senza questo restano alti 18 px, sotto il minimo di 24 px delle WCAG. */
+.foot-col a { color: #b9cfe2; text-decoration: none; font-size: .93rem; display: inline-block; padding: .38rem 0; min-height: 24px; }
 .foot-col a:hover { color: #fff; text-decoration: underline; }
 .foot-col a[aria-current="true"] { color: var(--capri); font-weight: 700; }
 .foot-hours { font-size: .9rem; margin-bottom: .9rem; line-height: 1.6; }
@@ -883,6 +898,12 @@ body.printing-only > *:not(.print-host) { display: none !important; }
   --green:      #67c37a;
   --green-soft: #14301b;
 
+  --capri-text: var(--capri);
+  --green-text: var(--green);
+  --lemon-text: var(--lemon);
+  --terra-text: var(--terra);
+  --wa-text:    #4fd98a;
+
   --line:       rgba(233, 241, 248, .14);
   --line-soft:  rgba(233, 241, 248, .08);
   --shadow-sm:  0 1px 2px rgba(0, 0, 0, .3);
@@ -896,9 +917,6 @@ body.printing-only > *:not(.print-host) { display: none !important; }
 }
   :root:not([data-theme="light"]) .icon-btn .i-sun { display: block; }
   :root:not([data-theme="light"]) .icon-btn .i-moon { display: none; }
-  :root:not([data-theme="light"]) .chip-gf { color: var(--lemon); }
-  :root:not([data-theme="light"]) .post-tag { color: var(--lemon); }
-  :root:not([data-theme="light"]) .contact-wa { color: #4fd98a; }
   :root:not([data-theme="light"]) .site-foot { background: #061320; }
   :root:not([data-theme="light"]) .ab-wa { color: #4fd98a; }
 }
