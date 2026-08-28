@@ -123,9 +123,19 @@ const ICONS = {
 const icon = (name, cls = "") =>
   `<svg${cls ? ` class="${cls}"` : ""} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ICONS.check}</svg>`;
 
-/** Icone piene, per i social nel footer. */
+/* I marchi social vanno disegnati pieni, non a linee come le altre icone:
+   dentro un bottone tondo un contorno sottile si perde. Servono percio
+   sagome proprie — quelle di ICONS sono line art e riempite diventano
+   macchie (il rettangolo di Instagram si chiude in un quadrato). */
+const SOCIAL_ICONS = {
+  facebook: '<path d="M14 8.5V7a1.5 1.5 0 0 1 1.5-1.5H17V2.5h-2.5A4.5 4.5 0 0 0 10 7v1.5H7.5V12H10v9.5h4V12h2.5l.5-3.5Z"/>',
+  instagram:
+    '<path fill-rule="evenodd" d="M8 2h8a6 6 0 0 1 6 6v8a6 6 0 0 1-6 6H8a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6Zm0 2a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4H8Zm4 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm5.2-3.8a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z"/>',
+};
+
+/** Icone piene, per i marchi social. */
 const solidIcon = (name) =>
-  `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">${ICONS[name] || ICONS.check}</svg>`;
+  `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">${SOCIAL_ICONS[name] || ICONS[name] || ICONS.check}</svg>`;
 
 /* --------------------------------------------------------------- frammenti */
 
@@ -246,7 +256,11 @@ function menuPreviewBlock(ctx) {
 function dishCard(item, ctx, level = 4) {
   const { t } = ctx;
   const d = t.dishes[item.id] || {};
-  const localName = d.name && d.name !== item.name ? `<span class="dish-alt">${esc(d.name)}</span>` : "";
+  // Il secondo nome si mostra solo se dice davvero qualcosa di diverso:
+  // "Tonnarelli Cacio e Pepe" con sotto "Tonnarelli cacio e pepe" sembra
+  // un errore di stampa, non una traduzione.
+  const nudo = (v) => v.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\p{L}\p{N}]+/gu, "").toLowerCase();
+  const localName = d.name && nudo(d.name) !== nudo(item.name) ? `<span class="dish-alt">${esc(d.name)}</span>` : "";
   return `<article class="dish reveal" data-tags="${esc((item.tags || []).join(" "))}" data-search="${esc(`${item.name} ${d.name || ""} ${d.desc || ""}`.toLowerCase())}">
             <div class="dish-top">
               <h${level} class="dish-name">${esc(item.name)}${localName}</h${level}>
